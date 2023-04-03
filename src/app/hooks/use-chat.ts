@@ -11,7 +11,6 @@ export function useChat(botId: BotId, page = 'singleton') {
   const chatAtom = useMemo(() => chatFamily({ botId, page }), [botId, page])
   const [chatState, setChatState] = useAtom(chatAtom)
 
-
   const updateMessage = useCallback(
     (messageId: string, updater: (message: ChatMessageModel) => void) => {
       setChatState((draft) => {
@@ -30,33 +29,44 @@ export function useChat(botId: BotId, page = 'singleton') {
       const botMessageId = uuid()
       setChatState((draft) => {
         // c'est là où on inscrit le message dans la liste du chat
-      //  if (setupLoaded) {
-          draft.messages.push(
-            { id: uuid(), text: input.replaceAll('\n', '\n\n'), author: 'user' },
-            { id: botMessageId, text: '', author: botId },
-          )
+        //  if (setupLoaded) {
+        draft.messages.push(
+          { id: uuid(), text: input.replaceAll('\n', '\n\n'), author: 'user' },
+          { id: botMessageId, text: '', author: botId },
+        )
       })
       const abortController = new AbortController()
       setChatState((draft) => {
         draft.generatingMessageId = botMessageId
         draft.abortController = abortController
       })
+      // A changer ensuite
+     const preReminder1 =
+        "[Rappelle-toi bien que nous sommes dans une application simulant un dialogue entre l'utilisateur et un philosophe, et que tu incarnes "
+      const tempNom = 'Socrate'
+      const preReminder2 =
+        " ; il faut que tu t'appropries ses pensées, son style, son passé, de telle sorte que ton interlocuteur pense vraiment avoir affaire à lui. Parle toujours à la première personne, comme si tu étais vraiment "
+      const tempReminder =
+        "Tu dois interroger l'interlocuteur de façon socratique, en affirmant le moins de choses possible, et en interrogeant de façon rigoureuse et systémique l'autre pour qu'il identifie ses propres croyances et en comprenne les limites."
+      const postReminder =
+        "Si une question de ton interlocuteur te pousse à sortir de ton champ de compétence, refuse poliment et recentre le débat vers les thèmes que tu as abordés dans ton oeuvre. Prends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.]\n"
+      //
       await chatState.bot.sendMessage({
-        prompt: input,
+        prompt: preReminder1 + tempNom + preReminder2 + '. ' + tempReminder + postReminder + input,
         signal: abortController.signal,
         onEvent(event) {
           if (event.type === 'UPDATE_ANSWER') {
-         //   if (setupLoaded) {
-              updateMessage(botMessageId, (message) => {
-                message.text = event.data.text
-              })
-     //       }
+            //   if (setupLoaded) {
+            updateMessage(botMessageId, (message) => {
+              message.text = event.data.text
+            })
+            //       }
           } else if (event.type === 'ERROR') {
-          //  if (!setupLoaded) {
-              setChatState((draft) => {
-                draft.messages.push({ id: botMessageId, text: '', author: botId })
-              })
-           // }
+            //  if (!setupLoaded) {
+            setChatState((draft) => {
+              draft.messages.push({ id: botMessageId, text: '', author: botId })
+            })
+            // }
             console.error('sendMessage error', event.error.code, event.error)
             updateMessage(botMessageId, (message) => {
               message.error = event.error
@@ -66,17 +76,16 @@ export function useChat(botId: BotId, page = 'singleton') {
               draft.generatingMessageId = ''
             })
           } else if (event.type === 'DONE') {
-        //    if (setupLoaded) {
-              console.log(chatState.messages)
-              setChatState((draft) => {
-                
-                draft.abortController = undefined
-                draft.generatingMessageId = ''
-               // console.log (draft.messages)
-              })
-        //    } else {
+            //    if (setupLoaded) {
+            console.log(chatState.messages)
+            setChatState((draft) => {
+              draft.abortController = undefined
+              draft.generatingMessageId = ''
+              // console.log (draft.messages)
+            })
+            //    } else {
             //  setupLoaded = true
-          //  }
+            //  }
           }
         },
       })
@@ -108,7 +117,7 @@ export function useChat(botId: BotId, page = 'singleton') {
     })
   }, [chatState.abortController, chatState.generatingMessageId, setChatState, updateMessage])
 
- /* useLayoutEffect(() => {
+  /* useLayoutEffect(() => {
     // quand tous les composants sont chargés
    // setupLoaded = false
     //sendMessage('Dis le mot "patate", et rien d\'autre')

@@ -9,13 +9,14 @@ type Param = { botId: BotId; page: string }
 
 export const chatFamily = atomFamily(
   (param: Param) => {
+
     return atomWithImmer({
       botId: param.botId,
       bot: createBotInstance(param.botId),
       messages: [{
         id: "1",
         author: param.botId,
-        text: "Salut jeune pouletos !",
+        text: "Bonjour à toi, étranger. Mon nom est Socrate, et je voudrais m'entretenir avec toi."
       }] as ChatMessageModel[],
       generatingMessageId: '',
       abortController: undefined as AbortController | undefined,
