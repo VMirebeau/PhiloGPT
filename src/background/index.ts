@@ -3,7 +3,7 @@ import { getUserConfig, StartupPage } from '~services/user-config'
 
 async function openAppPage() {
   const tabs = await Browser.tabs.query({})
-  const url = Browser.runtime.getURL('app.html#/chat/chatgpt')
+  const url = Browser.runtime.getURL('app.html#/chat/chatgpt?id=0')
   const tab = tabs.find((tab) => tab.url?.startsWith(url))
   if (tab) {
     await Browser.tabs.update(tab.id, { active: true })
@@ -11,7 +11,7 @@ async function openAppPage() {
   }
   const { startupPage } = await getUserConfig()
   //const hash = startupPage === StartupPage.All ? '' : `#/chat/${startupPage}`
-  const hash = "#/chat/chatgpt"
+  const hash = "#/chat/chatgpt?id=0"
   await Browser.tabs.create({ url: `app.html${hash}` })
 }
 

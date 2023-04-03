@@ -4,6 +4,7 @@ import { atomFamily } from 'jotai/utils'
 import { createBotInstance, BotId } from '~app/bots'
 import { ChatMessageModel } from '~types'
 import { uuid } from '~utils'
+import { chatData } from '~app/consts'
 
 type Param = { botId: BotId; page: string }
 
@@ -16,7 +17,7 @@ export const chatFamily = atomFamily(
       messages: [{
         id: "1",
         author: param.botId,
-        text: "Bonjour à toi, étranger. Mon nom est Socrate, et je voudrais m'entretenir avec toi."
+        text: chatData.greeting
       }] as ChatMessageModel[],
       generatingMessageId: '',
       abortController: undefined as AbortController | undefined,

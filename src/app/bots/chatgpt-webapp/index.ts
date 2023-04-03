@@ -70,8 +70,8 @@ export class ChatGPTWebBot extends AbstractBot {
       }),
 
     })
-    console.log("ConversationId: ", this.conversationContext?.conversationId)
-    console.log("lastMessageId: ", this.conversationContext?.lastMessageId)
+    //console.log("ConversationId: ", this.conversationContext?.conversationId)
+    //console.log("lastMessageId: ", this.conversationContext?.lastMessageId)
 
     await parseSSEResponse(resp, (message) => {
       console.debug('chatgpt sse message', message)
@@ -88,7 +88,7 @@ export class ChatGPTWebBot extends AbstractBot {
       }
       const text = data.message?.content?.parts?.[0]
       if (text) {
-        console.log("On passe par ici : conversationId", data.conversation_id)
+        //console.log("On passe par ici : conversationId", data.conversation_id)
         this.conversationContext = {
           conversationId: data.conversation_id,
           lastMessageId: data.message.id,

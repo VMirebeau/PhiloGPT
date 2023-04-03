@@ -6,6 +6,7 @@ import { setConversationMessages } from '~services/chat-history'
 import { ChatMessageModel } from '~types'
 import { uuid } from '~utils'
 import { BotId } from '../bots'
+import { chatData } from '~app/consts'
 
 export function useChat(botId: BotId, page = 'singleton') {
   const chatAtom = useMemo(() => chatFamily({ botId, page }), [botId, page])
@@ -43,11 +44,11 @@ export function useChat(botId: BotId, page = 'singleton') {
       // A changer ensuite
      const preReminder1 =
         "[Rappelle-toi bien que nous sommes dans une application simulant un dialogue entre l'utilisateur et un philosophe, et que tu incarnes "
-      const tempNom = 'Socrate'
+      const tempNom = chatData.nom
       const preReminder2 =
         " ; il faut que tu t'appropries ses pensées, son style, son passé, de telle sorte que ton interlocuteur pense vraiment avoir affaire à lui. Parle toujours à la première personne, comme si tu étais vraiment "
       const tempReminder =
-        "Tu dois interroger l'interlocuteur de façon socratique, en affirmant le moins de choses possible, et en interrogeant de façon rigoureuse et systémique l'autre pour qu'il identifie ses propres croyances et en comprenne les limites."
+        chatData.reminder
       const postReminder =
         "Si une question de ton interlocuteur te pousse à sortir de ton champ de compétence, refuse poliment et recentre le débat vers les thèmes que tu as abordés dans ton oeuvre. Prends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.]\n"
       //
@@ -77,7 +78,7 @@ export function useChat(botId: BotId, page = 'singleton') {
             })
           } else if (event.type === 'DONE') {
             //    if (setupLoaded) {
-            console.log(chatState.messages)
+            //console.log(chatState.messages)
             setChatState((draft) => {
               draft.abortController = undefined
               draft.generatingMessageId = ''
@@ -124,7 +125,7 @@ export function useChat(botId: BotId, page = 'singleton') {
   }, [])*/
 
   useEffect(() => {
-    console.log('Use effect !')
+    //console.log('Use effect !')
     if (chatState.messages.length) {
       setConversationMessages(botId, chatState.conversationId, chatState.messages)
     }
