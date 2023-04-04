@@ -31,3 +31,28 @@ body {
 body {
   font-size: 100%;
 }
+
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -90px; /* pour faire dépasser l'image de 10px vers le bas */
+}
+
+.imgleft {
+  left: -50px; /* pour faire dépasser l'image de 10px vers la droite */
+}
+
+.imgright {
+  right: -30px; /* pour faire dépasser l'image de 10px vers la droite */
+}
+
+.posRel {
+  position: relative;
+  min-width:200px;
+}
+
+.paddBottom {
+  padding-bottom: 90px;
+}

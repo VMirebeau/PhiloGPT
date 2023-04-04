@@ -1,13 +1,17 @@
 import cx from 'classnames'
+import { BotId } from '~app/bots'
 import { FC, PropsWithChildren } from 'react'
 
 interface Props {
   color: 'primary' | 'flat'
+  author?: BotId | 'user'
   className?: string
+
 }
 
 const MessageBubble: FC<PropsWithChildren<Props>> = (props) => {
   return (
+    <div className="posRel">
     <div
       className={cx(
         'rounded-[15px] px-4 py-2',
@@ -16,6 +20,8 @@ const MessageBubble: FC<PropsWithChildren<Props>> = (props) => {
       )}
     >
       {props.children}
+      </div>
+      <img src={props.author === 'user' ? 'assets\\avatars\\user.png' : 'assets\\avatars\\0.png'} className={props.author === 'user' ? 'avatar imgright' : 'avatar imgleft'}></img>
     </div>
   )
 }

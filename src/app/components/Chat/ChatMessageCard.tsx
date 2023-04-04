@@ -33,10 +33,10 @@ const ChatMessageCard: FC<Props> = ({ message, className }) => {
 
   return (
     <div
-      className={cx('group flex gap-3 w-full', message.author === 'user' ? 'flex-row-reverse' : 'flex-row', className)}
+      className={cx('group flex paddBottom gap-3 w-full', message.author === 'user' ? 'flex-row-reverse' : 'flex-row', className)}
     >
       <div className="flex flex-col w-11/12  max-w-fit items-start gap-2">
-        <MessageBubble color={message.author === 'user' ? 'primary' : 'flat'}>
+        <MessageBubble color={message.author === 'user' ? 'primary' : 'flat'} author={message.author}>
           {message.text ? (
             <Markdown>{message.text}</Markdown>
           ) : (
