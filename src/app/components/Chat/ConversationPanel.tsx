@@ -14,6 +14,8 @@ import HistoryDialog from '../History/Dialog'
 import SwitchBotDropdown from '../SwitchBotDropdown'
 import ChatMessageInput from './ChatMessageInput'
 import ChatMessageList from './ChatMessageList'
+import { chatData } from '~app/consts'
+import chatPrompts from '../../chatPrompts.json'
 
 interface Props {
   botId: BotId
@@ -24,6 +26,11 @@ interface Props {
   stopGenerating: () => void
   mode?: 'full' | 'compact'
   index?: number
+}
+
+function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
+  const id = event.target.value;
+  window.location.href = `app.html?id=${id}`;
 }
 
 const ConversationPanel: FC<Props> = (props) => {
@@ -82,11 +89,17 @@ const ConversationPanel: FC<Props> = (props) => {
           )}
         >
           <div className="flex flex-row items-center gap-2">
-            <img src={botInfo.avatar} className="w-5 h-5 object-contain rounded-full" />
-            <span className="font-semibold text-[#707070] text-sm">{botInfo.name}</span>
+            <img src="assets/icon.png" className="w-5 h-5 object-contain rounded-full" />
+            <span className="font-semibold text-[#707070] text-sm">PhiloGPT : discussion avec {chatData.nom}</span>
             {mode === 'compact' && <SwitchBotDropdown excludeBotId={props.botId} index={props.index!} />}
           </div>
-          <div className="flex flex-row items-center gap-3">
+          <div className="flex flex-row text-sm items-center gap-3">Dialoguer avec <select className="borderSelect"  onChange={handleChange}>
+  {chatPrompts.map((item) => (
+    <option key={item.id} value={item.id}  selected={item.id === chatData.id}>
+      {item.nom}
+    </option>
+  ))}
+</select>
           </div>
         </div>
         <ChatMessageList botId={props.botId} messages={props.messages} className={marginClass} />

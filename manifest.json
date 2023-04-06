@@ -3,7 +3,7 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "1.9.0",
+  "version": "0.8.0",
   "icons": {
     "16": "src/assets/icon.png",
     "32": "src/assets/icon.png",
@@ -17,21 +17,11 @@
   "action": {},
   "host_permissions": ["https://*.bing.com/", "https://*.openai.com/", "https://bard.google.com/"],
   "permissions": ["commands", "storage", "unlimitedStorage"],
+
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/chat/*"],
       "js": ["src/content-script/chatgpt-inpage-proxy.ts"]
     }
-  ],
-  "commands": {
-    "open-app": {
-      "suggested_key": {
-        "default": "Ctrl+J",
-        "windows": "Ctrl+J",
-        "linux": "Ctrl+J",
-        "mac": "Command+J"
-      },
-      "description": "Open ChatHub app"
-    }
-  }
+  ]
 }

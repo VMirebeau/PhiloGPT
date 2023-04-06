@@ -41,7 +41,7 @@ body {
 }
 
 .imgleft {
-  left: -50px; /* pour faire dépasser l'image de 10px vers la droite */
+  left: -30px; /* pour faire dépasser l'image de 10px vers la droite */
 }
 
 .imgright {
@@ -55,4 +55,12 @@ body {
 
 .paddBottom {
   padding-bottom: 90px;
+}
+
+.paddBoutonErreur {
+  padding-left:50px;
+}
+
+.borderSelect {
+  border: 1px solid black;
 }

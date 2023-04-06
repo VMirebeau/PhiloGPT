@@ -64,9 +64,9 @@ export function useChat(botId: BotId, page = 'singleton') {
             //       }
           } else if (event.type === 'ERROR') {
             //  if (!setupLoaded) {
-            setChatState((draft) => {
+            /*setChatState((draft) => {
               draft.messages.push({ id: botMessageId, text: '', author: botId })
-            })
+            })*/
             // }
             console.error('sendMessage error', event.error.code, event.error)
             updateMessage(botMessageId, (message) => {

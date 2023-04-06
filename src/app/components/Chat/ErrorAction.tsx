@@ -25,15 +25,12 @@ const ChatGPTAuthErrorAction = () => {
   }, [])
 
   if (fixed) {
-    return <MessageBubble color="flat">C'est réparé, réessayez le chat</MessageBubble>
+    //return <MessageBubble color="flat">C'est réparé, réessayez le chat</MessageBubble>
+    location.reload() // on recharge carrément, pour éviter d'avoir à gérer le setup de la conversation
   }
   return (
-    <div className="flex flex-row gap-2 items-center">
+    <div className="flex flex-row gap-2 items-center paddBoutonErreur">
       <Button color="primary" text="Se connecter et vérifier" onClick={fixChatGPT} isLoading={fixing} size="small" />
-      <span className="text-sm">OR</span>
-      <Link to="/setting">
-        <Button color="primary" text="Entrer une clé API" size="small" />
-      </Link>
     </div>
   )
 }

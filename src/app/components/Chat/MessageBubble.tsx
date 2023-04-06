@@ -1,6 +1,7 @@
 import cx from 'classnames'
 import { BotId } from '~app/bots'
 import { FC, PropsWithChildren } from 'react'
+import { chatData } from '../../consts'
 
 interface Props {
   color: 'primary' | 'flat'
@@ -21,7 +22,7 @@ const MessageBubble: FC<PropsWithChildren<Props>> = (props) => {
     >
       {props.children}
       </div>
-      <img src={props.author === 'user' ? 'assets\\avatars\\user.png' : 'assets\\avatars\\0.png'} className={props.author === 'user' ? 'avatar imgright' : 'avatar imgleft'}></img>
+      <img src={props.author === 'user' ? 'assets\\avatars\\user.png' : 'assets\\avatars\\' + chatData.id + '.png'} className={props.author === 'user' ? 'avatar imgright' : 'avatar imgleft'}></img>
     </div>
   )
 }

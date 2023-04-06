@@ -26,11 +26,11 @@ class ChatGPTClient {
   async getAccessToken(): Promise<string> {
     const resp = await this.fetch('https://chat.openai.com/api/auth/session')
     if (resp.status === 403) {
-      throw new ChatError('Veuillez passer le test Cloudflare', ErrorCode.CHATGPT_CLOUDFLARE)
+      throw new ChatError('Pour continuer cette discussion, veuillez d\'abord cliquer sur le bouton suivant :', ErrorCode.CHATGPT_CLOUDFLARE)
     }
     const data = await resp.json().catch(() => ({}))
     if (!data.accessToken) {
-      throw new ChatError('UNAUTHORIZED', ErrorCode.CHATGPT_UNAUTHORIZED)
+      throw new ChatError('Reconnectez-vous à chatGPT et relancez la discussion.', ErrorCode.CHATGPT_UNAUTHORIZED)
     }
     return data.accessToken
   }
