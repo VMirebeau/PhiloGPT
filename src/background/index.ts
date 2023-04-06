@@ -26,13 +26,13 @@ Browser.runtime.onInstalled.addListener((details) => {
   }
 })
 
-Browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+/*Browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   if (request == 'close') {
     if (sender.tab?.id) {
       console.log('Message received from tab:', sender.tab.id)
       Browser.tabs.remove(sender.tab.id)
     }
-    Browser.tabs.query({ url: "*://*/app.html*" }).then((tabs) => {
+    Browser.tabs.query({ url: "*://app.html*" }).then((tabs) => { // rajouter le * / avant app.html
       if (tabs.length > 0) {
         Browser.tabs.update(tabs[0].id, { active: true }).then(() => {
           Browser.tabs.reload(tabs[0].id);
@@ -40,4 +40,4 @@ Browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       }
     });
   }
-})
+})*/

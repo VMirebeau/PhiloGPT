@@ -26,7 +26,8 @@ class ChatGPTClient {
   async getAccessToken(): Promise<string> {
     const resp = await this.fetch('https://chat.openai.com/api/auth/session')
     if (resp.status === 403) {
-      throw new ChatError('Pour continuer cette discussion, veuillez d\'abord cliquer sur le bouton suivant :', ErrorCode.CHATGPT_CLOUDFLARE)
+      //
+      throw new ChatError('Pour continuer cette discussion, veuillez d\'abord cliquer sur le bouton suivant :', ErrorCode.CHATGPT_UNAUTHORIZED) // , ErrorCode.CHATGPT_CLOUDFLARE
     }
     const data = await resp.json().catch(() => ({}))
     if (!data.accessToken) {

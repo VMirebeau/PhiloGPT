@@ -59,18 +59,6 @@ const ChatMessageInput: FC<Props> = (props) => {
 
   return (
     <form className={cx('flex flex-row items-center gap-3', props.className)} onSubmit={onFormSubmit} ref={formRef}>
-      {props.mode === 'full' && (
-        <>
-          <GoBook size={22} color="#707070" className="cursor-pointer" onClick={openPromptLibrary} />
-          {isPromptLibraryDialogOpen && (
-            <PromptLibraryDialog
-              isOpen={true}
-              onClose={() => setIsPromptLibraryDialogOpen(false)}
-              insertPrompt={insertTextAtCursor}
-            />
-          )}
-        </>
-      )}
       <TextInput
         ref={inputRef}
         formref={formRef}

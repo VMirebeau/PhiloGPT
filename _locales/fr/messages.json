@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "ChatHub - Client de chatbot tout-en-un"
+    "message": "PhiloGPT - Dialoguer avec les grands philosophes"
   },
   "appDesc": {
-    "message": "Une meilleure interface utilisateur pour vos chatbots préférés"
+    "message": "Utilisez ChatGPT pour simuler un dialogue avec les grands philosophes du passé"
   }
 }

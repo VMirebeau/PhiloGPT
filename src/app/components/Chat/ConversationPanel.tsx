@@ -123,7 +123,7 @@ const ConversationPanel: FC<Props> = (props) => {
                   onClick={props.stopGenerating}
                 />
               ) : (
-                mode === 'full' && <Button text="Send" color="primary" type="submit" />
+                mode === 'full' && <Button text="Envoyer" color="primary" type="submit" />
               )
             }
           />
