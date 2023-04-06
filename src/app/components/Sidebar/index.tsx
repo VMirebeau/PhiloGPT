@@ -17,6 +17,11 @@ function IconButton(props: { icon: string; active?: boolean }) {
   )
 }
 
+function getSuggestion(i: number) {
+    let input = document.getElementById("input") as HTMLInputElement
+   input.value = "meuh"
+}
+
 function Sidebar() {
   return (
     <aside className="flex flex-col pr-5">
@@ -26,7 +31,9 @@ function Sidebar() {
         <div className="renseignements">Grèce<br />De -470 à -399</div>
         </div>
         <div>Demandez-moi...</div>
-        <a className="rounded-[10px] boutons w-full h-[45px] pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20"><span className="text-white font-medium text-sm">Hello</span></a>
+        <a onClick={(event: React.MouseEvent<HTMLAnchorElement>) => {
+   getSuggestion(0);
+}} className="rounded-[10px] boutons w-full h-[45px] pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20"><span className="text-white font-medium text-sm">Hello</span></a>
         <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Comment je suis mort" />
         <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Comment je philosophe" />
         <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Quelle est ma devise" />
