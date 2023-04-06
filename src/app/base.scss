@@ -64,3 +64,30 @@ body {
 .borderSelect {
   border: 1px solid black;
 }
+
+.nomPhilosophe {
+  text-align: center;
+  font-variant-caps: small-caps;
+  font-size: 2rem;
+}
+
+.renseignements {
+  text-align: center;
+  line-height:1.3rem;
+  margin-top:1rem;
+}
+.encadrePhilosophe {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius:20px;
+  width:100%;
+  line-height:2rem;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  background-color: #10a37f;
+}
+
+.boutons:hover {
+  background-color: #10a37f;
+  cursor:pointer;
+}

@@ -2,7 +2,6 @@ import { Link } from '@tanstack/react-router'
 import cx from 'classnames'
 import feedbackIcon from '~/assets/icons/feedback.svg'
 import settingIcon from '~/assets/icons/setting.svg'
-import logo from '~/assets/logo.svg'
 import NavLink from './NavLink'
 
 function IconButton(props: { icon: string; active?: boolean }) {
@@ -21,19 +20,16 @@ function IconButton(props: { icon: string; active?: boolean }) {
 function Sidebar() {
   return (
     <aside className="flex flex-col pr-5">
-      <img src={logo} className="w-[79px] mb-[55px] mt-[66px] ml-5" />
-      <div className="flex flex-col gap-3">
-        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Socrate" />
-        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Aristote" />
-        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Platon" />
-      </div>
-      <div className="mt-auto">
-        <hr className="border-[#ffffff4d]" />
-        <div className="flex flex-row mt-5 gap-[10px] mb-6">
-          <Link to="/setting">
-            <IconButton icon={settingIcon} />
-          </Link>
+      <div className="flex flex-col gap-3 text-white font-medium text-sm">
+        <div className="encadrePhilosophe">
+        <div className="nomPhilosophe">Socrate</div>
+        <div className="renseignements">Grèce<br />De -470 à -399</div>
         </div>
+        <div>Demandez-moi...</div>
+        <a className="rounded-[10px] boutons w-full h-[45px] pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20"><span className="text-white font-medium text-sm">Hello</span></a>
+        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Comment je suis mort" />
+        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Comment je philosophe" />
+        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Quelle est ma devise" />
       </div>
     </aside>
   )
