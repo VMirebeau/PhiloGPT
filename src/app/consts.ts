@@ -34,9 +34,12 @@ const i = findIdParameter()
 export const chatData = {
   id: chatDataJSON[i].id,
   nom: chatDataJSON[i].nom,
+  lieu: chatDataJSON[i].lieu,
+  dates: chatDataJSON[i].dates,
   greeting: chatDataJSON[i].greeting,
   reminder: chatDataJSON[i].reminder,
   prompt: chatDataJSON[i].prompt,
+  suggestions: chatDataJSON[i].suggestions
 }
 //console.log (findIdParameter())
 //console.log(chatData)

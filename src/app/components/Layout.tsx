@@ -7,7 +7,7 @@ import SingleBotChatPanel from '../pages/SingleBotChatPanel'
 function doNothing() {}
 
 function Layout() {
-  const [value, setValue] = useState('Top of the world !')
+  const [value, setValue] = useState('')
 
   return (
     <div className="bg-[#76777f] h-screen py-3 px-3">
