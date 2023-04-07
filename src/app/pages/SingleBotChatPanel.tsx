@@ -1,13 +1,16 @@
-import { FC, useLayoutEffect, useEffect } from 'react'
+import { FC, useLayoutEffect, useEffect, useState } from 'react'
 import { useChat } from '~app/hooks/use-chat'
 import { BotId } from '../bots'
 import ConversationPanel from '../components/Chat/ConversationPanel'
 
 interface Props {
   botId: BotId
+  inputValue:string
+  setValue:(value: string) => void;
 }
 
-const SingleBotChatPanel: FC<Props> = ({ botId }) => {
+const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue }) => {
+ 
 
   /*useLayoutEffect(() => { // quand tous les composants sont chargés
 
@@ -26,6 +29,8 @@ const SingleBotChatPanel: FC<Props> = ({ botId }) => {
         generating={chat.generating}
         stopGenerating={chat.stopGenerating}
         resetConversation={chat.resetConversation}
+        inputValue={inputValue}
+        setValue={setValue}
       />
     </div>
   )

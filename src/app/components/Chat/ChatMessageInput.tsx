@@ -15,10 +15,12 @@ interface Props {
   placeholder?: string
   actionButton?: ReactNode | null
   autoFocus?: boolean
+  inputValue: string
+  setValue: (value: string) => void;
 }
 
 const ChatMessageInput: FC<Props> = (props) => {
-  const [value, setValue] = useState('')
+  
 
   const formRef = useRef<HTMLFormElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
@@ -32,24 +34,24 @@ const ChatMessageInput: FC<Props> = (props) => {
   const onFormSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault()
-      if (value.trim()) {
-        props.onSubmit(value)
+      if (props.inputValue.trim()) {
+        props.onSubmit(props.inputValue)
       }
-      setValue('')
+      props.setValue('')
     },
-    [props, value],
+    [props, props.inputValue],
   )
 
   const insertTextAtCursor = useCallback(
     (text: string) => {
       const cursorPosition = inputRef.current?.selectionStart || 0
-      const textBeforeCursor = value.slice(0, cursorPosition)
-      const textAfterCursor = value.slice(cursorPosition)
-      setValue(`${textBeforeCursor}${text}${textAfterCursor}`)
+      const textBeforeCursor = props.inputValue.slice(0, cursorPosition)
+      const textAfterCursor = props.inputValue.slice(cursorPosition)
+      props.setValue(`${textBeforeCursor}${text}${textAfterCursor}`)
       setIsPromptLibraryDialogOpen(false)
       inputRef.current?.focus()
     },
-    [value],
+    [props.inputValue],
   )
 
   const openPromptLibrary = useCallback(() => {
@@ -65,8 +67,8 @@ const ChatMessageInput: FC<Props> = (props) => {
         name="input"
         disabled={props.disabled}
         placeholder={props.placeholder}
-        value={value}
-        onValueChange={setValue}
+        value={props.inputValue}
+        onValueChange={props.setValue}
       />
       {props.actionButton || (
         <Button text="-" className="invisible" size={props.mode === 'full' ? 'normal' : 'small'} />

@@ -17,6 +17,8 @@ const MultiBotChatPanel: FC = () => {
 
   const generating = useMemo(() => chats.some((c) => c.generating), [chats])
 
+  function doNothing() { }
+
   const onUserSendMessage = useCallback(
     (input: string, botId?: BotId) => {
       if (botId) {
@@ -43,6 +45,8 @@ const MultiBotChatPanel: FC = () => {
             mode="compact"
             resetConversation={chat.resetConversation}
             index={index}
+            inputValue=""
+            setValue={() => {}}
           />
         ))}
       </div>
@@ -51,6 +55,8 @@ const MultiBotChatPanel: FC = () => {
         className="rounded-full bg-white px-[20px] py-[10px] mt-5"
         disabled={generating}
         placeholder="Send to all ..."
+        inputValue="meuh"
+        setValue={doNothing}
         onSubmit={onUserSendMessage}
         actionButton={!generating && <Button text="Send" color="primary" type="submit" />}
         autoFocus={true}

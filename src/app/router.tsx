@@ -1,9 +1,14 @@
 import { createHashHistory, createBrowserHistory, ReactRouter, RootRoute, Route, useParams } from '@tanstack/react-router'
 import { BotId } from './bots'
+import { useState } from 'react'
 import Layout from './components/Layout'
 import MultiBotChatPanel from './pages/MultiBotChatPanel'
 import SettingPage from './pages/SettingPage'
 import SingleBotChatPanel from './pages/SingleBotChatPanel'
+
+
+//const [value, setValue] = useState('Top of the world !')
+
 
 const rootRoute = new RootRoute()
 
@@ -19,9 +24,13 @@ const indexRoute = new Route({
   component: ChatRoute,
 })
 
+function doNothing() {
+
+}
+
 function ChatRoute() {
  // const { botId } = "chatgpt"
-  return <SingleBotChatPanel botId={"chatgpt" as BotId} />
+ // return <SingleBotChatPanel botId={"chatgpt" as BotId} inputValue={""} setValue={doNothing} />
 }
 
 const chatRoute = new Route({
@@ -36,7 +45,14 @@ const settingRoute = new Route({
   component: SettingPage,
 })
 
-const routeTree = rootRoute.addChildren([layoutRoute.addChildren([indexRoute, chatRoute, settingRoute])])
+//const routeTree = rootRoute.addChildren([layoutRoute.addChildren([indexRoute, chatRoute, settingRoute])])
+const routeTree = rootRoute.addChildren([layoutRoute])
+/*
+const routeTree = (
+  <Layout id={'layout'}>
+  <ChatRoute /><ChatRoute path={'chat/$botId'} />
+  </Layout>
+)*/
 
 const hashHistory = createHashHistory()
 const router = new ReactRouter({ routeTree, history: hashHistory })

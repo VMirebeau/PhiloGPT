@@ -24,6 +24,8 @@ interface Props {
   resetConversation: () => void
   generating: boolean
   stopGenerating: () => void
+  inputValue:string
+  setValue:(value: string) => void;
   mode?: 'full' | 'compact'
   index?: number
 }
@@ -34,6 +36,9 @@ function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
 }
 
 const ConversationPanel: FC<Props> = (props) => {
+
+
+
   const botInfo = CHATBOTS[props.botId]
   const mode = props.mode || 'full'
   const marginClass = mode === 'compact' ? 'mx-5' : 'mx-10'
@@ -114,6 +119,8 @@ const ConversationPanel: FC<Props> = (props) => {
             placeholder={mode === 'compact' ? '' : 'Posez votre question...'}
             onSubmit={onSubmit}
             autoFocus={mode === 'full'}
+            inputValue={props.inputValue}
+            setValue={props.setValue}
             actionButton={
               props.generating ? (
                 <Button

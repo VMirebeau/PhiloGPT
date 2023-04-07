@@ -1,5 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import cx from 'classnames'
+import { FC, useRef, useState } from 'react'
 import feedbackIcon from '~/assets/icons/feedback.svg'
 import settingIcon from '~/assets/icons/setting.svg'
 import NavLink from './NavLink'
@@ -18,11 +19,29 @@ function IconButton(props: { icon: string; active?: boolean }) {
 }
 
 function getSuggestion(i: number) {
-    let input = document.getElementById("input") as HTMLInputElement
+  //const inputRef = useRef<HTMLTextAreaElement>(null)
+  //const [value, setValue] = useState('')
+  //setValue(`meuh la vache`)
+  //console.log(inputRef.current)
+  /*if (inputRef.current)
+  {
+    let theInput = inputRef.current<HTMLTextAreaElement>
+
+  }
+  .value="meuh"*/
+  let input = document.getElementById("input") as HTMLInputElement
    input.value = "meuh"
 }
 
-function Sidebar() {
+interface Props {
+  setValue:(value: string) => void;
+}
+
+const Sidebar:FC<Props> = ({ setValue }) =>  {
+  function prompt()
+  {
+    setValue("Hello World !")
+  }
   return (
     <aside className="flex flex-col pr-5">
       <div className="flex flex-col gap-3 text-white font-medium text-sm">
@@ -32,11 +51,9 @@ function Sidebar() {
         </div>
         <div>Demandez-moi...</div>
         <a onClick={(event: React.MouseEvent<HTMLAnchorElement>) => {
-   getSuggestion(0);
+   prompt();
 }} className="rounded-[10px] boutons w-full h-[45px] pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20"><span className="text-white font-medium text-sm">Hello</span></a>
-        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Comment je suis mort" />
-        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Comment je philosophe" />
-        <NavLink to="/chat/$botId" params={{ botId: 'chatgpt' }} text="Quelle est ma devise" />
+        
       </div>
     </aside>
   )

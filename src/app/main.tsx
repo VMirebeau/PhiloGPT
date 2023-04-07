@@ -10,6 +10,7 @@ import { router } from './router'
 
 //(global as any).foo = bar;
 const container = document.getElementById('app')!
+
 const root = createRoot(container)
 root.render(<RouterProvider router={router} />)
 
