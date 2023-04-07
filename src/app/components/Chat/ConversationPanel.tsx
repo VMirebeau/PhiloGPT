@@ -89,7 +89,7 @@ const ConversationPanel: FC<Props> = (props) => {
           )}
         >
           <div className="flex flex-row items-center gap-2">
-            <img src="assets/icon.png" className="w-5 h-5 object-contain rounded-full" />
+            <img src="assets/icon.png" className="w-5 h-5 object-contain" />
             <span className="font-semibold text-[#707070] text-sm">PhiloGPT</span>
             {mode === 'compact' && <SwitchBotDropdown excludeBotId={props.botId} index={props.index!} />}
           </div>

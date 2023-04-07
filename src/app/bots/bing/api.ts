@@ -30,7 +30,7 @@ export async function createConversation(): Promise<ConversationResponse> {
       redirect: 'error',
     })
     if (!resp) {
-      throw new FetchError(`Failed to fetch (${API_ENDPOINT})`)
+      throw new FetchError(`Impossible de récupérer les données. Veuillez vérifier l'état de votre connexion. (${API_ENDPOINT})`)
     }
   }
 
