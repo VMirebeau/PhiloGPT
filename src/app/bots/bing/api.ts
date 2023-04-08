@@ -9,7 +9,7 @@ function randomIP() {
   return `13.${random(104, 107)}.${random(0, 255)}.${random(0, 255)}`
 }
 
-const API_ENDPOINT = 'https://www.bing.com/turing/conversation/create'
+const API_ENDPOINT = ''
 
 export async function createConversation(): Promise<ConversationResponse> {
   const headers = {

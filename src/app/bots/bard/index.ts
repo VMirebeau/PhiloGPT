@@ -23,7 +23,7 @@ export class BardBot extends AbstractBot {
     }
     const { requestParams, contextIds } = this.conversationContext
     const resp = await ofetch(
-      'https://bard.google.com/_/BardChatUi/data/assistant.lamda.BardFrontendService/StreamGenerate',
+      '',
       {
         method: 'POST',
         signal: params.signal,

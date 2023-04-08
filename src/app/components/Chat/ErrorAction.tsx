@@ -40,14 +40,14 @@ const ErrorAction: FC<{ error: ChatError }> = ({ error }) => {
 
   if (error.code === ErrorCode.BING_UNAUTHORIZED) {
     return (
-      <a href="https://bing.com" target="_blank" rel="noreferrer">
+      <a href="" target="_blank" rel="noreferrer">
         <Button color="primary" text="Login at bing.com" size="small" />
       </a>
     )
   }
   if (error.code === ErrorCode.BING_FORBIDDEN) {
     return (
-      <a href="https://bing.com/new" target="_blank" rel="noreferrer">
+      <a href="" target="_blank" rel="noreferrer">
         <Button color="primary" text="Join new Bing waitlist" size="small" />
       </a>
     )

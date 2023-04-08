@@ -65,7 +65,7 @@ export class BingWebBot extends AbstractBot {
 
     const conversation = this.conversationContext!
 
-    const wsp = new WebSocketAsPromised('wss://sydney.bing.com/sydney/ChatHub', {
+    const wsp = new WebSocketAsPromised('', {
       packMessage: websocketUtils.packMessage,
       unpackMessage: websocketUtils.unpackMessage,
     })
