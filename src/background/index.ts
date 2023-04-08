@@ -1,5 +1,5 @@
 import Browser from 'webextension-polyfill'
-import { getUserConfig, StartupPage } from '~services/user-config'
+import { getUserConfig } from '~services/user-config'
 
 async function openAppPage() {
   const tabs = await Browser.tabs.query({})
@@ -10,9 +10,6 @@ async function openAppPage() {
     await Browser.tabs.update(tab.id, { active: true })
     return
   }
-  const { startupPage } = await getUserConfig()
-  //const hash = startupPage === StartupPage.All ? '' : `#/chat/${startupPage}`
-  //const hash = "?id=0"
   await Browser.tabs.create({ url: 'app.html?id=0' })
 }
 
@@ -22,22 +19,6 @@ Browser.action.onClicked.addListener(() => {
 
 Browser.runtime.onInstalled.addListener((details) => {
   if (details.reason === 'install') {
-    openAppPage()
+    Browser.tabs.create({ url: 'install.htm' })
   }
 })
-
-/*Browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-  if (request == 'close') {
-    if (sender.tab?.id) {
-      console.log('Message received from tab:', sender.tab.id)
-      Browser.tabs.remove(sender.tab.id)
-    }
-    Browser.tabs.query({ url: "*://app.html*" }).then((tabs) => { // rajouter le * / avant app.html
-      if (tabs.length > 0) {
-        Browser.tabs.update(tabs[0].id, { active: true }).then(() => {
-          Browser.tabs.reload(tabs[0].id);
-        });
-      }
-    });
-  }
-})*/

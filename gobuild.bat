@@ -1,3 +1,5 @@
 md "dist\assets\avatars"
-copy "src\assets\avatars" "dist\assets\avatars"
-copy "src\assets\icon.png" "dist\assets\"
+copy "pics\avatars" "dist\assets\avatars"
+copy "pics\icon.png" "dist\assets\"
+copy "install.htm" "dist\"
+copy "src\assets\install_notes.png" "dist\assets\"
