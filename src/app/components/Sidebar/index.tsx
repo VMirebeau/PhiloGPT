@@ -31,7 +31,7 @@ const Sidebar: FC<Props> = ({ setValue }) => {
             }}
             className="rounded-[10px] boutons w-full h-[45px] pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20"
           >
-            <span className="text-white font-medium text-sm">{suggestion.title}</span>
+            <span className="text-white texteBouton font-medium text-sm">{suggestion.title}</span>
           </a>
         ))}
       </div>
