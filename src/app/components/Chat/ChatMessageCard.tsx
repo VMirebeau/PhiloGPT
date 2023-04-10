@@ -13,6 +13,8 @@ interface Props {
   className?: string
 }
 
+
+
 const ChatMessageCard: FC<Props> = ({ message, className }) => {
   const [copied, setCopied] = useState(false)
 
@@ -31,6 +33,22 @@ const ChatMessageCard: FC<Props> = ({ message, className }) => {
     }
   }, [copied])
 
+  function getErrorMessage(err: string) {
+    switch(err as string) {
+      case "403":
+        return '[Erreur 403 : essayez de renvoyer le message]';
+      case "524":
+        return '[Erreur 524 : essayez de recharger la page]';
+      case '{"detail":"Only one message at a time. Please allow any other responses to complete before sending another message, or wait one minute."}':
+        return '[Erreur : attendez quelques secondes entre chaque message]';
+      case '{"detail":"Too many requests in 1 hour. Try again later."}':
+        return '[Erreur : Vous avez lancé trop de requêtes pendant la dernière heure. Réessayez plus tard]'
+      default:
+        return '[Erreur ' + err + ' : veuillez renvoyer le message, ou recharger la page]';
+    }
+  }
+
+
   return (
     <div
       className={cx('group flex paddBottom gap-3 w-full', message.author === 'user' ? 'flex-row-reverse' : 'flex-row', className)}
@@ -42,7 +60,7 @@ const ChatMessageCard: FC<Props> = ({ message, className }) => {
           ) : (
             !message.error && <BeatLoader size={10} className="leading-tight" />
           )}
-          {!!message.error && <p className="text-[#e00]">{message.error.message}</p>}
+          {!!message.error && <p className="text-[#e00]">{getErrorMessage(message.error.message as string)}</p>}
         </MessageBubble>
         {!!message.error && <ErrorAction error={message.error} />}
       </div>

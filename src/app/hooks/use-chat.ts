@@ -109,7 +109,7 @@ export function useChat(botId: BotId, page = 'singleton') {
     if (chatState.generatingMessageId) {
       updateMessage(chatState.generatingMessageId, (message) => {
         if (!message.text && !message.error) {
-          message.text = 'Cancelled'
+          message.text = '[Requête annulée. Rechargez la page en cas de problème.]'
         }
       })
     }

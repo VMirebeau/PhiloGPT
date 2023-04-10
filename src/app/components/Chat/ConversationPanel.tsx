@@ -74,10 +74,6 @@ const ConversationPanel: FC<Props> = (props) => {
     trackEvent('open_share_dialog', { botId: props.botId })
   }, [props.botId])
 
-  useLayoutEffect(() => { // quand tous les composants sont chargés
-        //props.onUserSendMessage("Salut les ptits chats mignons !", props.botId)
-
-  }, [])
 
   return (
     <ConversationContext.Provider value={context}>
