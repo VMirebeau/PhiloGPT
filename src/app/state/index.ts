@@ -22,6 +22,7 @@ export const chatFamily = atomFamily(
       generatingMessageId: '',
       abortController: undefined as AbortController | undefined,
       conversationId: uuid(),
+      isSetup:false
     })
   },
   (a, b) => a.botId === b.botId && a.page === b.page,
