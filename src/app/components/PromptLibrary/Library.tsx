@@ -8,7 +8,6 @@ import { useCallback, useState } from 'react'
 import { Input, Textarea } from '../Input'
 import { uuid } from '~utils'
 import { BeatLoader } from 'react-spinners'
-import { trackEvent } from '~app/plausible'
 
 const ActionButton = (props: { text: string; onClick: () => void }) => {
   return (
@@ -89,7 +88,6 @@ function LocalPrompts(props: { insertPrompt: (text: string) => void }) {
       const existed = await saveLocalPrompt(prompt)
       localPromptsQuery.mutate()
       setFormData(null)
-      trackEvent(existed ? 'edit_local_prompt' : 'add_local_prompt')
     },
     [localPromptsQuery],
   )
@@ -98,7 +96,6 @@ function LocalPrompts(props: { insertPrompt: (text: string) => void }) {
     async (id: string) => {
       await removeLocalPrompt(id)
       localPromptsQuery.mutate()
-      trackEvent('remove_local_prompt')
     },
     [localPromptsQuery],
   )
@@ -166,7 +163,6 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void }) => {
   const insertPrompt = useCallback(
     (text: string) => {
       props.insertPrompt(text)
-      trackEvent('use_prompt')
     },
     [props],
   )

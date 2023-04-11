@@ -1,7 +1,6 @@
 import cx from 'classnames'
 import { FC, memo, ReactNode, useCallback, useEffect, useRef, useState, useLayoutEffect } from 'react'
 import { GoBook } from 'react-icons/go'
-import { trackEvent } from '~app/plausible'
 import Button from '../Button'
 import PromptLibraryDialog from '../PromptLibrary/Dialog'
 import TextInput from './TextInput'
@@ -56,7 +55,6 @@ const ChatMessageInput: FC<Props> = (props) => {
 
   const openPromptLibrary = useCallback(() => {
     setIsPromptLibraryDialogOpen(true)
-    trackEvent('open_prompt_library')
   }, [])
 
   return (

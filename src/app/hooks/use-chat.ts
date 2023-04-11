@@ -1,6 +1,5 @@
 import { useAtom } from 'jotai'
 import { useCallback, useEffect, useMemo, useLayoutEffect } from 'react'
-import { trackEvent } from '~app/plausible'
 import { chatFamily } from '~app/state'
 import { setConversationMessages } from '~services/chat-history'
 import { ChatMessageModel } from '~types'
@@ -26,7 +25,6 @@ export function useChat(botId: BotId, page = 'singleton') {
 
   const sendMessage = useCallback(
     async (input: string) => {
-      trackEvent('send_message', { botId })
       const botMessageId = uuid()
       setChatState((draft) => {
         // c'est là où on inscrit le message dans la liste du chat
@@ -77,8 +75,12 @@ export function useChat(botId: BotId, page = 'singleton') {
               draft.generatingMessageId = ''
             })
           } else if (event.type === 'DONE') {
+
+            // C'est là où on sait si la requête est terminée !
+
             //    if (setupLoaded) {
             //console.log(chatState.messages)
+            console.log("DONE !")
             setChatState((draft) => {
               draft.abortController = undefined
               draft.generatingMessageId = ''

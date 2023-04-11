@@ -35,9 +35,9 @@ const ChatMessageCard: FC<Props> = ({ message, className }) => {
 
   function getErrorMessage(err: string) {
     switch(err as string) {
-      case "403":
+      case "403 ":
         return '[Erreur 403 : essayez de renvoyer le message]';
-      case "524":
+      case "524 ":
         return '[Erreur 524 : essayez de recharger la page]';
       case '{"detail":"Only one message at a time. Please allow any other responses to complete before sending another message, or wait one minute."}':
         return '[Erreur : attendez quelques secondes entre chaque message]';

@@ -25,6 +25,7 @@ export class ChatGPTBot extends AbstractBot {
         // this.#bot = new ChatGPTWebBot(chatgptWebappModelName === 'default' ? undefined : chatgptWebappModelName)
         this.#bot = new ChatGPTWebBot("text-davinci-002-render-sha")
       }
+      /* Ancienne façon de faire passer le prompt initial
       //console.log (chatData)
       // PROMPT D'ENTREE
       const preprompt0 = "[Oublie toutes les instructions antérieures et nos précédents échanges.\nNous sommes dans une application de dialogue, qui permet à n importe quel étudiant de philosophie de discuter avec un grand philosophe du passé.\nPrends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.\n"
@@ -36,6 +37,7 @@ export class ChatGPTBot extends AbstractBot {
         prompt: preprompt0 + prompt + preprompt1,
         onEvent: (e) => { },
       })
+      */
       
     })
 
