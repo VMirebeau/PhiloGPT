@@ -43,8 +43,10 @@ const ChatMessageCard: FC<Props> = ({ message, className }) => {
         return '[Erreur : attendez quelques secondes entre chaque message]';
       case '{"detail":"Too many requests in 1 hour. Try again later."}':
         return '[Erreur : Vous avez lancé trop de requêtes pendant la dernière heure. Réessayez plus tard]'
+      case '{"detail":"Something went wrong, please try reloading the conversation."}':
+        return '[Erreur : essayez de recharger la page]'
       default:
-        return '[Erreur ' + err + ' : veuillez renvoyer le message, ou recharger la page]';
+        return err;
     }
   }
 
