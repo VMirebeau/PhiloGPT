@@ -31,7 +31,7 @@ interface Props {
 
 function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
   const id = event.target.value;
-  window.location.href = `app.html?id=${id}`;
+  window.location.href = `app.html#/id/${id}`;
 }
 
 const ConversationPanel: FC<Props> = (props) => {

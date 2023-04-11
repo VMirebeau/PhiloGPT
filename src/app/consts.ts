@@ -4,6 +4,17 @@ import bardLogo from '~/assets/bard-logo.svg'
 import { BotId } from './bots'
 import chatDataJSON from './chatPrompts.json'
 
+
+export interface ChatData {
+  id: number;
+  nom: string;
+  lieu: string;
+  dates: string;
+  greeting: string;
+  reminder: string;
+  prompt: string;
+  suggestions: { title: string; prompt: string }[];
+}
 //setupLoaded.phase = true;
 
 function findIdParameter() {

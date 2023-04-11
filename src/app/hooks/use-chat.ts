@@ -5,9 +5,10 @@ import { setConversationMessages } from '~services/chat-history'
 import { ChatMessageModel } from '~types'
 import { uuid } from '~utils'
 import { BotId } from '../bots'
-import { chatData } from '~app/consts'
+import { ChatData } from '~app/consts'
 
-export function useChat(botId: BotId, page = 'singleton') {
+export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'singleton') {
+  //console.log("ON LANCE USECHAT", id, chatData.nom)
   const chatAtom = useMemo(() => chatFamily({ botId, page }), [botId, page])
   const [chatState, setChatState] = useAtom(chatAtom)
 
@@ -42,10 +43,12 @@ export function useChat(botId: BotId, page = 'singleton') {
       // A changer ensuite
       let finalPrompt = '';
       //console.log("On controle le isSetup",chatState.isSetup)
+      //console.log("NOM", chatData.nom)
       if (chatState.isSetup) {  // si le setup est déjà fait
         const preReminder1 =
           "[Rappelle-toi bien que nous sommes dans une application simulant un dialogue entre l'utilisateur et un philosophe, et que tu incarnes "
         const tempNom = chatData.nom
+
         const preReminder2 =
           " ; il faut que tu t'appropries ses pensées, son style, son passé, de telle sorte que ton interlocuteur pense vraiment avoir affaire à lui. Parle toujours à la première personne, comme si tu étais vraiment "
         const tempReminder =
@@ -60,9 +63,9 @@ export function useChat(botId: BotId, page = 'singleton') {
 	      const prompt = chatData.prompt
 	      finalPrompt = preprompt0 + prompt + preprompt1 + input
       }
+      //console.log("finalPrompt :", finalPrompt)
       await chatState.bot.sendMessage({
 
-        // Ici : si 
 
         prompt: finalPrompt,
         signal: abortController.signal,
@@ -110,7 +113,7 @@ export function useChat(botId: BotId, page = 'singleton') {
         },
       })
     },
-    [botId, chatState.bot, setChatState, updateMessage],
+    [botId, chatState.bot, setChatState, updateMessage, chatData],
   )
 
   const resetConversation = useCallback(() => {

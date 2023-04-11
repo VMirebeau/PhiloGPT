@@ -1,11 +1,22 @@
 import { FC } from 'react'
-import { chatData } from '~app/consts'
+//import { chatData } from '~app/consts'
 
 interface Props {
   setValue: (value: string) => void
+  id:number,
+  chatData:{
+    id: number,
+    nom: string,
+    lieu: string,
+    dates: string,
+    greeting: string,
+    reminder: string,
+    prompt: string,
+    suggestions: {title:string, prompt:string}[]
+  }
 }
 
-const Sidebar: FC<Props> = ({ setValue }) => {
+const Sidebar: FC<Props> = ({ setValue, chatData }) => {
   function prompt(txt: string) {
     // let suggprompt = chatData.suggestions?;
     //let str = suggprompt.prompt;

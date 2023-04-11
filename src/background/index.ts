@@ -10,7 +10,7 @@ async function openAppPage() {
     await Browser.tabs.update(tab.id, { active: true })
     return
   }
-  await Browser.tabs.create({ url: 'app.html?id=0' })
+  await Browser.tabs.create({ url: 'app.html#/id/0' })
 }
 
 Browser.action.onClicked.addListener(() => {

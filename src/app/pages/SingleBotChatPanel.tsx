@@ -2,24 +2,23 @@ import { FC, useLayoutEffect, useEffect, useState } from 'react'
 import { useChat } from '~app/hooks/use-chat'
 import { BotId } from '../bots'
 import ConversationPanel from '../components/Chat/ConversationPanel'
+import { ChatData } from '../consts'
+
 
 interface Props {
   botId: BotId
+  id:number,
   inputValue:string
-  setValue:(value: string) => void;
+  chatDataJSON: ChatData[]
+  setValue:(value: string) => void
+  chat: any
+  
+
 }
 
-const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue }) => {
- 
+const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDataJSON, chat }) => {
 
-  /*useLayoutEffect(() => { // quand tous les composants sont chargés
-
-    
-
-  }, [])*/
-
-  const chat = useChat(botId)
-  
+  //en bas : rajouter id et chatdata
   return (
     <div className="overflow-hidden">
       <ConversationPanel
@@ -31,6 +30,7 @@ const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue }) => {
         resetConversation={chat.resetConversation}
         inputValue={inputValue}
         setValue={setValue}
+        
       />
     </div>
   )
