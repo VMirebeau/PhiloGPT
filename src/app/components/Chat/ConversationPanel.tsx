@@ -3,7 +3,7 @@ import { FC, useCallback, useMemo, useState, useLayoutEffect } from 'react'
 import clearIcon from '~/assets/icons/clear.svg'
 import historyIcon from '~/assets/icons/history.svg'
 import shareIcon from '~/assets/icons/share.svg'
-import { CHATBOTS } from '~app/consts'
+import { CHATBOTS, ChatData } from '~app/consts'
 import { ConversationContext, ConversationContextValue } from '~app/context'
 import ShareDialog from '../Share/Dialog'
 import { ChatMessageModel } from '~types'
@@ -13,8 +13,8 @@ import HistoryDialog from '../History/Dialog'
 import SwitchBotDropdown from '../SwitchBotDropdown'
 import ChatMessageInput from './ChatMessageInput'
 import ChatMessageList from './ChatMessageList'
-import { chatData } from '~app/consts'
 import chatPrompts from '../../chatPrompts.json'
+
 
 interface Props {
   botId: BotId
@@ -24,6 +24,8 @@ interface Props {
   generating: boolean
   stopGenerating: () => void
   inputValue:string
+  id:number
+  chatDataJSON:ChatData[]
   setValue:(value: string) => void;
   mode?: 'full' | 'compact'
   index?: number
@@ -93,14 +95,14 @@ const ConversationPanel: FC<Props> = (props) => {
           </div>
           <div className="flex flex-row text-sm items-center gap-3">Dialoguer avec <select className="borderSelect"  onChange={handleChange}>
   {chatPrompts.map((item) => (
-    <option key={item.id} value={item.id}  selected={item.id === chatData.id}>
+    <option key={item.id} value={item.id}  selected={item.id === props.id}>
       {item.nom}
     </option>
   ))}
 </select>
           </div>
         </div>
-        <ChatMessageList botId={props.botId} messages={props.messages} className={marginClass} />
+        <ChatMessageList botId={props.botId} messages={props.messages} className={marginClass} id={props.id} chatDataJSON={props.chatDataJSON}  />
         <div className={cx('mt-3 flex flex-col', marginClass, mode === 'full' ? 'mb-5' : 'mb-[10px]')}>
           <div className={cx('flex flex-row items-center gap-[5px]', mode === 'full' ? 'mb-[15px]' : 'mb-0')}>
             {mode === 'compact' && <span className="font-medium text-xs text-[#bebebe]">Send to {botInfo.name}</span>}

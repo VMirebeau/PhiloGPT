@@ -29,6 +29,8 @@ const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDa
         stopGenerating={chat.stopGenerating}
         resetConversation={chat.resetConversation}
         inputValue={inputValue}
+        id={id}
+        chatDataJSON={chatDataJSON} 
         setValue={setValue}
         
       />

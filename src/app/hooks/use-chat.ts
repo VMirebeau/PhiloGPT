@@ -24,6 +24,8 @@ export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'si
     [setChatState],
   )
 
+
+
   const sendMessage = useCallback(
     async (input: string) => {
       const botMessageId = uuid()
@@ -126,6 +128,16 @@ export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'si
     })
   }, [chatState.bot, setChatState])
 
+  const addBotMessage = useCallback(
+    (message: string) => {
+       setChatState((draft) => {
+        draft.messages.push( { id: "0", text:message, author: "chatgpt" },
+        )     
+    })
+  },
+    [setChatState]
+  )
+
   const stopGenerating = useCallback(() => {
     chatState.abortController?.abort()
     if (chatState.generatingMessageId) {
@@ -159,6 +171,7 @@ export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'si
       messages: chatState.messages,
       sendMessage,
       resetConversation,
+      addBotMessage,
       generating: !!chatState.generatingMessageId,
       stopGenerating,
     }),

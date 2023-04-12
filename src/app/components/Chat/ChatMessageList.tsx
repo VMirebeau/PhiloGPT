@@ -4,10 +4,13 @@ import ScrollToBottom from 'react-scroll-to-bottom'
 import { BotId } from '~app/bots'
 import { ChatMessageModel } from '~types'
 import ChatMessageCard from './ChatMessageCard'
+import { ChatData } from '~app/consts'
 
 interface Props {
   botId: BotId
   messages: ChatMessageModel[]
+  id:number
+  chatDataJSON:ChatData[]
   className?: string
 }
 
@@ -16,7 +19,7 @@ const ChatMessageList: FC<Props> = (props) => {
     <ScrollToBottom className="overflow-auto h-full">
       <div className={cx('flex flex-col gap-3 h-full', props.className)}>
         {props.messages.map((message, index) => {
-          return <ChatMessageCard key={message.id} message={message} className={index === 0 ? 'mt-5' : undefined} />
+          return <ChatMessageCard key={message.id} message={message} id={props.id}  chatDataJSON={props.chatDataJSON}  className={index === 0 ? 'mt-5' : undefined} />
         })}
       </div>
     </ScrollToBottom>

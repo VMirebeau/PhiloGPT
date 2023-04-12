@@ -2,12 +2,7 @@ import { AbstractBot, SendMessageParams } from '../abstract-bot'
 import { ChatGPTMode, getUserConfig } from '~/services/user-config'
 import { ChatGPTApiBot } from '../chatgpt-api'
 import { ChatGPTWebBot } from '../chatgpt-webapp'
-//import chatData  from '../../chatPrompts.json'
-import { chatData } from '~app/consts'
 
-import { useAtom } from 'jotai'
-import { useCallback, useEffect, useMemo } from 'react'
-import { chatFamily } from '~app/state'
 import { BotId } from '../../bots'
 
 type Param = { botId: BotId; page: string }

@@ -7,15 +7,19 @@ import { ChatMessageModel } from '~/types'
 import Markdown from '../Markdown'
 import ErrorAction from './ErrorAction'
 import MessageBubble from './MessageBubble'
+import { ChatData } from '~app/consts'
+
 
 interface Props {
   message: ChatMessageModel
+  id:number
   className?: string
+  chatDataJSON:ChatData[]
 }
 
 
 
-const ChatMessageCard: FC<Props> = ({ message, className }) => {
+const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) => {
   const [copied, setCopied] = useState(false)
 
   const copyText = useMemo(() => {
@@ -58,7 +62,8 @@ const ChatMessageCard: FC<Props> = ({ message, className }) => {
       className={cx('group flex paddBottom gap-3 w-full', message.author === 'user' ? 'flex-row-reverse' : 'flex-row', className)}
     >
       <div className="flex flex-col w-11/12  max-w-fit items-start gap-2">
-        <MessageBubble color={message.author === 'user' ? 'primary' : 'flat'} author={message.author}>
+        <MessageBubble color={message.author === 'user' ? 'primary' : 'flat'} author={message.author} id={id} chatDataJSON={chatDataJSON} 
+>
           {message.text ? (
             <Markdown>{message.text}</Markdown>
           ) : (
