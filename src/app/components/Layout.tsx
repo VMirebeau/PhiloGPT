@@ -14,43 +14,24 @@ interface Props {
 
 const Layout:FC<Props> = ({ id }) => {
   const chat = useChat("chatgpt" as BotId, id, chatDataJSON[id])
-
-  const id_ = id
-  /*useEffect(() => { // useEffect à vide : quand le composant est monté
-    console.log("Le composant est monté")
-    window.addEventListener("hashchange", () => {
-      //console.log("1", chat.messages)
-      chat.resetConversation() // créer une fonction dans chat pour créer un premier message
-      console.log (chatDataJSON,id_,chatDataJSON[id_].greeting)
-      chat.addBotMessage(chatDataJSON[id_].greeting)
-      //chat.addBotMessage("Hello pouletos")
-      //console.log("2", chat.messages)
-     /* chat.messages.push(
-        { id: "0", text: chatDataJSON[id].greeting, author: "chatgpt" },
-      )
-     // console.log("3", chat.messages)
-    })
-  }, []);*/
-
-  /*window.addEventListener("hashchange", () => {
-    //console.log("1", chat.messages)
-    chat.resetConversation() // créer une fonction dans chat pour créer un premier message
-    console.log (chatDataJSON,id_,chatDataJSON[id_].greeting)
-    chat.addBotMessage(chatDataJSON[id_].greeting)
-    
-  })*/
+  const [value, setValue] = useState('')
+  const chatData = chatDataJSON[id] as ChatData
 
   const [hash, setHash] = useState(window.location.hash);
 
   useEffect(() => {
+    chat.addBotMessage(chatDataJSON[id].greeting)
     const handleHashChange = () => {
       if (window.location.hash !== hash) {
         setHash(window.location.hash);
         //console.log(hash, window.location.hash)
         let newId = Number(window.location.hash.match(/id\/(\d+)$/)?.[1])
         chat.resetConversation() // créer une fonction dans chat pour créer un premier message
-      console.log (chatDataJSON,newId,chatDataJSON[newId].greeting)
-      chat.addBotMessage(chatDataJSON[newId].greeting)
+        //chat = useChat("chatgpt" as BotId, newId, chatDataJSON[id])
+
+        setValue('') // quand on change de partenaire de dialogue, on vide le textinput
+     // console.log (chatDataJSON,newId,chatDataJSON[newId].greeting)
+      //chat.addBotMessage(chatDataJSON[newId].greeting)
       }
     };
 
@@ -61,9 +42,7 @@ const Layout:FC<Props> = ({ id }) => {
     };
   }, [hash]);
 
-  const [value, setValue] = useState('')
-  console.log("Id = ",id)
-  const chatData = chatDataJSON[id] as ChatData
+
   return (
     <div className="bg-[#76777f] h-screen py-3 px-3">
       <main className="grid grid-cols-[min(20%,250px)_1fr] h-full bg-[#ffffff66] rounded-[40px] max-w-[1400px] mx-auto backdrop-blur-2xl pl-5 py-4 pr-4">

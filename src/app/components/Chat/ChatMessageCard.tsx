@@ -42,7 +42,7 @@ const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) =>
     err = err.trim();
     switch(err as string) {
       case "403":
-        return '[Erreur 403 : essayez de renvoyer le message]';
+        return '[Erreur 403 : essayez de renvoyer le message. En cas d\'échec, actualisez la page.]';
       case "524":
         return '[Erreur 524 : essayez de recharger la page]';
       case '{"detail":"Only one message at a time. Please allow any other responses to complete before sending another message, or wait one minute."}':
@@ -51,6 +51,8 @@ const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) =>
         return '[Erreur : Vous avez lancé trop de requêtes pendant la dernière heure. Réessayez plus tard]'
       case '{"detail":"Something went wrong, please try reloading the conversation."}':
         return '[Erreur : essayez de recharger la page]'
+        case 'Failed to fetch':
+          return '[Erreur : il est impossible de récupérer les données. Veuillez vérifier votre connexion Internet.]'
       default:
         return err;
     }

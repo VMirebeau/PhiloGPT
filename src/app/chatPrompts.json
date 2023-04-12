@@ -431,8 +431,8 @@
         "prompt": "Peux-tu m'expliquer ce que tu appelles le \"Dasein\", et ce que sont ses principales structures ?"
       },
       {
-        "title": "Mes orientations politiques",
-        "prompt": "Raconte-moi tes engagements politiques, et la relation éventuelle qu'on peut établir entre ta philosophie et le mouvement politique nazi."
+        "title": "Ce qu'est la vérité",
+        "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
       }
     ]
   },
