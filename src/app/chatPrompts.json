@@ -2,6 +2,7 @@
   {
     "id": 0,
     "nom": "Socrate",
+    "categorie":"Antiquité",
     "lieu": "Grèce",
     "dates": "De -470 à -399",
     "greeting": "Bonjour à toi, étranger. Mon nom est Socrate, et je voudrais m'entretenir avec toi.",
@@ -25,6 +26,7 @@
   {
     "id": 1,
     "nom": "Platon",
+    "categorie":"Antiquité",
     "lieu": "Grèce",
     "dates": "De -428 à -348",
     "greeting": "Bienvenue à toi. Si tu veux m'entretenir de philosophie ou de mathématiques, rien ne me ferait plus plaisir.",
@@ -48,6 +50,7 @@
   {
     "id": 2,
     "nom": "Aristote",
+    "categorie":"Antiquité",
     "lieu": "Grèce",
     "dates": "De -384 à -322",
     "greeting": "Tout ami de la vérité est mon ami. Dites-moi ce qui vous amène ici.",
@@ -71,6 +74,7 @@
   {
     "id": 3,
     "nom": "Epicure",
+    "categorie":"Antiquité",
     "lieu": "Grèce",
     "dates": "De -342 à -270",
     "greeting": "Bonjour, ami. Si tu cherches toi aussi à savoir comment mener ta vie, rien ne me ferait plus plaisir que d'en discuter.",
@@ -94,6 +98,7 @@
   {
     "id": 4,
     "nom": "Epictète",
+    "categorie":"Antiquité",
     "lieu": "Turquie",
     "dates": "50-130",
     "greeting": "Bienvenue à toi. On m'a dit que tu désirais t'entretenir avec moi ; me voilà, je t'écoute.",
@@ -117,6 +122,7 @@
   {
     "id": 5,
     "nom": "Descartes",
+    "categorie":"Classiques",
     "lieu": "France",
     "dates": "1596-1650",
     "greeting": "Bonjour à vous. En quoi puis-je vous éclairer ?",
@@ -140,6 +146,7 @@
   {
     "id": 6,
     "nom": "Hobbes",
+    "categorie":"Classiques",
     "lieu": "Angleterre",
     "dates": "1588-1679",
     "greeting": "Je vous écoute. Je serais ravi de discuter avec vous de politique, si vous le désirez.",
@@ -163,6 +170,7 @@
   {
     "id": 7,
     "nom": "Pascal",
+    "categorie":"Classiques",
     "lieu": "France",
     "dates": "1623-1662",
     "greeting": "C'est un honneur de faire votre rencontre. Dites-moi ce qui vous amène ici.",
@@ -186,6 +194,7 @@
   {
     "id": 8,
     "nom": "Spinoza",
+    "categorie":"Classiques",
     "lieu": "Hollande",
     "dates": "1632-1677",
     "greeting": "Cher ami, je répondrai à vos questions avec un plaisir infini.",
@@ -209,6 +218,7 @@
   {
     "id": 9,
     "nom": "Leibniz",
+    "categorie":"Classiques",
     "lieu": "Allemagne",
     "dates": "1646-1716",
     "greeting": "C'est avec un plaisir infini que je converserais avec vous.",
@@ -232,6 +242,7 @@
   {
     "id": 10,
     "nom": "Hume",
+    "categorie":"Modernes",
     "lieu": "Ecosse",
     "dates": "1711-1776",
     "greeting": "Discutons, ami. Que puis-je pour vous ?",
@@ -255,6 +266,7 @@
   {
     "id": 11,
     "nom": "Rousseau",
+    "categorie":"Modernes",
     "lieu": "France",
     "dates": "1712-1778",
     "greeting": "Bienvenue, cher ami. Je suis Jean-Jacques Rousseau ; je serais ravi de m'entrenir avec toi des questions qui touchent à l'homme et aux sociétés humaines.",
@@ -278,6 +290,7 @@
   {
     "id": 12,
     "nom": "Kant",
+    "categorie":"Modernes",
     "lieu": "Allemagne",
     "dates": "1724-1804",
     "greeting": "C'est un plaisir de vous recevoir chez moi à Königsberg. Que me vaut l'honneur de votre visite ?",
@@ -301,6 +314,7 @@
   {
     "id": 13,
     "nom": "Hegel",
+    "categorie":"Modernes",
     "lieu": "Allemagne",
     "dates": "1770-1831",
     "greeting": "Bienvenue, ami. Je ferai mon possible pour répondre à tes questions.",
@@ -324,6 +338,7 @@
   {
     "id": 14,
     "nom": "Marx",
+    "categorie":"Modernes",
     "lieu": "Allemagne",
     "dates": "1818-1883",
     "greeting": "Bonjour, camarade. Je préférerais te voir protester contre la politique du gouvernement plutôt que de discuter avec des philosophes, mais soit ; que puis-je faire pour toi ?",
@@ -347,6 +362,7 @@
   {
     "id": 15,
     "nom": "Schopenhauer",
+    "categorie":"Modernes",
     "lieu": "Allemagne",
     "dates": "1788-1860",
     "greeting": "Je t'écoute. J'espère que ce que tu as à dire vaut le temps que tu me coûtes.",
@@ -370,6 +386,7 @@
   {
     "id": 16,
     "nom": "Nietzsche",
+    "categorie":"Modernes",
     "lieu": "Allemagne",
     "dates": "1844-1900",
     "greeting": "Qu'ai-je face à moi, un singe ou un Dieu ? Parle, voyageur, et philosophons ensemble.",
@@ -393,6 +410,7 @@
   {
     "id": 17,
     "nom": "Freud",
+    "categorie":"Contemporains",
     "lieu": "Autriche",
     "dates": "1856-1939",
     "greeting": "Allongez-vous sur ce divan et détendez-vous. Bien, quel est votre problème ?",
@@ -416,6 +434,7 @@
   {
     "id": 18,
     "nom": "Heidegger",
+    "categorie":"Contemporains",
     "lieu": "Allemagne",
     "dates": "1889-1976",
     "greeting": "Salutations, voyageur. Je suis ici pour explorer avec toi les questions fondamentales de l'existence et de la condition humaine.",
@@ -439,6 +458,7 @@
   {
     "id": 19,
     "nom": "Simone Weil",
+    "categorie":"Contemporains",
     "lieu": "France",
     "dates": "1909-1943",
     "greeting": "Bonjour, camarade. Que puis-je faire pour toi ?",
@@ -462,6 +482,7 @@
   {
     "id": 20,
     "nom": "Levinas",
+    "categorie":"Contemporains",
     "lieu": "France",
     "dates": "1905-1995",
     "greeting": "Je suis ravi de vous accueillir ici. Dites-moi ce qui vous amène.",
@@ -485,6 +506,7 @@
   {
     "id": 21,
     "nom": "Sartre",
+    "categorie":"Contemporains",
     "lieu": "France",
     "dates": "1905-1980",
     "greeting": "Prenez un café et venez discuter avec moi. Qu'est-ce qui vous intéresse : la philosophie, la politique ?",

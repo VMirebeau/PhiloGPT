@@ -8,6 +8,8 @@ import { useCallback, useState } from 'react'
 import { Input, Textarea } from '../Input'
 import { uuid } from '~utils'
 import { BeatLoader } from 'react-spinners'
+import { ChatData } from '~app/consts'
+
 
 const ActionButton = (props: { text: string; onClick: () => void }) => {
   return (
@@ -159,32 +161,73 @@ function CommunityPrompts(props: { insertPrompt: (text: string) => void }) {
   )
 }
 
-const PromptLibrary = (props: { insertPrompt: (text: string) => void }) => {
+const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJSON: ChatData[]; id: number }) => {
   const insertPrompt = useCallback(
     (text: string) => {
       props.insertPrompt(text)
     },
     [props],
   )
+
+  // const objetsAntiquite = objets.filter(objet => objet.epoque === "Antiquité");
+  const data = props.chatDataJSON
+
+  let categories = [] as string[]
+  for (let obj of data) {
+    let cat = obj.categorie;
+    if (!categories.includes(cat)) {
+      categories.push(cat);
+    }
+  }
+
+  let philosophes: ChatData[][] = []
+    for (let i = 0; i < categories.length; i++) {
+      philosophes[i] = []
+    for (let j = 0; j < data.length; j++) {
+      if (data[j].categorie == categories[i]) {
+        philosophes[i].push(data[j])
+      }
+    }
+  }
+  
+
+  const epoques = [
+    ["Antiquité", "-500 à 476"],
+    ["Classiques", "XVIe-XVIIe"],
+    ["Modernes", "XVIIIe-XIXe"],
+    ["Contemporains", "XXe-XXIe"]
+  ]
+
+  function description(epoque: string) {
+    let text = " "
+    for (let i = 0; i < epoques.length; i++) {
+      if (epoque == epoques[i][0]) text = epoques[i][1]
+    }
+    return text
+  }
+
+  function image(id:number) 
+  {
+    return ("assets\\avatars\\" + id + ".png")
+  }
+
   return (
-    <Tabs defaultValue="local" className="w-full">
+    <Tabs defaultValue={data[props.id].categorie} className="w-full">
       <TabsList>
-        <TabsTrigger value="Antiquité"><span className="font-semibold">Antiquité<br /><span className="font-normal">-500 à 476</span></span></TabsTrigger>
-        <TabsTrigger value="Epoque classique"><span className="font-semibold">Classiques<br /><span className="font-normal">XVIe-XVIIe</span></span></TabsTrigger>
-        <TabsTrigger value="Epoque moderne"><span className="font-semibold">Modernes<br /><span className="font-normal">XVIIIe-XIXe</span></span></TabsTrigger>
-        <TabsTrigger value="Epoque contemporaine"><span className="font-semibold">Contemporains<br /><span className="font-normal">XXe-XXIe</span></span></TabsTrigger>
-        <TabsTrigger value="Autres"><span className="font-semibold">Autres<br /><span className="font-normal">?</span></span></TabsTrigger>
+        {categories.map(cat => (
+          <TabsTrigger value={cat}><span className="font-semibold">{cat}<br /><span className="font-normal">{description(cat)}</span></span></TabsTrigger>
+        ))}
+
       </TabsList>
-      <TabsContent value="local">
-        <Suspense fallback={<BeatLoader size={10} className="mt-5" />}>
-          <LocalPrompts insertPrompt={insertPrompt} />
-        </Suspense>
-      </TabsContent>
-      <TabsContent value="community">
-        <Suspense fallback={<BeatLoader size={10} className="mt-5" />}>
-          <CommunityPrompts insertPrompt={insertPrompt} />
-        </Suspense>
-      </TabsContent>
+      {categories.map((cat, index) => (
+        <TabsContent value={cat}>
+          
+          {philosophes[index].map(philo => (
+            <div><img src={image(philo.id)}></img><br />{philo.nom}</div>
+          ))}
+        </TabsContent>
+      ))}
+
     </Tabs>
   )
 }

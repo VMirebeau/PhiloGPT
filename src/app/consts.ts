@@ -6,6 +6,7 @@ import { BotId } from './bots'
 export interface ChatData {
   id: number;
   nom: string;
+  categorie:string;
   lieu: string;
   dates: string;
   greeting: string;

@@ -123,6 +123,7 @@ const ConversationPanel: FC<Props> = (props) => {
               onClose={() => setIsPromptLibraryDialogOpen(false)}
               insertPrompt={insertTextAtCursor}
               chatDataJSON={props.chatDataJSON}
+              id={props.id}
             />
           )}
           </>
