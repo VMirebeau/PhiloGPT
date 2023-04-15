@@ -18,7 +18,7 @@
       },
       {
         "title": "Quelle est ma devise",
-        "prompt": "Dis-moi quelle est ta devise, en expliquant ce qu'elle signifie."
+        "prompt": "Tu reprends souvent à ton compte la maxime du temple de Delphes : \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\". Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
     ]
   },
@@ -56,7 +56,7 @@
     "suggestions": [
       {
         "title": "Ce qui définit l'homme",
-        "prompt": "Peux-tu m'expliquer la façon dont tu distingues l'homme et l'animal ?"
+        "prompt": "Dans ton ouvrage \"La Politique\", tu dis la chose suivante : \"que l'homme soit un animal politique à un plus haut degré qu'une abeille quelconque ou tout autre animal vivant à l'état grégaire, cela est évident. La nature, en effet, selon nous, ne fait rien en vain ; et l'homme seul de tous les animaux, possède la parole. Or, tandis que la voix ne sert qu'à indiquer la joie et la peine, et appartient aux animaux également (car leur nature va jusqu'à éprouver les sensations de plaisir et de douleur, et à se les signifier les uns aux autres), le discours sert à exprimer l'utile et le nuisible, et, par suite aussi, le juste et l'injuste ; car c'est le caractère propre à l'homme par rapport aux autres animaux, d'être le seul à avoir le sentiment du bien et du mal, du juste et de l'injuste, et des autres notions morales, et c'est la communauté de ces sentiments qui engendre famille et cité.\" Peux-tu me réexpliquer tout cela de façon claire, en prenant ton temps, et en explicitant la distinction que tu établis entre l'homme et l'animal ?"
       },
       {
         "title": "Le meilleur système politique",
@@ -129,7 +129,7 @@
       },
       {
         "title": "Ce qu'est la générosité",
-        "prompt": "Peux-tu m'expliquer comment tu conçois le concept de générosité, et comment cette notion s'intègre à ta philosophie ?"
+        "prompt": "Dans Les Passions de l'âme, tu définis ainsi la générosité : \"La vraie générosité, qui fait qu’un homme s’estime au plus haut point qu’il se peut légitimement estimer, consiste seulement partie en ce qu’il connaît qu’il n’y a rien qui véritablement lui appartienne que cette libre disposition de ses volontés, ni pourquoi il doive être loué ou blâmé sinon pour ce qu’il en use bien ou mal, et partie en ce qu’il sent en soi-même une ferme et constante résolution d’en bien user, c’est-à-dire de ne manquer jamais de volonté pour entreprendre et exécuter toutes les choses qu’il jugera être les meilleures. Ce qui est suivre parfaitement la vertu.\" Peux-tu m'expliquer cette définition de façon claire ?"
       },
       {
         "title": "De prouver l'existence de Dieu",

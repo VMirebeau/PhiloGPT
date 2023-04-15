@@ -1,5 +1,5 @@
 import cx from 'classnames'
-import { FC, useCallback, useMemo, useState, useLayoutEffect } from 'react'
+import { FC, useCallback, useMemo, useState, useRef, useLayoutEffect } from 'react'
 import clearIcon from '~/assets/icons/clear.svg'
 import historyIcon from '~/assets/icons/history.svg'
 import shareIcon from '~/assets/icons/share.svg'
@@ -14,6 +14,10 @@ import SwitchBotDropdown from '../SwitchBotDropdown'
 import ChatMessageInput from './ChatMessageInput'
 import ChatMessageList from './ChatMessageList'
 import chatPrompts from '../../chatPrompts.json'
+import { GoBook } from 'react-icons/go'
+import PromptLibraryDialog from '../PromptLibrary/Dialog'
+
+
 
 
 interface Props {
@@ -38,7 +42,13 @@ function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
 
 const ConversationPanel: FC<Props> = (props) => {
 
+  const [isPromptLibraryDialogOpen, setIsPromptLibraryDialogOpen] = useState(false)
 
+  const inputRef = useRef<HTMLTextAreaElement>(null)
+
+  const openPromptLibrary = useCallback(() => {
+    setIsPromptLibraryDialogOpen(true)
+  }, [])
 
   const botInfo = CHATBOTS[props.botId]
   const mode = props.mode || 'full'
@@ -73,6 +83,18 @@ const ConversationPanel: FC<Props> = (props) => {
     setShowShareDialog(true)
   }, [props.botId])
 
+  const insertTextAtCursor = useCallback(
+    (text: string) => {
+      const cursorPosition = inputRef.current?.selectionStart || 0
+      const textBeforeCursor = props.inputValue.slice(0, cursorPosition)
+      const textAfterCursor = props.inputValue.slice(cursorPosition)
+      props.setValue(`${textBeforeCursor}${text}${textAfterCursor}`)
+      setIsPromptLibraryDialogOpen(false)
+      inputRef.current?.focus()
+    },
+    [props.inputValue],
+  )
+
 
   return (
     <ConversationContext.Provider value={context}>
@@ -93,14 +115,18 @@ const ConversationPanel: FC<Props> = (props) => {
             <span className="font-semibold text-[#707070] text-sm">PhiloGPT</span>
             {mode === 'compact' && <SwitchBotDropdown excludeBotId={props.botId} index={props.index!} />}
           </div>
-          <div className="flex flex-row text-sm items-center gap-3">Dialoguer avec <select className="borderSelect"  onChange={handleChange}>
-  {chatPrompts.map((item) => (
-    <option key={item.id} value={item.id}  selected={item.id === props.id}>
-      {item.nom}
-    </option>
-  ))}
-</select>
-          </div>
+          <>
+          <Button text="Changer de philosophe" color="primary" className="text-sm petitBouton" onClick={openPromptLibrary}  />
+          {isPromptLibraryDialogOpen && (
+            <PromptLibraryDialog
+              isOpen={true}
+              onClose={() => setIsPromptLibraryDialogOpen(false)}
+              insertPrompt={insertTextAtCursor}
+              chatDataJSON={props.chatDataJSON}
+            />
+          )}
+          </>
+          
         </div>
         <ChatMessageList botId={props.botId} messages={props.messages} className={marginClass} id={props.id} chatDataJSON={props.chatDataJSON}  />
         <div className={cx('mt-3 flex flex-col', marginClass, mode === 'full' ? 'mb-5' : 'mb-[10px]')}>

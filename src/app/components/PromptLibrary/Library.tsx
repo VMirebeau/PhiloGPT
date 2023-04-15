@@ -169,8 +169,11 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void }) => {
   return (
     <Tabs defaultValue="local" className="w-full">
       <TabsList>
-        <TabsTrigger value="local">Your Prompts</TabsTrigger>
-        <TabsTrigger value="community">Community Prompts</TabsTrigger>
+        <TabsTrigger value="Antiquité"><span className="font-semibold">Antiquité<br /><span className="font-normal">-500 à 476</span></span></TabsTrigger>
+        <TabsTrigger value="Epoque classique"><span className="font-semibold">Classiques<br /><span className="font-normal">XVIe-XVIIe</span></span></TabsTrigger>
+        <TabsTrigger value="Epoque moderne"><span className="font-semibold">Modernes<br /><span className="font-normal">XVIIIe-XIXe</span></span></TabsTrigger>
+        <TabsTrigger value="Epoque contemporaine"><span className="font-semibold">Contemporains<br /><span className="font-normal">XXe-XXIe</span></span></TabsTrigger>
+        <TabsTrigger value="Autres"><span className="font-semibold">Autres<br /><span className="font-normal">?</span></span></TabsTrigger>
       </TabsList>
       <TabsContent value="local">
         <Suspense fallback={<BeatLoader size={10} className="mt-5" />}>
