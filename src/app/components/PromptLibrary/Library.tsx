@@ -27,6 +27,7 @@ const PromptItem = (props: {
   edit?: () => void
   remove?: () => void
   insertPrompt: (text: string) => void
+  onClose: () => void
 }) => {
   return (
     <div className="group relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
@@ -80,87 +81,7 @@ function PromptForm(props: { initialData: Prompt; onSubmit: (data: Prompt) => vo
   )
 }
 
-function LocalPrompts(props: { insertPrompt: (text: string) => void }) {
-  const [formData, setFormData] = useState<Prompt | null>(null)
-  const localPromptsQuery = useSWR('local-prompts', () => loadLocalPrompts(), { suspense: true })
-
-  const savePrompt = useCallback(
-    async (prompt: Prompt) => {
-      const existed = await saveLocalPrompt(prompt)
-      localPromptsQuery.mutate()
-      setFormData(null)
-    },
-    [localPromptsQuery],
-  )
-
-  const removePrompt = useCallback(
-    async (id: string) => {
-      await removeLocalPrompt(id)
-      localPromptsQuery.mutate()
-    },
-    [localPromptsQuery],
-  )
-
-  const create = useCallback(() => {
-    setFormData({ id: uuid(), title: '', prompt: '' })
-  }, [])
-
-  return (
-    <>
-      {localPromptsQuery.data.length ? (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 pt-2">
-          {localPromptsQuery.data.map((prompt) => (
-            <PromptItem
-              key={prompt.id}
-              title={prompt.title}
-              prompt={prompt.prompt}
-              edit={() => setFormData(prompt)}
-              remove={() => removePrompt(prompt.id)}
-              insertPrompt={props.insertPrompt}
-            />
-          ))}
-        </div>
-      ) : (
-        <div className="relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-3 text-center text-sm mt-5">
-          You have no prompts.
-        </div>
-      )}
-      <div className="mt-5">
-        {formData ? (
-          <PromptForm initialData={formData} onSubmit={savePrompt} />
-        ) : (
-          <Button text="Create new prompt" size="small" onClick={create} />
-        )}
-      </div>
-    </>
-  )
-}
-
-function CommunityPrompts(props: { insertPrompt: (text: string) => void }) {
-  const promptsQuery = useSWR('community-prompts', () => loadRemotePrompts(), { suspense: true })
-  return (
-    <>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 pt-2">
-        {promptsQuery.data.map((prompt, index) => (
-          <PromptItem key={index} title={prompt.title} prompt={prompt.prompt} insertPrompt={props.insertPrompt} />
-        ))}
-      </div>
-      <span className="text-sm mt-5 block">
-        Contribute on{' '}
-        <a
-          href="https://github.com/chathub-dev/community-prompts"
-          target="_blank"
-          rel="noreferrer"
-          className="underline"
-        >
-          GitHub
-        </a>
-      </span>
-    </>
-  )
-}
-
-const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJSON: ChatData[]; id: number }) => {
+const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJSON: ChatData[]; id: number; onClose:() => void }) => {
   const insertPrompt = useCallback(
     (text: string) => {
       props.insertPrompt(text)
@@ -220,6 +141,22 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJS
     }
   }
 
+  function getInactif(currentId:number,id:number) {
+    /*let classN = "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400"
+    if (currentId == props.id) classN = "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm inactif"
+    return classN*/
+  }
+
+  /*const handleClick: MouseEventHandler<HTMLDivElement> = (event) => {
+    window.location.href = `app.html#/id/${id}`;
+  }*/
+
+  function handleClick(id: number) {
+    props.onClose()
+    window.location.href = `app.html#/id/${id}`;
+  }
+
+
   return (
     <Tabs defaultValue={data[props.id].categorie} className="w-full">
       <TabsList className="allWidth">
@@ -238,7 +175,8 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJS
           {philosophes[index].map((philo, index2) => (
             <>
               {getBR(philosophes[index].length, index2) ? <br /> : null}
-              <div className="containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+              <div className={(philo.id == props.id) ? "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm inactif" : "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400"}
+              onClick={(philo.id == props.id) ? (() => {}) : (() => handleClick(philo.id))}>
                 <img src={image(philo.id)} className="boxImg"></img>
                 <p className="boxP">{philo.nom}</p>
               </div>
