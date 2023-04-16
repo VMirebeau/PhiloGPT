@@ -10,7 +10,6 @@ import { uuid } from '~utils'
 import { BeatLoader } from 'react-spinners'
 import { ChatData } from '~app/consts'
 
-
 const ActionButton = (props: { text: string; onClick: () => void }) => {
   return (
     <a
@@ -174,60 +173,80 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJS
 
   let categories = [] as string[]
   for (let obj of data) {
-    let cat = obj.categorie;
+    let cat = obj.categorie
     if (!categories.includes(cat)) {
-      categories.push(cat);
+      categories.push(cat)
     }
   }
 
   let philosophes: ChatData[][] = []
-    for (let i = 0; i < categories.length; i++) {
-      philosophes[i] = []
+  for (let i = 0; i < categories.length; i++) {
+    philosophes[i] = []
     for (let j = 0; j < data.length; j++) {
       if (data[j].categorie == categories[i]) {
         philosophes[i].push(data[j])
       }
     }
   }
-  
 
   const epoques = [
-    ["Antiquité", "-500 à 476"],
-    ["Classiques", "XVIe-XVIIe"],
-    ["Modernes", "XVIIIe-XIXe"],
-    ["Contemporains", "XXe-XXIe"]
+    // on associe les descriptions à chaque époque
+    ['Antiquité', '-500 à 476'],
+    ['Classiques', 'XVIe-XVIIe'],
+    ['Modernes', 'XVIIIe-XIXe'],
+    ['Contemporains', 'XXe-XXIe'],
   ]
 
   function description(epoque: string) {
-    let text = " "
+    let text = ' '
     for (let i = 0; i < epoques.length; i++) {
       if (epoque == epoques[i][0]) text = epoques[i][1]
     }
     return text
   }
 
-  function image(id:number) 
-  {
-    return ("assets\\avatars\\" + id + ".png")
+  function image(id: number) {
+    return 'assets\\avatars\\' + id + '.png'
+  }
+
+  function getBR(TOTAL: number, I: number) {
+    //savoir où on doit passer à la ligne
+    if (TOTAL < 5) {
+      return false
+    } else if (TOTAL >= 5) {
+      if (I === Math.ceil(TOTAL / 2)) {
+        return true
+      }
+    }
   }
 
   return (
     <Tabs defaultValue={data[props.id].categorie} className="w-full">
-      <TabsList>
-        {categories.map(cat => (
-          <TabsTrigger value={cat}><span className="font-semibold">{cat}<br /><span className="font-normal">{description(cat)}</span></span></TabsTrigger>
+      <TabsList className="allWidth">
+        {categories.map((cat) => (
+          <TabsTrigger value={cat}>
+            <span className="font-semibold">
+              {cat}
+              <br />
+              <span className="font-normal">{description(cat)}</span>
+            </span>
+          </TabsTrigger>
         ))}
-
       </TabsList>
       {categories.map((cat, index) => (
         <TabsContent value={cat}>
-          
-          {philosophes[index].map(philo => (
-            <div><img src={image(philo.id)}></img><br />{philo.nom}</div>
+          {philosophes[index].map((philo, index2) => (
+            <>
+              {getBR(philosophes[index].length, index2) ? <br /> : null}
+              <div className="containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+                <img src={image(philo.id)} className="boxImg"></img>
+                <p className="boxP">{philo.nom}</p>
+              </div>
+              
+            </>
           ))}
         </TabsContent>
       ))}
-
     </Tabs>
   )
 }

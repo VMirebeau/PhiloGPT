@@ -13,8 +13,8 @@ interface Props {
 
 const PromptLibraryDialog = (props: Props) => {
   return (
-    <Dialog title="Changer de philosophe" open={props.isOpen} onClose={props.onClose} className="min-h-[400px]">
-      <div className="p-5 overflow-auto">
+    <Dialog title="Changer de philosophe" open={props.isOpen} onClose={props.onClose} className="min-h-[400px] nomPhilosophe">
+      <div className="p-5 overflow-auto boiteDialog">
         <PromptLibrary chatDataJSON={props.chatDataJSON} id={props.id} insertPrompt={props.insertPrompt} />
       </div>
     </Dialog>

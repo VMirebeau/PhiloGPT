@@ -82,8 +82,7 @@ body {
   border-radius:20px;
   width:100%;
   line-height:2rem;
-  margin-top:2rem;
-  margin-bottom:2rem;
+  
   background-color: #10a37f;
 }
 
@@ -114,4 +113,38 @@ body {
 
 .blackText {
   color:#303030;
+}
+
+.containerPhilosophes {
+  text-align: center;
+  display: inline-block;
+  padding:0.5rem;
+  cursor:pointer;
+  margin:0.875rem;
+}
+
+.boxImg {
+  vertical-align: middle;
+}
+
+.boxP {
+  text-align: center;
+  font-size:.875rem;
+}
+
+.allWidth {
+  width:100%;
+}
+
+.titreDialog {
+  padding-top:1rem;
+}
+
+.boiteDialog {
+  padding-top:0rem;
+}
+
+.grandeBoiteDialog {
+  width:650px;
+  height:500px;
 }
