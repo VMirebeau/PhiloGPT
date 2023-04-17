@@ -12,10 +12,27 @@ export interface ChatData {
   greeting: string;
   reminder: string;
   prompt: string;
+  concepts: string[];
   suggestions: { title: string; prompt: string }[];
 }
 //setupLoaded.phase = true;
 
+export interface Concepts {
+  concept: string;
+  mots: string[];
+}
+
+export interface Textes {
+  auteur: number;
+  textes: {
+    concept: string;
+    extraits: {
+      auteur:string;
+      origine:string;
+      contenu:string;
+    }[]
+  }[]
+}
 
 
 

@@ -21,7 +21,8 @@
         "title": "Quelle est ma devise",
         "prompt": "Tu reprends souvent à ton compte la maxime du temple de Delphes : \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\". Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
-    ]
+    ],
+    "concepts" : ["la raison", "la vérité"]
   },
   {
     "id": 1,
@@ -45,7 +46,8 @@
         "title": "Qui doit gouverner",
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe ? Penses-tu que cette théorie soit applicable ?"
       }
-    ]
+    ],
+    "concepts": ["la raison", "la vérité", "l'art"]
   },
   {
     "id": 2,
@@ -69,7 +71,8 @@
         "title": "Ce qu'est une démonstration",
         "prompt": "Que signifie \"démontrer\" quelque chose ? Peux-tu me donner un exemple précis et l'analyser ?"
       }
-    ]
+    ],
+    "concepts": ["le bonheur", "l'État", "la justice"]
   },
   {
     "id": 3,
@@ -93,7 +96,8 @@
         "title": "S'il faut craindre la mort",
         "prompt": "D'après toi, la mort doit-elle être crainte ? Explique-moi ton raisonnement."
       }
-    ]
+    ],
+    "concepts": ["le bonheur", "la religion"]
   },
   {
     "id": 4,
@@ -117,7 +121,8 @@
         "title": "Ce qu'est le logos",
         "prompt": "Comment peux-tu expliquer la notion de \"logos\" et son rôle dans le stoïcisme ?"
       }
-    ]
+    ],
+    "concepts": ["le bonheur", "la liberté"]
   },
   {
     "id": 5,
@@ -141,7 +146,8 @@
         "title": "De prouver l'existence de Dieu",
         "prompt": "Explique-moi comment tu prouves l'existence de Dieu dans tes Méditations Métaphysiques."
       }
-    ]
+    ],
+    "concepts": ["la vérité", "la science", "la technique", "la nature", "la raison"]
   },
   {
     "id": 6,
@@ -165,7 +171,8 @@
         "title": "Ce qu'est la liberté",
         "prompt": "Quelle conception te fais-tu de la liberté ? L'obéissance à l'Etat nous enlève-t-elle toute liberté ?"
       }
-    ]
+    ],
+    "concepts": ["l'État", "la justice", "la liberté"]
   },
   {
     "id": 7,
@@ -189,7 +196,8 @@
         "title": "S'il faut croire en Dieu",
         "prompt": "Peux-tu m'expliquer pourquoi tu considères qu'il faut \"parier\" sur l'existence de Dieu ?"
       }
-    ]
+    ],
+    "concepts": ["le temps", "le bonheur", "la religion"]
   },
   {
     "id": 8,
@@ -213,7 +221,8 @@
         "title": "Comment trouver le bonheur",
         "prompt": "Explique-moi ton concept de béatitude, et décris-moi précisément les étapes nécessaires pour y parvenir."
       }
-    ]
+    ],
+    "concepts": ["le bonheur", "la liberté"]
   },
   {
     "id": 9,
@@ -237,7 +246,8 @@
         "title": "Quelle est la volonté de Dieu",
         "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
       }
-    ]
+    ],
+    "concepts": ["l'inconscient", "la religion"]
   },
   {
     "id": 10,
@@ -261,7 +271,8 @@
         "title": "Sur quoi repose la morale",
         "prompt": "D'après toi, peut-on justifier rationnellement les principes sur lesquels la morale repose ?"
       }
-    ]
+    ],
+    "concepts": ["la raison", "la science"]
   },
   {
     "id": 11,
@@ -285,7 +296,8 @@
         "title": "Ce qu'est le contrat social",
         "prompt": "Peux-tu m'expliquer ce en quoi consiste le \"contrat social\", et le rôle que joue ce concept dans ta philosophie politique ?"
       }
-    ]
+    ],
+    "concepts": ["le devoir", "la science", "la technique"]
   },
   {
     "id": 12,
@@ -309,7 +321,8 @@
         "title": "Ce qu'est le beau",
         "prompt": "D'après toi, qu'est-ce que le Beau ? Synthétise-moi les analyses principales de ta Critique de la faculté de Juger."
       }
-    ]
+    ],
+    "concepts": ["l'art", "le devoir", "la science"]
   },
   {
     "id": 13,
@@ -333,7 +346,8 @@
         "title": "Le rôle de la raison dans l'histoire",
         "prompt": "Peux-tu m'expliquer quel rôle la raison joue dans l'histoire ?"
       }
-    ]
+    ],
+    "concepts": ["le langage", "la liberté", "le travail"]
   },
   {
     "id": 14,
@@ -357,7 +371,8 @@
         "title": "Ce qu'est l'aliénation",
         "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
       }
-    ]
+    ],
+    "concepts": ["le travail", "la technique", "l'État"]
   },
   {
     "id": 15,
@@ -381,7 +396,8 @@
         "title": "Ce que je pense de la musique",
         "prompt": "Peux-tu m'expliquer pourquoi tu considères la musique comme le plus grand des arts ?"
       }
-    ]
+    ],
+    "concepts": ["l'inconscient", "l'art", "le bonheur"]
   },
   {
     "id": 16,
@@ -405,7 +421,8 @@
         "title": "Comment je juge la démocratie",
         "prompt": "Tu n'es pas un grand démocrate. Peux-tu expliquer comment tu juges et interprètes l'idée de démocratie ?"
       }
-    ]
+    ],
+    "concepts": ["l'art", "le devoir", "le travail", "la religion"]
   },
   {
     "id": 17,
@@ -429,7 +446,8 @@
         "title": "Comment notre esprit nous protège",
         "prompt": "Peux-tu m'expliquer la notion de \"mécanismes de défense\", et leur rôle dans la psychologie humaine ?"
       }
-    ]
+    ],
+    "concepts": ["l'inconscient", "l'art", "le langage", "la religion"]
   },
   {
     "id": 18,
@@ -453,7 +471,8 @@
         "title": "Ce qu'est la vérité",
         "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
       }
-    ]
+    ],
+    "concepts": ["le temps", "l'art", "la vérité", "la technique", "la science"]
   },
   {
     "id": 19,
@@ -477,7 +496,8 @@
         "title": "Ce que valent les partis",
         "prompt": "Explique-moi la façon dont tu juges les partis politiques. Profites-en pour clarifier tes orientations anarcho-syndicalistes."
       }
-    ]
+    ],
+    "concepts": ["le travail", "l'État"]
   },
   {
     "id": 20,
@@ -501,7 +521,8 @@
         "title": "Mon rapport à la phénoménologie",
         "prompt": "Les pensées de Husserl et Heidegger t'ont fortement influencé. Comment interprètes-tu ces deux penseurs, et pour quelles raisons philosophiques as-tu décidé de t'en écarter ?"
       }
-    ]
+    ],
+    "concepts": ["le devoir"]
   },
   {
     "id": 21,
@@ -525,7 +546,8 @@
         "title": "Ce qu'est le néant",
         "prompt": "Qu'entends-tu par le \"néant\", est quel rôle ce concept tient-il dans ta pensée ?"
       }
-    ]
+    ],
+    "concepts": ["la conscience", "la liberté"]
   },
   {
     "id": 22,
@@ -549,7 +571,8 @@
         "title": "Dieu après Auschwitz",
         "prompt": "D'après toi, peut-on encore croire en Dieu après Auschwitz ? Explique-moi en quoi cette croyance devient problématique, et comment tu réponds à la question."
       }
-    ]
+    ],
+    "concepts": ["la technique", "la nature"]
   },
   {
     "id": 23,
@@ -573,7 +596,8 @@
         "title": "Death Note et justice",
         "prompt": "Peux-tu analyser philosophiquement la notion de justice en prenant appui sur l'anime Death Note ?"
       }
-    ]
+    ],
+    "concepts": []
   },
   {
     "id": 24,
@@ -597,6 +621,7 @@
         "title": "La science",
         "prompt": "Que voudrais-tu savoir, à propos de la science ?"
       }
-    ]
+    ],
+    "concepts": []
   }
 ]

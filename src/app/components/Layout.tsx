@@ -4,7 +4,9 @@ import Sidebar from './Sidebar'
 import { BotId } from '../bots'
 import SingleBotChatPanel from '../pages/SingleBotChatPanel'
 import chatDataJSON from '../chatPrompts.json'
-import { ChatData } from '../consts'
+import conceptsJSON from '../prompts/concepts.json'
+import textesJSON from '../prompts/textes.json'
+import { ChatData, Concepts, Textes } from '../consts'
 import { useChat } from '~app/hooks/use-chat'
 
 
@@ -13,7 +15,7 @@ interface Props {
 }
 
 const Layout:FC<Props> = ({ id }) => {
-  const chat = useChat("chatgpt" as BotId, id, chatDataJSON[id])
+  const chat = useChat("chatgpt" as BotId, id, chatDataJSON[id], conceptsJSON, textesJSON)
   const [value, setValue] = useState('')
   const chatData = chatDataJSON[id] as ChatData
 

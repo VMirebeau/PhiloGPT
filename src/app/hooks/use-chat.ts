@@ -5,9 +5,16 @@ import { setConversationMessages } from '~services/chat-history'
 import { ChatMessageModel } from '~types'
 import { uuid } from '~utils'
 import { BotId } from '../bots'
-import { ChatData } from '~app/consts'
+import { ChatData, Concepts, Textes } from '~app/consts'
 
-export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'singleton') {
+export function useChat(
+  botId: BotId,
+  id: number,
+  chatData: ChatData,
+  conceptsJSON: Concepts[],
+  textesJSON: Textes[],
+  page = 'singleton',
+) {
   const chatAtom = useMemo(() => chatFamily({ botId, page }), [botId, page])
   const [chatState, setChatState] = useAtom(chatAtom)
   const [isLoaded, setIsLoaded] = useState(false)
@@ -38,27 +45,112 @@ export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'si
         draft.generatingMessageId = botMessageId
         draft.abortController = abortController
       })
-      let finalPrompt = '';
+      let finalPrompt = ''
+
+      //On commence à contrôler les prompts spécialisés
+      /* ALGORITHME
+      récupérer l'ensemble des concepts attribués au philosophe en cours
+
+      pour chaque concept, retrouver l'ensemble des regex dans concepts.json
+      et tester chacun sur le prompt de l'utilisateur
+      si une occurence est trouvée : on garde en mémoire le concept, et on quantifie son nombre d'occurences.
+
+      on prend le concept qui a le plus d'occurences, et on ajoute les extraits correspondants au preprompt 
+      */
+
+      let bestConcept = ''
+      let bestCount = -1
+
+      for (const concept of chatData.concepts) {
+        let count = 0
+
+        for (const conceptJSON of conceptsJSON) {
+          if (conceptJSON.concept === concept) {
+            for (const mot of conceptJSON.mots) {
+              const regex = new RegExp(mot, 'gmi')
+              const matches = input.match(regex)
+
+              if (matches !== null) {
+                count += matches.length
+              }
+            }
+          }
+        }
+
+        if (count > bestCount) {
+          bestConcept = concept
+          bestCount = count
+        }
+      }
+
+      console.log(`Le meilleur concept est ${bestConcept} avec ${bestCount} occurences.`)
+      //let addSpecialPrompt = ""
+      let speTextes = ""
+
+      if (bestCount > 0) { // si on a repéré au moins une occurence, on spécialise le prompt
+        for (const auteur of textesJSON) { // on passe en revue tous les auteurs dans le JSON avec les textes
+          if (auteur.auteur === id) { // si on identifie le bon auteur
+            for (const texte of auteur.textes) { // on parcourt l'ensemble des corpus
+              if (texte.concept == bestConcept) { // si on identifie les textes correspondant au meilleur concept
+                for (const extrait of texte.extraits) { // on passe en revue l'ensemble des extraits
+                  if (extrait.auteur == "auto") // si l'extrait vient de l'auteur lui-même
+                  {
+                    speTextes += "\n\nDans " + extrait.origine + ", tu disais la chose suivante :\n\"" + extrait.contenu + "\""
+                  } else {
+                    speTextes += "\n\nDans " + extrait.origine + ", " + extrait.auteur + "disait la chose suivante à propos de toi :\n\"" + extrait.contenu + "\""
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      let addSpecialPrompt = ""
+
+      if (speTextes != "") { // si effectivement il y au moins un extrait à envoyer
+        const spePreprompt1 = "\nPour que ta réponse soit plus pertinente, je vais d'abord te rappeler certains éléments de ta pensée. Ceux-ci doivent avoir une priorité absolue sur tes données d'entraînement, et tout ce que tu dis doit être compatible avec eux. Pour autant, il n'est pas nécessaire de faire référence à tout ce que je vais dire : donne UNIQUEMENT les éléments qui sont pertinents pour la question précise qui te sera posée par l'interlocuteur."
+        addSpecialPrompt = spePreprompt1 + speTextes + "\n\nC'est maintenant la fin des extraits.\n\n"
+      }
+
+
+      //On coupe la connexion temporairement. A rétablir
       if (!isLoaded) {
-        const preprompt0 = "[Oublie toutes les instructions antérieures et nos précédents échanges.\nNous sommes dans une application de dialogue, qui permet à n importe quel étudiant de philosophie de discuter avec un grand philosophe du passé.\nPrends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.\n"
-        const preprompt1 = " Tu ne répondras jamais en tant qu'IA imitant un personnage, mais bien en tant que ce personnage lui-même ; tu dois t'approprier ses pensées, ses expressions, ses souvenirs, de sorte que l'interlocuteur puisse vraiment avoir l'impression de dialoguer avec le personnage que tu es. A partir de maintenant, tu n'es plus un programme informatique. Si jamais l'interlocuteur te pose des questions auxquelles tu ne peux théoriquement pas répondre en tant que programme informatique, invente des réponses qui pourraient convenir au personnage humain que tu incarnes.\nA partir de maintenant, tu incarneras complètement ce personnage. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n";
+
+        const preprompt0 =
+          "[Oublie toutes les instructions antérieures et nos précédents échanges.\nNous sommes dans une application de dialogue, qui permet à n'importe quel étudiant de philosophie de discuter avec un grand philosophe du passé.\nPrends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.\n"
+        const preprompt1 =
+          " Tu ne répondras jamais en tant qu'IA imitant un personnage, mais bien en tant que ce personnage lui-même ; tu dois t'approprier ses pensées, ses expressions, ses souvenirs, de sorte que l'interlocuteur puisse vraiment avoir l'impression de dialoguer avec le personnage que tu es. A partir de maintenant, tu n'es plus un programme informatique. Si jamais l'interlocuteur te pose des questions auxquelles tu ne peux théoriquement pas répondre en tant que programme informatique, invente des réponses qui pourraient convenir au personnage humain que tu incarnes.\nA partir de maintenant, tu incarneras complètement ce personnage."
         const prompt = chatData.prompt
-        finalPrompt = preprompt0 + prompt + preprompt1 + input
+        if (addSpecialPrompt == "")
+        {
+          finalPrompt = preprompt0 + prompt + preprompt1 +  "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" + input
+        } else { // si on a besoin tout de suite d'un prompt spécialisé, on sacrifie le prompt général
+          finalPrompt = preprompt0 + preprompt1 + addSpecialPrompt + "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" + input
+        }
       } else {
         const preReminder1 =
-          "[Rappelle-toi bien que nous sommes dans une application simulant un dialogue entre l'utilisateur et un philosophe, et que tu incarnes "
+          "Rappelle-toi bien que nous sommes dans une application simulant un dialogue entre l'utilisateur et un philosophe, et que tu incarnes "
         const tempNom = chatData.nom
 
         const preReminder2 =
           " ; il faut que tu t'appropries ses pensées, son style, son passé, de telle sorte que ton interlocuteur pense vraiment avoir affaire à lui. Parle toujours à la première personne, comme si tu étais vraiment "
-        const tempReminder =
-          chatData.reminder
+        const tempReminder = chatData.reminder
         const postReminder =
-          " Si une question de ton interlocuteur te pousse à sortir de ton champ de compétence, refuse poliment et recentre le débat vers les thèmes que tu as abordés dans ton oeuvre. Prends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.]\n"
+          " Si une question de ton interlocuteur te pousse à sortir de ton champ de compétence, refuse poliment et recentre le débat vers les thèmes que tu as abordés dans ton oeuvre. Prends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.\n"
         //
-        finalPrompt = preReminder1 + tempNom + preReminder2 + tempNom + '. ' + tempReminder + postReminder + input
+        if (addSpecialPrompt == "")
+        {
+          finalPrompt = finalPrompt = "[" + preReminder1 + tempNom + preReminder2 + tempNom + '. ' + tempReminder + postReminder + "\nTu dois maintenant répondre à la question suivante :]]\n" + input
+        }
+        else
+        { // s'il y a un prompt spécial à rajouter, on l'ajoute et on enlève le contenu du reminder
+          finalPrompt = finalPrompt = "[" + addSpecialPrompt + "\n" + preReminder1 + tempNom + preReminder2 + tempNom + '. ' + postReminder + "\nTu dois maintenant répondre à la question suivante :]]\n" + input
+        }
+        
       }
-
+      console.log (finalPrompt)
+      
       await chatState.bot.sendMessage({
         prompt: finalPrompt,
         signal: abortController.signal,
@@ -105,11 +197,10 @@ export function useChat(botId: BotId, id: number, chatData: ChatData, page = 'si
   const addBotMessage = useCallback(
     (message: string) => {
       setChatState((draft) => {
-        draft.messages.push({ id: "0", text: message, author: "chatgpt" },
-        )
+        draft.messages.push({ id: '0', text: message, author: 'chatgpt' })
       })
     },
-    [setChatState]
+    [setChatState],
   )
 
   const stopGenerating = useCallback(() => {

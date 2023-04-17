@@ -35,7 +35,7 @@ Hobbes : L'Etat, la justice, la liberté
 Pascal : le temps, le bonheur, la religion
 Spinoza : le bonheur, la liberté
 Leibniz : l'inconscient, la religion
-Hume : la nature, la science
+Hume : La raison, la science
 Rousseau : le devoir, la science, la technique
 Kant : l'art, le devoir, la science
 Hegel : le langage, la liberté, le travail
@@ -65,35 +65,12 @@ souverain
 démocrat
 
 
-état
-État
-états
-États
-gouvernement
-gouverner
-gouvernance
-dirigeant
-diriger
-dirigé
-pouvoir
-pouvoirs
-administration
-administrer
-administratif
-administrative
-politique
-politiques
-politicien
-politiciens
-république
-monarchie
-monarque
-souveraineté
-souverain
-souverains
-nationalité
-nationalisme
-démocratie
-démocratique
-bureaucratie
-bureaucratique
+\béquit
+\bdroit
+éga[lu]
+équit(?:é|able)
+\bloi
+\bpuni
+\bprocès
+\bjuge
+\bjust(?:ic|e)

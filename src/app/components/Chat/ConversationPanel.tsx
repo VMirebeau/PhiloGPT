@@ -13,7 +13,6 @@ import HistoryDialog from '../History/Dialog'
 import SwitchBotDropdown from '../SwitchBotDropdown'
 import ChatMessageInput from './ChatMessageInput'
 import ChatMessageList from './ChatMessageList'
-import chatPrompts from '../../chatPrompts.json'
 import { GoBook } from 'react-icons/go'
 import PromptLibraryDialog from '../PromptLibrary/Dialog'
 
