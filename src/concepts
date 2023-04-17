@@ -1,0 +1,33 @@
+[
+    {
+        "id": 0,
+        "concept": "La liberté",
+        "mots": [
+            "\blib(?:[er]|[éeè]r)",
+            "émancip",
+            "indépend",
+            "autonom",
+            "autodétermin",
+            "autarci",
+            "affranchi",
+            "délivr"
+        ]
+    },
+    {
+        "id": 1,
+        "concept": "L'État",
+        "mots": [
+            "\blib(?:[er]|[éeè]r)",
+            "[ée]tat",
+            "gouvern",
+            "dirig",
+            "pouvoir",
+            "politi",
+            "république",
+            "archi(e|que)",
+            "souverain",
+            "\bnation",
+            "démocrat"
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+/[regex]/mig
+
+Je code un programme javascript, et je voudrais pouvoir identifier les concepts principaux utilisés dans une phrase. Pour cela, j'ai besoin que tu me donnes tous les mots qui pourraient indiquer que la phrase porte sur le concept d'Etat. Par exemple, pour le concept de liberté on a : "liberté", "être libre", "libérer", libère", "libérons", "libères", etc.
+Etat :
+
+Je vais te donner une liste d'expressions a, b, c... réécris tout cela sous la forme : {"mots":["a","b","c", ... ]} :
+\blib(?:[er]|[éeè]r)
+[ée]tat
+gouvern
+dirig
+pouvoir
+politi
+république
+archi(e|que)
+souverain
+\bnation
+démocrat
+
+concepts
+
+L’art Le bonheur La conscience
+Le devoir L’État L’inconscient
+La justice Le langage La liberté
+La nature La raison La religion
+La science La technique Le temps
+Le travail La vérité
+
+Socrate : La raison, la vérité
+Platon : la raison, la vérité, l'art
+Aristote : le bonheur, l'Etat, la justice
+Epicure : le bonheur, la religion
+Epictete : le bonheur, la liberté
+Descartes : la vérité, la science, la technique, la nature, la raison
+Hobbes : L'Etat, la justice, la liberté
+Pascal : le temps, le bonheur, la religion
+Spinoza : le bonheur, la liberté
+Leibniz : l'inconscient, la religion
+Hume : la nature, la science
+Rousseau : le devoir, la science, la technique
+Kant : l'art, le devoir, la science
+Hegel : le langage, la liberté, le travail
+Marx : le travail, la technique, l'Etat
+Schopenhauer : l'inconscient, l'art, le bonheur
+Nietzsche : l'art, le devoir, le travail, la religion
+Freud : l'inconscient, l'art, le langage, la religion
+Heidegger : Le temps, l'art, la vérité, la technique, la science
+Simone Weil : le travail, l'Etat
+Levinas : le devoir
+Sartre : La conscience, la liberté
+Hans Jonas : La technique, la nature
+
+
+É
+
+
+[ée]tat
+gouvern
+dirig
+pouvoir
+politi
+république
+archi(e|que)
+souverain
+\bnation
+démocrat
+
+
+état
+État
+états
+États
+gouvernement
+gouverner
+gouvernance
+dirigeant
+diriger
+dirigé
+pouvoir
+pouvoirs
+administration
+administrer
+administratif
+administrative
+politique
+politiques
+politicien
+politiciens
+république
+monarchie
+monarque
+souveraineté
+souverain
+souverains
+nationalité
+nationalisme
+démocratie
+démocratique
+bureaucratie
+bureaucratique
