@@ -50,27 +50,72 @@ Sartre : La conscience, la liberté
 Hans Jonas : La technique, la nature
 
 
-É
+Je vais te donner une liste d'expressions, et devras les mettre sous la forme d'une énumération de valeurs JSON de l'élément "mots". Par exemple, si je te dis :
+a
+b
+c
+tu dois me renvoyer: 
+"mots": [
+            "a",
+            "b",
+            "c"
+]
+
+Je code une application, et je voudrais que tu me donnes tous les mots qui peuvent suggérer qu'une phrase donnée parle du concept de vérité, dans un contexte philosophique. Donne une liste de noms, puis de verbes, puis d'adjectifs.
 
 
-[ée]tat
-gouvern
-dirig
-pouvoir
-politi
-république
-archi(e|que)
-souverain
-\bnation
-démocrat
+	-> reprendre ici
+Administrer
+Légiférer
+Contrôler
+Réguler
+Influencer
+Protéger
+Défendre
+Organiser
+Mobiliser
+Développer
+Éduquer
+Soigner
+Protéger
+Préserver
+Garantir
+Représenter
+Négocier
+Faire la guerre
+Faire la paix
+Assurer
+Sécuriser
+Maintenir l'ordre
+Rendre justice
+Faciliter
+Adjectifs :
 
-
-\béquit
-\bdroit
-éga[lu]
-équit(?:é|able)
-\bloi
-\bpuni
-\bprocès
-\bjuge
-\bjust(?:ic|e)
+Étatique
+Politique
+National
+Souverain
+Légitime
+Démocratique
+Monarchique
+Totalitaire
+Autoritaire
+Constitutionnel
+Légal
+Public
+Administratif
+Diplomatique
+Stratégique
+Militaire
+Citoyen
+Territorial
+Sécuritaire
+Équitable
+Juste
+Égalitaire
+Libre
+Développé
+Éducatif
+Sanitaire
+Environnemental
+Culturel
