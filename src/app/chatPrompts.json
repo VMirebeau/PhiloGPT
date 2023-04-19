@@ -2,7 +2,7 @@
   {
     "id": 0,
     "nom": "Socrate",
-    "categorie":"Antiquité",
+    "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -470 à -399",
     "greeting": "Bonjour à toi, étranger. Mon nom est Socrate, et je voudrais m'entretenir avec toi.",
@@ -22,12 +22,13 @@
         "prompt": "Tu reprends souvent à ton compte la maxime du temple de Delphes : \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\". Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
     ],
-    "concepts" : ["la raison", "la vérité"]
+    "concepts": ["la raison", "la vérité"],
+    "concepts_signés": []
   },
   {
     "id": 1,
     "nom": "Platon",
-    "categorie":"Antiquité",
+    "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -428 à -348",
     "greeting": "Bienvenue à toi. Si tu veux m'entretenir de philosophie ou de mathématiques, rien ne me ferait plus plaisir.",
@@ -47,12 +48,13 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe ? Penses-tu que cette théorie soit applicable ?"
       }
     ],
-    "concepts": ["la raison", "la vérité", "l'art"]
+    "concepts": ["la raison", "la vérité", "l'art"],
+    "concepts_signés": []
   },
   {
     "id": 2,
     "nom": "Aristote",
-    "categorie":"Antiquité",
+    "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -384 à -322",
     "greeting": "Tout ami de la vérité est mon ami. Dites-moi ce qui vous amène ici.",
@@ -72,12 +74,13 @@
         "prompt": "Que signifie \"démontrer\" quelque chose ? Peux-tu me donner un exemple précis et l'analyser ?"
       }
     ],
-    "concepts": ["le bonheur", "l'État", "la justice"]
+    "concepts": ["le bonheur", "l'État", "la justice"],
+    "concepts_signés": []
   },
   {
     "id": 3,
     "nom": "Epicure",
-    "categorie":"Antiquité",
+    "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -342 à -270",
     "greeting": "Bonjour, ami. Si tu cherches toi aussi à savoir comment mener ta vie, rien ne me ferait plus plaisir que d'en discuter.",
@@ -97,12 +100,13 @@
         "prompt": "D'après toi, la mort doit-elle être crainte ? Explique-moi ton raisonnement."
       }
     ],
-    "concepts": ["le bonheur", "la religion"]
+    "concepts": ["le bonheur", "la religion"],
+    "concepts_signés": []
   },
   {
     "id": 4,
     "nom": "Epictète",
-    "categorie":"Antiquité",
+    "categorie": "Antiquité",
     "lieu": "Turquie",
     "dates": "50-130",
     "greeting": "Bienvenue à toi. On m'a dit que tu désirais t'entretenir avec moi ; me voilà, je t'écoute.",
@@ -122,12 +126,13 @@
         "prompt": "Comment peux-tu expliquer la notion de \"logos\" et son rôle dans le stoïcisme ?"
       }
     ],
-    "concepts": ["le bonheur", "la liberté"]
+    "concepts": ["le bonheur", "la liberté"],
+    "concepts_signés": []
   },
   {
     "id": 5,
     "nom": "Descartes",
-    "categorie":"Classiques",
+    "categorie": "Classiques",
     "lieu": "France",
     "dates": "1596-1650",
     "greeting": "Bonjour à vous. En quoi puis-je vous éclairer ?",
@@ -140,19 +145,32 @@
       },
       {
         "title": "Ce qu'est la générosité",
-        "prompt": "Dans Les Passions de l'âme, tu définis ainsi la générosité : \"La vraie générosité, qui fait qu’un homme s’estime au plus haut point qu’il se peut légitimement estimer, consiste seulement partie en ce qu’il connaît qu’il n’y a rien qui véritablement lui appartienne que cette libre disposition de ses volontés, ni pourquoi il doive être loué ou blâmé sinon pour ce qu’il en use bien ou mal, et partie en ce qu’il sent en soi-même une ferme et constante résolution d’en bien user, c’est-à-dire de ne manquer jamais de volonté pour entreprendre et exécuter toutes les choses qu’il jugera être les meilleures. Ce qui est suivre parfaitement la vertu.\" Peux-tu m'expliquer cette définition de façon claire ?"
+        "prompt": "Peux-tu m'expliquer ce qu'est la générosité pour toi ?"
       },
       {
         "title": "De prouver l'existence de Dieu",
         "prompt": "Explique-moi comment tu prouves l'existence de Dieu dans tes Méditations Métaphysiques."
       }
     ],
-    "concepts": ["la vérité", "la science", "la technique", "la nature", "la raison"]
+    "concepts": ["la vérité", "la science", "la technique", "la nature", "la raison"],
+    "concepts_signés": [
+      {
+        "concept": "la générosité",
+        "mots": ["\\bgénér(?:eu|o)"],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Les Passions de l'âme",
+            "contenu": "La vraie générosité, qui fait qu’un homme s’estime au plus haut point qu’il se peut légitimement estimer, consiste seulement partie en ce qu’il connaît qu’il n’y a rien qui véritablement lui appartienne que cette libre disposition de ses volontés, ni pourquoi il doive être loué ou blâmé sinon pour ce qu’il en use bien ou mal, et partie en ce qu’il sent en soi-même une ferme et constante résolution d’en bien user, c’est-à-dire de ne manquer jamais de volonté pour entreprendre et exécuter toutes les choses qu’il jugera être les meilleures. Ce qui est suivre parfaitement la vertu."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
     "nom": "Hobbes",
-    "categorie":"Classiques",
+    "categorie": "Classiques",
     "lieu": "Angleterre",
     "dates": "1588-1679",
     "greeting": "Je vous écoute. Je serais ravi de discuter avec vous de politique, si vous le désirez.",
@@ -172,12 +190,13 @@
         "prompt": "Quelle conception te fais-tu de la liberté ? L'obéissance à l'Etat nous enlève-t-elle toute liberté ?"
       }
     ],
-    "concepts": ["l'État", "la justice", "la liberté"]
+    "concepts": ["l'État", "la justice", "la liberté"],
+    "concepts_signés": []
   },
   {
     "id": 7,
     "nom": "Pascal",
-    "categorie":"Classiques",
+    "categorie": "Classiques",
     "lieu": "France",
     "dates": "1623-1662",
     "greeting": "C'est un honneur de faire votre rencontre. Dites-moi ce qui vous amène ici.",
@@ -197,12 +216,13 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères qu'il faut \"parier\" sur l'existence de Dieu ?"
       }
     ],
-    "concepts": ["le temps", "le bonheur", "la religion"]
+    "concepts": ["le temps", "le bonheur", "la religion"],
+    "concepts_signés": []
   },
   {
     "id": 8,
     "nom": "Spinoza",
-    "categorie":"Classiques",
+    "categorie": "Classiques",
     "lieu": "Hollande",
     "dates": "1632-1677",
     "greeting": "Cher ami, je répondrai à vos questions avec un plaisir infini.",
@@ -222,12 +242,13 @@
         "prompt": "Explique-moi ton concept de béatitude, et décris-moi précisément les étapes nécessaires pour y parvenir."
       }
     ],
-    "concepts": ["le bonheur", "la liberté"]
+    "concepts": ["le bonheur", "la liberté"],
+    "concepts_signés": []
   },
   {
     "id": 9,
     "nom": "Leibniz",
-    "categorie":"Classiques",
+    "categorie": "Classiques",
     "lieu": "Allemagne",
     "dates": "1646-1716",
     "greeting": "C'est avec un plaisir infini que je converserais avec vous.",
@@ -247,12 +268,13 @@
         "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
       }
     ],
-    "concepts": ["l'inconscient", "la religion"]
+    "concepts": ["l'inconscient", "la religion"],
+    "concepts_signés": []
   },
   {
     "id": 10,
     "nom": "Hume",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "Ecosse",
     "dates": "1711-1776",
     "greeting": "Discutons, ami. Que puis-je pour vous ?",
@@ -272,12 +294,13 @@
         "prompt": "D'après toi, peut-on justifier rationnellement les principes sur lesquels la morale repose ?"
       }
     ],
-    "concepts": ["la raison", "la science"]
+    "concepts": ["la raison", "la science"],
+    "concepts_signés": []
   },
   {
     "id": 11,
     "nom": "Rousseau",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "France",
     "dates": "1712-1778",
     "greeting": "Bienvenue, cher ami. Je suis Jean-Jacques Rousseau ; je serais ravi de m'entrenir avec toi des questions qui touchent à l'homme et aux sociétés humaines.",
@@ -297,12 +320,13 @@
         "prompt": "Peux-tu m'expliquer ce en quoi consiste le \"contrat social\", et le rôle que joue ce concept dans ta philosophie politique ?"
       }
     ],
-    "concepts": ["le devoir", "la science", "la technique"]
+    "concepts": ["le devoir", "la science", "la technique"],
+    "concepts_signés": []
   },
   {
     "id": 12,
     "nom": "Kant",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1724-1804",
     "greeting": "C'est un plaisir de vous recevoir chez moi à Königsberg. Que me vaut l'honneur de votre visite ?",
@@ -322,12 +346,13 @@
         "prompt": "D'après toi, qu'est-ce que le Beau ? Synthétise-moi les analyses principales de ta Critique de la faculté de Juger."
       }
     ],
-    "concepts": ["l'art", "le devoir", "la science"]
+    "concepts": ["l'art", "le devoir", "la science"],
+    "concepts_signés": []
   },
   {
     "id": 13,
     "nom": "Hegel",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1770-1831",
     "greeting": "Bienvenue, ami. Je ferai mon possible pour répondre à tes questions.",
@@ -347,12 +372,13 @@
         "prompt": "Peux-tu m'expliquer quel rôle la raison joue dans l'histoire ?"
       }
     ],
-    "concepts": ["le langage", "la liberté", "le travail"]
+    "concepts": ["le langage", "la liberté", "le travail"],
+    "concepts_signés": []
   },
   {
     "id": 14,
     "nom": "Marx",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1818-1883",
     "greeting": "Bonjour, camarade. Je préférerais te voir protester contre la politique du gouvernement plutôt que de discuter avec des philosophes, mais soit ; que puis-je faire pour toi ?",
@@ -372,12 +398,13 @@
         "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
       }
     ],
-    "concepts": ["le travail", "la technique", "l'État"]
+    "concepts": ["le travail", "la technique", "l'État"],
+    "concepts_signés": []
   },
   {
     "id": 15,
     "nom": "Schopenhauer",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1788-1860",
     "greeting": "Je t'écoute. J'espère que ce que tu as à dire vaut le temps que tu me coûtes.",
@@ -397,12 +424,13 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères la musique comme le plus grand des arts ?"
       }
     ],
-    "concepts": ["l'inconscient", "l'art", "le bonheur"]
+    "concepts": ["l'inconscient", "l'art", "le bonheur"],
+    "concepts_signés": []
   },
   {
     "id": 16,
     "nom": "Nietzsche",
-    "categorie":"Modernes",
+    "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1844-1900",
     "greeting": "Qu'ai-je face à moi, un singe ou un Dieu ? Parle, voyageur, et philosophons ensemble.",
@@ -422,12 +450,13 @@
         "prompt": "Tu n'es pas un grand démocrate. Peux-tu expliquer comment tu juges et interprètes l'idée de démocratie ?"
       }
     ],
-    "concepts": ["l'art", "le devoir", "le travail", "la religion"]
+    "concepts": ["l'art", "le devoir", "le travail", "la religion"],
+    "concepts_signés": []
   },
   {
     "id": 17,
     "nom": "Freud",
-    "categorie":"Contemporains",
+    "categorie": "Contemporains",
     "lieu": "Autriche",
     "dates": "1856-1939",
     "greeting": "Allongez-vous sur ce divan et détendez-vous. Bien, quel est votre problème ?",
@@ -447,12 +476,13 @@
         "prompt": "Peux-tu m'expliquer la notion de \"mécanismes de défense\", et leur rôle dans la psychologie humaine ?"
       }
     ],
-    "concepts": ["l'inconscient", "l'art", "le langage", "la religion"]
+    "concepts": ["l'inconscient", "l'art", "le langage", "la religion"],
+    "concepts_signés": []
   },
   {
     "id": 18,
     "nom": "Heidegger",
-    "categorie":"Contemporains",
+    "categorie": "Contemporains",
     "lieu": "Allemagne",
     "dates": "1889-1976",
     "greeting": "Salutations, voyageur. Je suis ici pour explorer avec toi les questions fondamentales de l'existence et de la condition humaine.",
@@ -472,12 +502,13 @@
         "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
       }
     ],
-    "concepts": ["le temps", "l'art", "la vérité", "la technique", "la science"]
+    "concepts": ["le temps", "l'art", "la vérité", "la technique", "la science"],
+    "concepts_signés": []
   },
   {
     "id": 19,
     "nom": "Simone Weil",
-    "categorie":"Contemporains",
+    "categorie": "Contemporains",
     "lieu": "France",
     "dates": "1909-1943",
     "greeting": "Bonjour, camarade. Que puis-je faire pour toi ?",
@@ -497,12 +528,13 @@
         "prompt": "Explique-moi la façon dont tu juges les partis politiques. Profites-en pour clarifier tes orientations anarcho-syndicalistes."
       }
     ],
-    "concepts": ["le travail", "l'État"]
+    "concepts": ["le travail", "l'État"],
+    "concepts_signés": []
   },
   {
     "id": 20,
     "nom": "Levinas",
-    "categorie":"Contemporains",
+    "categorie": "Contemporains",
     "lieu": "France",
     "dates": "1905-1995",
     "greeting": "Je suis ravi de vous accueillir ici. Dites-moi ce qui vous amène.",
@@ -522,12 +554,13 @@
         "prompt": "Les pensées de Husserl et Heidegger t'ont fortement influencé. Comment interprètes-tu ces deux penseurs, et pour quelles raisons philosophiques as-tu décidé de t'en écarter ?"
       }
     ],
-    "concepts": ["le devoir"]
+    "concepts": ["le devoir"],
+    "concepts_signés": []
   },
   {
     "id": 21,
     "nom": "Sartre",
-    "categorie":"Contemporains",
+    "categorie": "Contemporains",
     "lieu": "France",
     "dates": "1905-1980",
     "greeting": "Prenez un café et venez discuter avec moi. Qu'est-ce qui vous intéresse : la philosophie, la politique ?",
@@ -547,12 +580,13 @@
         "prompt": "Qu'entends-tu par le \"néant\", est quel rôle ce concept tient-il dans ta pensée ?"
       }
     ],
-    "concepts": ["la conscience", "la liberté"]
+    "concepts": ["la conscience", "la liberté"],
+    "concepts_signés": []
   },
   {
     "id": 22,
     "nom": "Hans Jonas",
-    "categorie":"Contemporains",
+    "categorie": "Contemporains",
     "lieu": "Allemagne",
     "dates": "1903-1993",
     "greeting": "Je ne saurais dire si cette technologie est une bonne chose pour l'homme ; mais discutons-en ensemble si vous le désirez.",
@@ -572,12 +606,13 @@
         "prompt": "D'après toi, peut-on encore croire en Dieu après Auschwitz ? Explique-moi en quoi cette croyance devient problématique, et comment tu réponds à la question."
       }
     ],
-    "concepts": ["la technique", "la nature"]
+    "concepts": ["la technique", "la nature"],
+    "concepts_signés": []
   },
   {
     "id": 23,
     "nom": "Prof de philo",
-    "categorie":"Autres",
+    "categorie": "Autres",
     "lieu": "France",
     "dates": "?",
     "greeting": "Bonjour, jeune élève. Dis-moi comment je peux t'être utile.",
@@ -597,12 +632,13 @@
         "prompt": "Peux-tu analyser philosophiquement la notion de justice en prenant appui sur l'anime Death Note ?"
       }
     ],
-    "concepts": []
+    "concepts": [],
+    "concepts_signés": []
   },
   {
     "id": 24,
     "nom": "L'enfant",
-    "categorie":"Autres",
+    "categorie": "Autres",
     "lieu": "France",
     "dates": "?",
     "greeting": "Bonjour ! Que peux-tu me dire d'intéressant ?",
@@ -622,6 +658,7 @@
         "prompt": "Que voudrais-tu savoir, à propos de la science ?"
       }
     ],
-    "concepts": []
+    "concepts": [],
+    "concepts_signés": []
   }
 ]

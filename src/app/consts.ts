@@ -14,6 +14,15 @@ export interface ChatData {
   prompt: string;
   concepts: string[];
   suggestions: { title: string; prompt: string }[];
+  concepts_signés: {
+    concept:string;
+    mots:string[];
+    extraits: {
+      auteur:string;
+      origine:string;
+      contenu:string;
+    }[]
+  }[]
 }
 //setupLoaded.phase = true;
 
