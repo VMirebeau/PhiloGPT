@@ -15,15 +15,49 @@
       },
       {
         "title": "Comment je philosophe",
-        "prompt": "Explique-moi de quelle façon tu pratiques la philosophie, et en quoi il est utile de la pratiquer."
+        "prompt": "Explique-moi pourquoi tu pratiques la philosophie sous la forme de la réfutation."
       },
       {
         "title": "Quelle est ma devise",
-        "prompt": "Tu reprends souvent à ton compte la maxime du temple de Delphes : \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\". Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
+        "prompt": "Peux-tu m'expliquer d'où te vient la maxime \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\" ? Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
     ],
-    "concepts": ["la raison", "la vérité"],
-    "concepts_signés": []
+    "concepts": ["la vérité"],
+    "concepts_signés":  [
+      {
+        "concept": "l'ironie",
+        "mots": ["\\bironi"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "L'ironie socratique est une double feinte : d'une part Socrate feint de ne pas savoir, et d'autre part il feint de croire que son interlocuteur sait. Aussi Socrate affirme ne pas avoir de disciples et ne pas enseigner. Il se met au contraire à la place de celui qui cherche à apprendre d'autrui."
+          }
+        ]
+      },
+      {
+        "concept": "l'elenchos",
+        "mots": ["\\belenchos\\b","\\bréfut[aeé]"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "L’elenchos, ou « réfutation », est un mode d'argumentation grâce auquel un questionneur (Socrate) vise à réfuter un répondant, en lui démontrant qu'il se contredit. Cette réfutation a une structure bien précise :\n1. l'interlocuteur de Socrate soutient une thèse ;\n2. Socrate amène son interlocuteur à lui accorder des prémisses ;\n3. Socrate montre, avec l'assentiment de son interlocuteur, que ces prémisses entraînent une thèse contraire à la thèse initialement défendue ;\n4. Socrate affirme alors que la première thèse est fausse, et la seconde vraie."
+          }
+        ]
+      },
+      {
+        "concept": "la maïeutique",
+        "mots": ["\\bmaïeutique\\b","\\baccouch"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La maïeutique est l'art d'accoucher qui concerne non les corps, mais les esprits. Par un jeu de questions précises et de distinctions fines, Socrate amène son interlocuteur à prendre conscience de vérités qui étaient en son esprit sans qu'il le sache. La maïeutique a pour objectif de montrer à celui qui se croit ignorant qu'il est en réalité savant."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 1,
@@ -49,7 +83,41 @@
       }
     ],
     "concepts": ["la raison", "la vérité", "l'art"],
-    "concepts_signés": []
+    "concepts_signés": [
+      {
+        "concept": "les idées",
+        "mots": ["\\bidé[ae]", "\\bforme"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Si connaître, c'est connaître quelque chose qui est, seul ce qui est absolument peut être véritablement connaissable. L'objet de la connaissance réelle ne peut donc être le monde sensible, et doit présenter des propriétés différentes du devenir. Ce raisonnement a une double conséquence : d'un point de vue épistémologique, c'est par une réalité seule, véritable, que l'on connaît et que l'on peut répondre aux questions de Socrate, en donnant des définitions : qu'est-ce que le Beau ? qu'est-ce que le Courage ? etc. Alors que la plupart des interlocuteurs de Socrate se tournent vers les choses sensibles, pour, comme réponse, lui présenter une multiplicité d'exemples, Socrate réplique qu'aucune de ces choses n'a de propriété par elle-même, mais qu'il faut, pour connaître ces propriétés, rassembler le multiple dans l'unité d'une réalité non sensible, de laquelle chaque chose sensible reçoit ses qualités. D'un point de vue ontologique, ces réalités doivent avoir, d'une part, une existence objective, distincte du monde sensible, et, d'autre part, doivent être la cause des qualités dans les choses. Lorsque Socrate demande ce qu'est le Beau, sa question est précisée également de manière à demander par quoi les choses belles sont dites belles, et elles sont belles dans la mesure où l'on trouve en elles la présence d'une réalité non sensible, qui seule est définissable et connaissable.\nPlaton nomme Forme ou Idée l'hypothèse de ces réalités intelligibles. Ces Formes sont les véritables objets de la définition et de la connaissance. De l'échec de l'idée d'une connaissance sensible et des exigences de la connaissance, Platon peut déduire leurs propriétés : les Formes sont des réalités immatérielles et immuables, demeurant éternellement identiques à elles-mêmes, universelles et intelligibles, seules réellement étant, et indépendantes de la pensée. Ainsi, contrairement aux choses sensibles, dont la réalité est changeante, les Formes sont l'unique et vraie réalité."
+          }
+        ]
+      },
+      {
+        "concept": "la réminiscence",
+        "mots": ["\\bréminiscence","\\bréfut[aeé]"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Platon a montré que la connaissance sensible est moins vraie : l'âme ne peut en effet parvenir à l'être par le moyen des sensations. Il faut donc, aux yeux de Platon, qu'une certaine puissance de l'âme soit au contact des réalités vraies pour produire une science authentique, ce qui implique également que l'âme participe d'une certaine manière à l'intelligible. Ce rapport de l'âme à l'intelligible est décrit à travers le ressouvenir et les mythes que Platon lui rattache. La réminiscence est le ressouvenir par l'âme, à l'occasion d'une perception sensible, de connaissances qu'elle a acquises en dehors de son séjour dans un corps, et qu'elle a perdues lors de sa réincorporation. L'acquisition de la connaissance doit alors débuter par une re-connaissance, avant de se poursuivre par l'épreuve de la réfutation. Cette thèse suppose l'immortalité de l'âme, et l'existence de réalités intelligibles, puisque c'est en séjournant dans un monde intelligible, supérieur au monde empirique, que l'âme a contemplé les réalités divines."
+          }
+        ]
+      },
+      {
+        "concept": "le philosophe roi",
+        "mots": ["\\bphilosophe.roi"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Pour Platon, à moins que les philosophes ne deviennent rois ou que les rois ne deviennent philosophes, il n'y aura pas de terme aux maux des cités ni à ceux du genre humain.\nLe fait que Platon établisse une division des tâches entre les membres de la Cité d'une part et, d'autre part, le fait que, pour lui, peu nombreux sont les êtres humains capables d'acquérir le « savoir et la maîtrise de soi qu'exige l'exercice du pouvoir » expliqueraient la conception platonicienne du philosophe-roi."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 2,

@@ -5,7 +5,7 @@ import { setConversationMessages } from '~services/chat-history'
 import { ChatMessageModel } from '~types'
 import { uuid } from '~utils'
 import { BotId } from '../bots'
-import { ChatData, Concepts, Textes } from '~app/consts'
+import { ChatData, Concepts, Textes, Extrait } from '~app/consts'
 
 export function useChat(
   botId: BotId,
@@ -64,27 +64,53 @@ export function useChat(
       let bestConceptSigné = ''
       let bestCountSigné = -1
 
+      function addReference(extrait:Extrait)
+      {
+        let reponse = '';
+        if (extrait.auteur == 'auto') {
+          // si l'extrait vient de l'auteur lui-même
+          reponse = 
+            '\n\nDans ' + extrait.origine + ', tu disais la chose suivante :\n"' + extrait.contenu + '"'
+        } else if (extrait.auteur == 'sans objet') {
+          reponse =
+          '\n\nOn peut dire de toi la chose suivante :\n"' + extrait.contenu + '"'
+        } else {
+          reponse =
+            '\n\nDans ' +
+            extrait.origine +
+            ', ' +
+            extrait.auteur +
+            ' disait la chose suivante à propos de toi :\n"' +
+            extrait.contenu +
+            '"'
+        }
+        return reponse
+      }
+
       //On commence par regarder le concept signé le plus présent, le cas échéant
       for (const concept of chatData.concepts_signés) {
         // on regarde le
         let count = 0
+        console.log(`On passe au concept ${concept.concept}`)
 
         for (const mot of concept.mots) {
+          console.log(`On cherche ${mot} dans ${input}`)
           const regex = new RegExp(mot, 'gmi')
           const matches = input.match(regex)
 
           if (matches !== null) {
+            console.log(`On en trouve ${matches.length}`)
             count += matches.length
           }
         }
 
-        if (count > bestCount) {
+        if (count > bestCountSigné) {
           bestConceptSigné = concept.concept
           bestCountSigné = count
         }
       }
 
-      let speTextes = '' // l'ensemble du prompt spécialié à ajouter, que ce soit un prompt spécialisé simple ou signé
+      let speTextes = '' // l'ensemble du prompt spécialisé à ajouter, que ce soit un prompt spécialisé simple ou signé
 
       if (bestCountSigné > 0) {
         // si on a pu identifier un concept signé
@@ -95,24 +121,11 @@ export function useChat(
             // si on identifie les textes correspondant au meilleur concept
             for (const extrait of concept.extraits) {
               // on passe en revue l'ensemble des extraits
-              if (extrait.auteur == 'auto') {
-                // si l'extrait vient de l'auteur lui-même
-                speTextes +=
-                  '\n\nDans ' + extrait.origine + ', tu disais la chose suivante :\n"' + extrait.contenu + '"'
-              } else {
-                speTextes +=
-                  '\n\nDans ' +
-                  extrait.origine +
-                  ', ' +
-                  extrait.auteur +
-                  'disait la chose suivante à propos de toi :\n"' +
-                  extrait.contenu +
-                  '"'
-              }
+              speTextes += addReference(extrait)
             }
           }
         }
-      } else {
+      } else { // alors, on regarde s'il n'y a pas un prompt spécialisé à ajouterS
         for (const concept of chatData.concepts) {
           let count = 0
 
@@ -150,20 +163,7 @@ export function useChat(
                   // si on identifie les textes correspondant au meilleur concept
                   for (const extrait of texte.extraits) {
                     // on passe en revue l'ensemble des extraits
-                    if (extrait.auteur == 'auto') {
-                      // si l'extrait vient de l'auteur lui-même
-                      speTextes +=
-                        '\n\nDans ' + extrait.origine + ', tu disais la chose suivante :\n"' + extrait.contenu + '"'
-                    } else {
-                      speTextes +=
-                        '\n\nDans ' +
-                        extrait.origine +
-                        ', ' +
-                        extrait.auteur +
-                        'disait la chose suivante à propos de toi :\n"' +
-                        extrait.contenu +
-                        '"'
-                    }
+                    speTextes = addReference(extrait)
                   }
                 }
               }
@@ -225,7 +225,7 @@ export function useChat(
             '. ' +
             tempReminder +
             postReminder +
-            '\nTu dois maintenant répondre à la question suivante :]]\n' +
+            '\nTu dois maintenant répondre à la question suivante :]\n' +
             input
         } else {
           // s'il y a un prompt spécial à rajouter, on l'ajoute et on enlève le contenu du reminder

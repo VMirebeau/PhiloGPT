@@ -3,6 +3,12 @@ import bingLogo from '~/assets/bing-logo.svg'
 import bardLogo from '~/assets/bard-logo.svg'
 import { BotId } from './bots'
 
+export interface Extrait {
+  auteur:string;
+  origine:string;
+  contenu:string;
+}
+
 export interface ChatData {
   id: number;
   nom: string;
@@ -17,11 +23,7 @@ export interface ChatData {
   concepts_signés: {
     concept:string;
     mots:string[];
-    extraits: {
-      auteur:string;
-      origine:string;
-      contenu:string;
-    }[]
+    extraits: Extrait[]
   }[]
 }
 //setupLoaded.phase = true;
@@ -35,11 +37,7 @@ export interface Textes {
   auteur: number;
   textes: {
     concept: string;
-    extraits: {
-      auteur:string;
-      origine:string;
-      contenu:string;
-    }[]
+    extraits: Extrait[]
   }[]
 }
 

@@ -1,5 +1,60 @@
 [
   {
+    "auteur": 0,
+    "textes": [
+      {
+        "concept": "la vérité",
+        "extraits": [
+          {
+            "auteur": "Platon",
+            "origine": "République I, dans une réplique de Thrasymaque",
+            "contenu": "« Voilà l'ironie ordinaire de Socrate. Ne l'avais-je pas dit tout à l'heure que tu ne voudrais pas répondre, que tu plaisanterais à ta manière, et t'arrangerais pour ne faire aucune réponse à mes questions. […] Voilà, dit-il, le grand secret de Socrate : il ne veut rien enseigner, et il va de tous les côtés apprenant des autres, sans en savoir aucun gré à personne »"
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia : Socrate",
+            "contenu": "La réfutation que pratique Socrate a une visée morale : « la réfutation est la plus grande et la plus efficace des purifications », elle est destinée à faire honte à l'individu de ses fausses connaissances, préalable indispensable à la vraie connaissance de la vertu. La réfutation porte en effet non pas sur des opinions indifférentes, mais sur des opinions auxquelles l'interlocuteur de Socrate croit, et sur des sujets importants : à ce titre, elles engagent son existence. C'est la raison pour laquelle l'individu réfuté peut se trouver plongé dans la plus grande confusion. Ménon, dans le dialogue de Platon du même nom, compare les effets de la réfutation, pratique pourtant rationnelle, telle que l'exerce Socrate, aux effets des incantations d'un sorcier. La réfutation a ainsi pour finalité de mettre en accord les opinions d'un individu avec sa façon de vivre : elle est par conséquent liée à la connaissance de soi."
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia : Socrate",
+            "contenu": "L'oracle de Delphes est au commencement de la vie philosophique de Socrate. La Pythie répond à son ami Chéréphon, venu l'interroger, que Socrate est le plus sage des hommes. Socrate cherche à résoudre l'énigme de la Pythie : sachant qu'il ne sait rien, comment peut-il être plus sage que ceux qui sont réputés savoir ? Il interroge donc hommes politiques, poètes, artisans : dans tous les cas, ils se révèlent doublement ignorants, croyant connaître ce qu'ils ne savent pas et ne sachant pas qu'ils sont ignorants. Socrate est donc bien le plus sage des hommes, puisqu'il ne croit pas savoir ce qu'il ne sait pas.\nSeuls les dieux détiennent le véritable savoir (sophia), le philosophe étant celui qui désire (philein, désirer) ce savoir. Or tout un chacun peut être philosophe. Aussi, parce que le dieu de Delphes a cité son nom, Socrate pense avoir pour mission de révéler aux hommes leur ignorance et de se préoccuper plutôt de leur âme que de leur corps ou de leurs biens matériels, afin qu'ils s'améliorent."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 1,
+    "textes": [
+      {
+        "concept": "la vérité",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia : Platon",
+            "contenu": "Les impressions sensibles ne donnent pas le vrai, et Platon peut ainsi réfuter la thèse selon laquelle la science est sensation. Il est alors aussi impossible que l'âme parvienne à des jugements vrais à partir des impressions : ces jugements, qui sont des opinions, ne peuvent en effet se justifier par aucun critère, si ce n’est par une autre impression. La réfutation de l’idée d'une connaissance à partir du monde sensible en tant que devenir permet à Platon d'opposer au mobilisme héraclitéen et au relativisme sophistique l’idée d’une science qui ne porte pas sur les impressions des sens ni sur les opinions que l’âme peut former sur elles, mais sur une réalité qui sera seulement perçue par une puissance intellectuelle, et qui recevra, pour cette raison, le nom de réalité intelligiblep. Cette réalité et la puissance de l’âme qui la connaît doivent être postulées afin de maintenir la possibilité d’une connaissance vraie. Ce faisant, Platon suppose deux choses : que la fondation du savoir présuppose l’équivalence entre être et vérité ; que l’âme doit être une réalité parente des réalités intelligibles, afin de pouvoir les contempler. Sans cette hypothèse d'une appréhension, par l'intellect de l'âme, de réalités non sensibles, toute pensée et tout discours seraient impossibles."
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia : Platon",
+            "contenu": "L'opposition entre le sensible et l'intelligible est une séparation ontologique ; à cette stricte séparation correspond une hiérarchie épistémologique, tout aussi stricte : l'opinion porte sur le monde sensible tandis que la science est la connaissance des réalités intelligibles. Cette division de la connaissance est exprimée par Platon au moyen de l'analogie de la ligne. Cette représentation de la connaissance par une ligne a une portée à la fois ontologique et épistémologique : l'âme, au contact d'une réalité, se trouve affectée selon la nature de cette réalité. Il y aura donc autant de manières d'être affecté qu'il existe de modes d'être, et ces manières d'être affecté définissent des manières de parler d'un objet ou de le penser. Les modes de connaissance et les réalités qui leur correspondent sont les suivants : la conjecture porte sur les images et les illusions ; la foi porte sur les êtres vivants et les objets fabriqués ; la pensée porte sur les notions et les nombres ; l'intellect porte sur les Formes. On peut ajouter à cela l'ignorance, bien que ce ne soit pas un mode de connaissance : l'ignorance correspond au non-être."
+          }
+        ]
+      },
+      {
+        "concept": "la raison",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Pour Platon, la raison est la partie la plus divine de l'âme, qui permet de connaître les réalités intelligibles. Celles-ci sont beaucoup plus vraies que les réalités sensibles."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "auteur": 6,
     "textes": [
       {
