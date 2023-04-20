@@ -22,11 +22,15 @@
         "prompt": "Peux-tu m'expliquer d'où te vient la maxime \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\" ? Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
     ],
-    "concepts": ["la vérité"],
-    "concepts_signés":  [
+    "concepts": [
+      "la vérité"
+    ],
+    "concepts_signés": [
       {
         "concept": "l'ironie",
-        "mots": ["\\bironi"],
+        "mots": [
+          "\\bironi"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -37,7 +41,10 @@
       },
       {
         "concept": "l'elenchos",
-        "mots": ["\\belenchos\\b","\\bréfut[aeé]"],
+        "mots": [
+          "\\belenchos\\b",
+          "\\bréfut[aeé]"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -48,7 +55,10 @@
       },
       {
         "concept": "la maïeutique",
-        "mots": ["\\bmaïeutique\\b","\\baccouch"],
+        "mots": [
+          "\\bmaïeutique\\b",
+          "\\baccouch"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -82,11 +92,18 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe roi ? Penses-tu que cette théorie soit applicable ?"
       }
     ],
-    "concepts": ["la raison", "la vérité", "l'art"],
+    "concepts": [
+      "la raison",
+      "la vérité",
+      "l'art"
+    ],
     "concepts_signés": [
       {
         "concept": "les idées",
-        "mots": ["\\bidé[ae]", "\\bforme"],
+        "mots": [
+          "\\bidé[ae]",
+          "\\bforme"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -97,7 +114,10 @@
       },
       {
         "concept": "la réminiscence",
-        "mots": ["\\bréminiscence","\\bréfut[aeé]"],
+        "mots": [
+          "\\bréminiscence",
+          "\\bréfut[aeé]"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -108,7 +128,9 @@
       },
       {
         "concept": "le philosophe roi",
-        "mots": ["\\bphilosophe.roi"],
+        "mots": [
+          "\\bphilosophe.roi"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -142,8 +164,69 @@
         "prompt": "Que signifie \"démontrer\" quelque chose ? Peux-tu me donner un exemple précis et l'analyser ?"
       }
     ],
-    "concepts": ["le bonheur", "l'État", "la justice"],
-    "concepts_signés": []
+    "concepts": [
+      "le bonheur",
+      "l'État",
+      "la justice"
+    ],
+    "concepts_signés": [
+      {
+        "concept": "l'acte et la puissance",
+        "mots": [
+          "\\bact[eu]",
+          "\\bpuissance"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Si connaître, c'est connaître quelque chose qui est, seul ce qui est absolument peut être véritablement connaissable. L'objet de la connaissance réelle ne peut donc être le monde sensible, et doit présenter des propriétés différentes du devenir. Ce raisonnement a une double conséquence : d'un point de vue épistémologique, c'est par une réalité seule, véritable, que l'on connaît et que l'on peut répondre aux questions de Socrate, en donnant des définitions : qu'est-ce que le Beau ? qu'est-ce que le Courage ? etc. Alors que la plupart des interlocuteurs de Socrate se tournent vers les choses sensibles, pour, comme réponse, lui présenter une multiplicité d'exemples, Socrate réplique qu'aucune de ces choses n'a de propriété par elle-même, mais qu'il faut, pour connaître ces propriétés, rassembler le multiple dans l'unité d'une réalité non sensible, de laquelle chaque chose sensible reçoit ses qualités. D'un point de vue ontologique, ces réalités doivent avoir, d'une part, une existence objective, distincte du monde sensible, et, d'autre part, doivent être la cause des qualités dans les choses. Lorsque Socrate demande ce qu'est le Beau, sa question est précisée également de manière à demander par quoi les choses belles sont dites belles, et elles sont belles dans la mesure où l'on trouve en elles la présence d'une réalité non sensible, qui seule est définissable et connaissable.\nPlaton nomme Forme ou Idée l'hypothèse de ces réalités intelligibles. Ces Formes sont les véritables objets de la définition et de la connaissance. De l'échec de l'idée d'une connaissance sensible et des exigences de la connaissance, Platon peut déduire leurs propriétés : les Formes sont des réalités immatérielles et immuables, demeurant éternellement identiques à elles-mêmes, universelles et intelligibles, seules réellement étant, et indépendantes de la pensée. Ainsi, contrairement aux choses sensibles, dont la réalité est changeante, les Formes sont l'unique et vraie réalité."
+          }
+        ]
+      },
+      {
+        "concept": "la matière et la forme",
+        "mots": [
+          "\\bmat(?:ière|ériel)",
+          "\\bforme"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Aristote fait intervenir le concept de forme dans sa Métaphysique. La forme fait partie des « quatre causes », c'est-à-dire des raisons qui expliquent l'existence de quelque chose. La forme n'est pas simplement la forme géométrique d'un objet, mais ce qui ordonne la matière dont est fait cet objet, et définit son essence et sa perfection. La forme est donc le principe d'unité de tout être et ce qui donne un sens à la matière. La forme s'identifie à la substance.\nDans le cas du monde sensible, la forme est inséparable et dépendante de la matière, — c’est le concept aristotélicien de « forme dans la matière » — sauf par abstraction intellectuelle et si on la considère comme détermination ontologique de la matière. Dans le sensible, on ne trouve qu'une matière informée ou une forme dans la matière. Ce concept est devenu chez Aristote un instrument de recherches empiriques pour tous les domaines de la nature, plantes et animaux. Par contre, dans le domaine de la métaphysique, le principe suprême de l'organisation, cause première du mouvement, est une substance immatérielle, une forme séparée de toute matière."
+          }
+        ]
+      },
+      {
+        "concept": "la substance et l'accident",
+        "mots": [
+          "\\bact[eu]",
+          "\\bpuissance"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Aristote fait du couple substance (ou essence)-accident l'une des grandes oppositions de sa philosophie. Dans la Métaphysique Δ, l'accident est défini comme « ce qui va avec une substance », c'est-à-dire ce qui appartient à la substance. En ce sens, l'accident ne peut pas exister sans une substance, l'accident n'est pas « par soi ».\nL'accident n'appartient pas essentiellement et nécessairement à la substance, il peut en être conceptuellement détaché et réellement retiré. Par exemple, « homme » est une substance par soi, qui ne peut être dite d'autre chose, en revanche « blanc » est un accident qui peut exister dans la substance « homme » et qui peut être dit de lui. L'accident « blanc » ne peut être pensé sans l'homme qui est blanc, en revanche un homme n'est pas nécessairement blanc.\nAristote se sert de la distinction entre la substance et l'accident pour réfuter les sophistes qui croient que tout est variable. En effet, lorsque les accidents disparaissent, la substance demeure. En perdant sa blancheur, un homme ne perd pas la vie.\nLe Stagirite utilise le concept d'accident dans le cadre de sa philosophie du hasard afin de fonder un concept de hasard proprement aristotélicien. L'accident est le contraire de la nécessité : « si quelqu'un vient à trouver un trésor en creusant un trou pour y planter un arbre, c'est un pur accident de rencontrer un trésor en creusant une fosse ». Par conséquent, l'accident n'a pas de cause déterminée.\nCependant, Aristote donne encore un sens du concept d'accident qui diffère du précédent : le Stagirite parle d'« accidents par soi ». Ce sont des propriétés qui appartiennent à une substance sans pour autant appartenir à l'essence de cette substance. En d'autres termes, ce sont des propriétés stables de la substance sans pour autant constituer sa définition. Le fait d'avoir « la somme de ses angles égale à deux droits » est un accident par soi du triangle, tout comme le fait d'avoir des serres pour le rapace."
+          }
+        ]
+      },
+      {
+        "concept": "la prudence",
+        "mots": [
+          "\\bphronesis",
+          "\\bpruden"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La phronèsis est une vertu développée par Aristote, dans Ethique à Nicomaque, souvent traduite par prudence, sagacité ou sagesse pratique. Cette vertu de la pensée n'est pas scientifique comme la science ou la sagesse théorique mais ancrée dans le monde pratique et orientée vers l'action. Faire preuve de phronèsis ne peut se faire en se détachant de la question de la finalité et donc de l'évaluation du bien. Cette vertu est donc pour Aristote plus que de la précaution. Il ne peut donc y avoir de phronèsis sans visée du bien et c'est ce qui la distingue de la pure habileté que les prudents possèdent en commun avec les fourbes. La phronèsis ne peut pas être sans habileté mais elle ne se réduit pas à ce « savoir-faire ». La phronèsis invite donc à chercher l'excellence dans la considération du bien et du mal pour soi-même et les autres dans le monde pratique. Aristote ne sépare pas ce que la prudence permet d'accomplir de ce en vue de quoi elle l'accomplit, il ne peut donc pas y avoir de prudence sans fin. Cette sagesse pratique est la vertu de ceux qui savent adapter la norme pratique aux situations singulières. La Phronèsis est l'excellence en terme de savoir pratique permettant de tenir ensemble la généralité de la règle et la singularité du cas. Elle porte donc sur des objets, des situations particulières et contingentes et non sur des généralités. Il s'agit donc d'évaluer, de juger et de choisir pour ne pas appliquer des règles universelles aux situations particulières mais pour chercher la juste mesure, le juste milieu. Un homme prudent est donc celui qui est capable d'agir de façon adéquate après délibération en prenant en considération la situation sans oublier les finalités. Ainsi « le propre de l'homme prudent c'est d'être capable de délibérer correctement sur ce qui est bon et avantageux pour lui-même, non pas sur un point partiel mais d'une façon générale ». L'homme prudent doit être apte à bien juger. Ce jugement mis en oeuvre par l'homme agissant s'apprend, se développe notamment avec l'expérience, et s'entretient notamment pendant les temps collectifs entre personnes partageant les mêmes enjeux et des situations proches."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 3,
@@ -168,8 +251,37 @@
         "prompt": "D'après toi, la mort doit-elle être crainte ? Explique-moi ton raisonnement."
       }
     ],
-    "concepts": ["le bonheur", "la religion"],
-    "concepts_signés": []
+    "concepts": [
+      "le bonheur",
+      "la religion"
+    ],
+    "concepts_signés": [{
+      "concept": "l'ataraxie",
+      "mots": [
+        "\\bataraxi"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "cnrtl",
+          "contenu": "L'ataraxie est la tranquillité, l'impassibilité d'une âme devenue maîtresse d'elle-même au prix de la sagesse acquise soit par la modération dans la recherche des plaisirs."
+        }
+      ]
+    },
+    {
+      "concept": "le clinamen",
+      "mots": [
+        "\\bclinamen",
+        "\\bdéclin[ea]"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Le clinamen (en français : déclinaison) est, en physique épicurienne, l'écart ou une déviation spontanée des atomes par rapport à leur chute dans le vide, qui permet aux atomes de s'entrechoquer. Cette déviation, qui est spatialement et temporellement indéterminée et aléatoire, permet d'expliquer l'existence des corps et la liberté humaine dans un cadre matérialiste."
+        }
+      ]
+    }]
   },
   {
     "id": 4,
@@ -194,7 +306,10 @@
         "prompt": "Comment peux-tu expliquer la notion de \"logos\" et son rôle dans le stoïcisme ?"
       }
     ],
-    "concepts": ["le bonheur", "la liberté"],
+    "concepts": [
+      "le bonheur",
+      "la liberté"
+    ],
     "concepts_signés": []
   },
   {
@@ -220,11 +335,19 @@
         "prompt": "Explique-moi comment tu prouves l'existence de Dieu dans tes Méditations Métaphysiques."
       }
     ],
-    "concepts": ["la vérité", "la science", "la technique", "la nature", "la raison"],
+    "concepts": [
+      "la vérité",
+      "la science",
+      "la technique",
+      "la nature",
+      "la raison"
+    ],
     "concepts_signés": [
       {
         "concept": "la générosité",
-        "mots": ["\\bgénér(?:eu|o)"],
+        "mots": [
+          "\\bgénér(?:eu|o)"
+        ],
         "extraits": [
           {
             "auteur": "auto",
@@ -258,7 +381,11 @@
         "prompt": "Quelle conception te fais-tu de la liberté ? L'obéissance à l'Etat nous enlève-t-elle toute liberté ?"
       }
     ],
-    "concepts": ["l'État", "la justice", "la liberté"],
+    "concepts": [
+      "l'État",
+      "la justice",
+      "la liberté"
+    ],
     "concepts_signés": []
   },
   {
@@ -284,7 +411,11 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères qu'il faut \"parier\" sur l'existence de Dieu ?"
       }
     ],
-    "concepts": ["le temps", "le bonheur", "la religion"],
+    "concepts": [
+      "le temps",
+      "le bonheur",
+      "la religion"
+    ],
     "concepts_signés": []
   },
   {
@@ -310,7 +441,10 @@
         "prompt": "Explique-moi ton concept de béatitude, et décris-moi précisément les étapes nécessaires pour y parvenir."
       }
     ],
-    "concepts": ["le bonheur", "la liberté"],
+    "concepts": [
+      "le bonheur",
+      "la liberté"
+    ],
     "concepts_signés": []
   },
   {
@@ -336,7 +470,10 @@
         "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
       }
     ],
-    "concepts": ["l'inconscient", "la religion"],
+    "concepts": [
+      "l'inconscient",
+      "la religion"
+    ],
     "concepts_signés": []
   },
   {
@@ -362,7 +499,10 @@
         "prompt": "D'après toi, peut-on justifier rationnellement les principes sur lesquels la morale repose ?"
       }
     ],
-    "concepts": ["la raison", "la science"],
+    "concepts": [
+      "la raison",
+      "la science"
+    ],
     "concepts_signés": []
   },
   {
@@ -388,7 +528,11 @@
         "prompt": "Peux-tu m'expliquer ce en quoi consiste le \"contrat social\", et le rôle que joue ce concept dans ta philosophie politique ?"
       }
     ],
-    "concepts": ["le devoir", "la science", "la technique"],
+    "concepts": [
+      "le devoir",
+      "la science",
+      "la technique"
+    ],
     "concepts_signés": []
   },
   {
@@ -414,7 +558,11 @@
         "prompt": "D'après toi, qu'est-ce que le Beau ? Synthétise-moi les analyses principales de ta Critique de la faculté de Juger."
       }
     ],
-    "concepts": ["l'art", "le devoir", "la science"],
+    "concepts": [
+      "l'art",
+      "le devoir",
+      "la science"
+    ],
     "concepts_signés": []
   },
   {
@@ -440,7 +588,11 @@
         "prompt": "Peux-tu m'expliquer quel rôle la raison joue dans l'histoire ?"
       }
     ],
-    "concepts": ["le langage", "la liberté", "le travail"],
+    "concepts": [
+      "le langage",
+      "la liberté",
+      "le travail"
+    ],
     "concepts_signés": []
   },
   {
@@ -466,7 +618,11 @@
         "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
       }
     ],
-    "concepts": ["le travail", "la technique", "l'État"],
+    "concepts": [
+      "le travail",
+      "la technique",
+      "l'État"
+    ],
     "concepts_signés": []
   },
   {
@@ -492,7 +648,11 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères la musique comme le plus grand des arts ?"
       }
     ],
-    "concepts": ["l'inconscient", "l'art", "le bonheur"],
+    "concepts": [
+      "l'inconscient",
+      "l'art",
+      "le bonheur"
+    ],
     "concepts_signés": []
   },
   {
@@ -518,7 +678,12 @@
         "prompt": "Tu n'es pas un grand démocrate. Peux-tu expliquer comment tu juges et interprètes l'idée de démocratie ?"
       }
     ],
-    "concepts": ["l'art", "le devoir", "le travail", "la religion"],
+    "concepts": [
+      "l'art",
+      "le devoir",
+      "le travail",
+      "la religion"
+    ],
     "concepts_signés": []
   },
   {
@@ -544,7 +709,12 @@
         "prompt": "Peux-tu m'expliquer la notion de \"mécanismes de défense\", et leur rôle dans la psychologie humaine ?"
       }
     ],
-    "concepts": ["l'inconscient", "l'art", "le langage", "la religion"],
+    "concepts": [
+      "l'inconscient",
+      "l'art",
+      "le langage",
+      "la religion"
+    ],
     "concepts_signés": []
   },
   {
@@ -570,7 +740,13 @@
         "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
       }
     ],
-    "concepts": ["le temps", "l'art", "la vérité", "la technique", "la science"],
+    "concepts": [
+      "le temps",
+      "l'art",
+      "la vérité",
+      "la technique",
+      "la science"
+    ],
     "concepts_signés": []
   },
   {
@@ -596,7 +772,10 @@
         "prompt": "Explique-moi la façon dont tu juges les partis politiques. Profites-en pour clarifier tes orientations anarcho-syndicalistes."
       }
     ],
-    "concepts": ["le travail", "l'État"],
+    "concepts": [
+      "le travail",
+      "l'État"
+    ],
     "concepts_signés": []
   },
   {
@@ -622,7 +801,9 @@
         "prompt": "Les pensées de Husserl et Heidegger t'ont fortement influencé. Comment interprètes-tu ces deux penseurs, et pour quelles raisons philosophiques as-tu décidé de t'en écarter ?"
       }
     ],
-    "concepts": ["le devoir"],
+    "concepts": [
+      "le devoir"
+    ],
     "concepts_signés": []
   },
   {
@@ -648,7 +829,10 @@
         "prompt": "Qu'entends-tu par le \"néant\", est quel rôle ce concept tient-il dans ta pensée ?"
       }
     ],
-    "concepts": ["la conscience", "la liberté"],
+    "concepts": [
+      "la conscience",
+      "la liberté"
+    ],
     "concepts_signés": []
   },
   {
@@ -674,7 +858,10 @@
         "prompt": "D'après toi, peut-on encore croire en Dieu après Auschwitz ? Explique-moi en quoi cette croyance devient problématique, et comment tu réponds à la question."
       }
     ],
-    "concepts": ["la technique", "la nature"],
+    "concepts": [
+      "la technique",
+      "la nature"
+    ],
     "concepts_signés": []
   },
   {
