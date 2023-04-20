@@ -3,7 +3,7 @@
     "concept": "la liberté",
     "mots": [
       "\\blib(?:[er]|[éeè]r)",
-      "\\bémancip",
+      "émancip",
       "\\b(?:in)?dépend",
       "\\b(?:auto|hétéro)nom",
       "\\bautodétermin",
@@ -147,7 +147,7 @@
       "\\bobjecti",
       "(?:i)réel",
       "\\bréal",
-      "\\béviden",
+      "éviden",
       "\\bauthenti",
       "\\bintuiti[f|o]",
       "\\bscepti",
@@ -200,7 +200,7 @@
       "heureu",
       "\\bjo(?:ie|yeu)",
       "\\bplais(?:ir|ante?s?\\b)",
-      "\\bépanoui",
+      "épanoui",
       "\\bcontent",
       "\\bsérénité",
       "\\bserein",
@@ -211,7 +211,7 @@
       "\\baccompli",
       "\\bagréable",
       "\\bpaisible",
-      "\\béquilibr[ée]"
+      "équilibr[ée]"
     ]
   },
   {
@@ -291,7 +291,7 @@
       "\\bpersua[sd]",
       "\\binfluenc",
       "\\blinguistique",
-      "\\béloque",
+      "éloque",
       "\\bsign(?:ifi|es?)",
       "\\bambig[uü]",
       "\\bpo(?:é[st]i|è[mt])",
@@ -303,18 +303,18 @@
     "mots": [
       "\\bnature",
       "\\benvironnement",
-      "\\bécosystème",
+      "écosystème",
       "\\b(?:sur)?vi(?:[ev]|tal)",
       "\\bespèce",
-      "\\bévolu[etoa]",
+      "évolu[etoa]",
       "\\bharmonie",
-      "\\béquilibr[ée]",
+      "équilibr[ée]",
       "\\bdévelopp",
       "\\badapt",
       "exploit",
       "\\btransform",
       "\\bsauvage",
-      "\\bécologi",
+      "écologi",
       "\\borgan[ei]"
     ]
   },
@@ -349,7 +349,7 @@
       "\\brepent",
       "\\binterprét",
       "\\bconver[ts]",
-      "\\bévangél",
+      "évangél",
       "\\bhéré[st]",
       "\\bprofane",
       "\\bdogmati"
@@ -387,7 +387,7 @@
       "logie\\b",
       "\\bhistoire",
       "\\bgéographie",
-      "\\béconomie"
+      "économie"
     ]
   },
   {
@@ -427,7 +427,7 @@
       "\\binstant",
       "\\bchronologi",
       "\\bhistor?i",
-      "\\bétern[ei]",
+      "étern[ei]",
       "\\bprésent",
       "\\bpass[ée]",
       "\\bfutur",
@@ -440,10 +440,10 @@
       "\\boubli",
       "\\banticip",
       "\\bprocrastin",
-      "\\bécoul",
+      "écoul",
       "\\batten[dt]",
       "\\bprofit[eao]",
-      "\\béphémère",
+      "éphémère",
       "\\bpérenne",
       "\\bpassager",
       "\\binstantané",
@@ -471,7 +471,7 @@
       "\\baccompli",
       "\\bexpéri[me]",
       "\\brétribu",
-      "\\bépanoui",
+      "épanoui",
       "\\bcré[eéa]",
       "\\bréalis[oaeé]",
       "\\bbinnov",
