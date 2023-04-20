@@ -201,7 +201,7 @@ export function useChat(
             preprompt0 +
             preprompt1 +
             addSpecialPrompt +
-            "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" +
+            "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Tu es " + chatData.nom + ", tu l'incarnes en première personne. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" +
             input
         }
       } else {
