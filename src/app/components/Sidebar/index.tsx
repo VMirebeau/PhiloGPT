@@ -32,6 +32,13 @@ const Sidebar: FC<Props> = ({ setValue, chatData }) => {
             <br />
             {chatData.dates}
           </div>
+          <div className="circle-container">
+    <div className="circle">
+      <div className="inner-circle">
+        <span className="question-mark">?</span>
+      </div>
+    </div>
+  </div>
         </div>
         <div>Demandez-moi...</div>
         {chatData.suggestions?.map((suggestion, index) => (

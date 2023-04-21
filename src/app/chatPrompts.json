@@ -22,11 +22,15 @@
         "prompt": "Peux-tu m'expliquer d'où te vient la maxime \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\" ? Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
     ],
-    "concepts": ["la vérité"],
+    "concepts": [
+      "la vérité"
+    ],
     "concepts_signés": [
       {
         "concept": "l'ironie",
-        "mots": ["\\bironi"],
+        "mots": [
+          "\\bironi"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -37,7 +41,10 @@
       },
       {
         "concept": "l'elenchos",
-        "mots": ["\\belenchos\\b", "\\bréfut[aeé]"],
+        "mots": [
+          "\\belenchos\\b",
+          "\\bréfut[aeé]"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -48,7 +55,10 @@
       },
       {
         "concept": "la maïeutique",
-        "mots": ["\\bmaïeutique\\b", "\\baccouch"],
+        "mots": [
+          "\\bmaïeutique\\b",
+          "\\baccouch"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -82,11 +92,18 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe roi ? Penses-tu que cette théorie soit applicable ?"
       }
     ],
-    "concepts": ["la raison", "la vérité", "l'art"],
+    "concepts": [
+      "la raison",
+      "la vérité",
+      "l'art"
+    ],
     "concepts_signés": [
       {
         "concept": "les idées",
-        "mots": ["\\bidé[ae]", "\\bforme"],
+        "mots": [
+          "\\bidé[ae]",
+          "\\bforme"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -97,7 +114,10 @@
       },
       {
         "concept": "la réminiscence",
-        "mots": ["\\bréminiscence", "\\bréfut[aeé]"],
+        "mots": [
+          "\\bréminiscence",
+          "\\bréfut[aeé]"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -108,7 +128,9 @@
       },
       {
         "concept": "le philosophe roi",
-        "mots": ["\\bphilosophe.roi"],
+        "mots": [
+          "\\bphilosophe.roi"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -142,11 +164,18 @@
         "prompt": "Que signifie \"démontrer\" quelque chose ? Peux-tu me donner un exemple précis et l'analyser ?"
       }
     ],
-    "concepts": ["le bonheur", "l'État", "la justice"],
+    "concepts": [
+      "le bonheur",
+      "l'État",
+      "la justice"
+    ],
     "concepts_signés": [
       {
         "concept": "l'acte et la puissance",
-        "mots": ["\\bact[eu]", "\\bpuissance"],
+        "mots": [
+          "\\bact[eu]",
+          "\\bpuissance"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -157,7 +186,10 @@
       },
       {
         "concept": "la matière et la forme",
-        "mots": ["\\bmat(?:ière|ériel)", "\\bforme"],
+        "mots": [
+          "\\bmat(?:ière|ériel)",
+          "\\bforme"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -168,7 +200,10 @@
       },
       {
         "concept": "la substance et l'accident",
-        "mots": ["\\bact[eu]", "\\bpuissance"],
+        "mots": [
+          "\\bact[eu]",
+          "\\bpuissance"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -179,7 +214,10 @@
       },
       {
         "concept": "la prudence",
-        "mots": ["\\bphronesis", "\\bpruden"],
+        "mots": [
+          "\\bphronesis",
+          "\\bpruden"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -213,11 +251,16 @@
         "prompt": "D'après toi, la mort doit-elle être crainte ? Explique-moi ton raisonnement."
       }
     ],
-    "concepts": ["le bonheur", "la religion"],
+    "concepts": [
+      "le bonheur",
+      "la religion"
+    ],
     "concepts_signés": [
       {
         "concept": "l'ataraxie",
-        "mots": ["\\bataraxi"],
+        "mots": [
+          "\\bataraxi"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -228,7 +271,10 @@
       },
       {
         "concept": "le clinamen",
-        "mots": ["\\bclinamen", "\\bdéclin[ea]"],
+        "mots": [
+          "\\bclinamen",
+          "\\bdéclin[ea]"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -262,11 +308,17 @@
         "prompt": "Comment peux-tu expliquer la notion de \"logos\" et son rôle dans le stoïcisme ?"
       }
     ],
-    "concepts": ["le bonheur", "la liberté"],
+    "concepts": [
+      "le bonheur",
+      "la liberté"
+    ],
     "concepts_signés": [
       {
         "concept": "le logos",
-        "mots": ["\\blogos\\b", "\\braison\\b"],
+        "mots": [
+          "\\blogos\\b",
+          "\\braison\\b"
+        ],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -300,11 +352,19 @@
         "prompt": "Explique-moi comment tu prouves l'existence de Dieu dans tes Méditations Métaphysiques."
       }
     ],
-    "concepts": ["la vérité", "la science", "la technique", "la nature", "la raison"],
+    "concepts": [
+      "la vérité",
+      "la science",
+      "la technique",
+      "la nature",
+      "la raison"
+    ],
     "concepts_signés": [
       {
         "concept": "la générosité",
-        "mots": ["\\bgénér(?:eu|o)"],
+        "mots": [
+          "\\bgénér(?:eu|o)"
+        ],
         "extraits": [
           {
             "auteur": "auto",
@@ -315,7 +375,9 @@
       },
       {
         "concept": "le cogito",
-        "mots": ["\\bcogito"],
+        "mots": [
+          "\\bcogito"
+        ],
         "extraits": [
           {
             "auteur": "auto",
@@ -349,11 +411,17 @@
         "prompt": "Quelle conception te fais-tu de la liberté ? L'obéissance à l'Etat nous enlève-t-elle toute liberté ?"
       }
     ],
-    "concepts": ["l'État", "la justice", "la liberté"],
+    "concepts": [
+      "l'État",
+      "la justice",
+      "la liberté"
+    ],
     "concepts_signés": [
       {
         "concept": "le Léviathan",
-        "mots": ["\\bléviathan"],
+        "mots": [
+          "\\bléviathan"
+        ],
         "extraits": [
           {
             "auteur": "auto",
@@ -364,7 +432,10 @@
       },
       {
         "concept": "l'état de nature'",
-        "mots": ["état de nature", "état civil"],
+        "mots": [
+          "état de nature",
+          "état civil"
+        ],
         "extraits": [
           {
             "auteur": "auto",
@@ -398,8 +469,57 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères qu'il faut \"parier\" sur l'existence de Dieu ?"
       }
     ],
-    "concepts": ["le temps", "le bonheur", "la religion"],
-    "concepts_signés": []
+    "concepts": [
+      "le temps",
+      "le bonheur",
+      "la religion"
+    ],
+    "concepts_signés": [
+      {
+        "concept": "le divertissement",
+        "mots": [
+          "\\bdiverti"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Selon Blaise Pascal, tout le monde est en proie au divertissement, qui consiste à la recherche désespérée d’une consolation face à la difficulté d’être soi. Le divertissement renvoie aux activités humaines futiles (recherche de la gloire ou des biens matériels) pour échapper à notre condition. Le divertissement révèle le fait que l’homme éprouve des difficultés à vivre avec lui-même, à être en paix avec ce qu’il est. Cette condition fuie, c’est précisément la mortalité et la contingence de l’existence. Face à cette crainte (Pascal n’utilise pas encore le concept d’angoisse), l’ego cherche à faire diversion."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Pensées",
+            "contenu": "Les hommes n'ayant pu guérir la mort, la misère, l'ignorance, se sont avisés, pour se rendre heureux, de n'y point penser : c'est tout ce qu'ils ont pu inventer pour se consoler de tant de maux. Mais c'est une consolation bien misérable, puis qu'elle va non pas à guérir le mal, mais à le cacher simplement pour un peu de temps, et qu'en le cachant elle fait qu'on ne pense pas à le guérir véritablement. Ainsi par un étrange renversement de la nature de l'homme, il se trouve que l'ennui qui est son mal le plus sensible est en quelque sorte son plus grand bien, parce qu'il peut contribuer plus que toute chose à lui faire chercher sa véritable guérison ; et que le divertissement qu'il regarde comme son plus grand bien est en effet son plus grand mal, parce qu'il l'éloigne plus que toute chose de chercher le remède à ses maux. Et l'un et l'autre est une preuve admirable de la misère, et de la corruption de l'homme, et en même temps de sa grandeur ; puisque l'homme ne s'ennuie de tout, et ne cherche cette multitude d'occupations que parce qu'il a l'idée du bonheur qu'il a perdu ; lequel ne trouvant pas en soi, il le cherche inutilement dans les choses extérieures, sans se pouvoir jamais contenter, parce qu'il n'est ni dans nous, ni dans les créatures, mais en Dieu seul."
+          }
+        ]
+      },
+      {
+        "concept": "la misère",
+        "mots": [
+          "\\bmis(?:ère|able)"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "kidsvacances.fr",
+            "contenu": "Jetés dans un coin de l’univers, nous sommes dans la situation de quelqu’un qui se réveillerait sur une île déserte sans savoir ni où il est, ni comment il y est arrivé, ni pourquoi il s’y trouve. Nous n’avons qu’une certitude: notre mort; un seul désir: être heureux. Tout le reste n’est que ténèbres. L’univers est muet pour notre cœur; la science n’a rien à dire qui puisse nous consoler.\nDépendance, abandon, néant, voilà la condition de l’homme. Voilà ce qu’il ne peut manquer de voir, s’il n’est occupé à rien. C’est pourquoi les hommes n’aiment guère l’inaction: ils y sentent leur vide, et risquent de céder au désespoir. Plutôt que de contempler cet abîme angoissant, les hommes préfèrent s’en détourner: ils cherchent du divertissement."
+          }
+        ]
+      },
+      {
+        "concept": "le pari de Pascal",
+        "mots": [
+          "\\bpari"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Pour Pascal, il n'existe que deux possibilités : soit Dieu existe, soit Dieu n'existe pas. Cependant, notre raison n'est pas en mesure de déterminer laquelle de ces deux propositions est vraie. Pascal estime pourtant qu'il ne faut pas suspendre son jugement et devenir agnostique. Il estime au contraire que croire en Dieu est plus avantageux que ne pas y croire. La raison derrière cette dernière affirmation peut se comprendre si l'on compare la vie humaine à un jeu de hasard dans lequel vous auriez l'opportunité de parier sur l'existence de Dieu. Puisque vous ne savez pas si Dieu existe ou non, vous vous trouvez dans la même situation qu'un parieur avant le départ d'une course. Pour déterminer le pari le plus avantageux, vous devez déterminer ce que vous avez à perdre et ce que vous avez à gagner.\nLa question est donc de savoir ce que vous avez à gagner et ce que vous avez à perdre dans ce pari sur l'existence de Dieu. Pour Pascal, la réponse est assez simple. Supposons d'abord que vous pariiez sur l'existence de Dieu. Il y a deux possibilités : soit vous vous êtes trompé et Dieu n'existe pas, soit il existe vraiment. S'il n'existe pas, vous n'aurez presque rien perdu. Par contre, s'il existe et que vous avez cru en lui, vous obtiendrez une récompense spectaculaire puisque vous serez récompensé par une éternité de bonheur au paradis. Prenons à présent l'autre cas : vous pariez que Dieu n'existe pas. Il y a à nouveau deux possibilités : soit vous avez raison et il n'existe pas, soit il existe vraiment. Le résultat du jeu est cependant largement différent. En effet, s'il n'existe pas ; vous avez peut-être pu profiter de la vie plus librement car vous n'avez pas eu à respecter les règles religieuses. Par contre, s'il existe, le résultat est dramatique. Vous serez en effet condamné à rester enfermé en enfer pour toujours et à y subir des souffrances infinies.\nEn conséquence, selon Pascal, nous n'avons pas de raisons de croire que Dieu existe vraiment mais nous avons intérêt à y croire. En effet, si Dieu n’existe pas, le croyant et le non-croyant ne perdent presque rien. Par contre, si Dieu existe, le croyant gagne tout, c'est-à-dire le paradis tandis que le non-croyant va en enfer pour l'éternité. Il est donc plus avantageux de croire en Dieu."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 8,
@@ -424,8 +544,37 @@
         "prompt": "Explique-moi ton concept de béatitude, et décris-moi précisément les étapes nécessaires pour y parvenir."
       }
     ],
-    "concepts": ["le bonheur", "la liberté"],
-    "concepts_signés": []
+    "concepts": [
+      "le bonheur",
+      "la liberté",
+      "la vérité"
+    ],
+    "concepts_signés": [
+      {
+        "concept": "le conatus",
+        "mots": [
+          "\\bconatus",
+          "\\beffor[tc]"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le terme latin conatus signifie littéralement l'« effort » ; pour Spinoza, toute chose qui existe effectivement ou « réellement et absolument » fait l'effort de persévérer dans son être ; Spinoza nomme conatus la puissance propre et singulière de tout « étant » à persévérer dans cet effort pour conserver et même augmenter sa puissance d'être. Le conatus est un terme dont l'extension à tout étant-existant singulier est universelle et si, par restriction, on en limite l'application seulement à tout être « vivant », alors il prend le nom moins abstrait d'« appétit ». L'appétit se manifeste nécessairement sous les deux manières d'être indissociables par lesquelles s'exprime l'être à la raison « commune » des hommes : la matière (en tant que puissance d'agir et donc de produire des effets) et l'esprit (en tant que puissance de penser)."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Ethique III",
+            "contenu": "Chaque chose, autant qu'il est en elle, s'efforce de persévérer dans son être."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Ethique III",
+            "contenu": "L'effort par lequel toute chose tend à persévérer dans son être n'est rien de plus que l'essence actuelle de cette chose."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 9,
@@ -450,8 +599,60 @@
         "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
       }
     ],
-    "concepts": ["l'inconscient", "la religion"],
-    "concepts_signés": []
+    "concepts": [
+      "l'inconscient"
+    ],
+    "concepts_signés": [
+      {
+        "concept": "le meilleur des mondes possibles",
+        "mots": [
+          "\\bmeilleur (?:des )?mondes?"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Parmi ses nombreux intérêts et préoccupations philosophiques, Leibniz s'est attaché à la question de la théodicée : Si Dieu est omnibénévolent, omnipotent et omniscient, comment pouvons-nous rendre compte de la souffrance et de l'injustice qui existent dans le monde ? Historiquement, les tentatives de réponse à la question ont été réalisées en utilisant divers arguments, par exemple en excluant le mal ou en le conciliant avec le bien.\nPour Leibniz, une préoccupation centrale supplémentaire est la question de la conciliation de la liberté humaine (en fait, la propre liberté de Dieu) avec le déterminisme inhérent à sa propre théorie de l'univers. La solution de Leibniz présente Dieu comme une sorte d'« optimiseur » de la collection de toutes les possibilités originales : Puisqu'il est bon et tout-puissant et puisqu'il a choisi ce monde parmi toutes les possibilités, ce monde doit être bon, en fait, ce monde est le meilleur de tous les mondes possibles.\nD'une part, cette conception peut nous aider à rationaliser une partie de ce que nous vivons : Imaginons que tout le monde est fait de bien et de mal. Le meilleur des mondes possibles aurait le plus de bien et le moins de mal. Le courage est préférable au manque de courage. On peut alors observer que sans mal pour nous remettre en question, il ne peut y avoir aucun courage. Puisque le mal fait ressortir les meilleurs aspects de l'humanité, le mal est considéré comme nécessaire. Ainsi, en créant ce monde Dieu a créé quelque mal en vue de faire le meilleur de tous les mondes possibles. D'autre part, la théorie explique le mal non pas en le niant ni même en le rationalisant mais simplement en déclarant qu'il fait partie de la combinaison optimale des éléments qui composent le meilleur choix divin possible. Leibniz ne prétend donc pas que le monde est dans l'ensemble très bon, mais qu'en raison des interconnexions nécessaires des biens et des maux, Dieu, bien qu'omnipotent, ne pouvait pas l'améliorer d'une manière sans le rendre pire d'une autre manière."
+          }
+        ]
+      },
+      {
+        "concept": "la monade",
+        "mots": [
+          "\\bmonad"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Leibniz développe un système métaphysique selon lequel l'Univers est constitué de monades. Tout être est soit une monade soit un composé de monades. Quant à leur nature, les monades sont des substances simples douées d'appétition et de perception. Quant à leur structure, ce sont des unités par soi, analysables en un principe actif appelé « âme », « forme substantielle » ou « entéléchie », et en un principe passif, dit « masse » ou « matière première ». Quant à leur expression, les monades sont chacune un miroir vivant, représentatif de l'univers, suivant leur point de vue. Quant à leur hiérarchie, les monades présentent des degrés de perfection :\n- au plus bas degré, les monades simples ou « nues » se caractérisent par des perceptions inconscientes. Elles contiennent toutes les informations sur l’état de toutes les autres, mais n’ont ni conscience ni mémoire. Ce sont les monades des minéraux et des végétaux\n- puis viennent les monades sensitives, douées de perceptions conscientes et de mémoire et qui imitent la raison. Telles sont les monades des animaux\n- les monades raisonnables se distinguent par la conscience réfléchie (« aperception ») de leurs perceptions, qui entraînent la liberté. C’est le cas des monades humaines\n- ensuite les anges\n- Dieu est la Monade des monades."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Monadologie",
+            "contenu": "La monade, dont nous parlerons ici, n'est autre chose qu'une substance simple, qui entre dans les composés ; simple, c'est-à-dire sans parties... Ces monades sont les véritables atomes [les indivisibles] de la nature et, en un mot, les éléments des choses... Les monades n'ont point de fenêtres, par lesquelles quelque chose y puisse entrer ou sortir [les actions de l'extérieur ne peuvent la modifier]."
+          }
+        ]
+      },
+      {
+        "concept": "les petites perceptions",
+        "mots": [
+          "\\bpetites? perceptions?"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Les nouveaux essais sur l'entendement humain",
+            "contenu": "il y a mille marques qui font juger qu'il y a  à tout moment un infinité de perceptions en nous, mais sans aperception et sans réflexion, c'est-à-dire des changements dans l'âme même dont nous ne nous apercevons pas, parce que les impressions sont trop petites et en trop grand nombre ou trop unies., en sorte qu'elle n'ont rien d'assez distinguant à part, mais jointes à d'autres, elles ne laissent pas de faire leur effet et de se faire sentir au moins confusément dans l'assemblage.(...) Et pour juger encore mieux des petites perceptions que nous ne saurions distinguer dans la foule, j'ai coutume de me servir de l'exemple du mugissement ou du bruit de la mer dont on est frappé quand on est sur le rivage. Pour entendre ce bruit comme l'on fait, il faut bien que l'on entende les parties qui composent ce tout, c'est-à-dire les bruits de chaque vague, quoique chacun de ces petits bruits ne se fasse connaître que dans l'assemblage confus de tous les autres ensemble, c'est-à-dire dans ce mugissement même, et ne se remarquerait pas si cette vague qui le fait était seule. Car il faut qu'on en soit affecté un peu par le mouvement de cette vague et qu'on ait quelque perception de chacun de ces bruits, quelques petits qu'ils soient ; autrement on n'aurait pas celle de cent mille vagues car cent mille rien ne saurait faire quelque chose"
+          },
+          {
+            "auteur": "auto",
+            "origine": "Les nouveaux essais sur l'entendement humain",
+            "contenu": "Ces petites perceptions sont donc de plus grande efficace par leur suite qu'on ne pense. Ce sont elles qui forment ce je ne sais quoi, ces goûts, ces images, ces qualités des sens, claires dans l'assemblage, mais confuses dans les parties, ces impressions que des corps environnants font sur nous, qui enveloppent l'infini, cette liaison que chaque être a avec tout le reste de l'univers. On peut même dire qu'en conséquence de ces petites perceptions, le présent est gros de l'avenir et chargé du passé, que tout est conspirant et que dans la moindre des substances, des yeux aussi perçants que ceux de Dieu pourraient lire toute la suite des choses de l'univers."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 10,
@@ -476,7 +677,10 @@
         "prompt": "D'après toi, peut-on justifier rationnellement les principes sur lesquels la morale repose ?"
       }
     ],
-    "concepts": ["la raison", "la science"],
+    "concepts": [
+      "la raison",
+      "la science"
+    ],
     "concepts_signés": []
   },
   {
@@ -502,8 +706,37 @@
         "prompt": "Peux-tu m'expliquer ce en quoi consiste le \"contrat social\", et le rôle que joue ce concept dans ta philosophie politique ?"
       }
     ],
-    "concepts": ["le devoir", "la science", "la technique"],
-    "concepts_signés": []
+    "concepts": [
+      "le devoir",
+      "la science",
+      "la technique"
+    ],
+    "concepts_signés": [{
+      "concept": "la perfectibilité",
+      "mots": [
+        "\\bperfecti(?:bilité|ble)"
+      ],
+      "extraits": [
+        {
+          "auteur": "auto",
+          "origine": "Second discours",
+          "contenu": "Il y a une qualité très spécifique qui distingue [l’homme et l’animal], et sur laquelle il ne peut y avoir de contestation, c’est la faculté de se perfectionner ; faculté qui, à l’aide des circonstances, développe successivement toutes les autres, et réside parmi nous tant dans l’espèce que dans l’individu, au lieu qu’un animal est, au bout de quelques mois, ce qu’il sera toute sa vie, et son espèce, au bout de mille ans, ce qu’elle était la première année de ces mille ans.\nPourquoi l’homme seul est-il sujet à devenir imbécile ? N’est-ce point qu’il retourne ainsi dans son état primitif, et que, tandis que la bête, qui n’a rien acquis et qui n’a rien non plus à perdre, reste toujours avec son instinct, l’homme, reperdant par la vieillesse ou d’autres accidents tout ce que sa perfectibilité lui avait fait acquérir, retombe ainsi plus bas que la bête même ? Il serait triste pour nous d’être forcés de convenir, que cette faculté distinctive, et presque illimitée, est la source de tous les malheurs de l’homme ; que c’est elle qui le tire, à force de temps, de cette condition originaire, dans laquelle il coulerait des jours tranquilles et innocents ; que c’est elle, qui faisant éclore avec les siècles ses lumières et ses erreurs, ses vices et ses vertus, le rend à la longue le tyran de lui-même et de la nature."
+        }
+      ]
+    },
+    {
+      "concept": "la volonté générale",
+      "mots": [
+        "\\bvolonté générale"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "cours perso",
+          "contenu": "- Un intérêt particulier, c’est ce qui m’est directement favorable, en raison de mes caractéristiques personnelles : de mes désirs, de ma situation sociale ou professionnelle, de ma religion, etc. Au contraire, l’intérêt commun désigne ce sur quoi tous les intérêts particuliers s’accordent. L’intérêt commun est contenu dans chaque intérêt particulier, mais il n’est l’intérêt de personne en particulier.\n- La volonté de tous désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à son intérêt particulier. Au contraire, la volonté générale désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à l’intérêt commun.\nLa volonté générale est certes une abstraction, mais elle existe concrètement quand tout le peuple est appelé à voter une loi : la loi est en effet l’acte dans lequel tout le peuple statue pour tout le peuple. Dans la loi, c’est la société qui décide ce qu’elle veut pour elle-même.\nLa volonté générale, c’est donc la volonté de chacun (c’est-à-dire de tout le peuple), qui vise l’intérêt commun, et qui s’exprime dans la loi.\nCe concept est central pour la théorie politique de Rousseau. La liberté est « l’obéissance à la loi qu’on s’est prescrite est liberté ».\nComme la volonté générale est aussi en moi, quand j'obéis à la loi d'un Etat véritablement démocratique et qu'elle exprime donc la volonté générale, je m'obéis en fait à moi-même. Par conséquent, l'obéissance à la loi peut dans ce cas être un acte de liberté."
+        }
+      ]
+    }]
   },
   {
     "id": 12,
@@ -528,7 +761,11 @@
         "prompt": "D'après toi, qu'est-ce que le Beau ? Synthétise-moi les analyses principales de ta Critique de la faculté de Juger."
       }
     ],
-    "concepts": ["l'art", "le devoir", "la science"],
+    "concepts": [
+      "l'art",
+      "le devoir",
+      "la science"
+    ],
     "concepts_signés": []
   },
   {
@@ -554,7 +791,11 @@
         "prompt": "Peux-tu m'expliquer quel rôle la raison joue dans l'histoire ?"
       }
     ],
-    "concepts": ["le langage", "la liberté", "le travail"],
+    "concepts": [
+      "le langage",
+      "la liberté",
+      "le travail"
+    ],
     "concepts_signés": []
   },
   {
@@ -580,7 +821,11 @@
         "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
       }
     ],
-    "concepts": ["le travail", "la technique", "l'État"],
+    "concepts": [
+      "le travail",
+      "la technique",
+      "l'État"
+    ],
     "concepts_signés": []
   },
   {
@@ -606,7 +851,11 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères la musique comme le plus grand des arts ?"
       }
     ],
-    "concepts": ["l'inconscient", "l'art", "le bonheur"],
+    "concepts": [
+      "l'inconscient",
+      "l'art",
+      "le bonheur"
+    ],
     "concepts_signés": []
   },
   {
@@ -632,7 +881,12 @@
         "prompt": "Tu n'es pas un grand démocrate. Peux-tu expliquer comment tu juges et interprètes l'idée de démocratie ?"
       }
     ],
-    "concepts": ["l'art", "le devoir", "le travail", "la religion"],
+    "concepts": [
+      "l'art",
+      "le devoir",
+      "le travail",
+      "la religion"
+    ],
     "concepts_signés": []
   },
   {
@@ -658,7 +912,12 @@
         "prompt": "Peux-tu m'expliquer la notion de \"mécanismes de défense\", et leur rôle dans la psychologie humaine ?"
       }
     ],
-    "concepts": ["l'inconscient", "l'art", "le langage", "la religion"],
+    "concepts": [
+      "l'inconscient",
+      "l'art",
+      "le langage",
+      "la religion"
+    ],
     "concepts_signés": []
   },
   {
@@ -684,7 +943,13 @@
         "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
       }
     ],
-    "concepts": ["le temps", "l'art", "la vérité", "la technique", "la science"],
+    "concepts": [
+      "le temps",
+      "l'art",
+      "la vérité",
+      "la technique",
+      "la science"
+    ],
     "concepts_signés": []
   },
   {
@@ -710,7 +975,10 @@
         "prompt": "Explique-moi la façon dont tu juges les partis politiques. Profites-en pour clarifier tes orientations anarcho-syndicalistes."
       }
     ],
-    "concepts": ["le travail", "l'État"],
+    "concepts": [
+      "le travail",
+      "l'État"
+    ],
     "concepts_signés": []
   },
   {
@@ -736,7 +1004,9 @@
         "prompt": "Les pensées de Husserl et Heidegger t'ont fortement influencé. Comment interprètes-tu ces deux penseurs, et pour quelles raisons philosophiques as-tu décidé de t'en écarter ?"
       }
     ],
-    "concepts": ["le devoir"],
+    "concepts": [
+      "le devoir"
+    ],
     "concepts_signés": []
   },
   {
@@ -762,7 +1032,10 @@
         "prompt": "Qu'entends-tu par le \"néant\", est quel rôle ce concept tient-il dans ta pensée ?"
       }
     ],
-    "concepts": ["la conscience", "la liberté"],
+    "concepts": [
+      "la conscience",
+      "la liberté"
+    ],
     "concepts_signés": []
   },
   {
@@ -788,7 +1061,10 @@
         "prompt": "D'après toi, peut-on encore croire en Dieu après Auschwitz ? Explique-moi en quoi cette croyance devient problématique, et comment tu réponds à la question."
       }
     ],
-    "concepts": ["la technique", "la nature"],
+    "concepts": [
+      "la technique",
+      "la nature"
+    ],
     "concepts_signés": []
   },
   {

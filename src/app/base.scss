@@ -86,8 +86,9 @@ body {
   border-radius:20px;
   width:100%;
   line-height:2rem;
-  
+  margin-bottom:30px;
   background-color: #10a37f;
+  position:relative;
 }
 
 .boutons:hover {
@@ -159,4 +160,39 @@ body {
 .inactif {
   opacity:0.3;
   cursor:auto;
+}
+
+.container {
+  position: relative;
+}
+
+.circle-container {
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #10a37f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-mark {
+  font-size: 2rem;
+  font-family: "-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"";
 }
