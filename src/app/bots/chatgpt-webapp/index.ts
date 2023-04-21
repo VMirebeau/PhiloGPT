@@ -16,12 +16,6 @@ export class ChatGPTWebBot extends AbstractBot {
   constructor(modelName?: string) {
     super()
     this.modelName = modelName
-    /*console.log("on construit le bot !")
-    const prePrompt: SendMessageParams = {  // on envoie le message, mais ne s'inscrit pas dans la discussion !
-      prompt: "Entrez votre message ici",
-      onEvent: (event) => console.log(event)
-    }
-    this.doSendMessage(prePrompt)*/
   }
 
   private async getModelName(): Promise<string> {
@@ -88,7 +82,6 @@ export class ChatGPTWebBot extends AbstractBot {
       }
       const text = data.message?.content?.parts?.[0]
       if (text) {
-        //console.log("On passe par ici : conversationId", data.conversation_id)
         this.conversationContext = {
           conversationId: data.conversation_id,
           lastMessageId: data.message.id,
@@ -102,7 +95,6 @@ export class ChatGPTWebBot extends AbstractBot {
   }
 
   resetConversation() {
-    //console.log("STOP ON RESET LA CONV !")
     this.conversationContext = undefined
   }
 }

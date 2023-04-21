@@ -91,15 +91,15 @@ export function useChat(
       for (const concept of chatData.concepts_signés) {
         // on regarde le
         let count = 0
-        console.log(`On passe au concept ${concept.concept}`)
+        //console.log(`On passe au concept ${concept.concept}`)
 
         for (const mot of concept.mots) {
-          console.log(`On cherche ${mot} dans ${input}`)
+          //console.log(`On cherche ${mot} dans ${input}`)
           const regex = new RegExp(mot, 'gmi')
           const matches = input.match(regex)
 
           if (matches !== null) {
-            console.log(`On en trouve ${matches.length}`)
+            //console.log(`On en trouve ${matches.length}`)
             count += matches.length
           }
         }
@@ -114,7 +114,7 @@ export function useChat(
 
       if (bestCountSigné > 0) {
         // si on a pu identifier un concept signé
-        console.log(`On a identifié un concept signé : ${bestConceptSigné} avec ${bestCountSigné} occurences.`)
+        //console.log(`On a identifié un concept signé : ${bestConceptSigné} avec ${bestCountSigné} occurences.`)
         for (const concept of chatData.concepts_signés) {
           // on parcourt l'ensemble des corpus
           if (concept.concept == bestConceptSigné) {
@@ -148,7 +148,7 @@ export function useChat(
           }
         }
 
-        console.log(`Le meilleur concept est ${bestConcept} avec ${bestCount} occurences.`)
+        //console.log(`Le meilleur concept est ${bestConcept} avec ${bestCount} occurences.`)
         //let addSpecialPrompt = ""
 
         if (bestCount > 0) {

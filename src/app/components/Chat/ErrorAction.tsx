@@ -21,12 +21,12 @@ const ChatGPTAuthErrorAction = () => {
       setFixing(false)
     }
     setFixed(true)
-    console.log("On est authentifié, on peut communiquer")
+    console.log("On setFixed true !")
   }, [])
 
   if (fixed) {
-    //return <MessageBubble color="flat">C'est réparé, réessayez le chat</MessageBubble>
-    location.reload() // on recharge carrément, pour éviter d'avoir à gérer le setup de la conversation
+    console.log("Réparé")
+    return <MessageBubble color="flat" id={-1}>C'est réparé, réessayez le chat !</MessageBubble>
   }
   return (
     <div className="flex flex-row gap-2 items-center paddBoutonErreur">

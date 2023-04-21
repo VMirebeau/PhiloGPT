@@ -125,6 +125,101 @@
     ]
   },
   {
+    "auteur": 4,
+    "textes": [
+      {
+        "concept": "le bonheur",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "On trouve au cœur de la psychologie d'Épictète les notions de représentation et de jugement. Son Manuel contient cette fameuse maxime : « Ce qui trouble les hommes, ce ne sont pas les choses, mais les opinions qu'ils en ont. Par exemple, la mort n'est point un mal, car, si elle en était un, elle aurait paru telle à Socrate ; mais l'opinion qu'on a que la mort est un mal, voilà le mal. Lors donc que nous sommes contrariés, troublés ou tristes, n'en accusons point d'autres que nous-mêmes, c'est-à-dire nos opinions ».\nIl y a trois disciplines auxquelles doit s'être exercé l'homme qui veut acquérir la perfection :\n-celle qui concerne les désirs et les aversions, afin de ne pas se voir frustré dans ses désirs et de ne pas rencontrer ce qu'on cherche à éviter,\ncelle qui concerne les tendances positives et les tendances négatives et, d'une façon générale, ce qui a trait au devoir, afin d'agir d'une façon ordonnée, réfléchie, sans négligence,\nla troisième est celle qui concerne la fuite de l'erreur, la prudence du jugement, en un mot, ce qui se rapporte aux assentiments.\nPour Épictète, la principale et la plus urgente est la première, la discipline du désir, qui concerne les passions, car ce sont elles qui amènent les troubles, les agitations, les infortunes, les calamités, les chagrins, les lamentations, la malignité. Les passions rendent envieux, jaloux et empêchent même de prêter l'oreille à la raison. Cette discipline du désir permet de ne s'occuper que de ce qui dépend de nous et d'accueillir avec joie tout ce qui est donné en partage par la nature universelle. Elle permet de développer la tempérance et l'ataraxie ou absence de trouble et d'agitation."
+          }
+        ]
+      },
+      {
+        "concept": "la liberté",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "fasoeducation.net",
+            "contenu": "Pour les stoïciens, l'homme n'est qu'un élément du cosmos et ne saurait de ce simple fait échapper au déterminisme de ce cosmos. On parle de déterminisme naturel pour désigner le fait que tous les phénomènes naturels sont soumis à des lois nécessaires d'enchaînement causal. En effet, l'homme en tant qu'élément de l'univers ne représente qu'un maillon de la longue chaîne des choses. Par conséquent, il ne peut éviter d'être déterminé. Pour les stoïciens donc la liberté consiste à « vivre en accord avec la nature ». La liberté du stoïcien est une prise de conscience du déterminisme. C'est la raison pour laquelle le sage stoïcien n'est libre que dans la mesure où il comprend la nécessité et qu'il l'assume. En ce sens selon les stoïciens, celui qui comprend la fatalité est conduit par elle, celui qui veut y résister au contraire est entraîné. Les destins conduisent celui qui veut, ils traînent celui qui ne veut pas. Il faut donc si nous voulons la liberté conformer notre conduite à l'ordre du monde."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 5,
+    "textes": [
+      {
+        "concept": "la vérité",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu":"Pour s'assurer de la solidité de nos connaissances, il nous faut trouver, une bonne fois pour toutes, un fondement inébranlable à partir duquel nous pourrions déduire tout le reste. Ainsi peut-on dire que la méthode cartésienne commence en réalité par la mise en doute systématique de toutes les connaissances qui nous semblent évidentes.\nLe préjugé et la précipitation nous empêchent de bien juger. Nous devons donc suspendre notre jugement. Il faut douter non seulement de nos préjugés acquis par l'éducation, mais aussi de ce que nous apprennent les sens, car ceux-là peuvent être quelquefois trompeurs, comme le montre l'exemple des illusions d'optique. Radicalisant cette expérience commune (l'image du bâton brisé dans l'eau), Descartes arrive, dans la Première méditation métaphysique, au « doute hyperbolique » : ne se pourrait-il pas que nos sens nous trompent tout le temps, comme dans le rêve ou la folie ? Mais il reste encore quelques vérités qui nous semblent très évidentes, parce qu'elles portent sur les éléments les plus simples : il en est ainsi des vérités et surtout des idées mathématiques. Néanmoins, il arrive que nous nous trompions aussi en calculant ; mais ce n'est pas encore là le doute le plus radical que nous puissions concevoir, car nous pouvons faire l'hypothèse d'un « dieu trompeur », d'un « malin génie » qui nous aurait créés tels que nous nous trompions toujours (Première Méditations métaphysiques). Par l'exercice méthodique de ce doute hyperbolique, nous pouvons en arriver à ne plus pouvoir rien juger comme absolument certain, à ne plus pouvoir rien tenir ni pour vrai ni pour faux, à ne plus tenir aucun être comme réel."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Méditations Métaphysiques",
+            "contenu":"Après y avoir bien pensé, et avoir soigneusement examiné toutes choses, enfin il faut conclure, et tenir pour constant que cette proposition : « Je suis, j'existe », est nécessairement vraie, toutes les fois que je la prononce, ou que je la conçois en mon esprit. […] Je ne suis donc, précisément parlant, qu'une chose qui pense […] C'est-à-dire une chose qui doute, qui conçoit, qui affirme, qui nie, qui veut, qui ne veut pas, qui imagine aussi et qui sent."
+          }
+        ]
+      },
+      {
+        "concept": "la science",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Science et philosophie agissent constamment l'une sur l'autre dans la pensée de Descartes, puisque sa méthode vise à permettre à l'homme de bien conduire sa raison et chercher la vérité dans les sciences, à nous rendre plus sages et plus habiles et à nous assurer non seulement la connaissance, mais, d'une certaine manière, la maîtrise et possession de la nature aussi bien que de nous-mêmes. Telle est la finalité de son système, finalité à laquelle se subordonnent tous les moyens mis en œuvre."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Les Principes de la philosophie, lettre-préface",
+            "contenu": "Toute la philosophie est comme un arbre, dont les racines sont la métaphysique, le tronc est la physique et les branches qui sortent de ce tronc sont toutes les autres sciences qui se réduisent à trois principales, à savoir la médecine, la mécanique et la morale, j'entends la plus haute et la plus parfaite morale, qui, présupposant une entière connaissance des autres sciences, est le dernier degré de la sagesse. Or comme ce n'est pas des racines, ni du tronc des arbres, qu'on cueille les fruits, mais seulement des extrémités de leurs branches, ainsi la principale utilité de la philosophie dépend de celles de ses parties qu'on ne peut apprendre que les dernières."
+          }
+        ]
+      },
+      {
+        "concept": "la technique",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "René Descartes explique dans son Discours de la méthode que la technique, un des fruits de l'arbre de la science avec la morale et la médecine, nous rend comme maîtres et possesseurs de la nature. Le « comme » n'est pas sans importance. En effet, « connaissant la force et les actions du feu, de l'eau, de l'air, des astres, des cieux, et de tous les autres corps qui nous environnent, aussi distinctement que nous connaissons les divers métiers de nos artisans, nous les pourrions employer en même façon à tous les usages auxquels ils sont propres, et ainsi nous rendre comme maîtres et possesseurs de la Nature.», nous pourrons donc facilement mettre la nature au service de nos besoins déterminés.\nDescartes ne veut pas dire que la technique est étrangère à la nature, ni qu'elle la dépasse de manière inconditionnelle. Nous ne faisons que nous servir des forces et des lois de la nature, mais nous utilisons ce déterminisme, une fois qu'il est connu, pour le mettre au service de nos besoins, tout spécialement la médecine. Ainsi, une montre, après qu'on l'a fabriquée, fait-elle partie de la nature au même titre qu'une plante ou qu'une montagne, mais elle est ainsi faite qu'elle nous montre l'heure. La technique est donc, avec la morale et la médecine, l'un des fruits de l'arbre de la connaissance, dont le tronc est la physique, et les racines, la métaphysique."
+          }
+        ]
+      },
+      {
+        "concept": "la nature",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Descartes parle de la maîtrise de la Nature dans la dernière partie (sixième partie) de son Discours de la Méthode, c’est-à-dire une fois que le cogito, l’existence de Dieu, les idées innées et la méthode pour découvrir les vérités sont établies. Le thème de la maîtrise est la rencontre d’une nature créée par Dieu, mais désordonnée, et de l’homme, ce sujet puissant, qui est seul capable d’organiser et de connaître cette nature.\nCette volonté de dominer la nature signifie aussi la volonté de Descartes de rompre avec la philosophie théorique, spéculative. Avant lui, la science était contemplation des vérités, elle doit devenir utile aux hommes. Descartes déclare que la pensée théorique est stérile.\nDescartes prône-t-il la domination agressive de la nature ? Non, Descartes affirme que l’homme doit cesser d’être esclave de la nature, que l’homme peut rendre la nature utile aux hommes en améliorant ses connaissances de la nature. Il s'agit plus d'aménager une cohabitation, une coexistence pacifique que d'une domination pure et simple.\nAu fond, Descartes renvoie plutôt une image ambigüe de notre conquête de la nature : la science peut « nous rendre comme maîtres et possesseurs de la nature ». Autrement dit, l’homme peut chercher à dominer la nature, il peut feindre cette conquête, mais cette connaissance sera toujours imparfaite.\nAinsi, le projet scientifique cartésien est complexe car il repose sur une subjectivité puissante, qui cherche à améliorer ses conditions d’existence, mais également consciente de ses propres limites. Heidegger a donc tort quand il attribue à Descartes la source du concept de domination irraisonnée de l'homme sur la nature."
+          }
+        ]
+      },
+      {
+        "concept": "la raison",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "C'est à partir des intuitions des principes que Descartes propose de raisonner, c'est-à-dire de nous avancer dans la connaissance au moyen de la déduction. La déduction est ainsi un mouvement de la pensée, consistant en une série d'intuitions enchaînées, mises en relation par ce mouvement continu de l'esprit. Par ces séries d'intuitions reliées par le raisonnement, nous ramenons ce qui est inconnu aux principes, c'est-à-dire à ce qui est connu. Ainsi, en raisonnant sur la base de l'évidence, la pensée étend son domaine de connaissance au-delà des principes.\nLa méthode de Descartes ne prétend pas déduire a priori les phénomènes. Mais c'est toujours l'expérience des cas particuliers qui met la pensée en mouvement, et cette pensée déduit et trouve de nouvelles connaissances. Néanmoins, si ce ne sont pas les causes qui prouvent les effets, il reste que la vérité est établie par des déductions à partir de principes, plutôt que par l'accord avec l'expérience. Ainsi Descartes est-il « rationaliste » quand il estime que la déduction est, par elle-même, suffisante pour valider la connaissance, et que ce sont les causes prouvées par l'expérience qui expliquent l'expérience. Cependant, lorsque l'expérience n'est pas conforme à ses principes, Descartes préférera privilégier les principes plutôt que de se plier à la réalité des résultats expérimentaux, parfois à l'excès."
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "philo5.com",
+            "contenu": "Au lieu de ce grand nombre de préceptes dont la logique est composée, je crus que j'aurais assez des quatre suivants, pourvu que je prisse une ferme et constante résolution de ne manquer pas une seule fois à les observer.\nLe premier étant de ne recevoir jamais aucune chose pour vraie que je ne la connusse évidemment être telle : c'est-à-dire, d'éviter soigneusement la précipitation et la prévention, et de ne comprendre rien de plus en mes jugements, que ce qui se présente si clairement et si distinctement à mon esprit, que je n'eusse aucune occasion de le mettre en doute.\nLe second, de diviser chacune des difficultés que j'examinerai en autant de parcelles qu'il se pourra et qu'il sera requis pour mieux les résoudre.\nLe troisième, de conduire par ordre mes pensées en commençant par les objets les plus simples et les plus aisés à connaître, pour monter peu à peu comme par degrés jusqu'à la connaissance des plus composés. Et supposant même de l'ordre entre ceux qui ne se précèdent point naturellement les uns des autres.\nEt le dernier, de faire partout des dénombrements si entiers, et des revues si générales que je fusse assuré de ne rien omettre."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "auteur": 6,
     "textes": [
       {

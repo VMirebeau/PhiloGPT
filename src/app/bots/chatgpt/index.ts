@@ -14,12 +14,12 @@ export class ChatGPTBot extends AbstractBot {
     super()
     this.#bot = new ChatGPTWebBot()
     getUserConfig().then(({ chatgptMode, chatgptWebappModelName }) => {
-      if (chatgptMode === ChatGPTMode.API) {
+      /*if (chatgptMode === ChatGPTMode.API) {
         this.#bot = new ChatGPTApiBot()
-      } else {
+      } else {*/
         // this.#bot = new ChatGPTWebBot(chatgptWebappModelName === 'default' ? undefined : chatgptWebappModelName)
         this.#bot = new ChatGPTWebBot("text-davinci-002-render-sha")
-      }
+      //}
       /* Ancienne façon de faire passer le prompt initial
       //console.log (chatData)
       // PROMPT D'ENTREE

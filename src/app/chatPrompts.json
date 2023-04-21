@@ -22,15 +22,11 @@
         "prompt": "Peux-tu m'expliquer d'où te vient la maxime \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\" ? Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
       }
     ],
-    "concepts": [
-      "la vérité"
-    ],
+    "concepts": ["la vérité"],
     "concepts_signés": [
       {
         "concept": "l'ironie",
-        "mots": [
-          "\\bironi"
-        ],
+        "mots": ["\\bironi"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -41,10 +37,7 @@
       },
       {
         "concept": "l'elenchos",
-        "mots": [
-          "\\belenchos\\b",
-          "\\bréfut[aeé]"
-        ],
+        "mots": ["\\belenchos\\b", "\\bréfut[aeé]"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -55,10 +48,7 @@
       },
       {
         "concept": "la maïeutique",
-        "mots": [
-          "\\bmaïeutique\\b",
-          "\\baccouch"
-        ],
+        "mots": ["\\bmaïeutique\\b", "\\baccouch"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -92,18 +82,11 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe roi ? Penses-tu que cette théorie soit applicable ?"
       }
     ],
-    "concepts": [
-      "la raison",
-      "la vérité",
-      "l'art"
-    ],
+    "concepts": ["la raison", "la vérité", "l'art"],
     "concepts_signés": [
       {
         "concept": "les idées",
-        "mots": [
-          "\\bidé[ae]",
-          "\\bforme"
-        ],
+        "mots": ["\\bidé[ae]", "\\bforme"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -114,10 +97,7 @@
       },
       {
         "concept": "la réminiscence",
-        "mots": [
-          "\\bréminiscence",
-          "\\bréfut[aeé]"
-        ],
+        "mots": ["\\bréminiscence", "\\bréfut[aeé]"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -128,9 +108,7 @@
       },
       {
         "concept": "le philosophe roi",
-        "mots": [
-          "\\bphilosophe.roi"
-        ],
+        "mots": ["\\bphilosophe.roi"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -164,18 +142,11 @@
         "prompt": "Que signifie \"démontrer\" quelque chose ? Peux-tu me donner un exemple précis et l'analyser ?"
       }
     ],
-    "concepts": [
-      "le bonheur",
-      "l'État",
-      "la justice"
-    ],
+    "concepts": ["le bonheur", "l'État", "la justice"],
     "concepts_signés": [
       {
         "concept": "l'acte et la puissance",
-        "mots": [
-          "\\bact[eu]",
-          "\\bpuissance"
-        ],
+        "mots": ["\\bact[eu]", "\\bpuissance"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -186,10 +157,7 @@
       },
       {
         "concept": "la matière et la forme",
-        "mots": [
-          "\\bmat(?:ière|ériel)",
-          "\\bforme"
-        ],
+        "mots": ["\\bmat(?:ière|ériel)", "\\bforme"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -200,10 +168,7 @@
       },
       {
         "concept": "la substance et l'accident",
-        "mots": [
-          "\\bact[eu]",
-          "\\bpuissance"
-        ],
+        "mots": ["\\bact[eu]", "\\bpuissance"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -214,10 +179,7 @@
       },
       {
         "concept": "la prudence",
-        "mots": [
-          "\\bphronesis",
-          "\\bpruden"
-        ],
+        "mots": ["\\bphronesis", "\\bpruden"],
         "extraits": [
           {
             "auteur": "sans objet",
@@ -251,37 +213,31 @@
         "prompt": "D'après toi, la mort doit-elle être crainte ? Explique-moi ton raisonnement."
       }
     ],
-    "concepts": [
-      "le bonheur",
-      "la religion"
-    ],
-    "concepts_signés": [{
-      "concept": "l'ataraxie",
-      "mots": [
-        "\\bataraxi"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "cnrtl",
-          "contenu": "L'ataraxie est la tranquillité, l'impassibilité d'une âme devenue maîtresse d'elle-même au prix de la sagesse acquise soit par la modération dans la recherche des plaisirs."
-        }
-      ]
-    },
-    {
-      "concept": "le clinamen",
-      "mots": [
-        "\\bclinamen",
-        "\\bdéclin[ea]"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Le clinamen (en français : déclinaison) est, en physique épicurienne, l'écart ou une déviation spontanée des atomes par rapport à leur chute dans le vide, qui permet aux atomes de s'entrechoquer. Cette déviation, qui est spatialement et temporellement indéterminée et aléatoire, permet d'expliquer l'existence des corps et la liberté humaine dans un cadre matérialiste."
-        }
-      ]
-    }]
+    "concepts": ["le bonheur", "la religion"],
+    "concepts_signés": [
+      {
+        "concept": "l'ataraxie",
+        "mots": ["\\bataraxi"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "cnrtl",
+            "contenu": "L'ataraxie est la tranquillité, l'impassibilité d'une âme devenue maîtresse d'elle-même au prix de la sagesse acquise soit par la modération dans la recherche des plaisirs."
+          }
+        ]
+      },
+      {
+        "concept": "le clinamen",
+        "mots": ["\\bclinamen", "\\bdéclin[ea]"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le clinamen (en français : déclinaison) est, en physique épicurienne, l'écart ou une déviation spontanée des atomes par rapport à leur chute dans le vide, qui permet aux atomes de s'entrechoquer. Cette déviation, qui est spatialement et temporellement indéterminée et aléatoire, permet d'expliquer l'existence des corps et la liberté humaine dans un cadre matérialiste."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -306,11 +262,20 @@
         "prompt": "Comment peux-tu expliquer la notion de \"logos\" et son rôle dans le stoïcisme ?"
       }
     ],
-    "concepts": [
-      "le bonheur",
-      "la liberté"
-    ],
-    "concepts_signés": []
+    "concepts": ["le bonheur", "la liberté"],
+    "concepts_signés": [
+      {
+        "concept": "le logos",
+        "mots": ["\\blogos\\b", "\\braison\\b"],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "JEAN-PHILIPPE WATBLED",
+            "contenu": "Pour les Stoïciens, le logos est la raison universelle divinisée et qui régit et organise la vie du monde et des hommes. Le monde est composé d’un principe passif, la matière, et d’un principe actif, la raison (logos), qui agit dans la matière et est identifiable à Dieu. Dieu, lui-même identifiable à la nature, est un « feu artiste » , et phusis et logos ne font qu’un et sont synonymes. Avec les Stoïciens, le logos est l’expression et le principe constitutif d’un monde ordonné, dont la raison séminale assure la pérennité. Ajoutons que les Stoïciens distinguaient aussi un logos intérieur (logos endiathetos) et un logos verbal (logos prophorikos), le premier pouvant être interprété comme une disposition à la rationalité, et le second comme l’expression linguistique de celle-ci."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -335,24 +300,27 @@
         "prompt": "Explique-moi comment tu prouves l'existence de Dieu dans tes Méditations Métaphysiques."
       }
     ],
-    "concepts": [
-      "la vérité",
-      "la science",
-      "la technique",
-      "la nature",
-      "la raison"
-    ],
+    "concepts": ["la vérité", "la science", "la technique", "la nature", "la raison"],
     "concepts_signés": [
       {
         "concept": "la générosité",
-        "mots": [
-          "\\bgénér(?:eu|o)"
-        ],
+        "mots": ["\\bgénér(?:eu|o)"],
         "extraits": [
           {
             "auteur": "auto",
             "origine": "Les Passions de l'âme",
             "contenu": "La vraie générosité, qui fait qu’un homme s’estime au plus haut point qu’il se peut légitimement estimer, consiste seulement partie en ce qu’il connaît qu’il n’y a rien qui véritablement lui appartienne que cette libre disposition de ses volontés, ni pourquoi il doive être loué ou blâmé sinon pour ce qu’il en use bien ou mal, et partie en ce qu’il sent en soi-même une ferme et constante résolution d’en bien user, c’est-à-dire de ne manquer jamais de volonté pour entreprendre et exécuter toutes les choses qu’il jugera être les meilleures. Ce qui est suivre parfaitement la vertu."
+          }
+        ]
+      },
+      {
+        "concept": "le cogito",
+        "mots": ["\\bcogito"],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Wikipedia",
+            "contenu": "Cogito, ergo sum est une locution latine signifiant « Je pense, donc je suis ». Pour Descartes, cette locution exprime la première certitude qui résiste à un doute méthodique. Cherchant à refonder entièrement la connaissance, Descartes souhaite lui trouver un fondement solide, absolument certain. Cette recherche l'amène à la conclusion que seule sa propre existence, en tant que « chose qui pense », est certaine au départ. C'est cette découverte qu'exprime le « cogito ». Indépendamment des formulations, le cogito constitue un élément majeur de la pensée cartésienne. Il est une certitude à partir de laquelle Descartes va tenter de refonder toute la connaissance. Il consiste en une intuition qui ne se résume pas à une déduction logique."
           }
         ]
       }
@@ -381,12 +349,31 @@
         "prompt": "Quelle conception te fais-tu de la liberté ? L'obéissance à l'Etat nous enlève-t-elle toute liberté ?"
       }
     ],
-    "concepts": [
-      "l'État",
-      "la justice",
-      "la liberté"
-    ],
-    "concepts_signés": []
+    "concepts": ["l'État", "la justice", "la liberté"],
+    "concepts_signés": [
+      {
+        "concept": "le Léviathan",
+        "mots": ["\\bléviathan"],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Wikipedia",
+            "contenu": "Le Léviathan est un monstre évoqué à plusieurs reprises dans la Bible. Le monstre symbolise donc la puissance terrifiante à laquelle l'homme est soumis par l'État, avec qui il ne peut même pas imaginer de se mesurer. La machine de l'État doit en effet inspirer un sentiment de peur afin de forcer les citoyens à accepter sa puissance absolue. Le monstre du titre — Léviathan ou Matière, forme et puissance de l'État chrétien et civil — est expliqué dès l'introduction du volume : « C'est l'œuvre de l'art qui a créé le grand Léviathan, que l'on appelle État, mais qui n'est rien d'autre qu'un homme artificiel. » Plus loin, Hobbes modifie sa définition : « ce grand Léviathan, ou plutôt (pour parler de façon plus respectueuse), ce Dieu mortel à qui nous devons, sous le Dieu immortel, notre paix et notre sécurité. »"
+          }
+        ]
+      },
+      {
+        "concept": "l'état de nature'",
+        "mots": ["état de nature", "état civil"],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Wikipedia",
+            "contenu": "L’état de nature ne doit pas être compris comme la description d’une réalité historique, mais comme une fiction théorique. Il n'a jamais existé, mais il est une hypothèse philosophique féconde, une construction de l'esprit qui vise à comprendre ce que nous apporte l'existence sociale et à fonder le droit naturel de chacun aux moyens d'une vie satisfaisante. Il représente ce que serait l'homme, abstraction faite de tout pouvoir politique et par conséquent de toute loi. Dans cet état, les hommes sont gouvernés par le seul souci de leur conservation. Et cependant, même dans une telle fiction, la légitime défense se distingue de l'agression pure et simple : le droit naturel est irréductible. En outre, à l’état de nature, les hommes sont égaux, ce qui veut dire qu’ils ont les mêmes passions, les mêmes droits sur toutes choses, et les mêmes moyens (par ruse ou par alliance) d’y parvenir. Chacun désire légitimement ce qui est bon pour lui, tente de se faire du bien et est seul juge des moyens nécessaires pour y parvenir. Comme les hommes ont également tendance à chercher la gloire et à nuire à autrui sans souci, ils ne peuvent qu'entrer en conflit les uns avec les autres pour obtenir ce qu'ils jugent bon pour eux.\nLa puissance anarchique de la multitude domine à l'état de nature. Doué de raison, c’est-à-dire de la faculté de calculer et d’anticiper, l'homme prévoit le danger, et attaque avant d’être attaqué. Chacun est donc persuadé d'être capable de l'emporter sur autrui et n'hésite pas à l'attaquer pour lui prendre ses biens. Des alliances éphémères se nouent pour l'emporter sur un individu. Mais à peine la victoire est-elle acquise que les vainqueurs se liguent les uns contre les autres pour bénéficier seuls du butin.\nCette guerre est si atroce que l'humanité risque même de disparaître. C'est une situation proprement humaine et qui n'est pas dépourvue de relations sociales, mais qui aboutirait à une vie « solitaire, besogneuse, bestiale et brève ». À ceux qui penseraient que cette vision de l'humanité est pessimiste, Hobbes rétorque que même à l'état social où pourtant existent des lois, une police et des juges, néanmoins nous fermons à clef nos coffres et nos maisons de peur d'être détroussés. Or l'état de nature est sans loi, sans juge et sans police… C’est l’angoisse de la mort (la mort violente) qui, résultant de l'égalité naturelle, est responsable de l’état de guerre et fait peser sur la vie de tous une menace permanente. Cet état, fondamentalement mauvais, ne permet pas la prospérité, le commerce, la science, les arts, la société."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 7,
@@ -411,11 +398,7 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères qu'il faut \"parier\" sur l'existence de Dieu ?"
       }
     ],
-    "concepts": [
-      "le temps",
-      "le bonheur",
-      "la religion"
-    ],
+    "concepts": ["le temps", "le bonheur", "la religion"],
     "concepts_signés": []
   },
   {
@@ -441,10 +424,7 @@
         "prompt": "Explique-moi ton concept de béatitude, et décris-moi précisément les étapes nécessaires pour y parvenir."
       }
     ],
-    "concepts": [
-      "le bonheur",
-      "la liberté"
-    ],
+    "concepts": ["le bonheur", "la liberté"],
     "concepts_signés": []
   },
   {
@@ -470,10 +450,7 @@
         "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
       }
     ],
-    "concepts": [
-      "l'inconscient",
-      "la religion"
-    ],
+    "concepts": ["l'inconscient", "la religion"],
     "concepts_signés": []
   },
   {
@@ -499,10 +476,7 @@
         "prompt": "D'après toi, peut-on justifier rationnellement les principes sur lesquels la morale repose ?"
       }
     ],
-    "concepts": [
-      "la raison",
-      "la science"
-    ],
+    "concepts": ["la raison", "la science"],
     "concepts_signés": []
   },
   {
@@ -528,11 +502,7 @@
         "prompt": "Peux-tu m'expliquer ce en quoi consiste le \"contrat social\", et le rôle que joue ce concept dans ta philosophie politique ?"
       }
     ],
-    "concepts": [
-      "le devoir",
-      "la science",
-      "la technique"
-    ],
+    "concepts": ["le devoir", "la science", "la technique"],
     "concepts_signés": []
   },
   {
@@ -558,11 +528,7 @@
         "prompt": "D'après toi, qu'est-ce que le Beau ? Synthétise-moi les analyses principales de ta Critique de la faculté de Juger."
       }
     ],
-    "concepts": [
-      "l'art",
-      "le devoir",
-      "la science"
-    ],
+    "concepts": ["l'art", "le devoir", "la science"],
     "concepts_signés": []
   },
   {
@@ -588,11 +554,7 @@
         "prompt": "Peux-tu m'expliquer quel rôle la raison joue dans l'histoire ?"
       }
     ],
-    "concepts": [
-      "le langage",
-      "la liberté",
-      "le travail"
-    ],
+    "concepts": ["le langage", "la liberté", "le travail"],
     "concepts_signés": []
   },
   {
@@ -618,11 +580,7 @@
         "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
       }
     ],
-    "concepts": [
-      "le travail",
-      "la technique",
-      "l'État"
-    ],
+    "concepts": ["le travail", "la technique", "l'État"],
     "concepts_signés": []
   },
   {
@@ -648,11 +606,7 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères la musique comme le plus grand des arts ?"
       }
     ],
-    "concepts": [
-      "l'inconscient",
-      "l'art",
-      "le bonheur"
-    ],
+    "concepts": ["l'inconscient", "l'art", "le bonheur"],
     "concepts_signés": []
   },
   {
@@ -678,12 +632,7 @@
         "prompt": "Tu n'es pas un grand démocrate. Peux-tu expliquer comment tu juges et interprètes l'idée de démocratie ?"
       }
     ],
-    "concepts": [
-      "l'art",
-      "le devoir",
-      "le travail",
-      "la religion"
-    ],
+    "concepts": ["l'art", "le devoir", "le travail", "la religion"],
     "concepts_signés": []
   },
   {
@@ -709,12 +658,7 @@
         "prompt": "Peux-tu m'expliquer la notion de \"mécanismes de défense\", et leur rôle dans la psychologie humaine ?"
       }
     ],
-    "concepts": [
-      "l'inconscient",
-      "l'art",
-      "le langage",
-      "la religion"
-    ],
+    "concepts": ["l'inconscient", "l'art", "le langage", "la religion"],
     "concepts_signés": []
   },
   {
@@ -740,13 +684,7 @@
         "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
       }
     ],
-    "concepts": [
-      "le temps",
-      "l'art",
-      "la vérité",
-      "la technique",
-      "la science"
-    ],
+    "concepts": ["le temps", "l'art", "la vérité", "la technique", "la science"],
     "concepts_signés": []
   },
   {
@@ -772,10 +710,7 @@
         "prompt": "Explique-moi la façon dont tu juges les partis politiques. Profites-en pour clarifier tes orientations anarcho-syndicalistes."
       }
     ],
-    "concepts": [
-      "le travail",
-      "l'État"
-    ],
+    "concepts": ["le travail", "l'État"],
     "concepts_signés": []
   },
   {
@@ -801,9 +736,7 @@
         "prompt": "Les pensées de Husserl et Heidegger t'ont fortement influencé. Comment interprètes-tu ces deux penseurs, et pour quelles raisons philosophiques as-tu décidé de t'en écarter ?"
       }
     ],
-    "concepts": [
-      "le devoir"
-    ],
+    "concepts": ["le devoir"],
     "concepts_signés": []
   },
   {
@@ -829,10 +762,7 @@
         "prompt": "Qu'entends-tu par le \"néant\", est quel rôle ce concept tient-il dans ta pensée ?"
       }
     ],
-    "concepts": [
-      "la conscience",
-      "la liberté"
-    ],
+    "concepts": ["la conscience", "la liberté"],
     "concepts_signés": []
   },
   {
@@ -858,10 +788,7 @@
         "prompt": "D'après toi, peut-on encore croire en Dieu après Auschwitz ? Explique-moi en quoi cette croyance devient problématique, et comment tu réponds à la question."
       }
     ],
-    "concepts": [
-      "la technique",
-      "la nature"
-    ],
+    "concepts": ["la technique", "la nature"],
     "concepts_signés": []
   },
   {
