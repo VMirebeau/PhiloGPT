@@ -3,7 +3,7 @@ import { setupProxyExecutor } from '~services/proxy-fetch'
 
 function injectTip() {
   const div = document.createElement('div')
-  div.innerText = 'Veuillez vous connecter et garder cette page ouverte.\nVous pourrez alors revenir à PhiloGPT'
+  div.innerText = 'Assurez-vous de garder cette page ouverte et connectée.\nVous pouvez revenir à PhiloGPT.'
   div.style.position = 'fixed'
   // put the div at right top of page
   div.style.top = '0'

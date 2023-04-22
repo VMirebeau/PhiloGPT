@@ -168,31 +168,36 @@ body {
 
 .circle-container {
   position: absolute;
-  top: 0;
+  top: -20px;
   right: -20px;
 }
 
 .circle {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor:pointer;
+}
+
+.circle:hover .inner-circle {
+  background-color:#10a37f;
 }
 
 .inner-circle {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background-color: #10a37f;
+  background-color: #babbbf;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .question-mark {
-  font-size: 2rem;
-  font-family: "-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"";
+  font-size: 2.5rem;
+  font-family: "Inter var,"system-ui"";
 }
