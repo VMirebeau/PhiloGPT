@@ -1,9 +1,7 @@
-@use 'inter-ui/default' as inter-ui with (
-  $inter-font-display: swap,
+@use 'inter-ui/default' as inter-ui with ($inter-font-display: swap,
   $inter-font-path: 'inter-ui/Inter (web)'
 );
-@use 'inter-ui/variable' as inter-ui-variable with (
-  $inter-font-display: swap,
+@use 'inter-ui/variable' as inter-ui-variable with ($inter-font-display: swap,
   $inter-font-path: 'inter-ui/Inter (web)'
 );
 @include inter-ui.weight-400-normal;
@@ -22,6 +20,7 @@ body {
 }
 
 @supports (font-variation-settings: normal) {
+
   html,
   body {
     font-family: 'Inter var', 'system-ui';
@@ -37,20 +36,23 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: -90px; /* pour faire dépasser l'image de 10px vers le bas */
+  bottom: -90px;
+  /* pour faire dépasser l'image de 10px vers le bas */
 }
 
 .imgleft {
-  left: -30px; /* pour faire dépasser l'image de 10px vers la droite */
+  left: -30px;
+  /* pour faire dépasser l'image de 10px vers la droite */
 }
 
 .imgright {
-  right: -30px; /* pour faire dépasser l'image de 10px vers la droite */
+  right: -30px;
+  /* pour faire dépasser l'image de 10px vers la droite */
 }
 
 .posRel {
   position: relative;
-  min-width:200px;
+  min-width: 200px;
 }
 
 .paddBottom {
@@ -58,11 +60,11 @@ body {
 }
 
 .paddBoutonErreur {
-  padding-left:50px;
+  padding-left: 50px;
 }
 
 .pmsgConnexionretablie {
-  margin-left:60px;
+  margin-left: 60px;
 }
 
 .borderSelect {
@@ -77,58 +79,59 @@ body {
 
 .renseignements {
   text-align: center;
-  line-height:1.3rem;
-  margin-top:1rem;
+  line-height: 1.3rem;
+  margin-top: 1rem;
 }
+
 .encadrePhilosophe {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius:20px;
-  width:100%;
-  line-height:2rem;
-  margin-bottom:30px;
+  border-radius: 20px;
+  width: 100%;
+  line-height: 2rem;
+  margin-bottom: 30px;
   background-color: #10a37f;
-  position:relative;
+  position: relative;
 }
 
 .boutons:hover {
   background-color: #10a37f;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .boutons {
-  padding-left:0px;
+  padding-left: 0px;
 }
 
 .texteBouton {
-  margin:1rem;
-  text-align:center;
+  margin: 1rem;
+  text-align: center;
 }
 
 .petitBouton {
-  padding-top:0.25rem;
-  padding-bottom:0.25rem;
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .whiteText {
-  color:white;
+  color: white;
 }
 
 .blackText {
-  color:#303030;
+  color: #303030;
 }
 
 .containerPhilosophes {
   text-align: center;
   display: inline-block;
-  padding:0.5rem;
-  cursor:pointer;
-  margin:0.875rem;
-  --tw-shadow:2px 5px 5px 0 rgb(0 0 0 / .05);
-  --tw-border-opacity:0.3;
-  border-width:2px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 0.875rem;
+  --tw-shadow: 2px 5px 5px 0 rgb(0 0 0 / .05);
+  --tw-border-opacity: 0.3;
+  border-width: 2px;
 }
 
 .boxImg {
@@ -137,29 +140,29 @@ body {
 
 .boxP {
   text-align: center;
-  font-size:.875rem;
+  font-size: .875rem;
 }
 
 .allWidth {
-  width:100%;
+  width: 100%;
 }
 
 .titreDialog {
-  padding-top:1rem;
+  padding-top: 1rem;
 }
 
 .boiteDialog {
-  padding-top:0rem;
+  padding-top: 0rem;
 }
 
 .grandeBoiteDialog {
-  width:650px;
-  height:500px;
+  width: 650px;
+  height: 500px;
 }
 
 .inactif {
-  opacity:0.3;
-  cursor:auto;
+  opacity: 0.3;
+  cursor: auto;
 }
 
 .container {
@@ -180,11 +183,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .circle:hover .inner-circle {
-  background-color:#10a37f;
+  background-color: #10a37f;
 }
 
 .inner-circle {
@@ -199,5 +202,50 @@ body {
 
 .question-mark {
   font-size: 2.5rem;
-  font-family: "Inter var,"system-ui"";
+  font-family: "Inter var," system-ui"";
+}
+
+.moitieHorizontale {
+  width: 50%
+}
+
+.fullHorizontale {
+  width: 100%;
+  margin:0px;
+}
+
+.moitieDroiteInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.moitieVerticale {
+  height:50%;
+}
+
+.texteInfos  {
+  text-align: justify;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.imgInfo {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.styleInfo {
+  font-variant-caps:normal;
+  font-size:1rem;
 }

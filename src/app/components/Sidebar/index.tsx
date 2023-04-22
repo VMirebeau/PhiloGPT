@@ -1,22 +1,22 @@
-import { FC } from 'react'
+import { FC, useCallback, useState } from 'react'
+import InfoDialog from '../PromptLibrary/DialogInfos'
+import { ChatData } from '~app/consts'
+
 //import { chatData } from '~app/consts'
 
 interface Props {
   setValue: (value: string) => void
-  id:number,
-  chatData:{
-    id: number,
-    nom: string,
-    lieu: string,
-    dates: string,
-    greeting: string,
-    reminder: string,
-    prompt: string,
-    suggestions: {title:string, prompt:string}[]
-  }
+  id: number,
+  chatData: ChatData
 }
 
 const Sidebar: FC<Props> = ({ setValue, chatData }) => {
+  const [isPromptLibraryDialogOpen, setIsPromptLibraryDialogOpen] = useState(false)
+
+  const openPromptLibrary = useCallback(() => {
+    setIsPromptLibraryDialogOpen(true)
+  }, [])
+
   function prompt(txt: string) {
     // let suggprompt = chatData.suggestions?;
     //let str = suggprompt.prompt;
@@ -32,13 +32,21 @@ const Sidebar: FC<Props> = ({ setValue, chatData }) => {
             <br />
             {chatData.dates}
           </div>
-          <div className="circle-container">
-    <div className="circle">
-      <div className="inner-circle">
-        <span className="question-mark">?</span>
-      </div>
-    </div>
-  </div>
+          <div className="circle-container" onClick={openPromptLibrary}>
+            <div className="circle">
+              <div className="inner-circle">
+                <span className="question-mark">?</span>
+              </div>
+            </div>
+          </div>
+          {isPromptLibraryDialogOpen && (
+            <InfoDialog
+              isOpen={true}
+              onClose={() => setIsPromptLibraryDialogOpen(false)}
+              id={chatData.id}
+              chatData={chatData}
+            />
+          )}
         </div>
         <div>Demandez-moi...</div>
         {chatData.suggestions?.map((suggestion, index) => (
