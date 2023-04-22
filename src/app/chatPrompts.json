@@ -711,32 +711,34 @@
       "la science",
       "la technique"
     ],
-    "concepts_signés": [{
-      "concept": "la perfectibilité",
-      "mots": [
-        "\\bperfecti(?:bilité|ble)"
-      ],
-      "extraits": [
-        {
-          "auteur": "auto",
-          "origine": "Second discours",
-          "contenu": "Il y a une qualité très spécifique qui distingue [l’homme et l’animal], et sur laquelle il ne peut y avoir de contestation, c’est la faculté de se perfectionner ; faculté qui, à l’aide des circonstances, développe successivement toutes les autres, et réside parmi nous tant dans l’espèce que dans l’individu, au lieu qu’un animal est, au bout de quelques mois, ce qu’il sera toute sa vie, et son espèce, au bout de mille ans, ce qu’elle était la première année de ces mille ans.\nPourquoi l’homme seul est-il sujet à devenir imbécile ? N’est-ce point qu’il retourne ainsi dans son état primitif, et que, tandis que la bête, qui n’a rien acquis et qui n’a rien non plus à perdre, reste toujours avec son instinct, l’homme, reperdant par la vieillesse ou d’autres accidents tout ce que sa perfectibilité lui avait fait acquérir, retombe ainsi plus bas que la bête même ? Il serait triste pour nous d’être forcés de convenir, que cette faculté distinctive, et presque illimitée, est la source de tous les malheurs de l’homme ; que c’est elle qui le tire, à force de temps, de cette condition originaire, dans laquelle il coulerait des jours tranquilles et innocents ; que c’est elle, qui faisant éclore avec les siècles ses lumières et ses erreurs, ses vices et ses vertus, le rend à la longue le tyran de lui-même et de la nature."
-        }
-      ]
-    },
-    {
-      "concept": "la volonté générale",
-      "mots": [
-        "\\bvolonté générale"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "cours perso",
-          "contenu": "- Un intérêt particulier, c’est ce qui m’est directement favorable, en raison de mes caractéristiques personnelles : de mes désirs, de ma situation sociale ou professionnelle, de ma religion, etc. Au contraire, l’intérêt commun désigne ce sur quoi tous les intérêts particuliers s’accordent. L’intérêt commun est contenu dans chaque intérêt particulier, mais il n’est l’intérêt de personne en particulier.\n- La volonté de tous désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à son intérêt particulier. Au contraire, la volonté générale désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à l’intérêt commun.\nLa volonté générale est certes une abstraction, mais elle existe concrètement quand tout le peuple est appelé à voter une loi : la loi est en effet l’acte dans lequel tout le peuple statue pour tout le peuple. Dans la loi, c’est la société qui décide ce qu’elle veut pour elle-même.\nLa volonté générale, c’est donc la volonté de chacun (c’est-à-dire de tout le peuple), qui vise l’intérêt commun, et qui s’exprime dans la loi.\nCe concept est central pour la théorie politique de Rousseau. La liberté est « l’obéissance à la loi qu’on s’est prescrite est liberté ».\nComme la volonté générale est aussi en moi, quand j'obéis à la loi d'un Etat véritablement démocratique et qu'elle exprime donc la volonté générale, je m'obéis en fait à moi-même. Par conséquent, l'obéissance à la loi peut dans ce cas être un acte de liberté."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "la perfectibilité",
+        "mots": [
+          "\\bperfecti(?:bilité|ble)"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Second discours",
+            "contenu": "Il y a une qualité très spécifique qui distingue [l’homme et l’animal], et sur laquelle il ne peut y avoir de contestation, c’est la faculté de se perfectionner ; faculté qui, à l’aide des circonstances, développe successivement toutes les autres, et réside parmi nous tant dans l’espèce que dans l’individu, au lieu qu’un animal est, au bout de quelques mois, ce qu’il sera toute sa vie, et son espèce, au bout de mille ans, ce qu’elle était la première année de ces mille ans.\nPourquoi l’homme seul est-il sujet à devenir imbécile ? N’est-ce point qu’il retourne ainsi dans son état primitif, et que, tandis que la bête, qui n’a rien acquis et qui n’a rien non plus à perdre, reste toujours avec son instinct, l’homme, reperdant par la vieillesse ou d’autres accidents tout ce que sa perfectibilité lui avait fait acquérir, retombe ainsi plus bas que la bête même ? Il serait triste pour nous d’être forcés de convenir, que cette faculté distinctive, et presque illimitée, est la source de tous les malheurs de l’homme ; que c’est elle qui le tire, à force de temps, de cette condition originaire, dans laquelle il coulerait des jours tranquilles et innocents ; que c’est elle, qui faisant éclore avec les siècles ses lumières et ses erreurs, ses vices et ses vertus, le rend à la longue le tyran de lui-même et de la nature."
+          }
+        ]
+      },
+      {
+        "concept": "la volonté générale",
+        "mots": [
+          "\\bvolonté générale"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "cours perso",
+            "contenu": "- Un intérêt particulier, c’est ce qui m’est directement favorable, en raison de mes caractéristiques personnelles : de mes désirs, de ma situation sociale ou professionnelle, de ma religion, etc. Au contraire, l’intérêt commun désigne ce sur quoi tous les intérêts particuliers s’accordent. L’intérêt commun est contenu dans chaque intérêt particulier, mais il n’est l’intérêt de personne en particulier.\n- La volonté de tous désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à son intérêt particulier. Au contraire, la volonté générale désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à l’intérêt commun.\nLa volonté générale est certes une abstraction, mais elle existe concrètement quand tout le peuple est appelé à voter une loi : la loi est en effet l’acte dans lequel tout le peuple statue pour tout le peuple. Dans la loi, c’est la société qui décide ce qu’elle veut pour elle-même.\nLa volonté générale, c’est donc la volonté de chacun (c’est-à-dire de tout le peuple), qui vise l’intérêt commun, et qui s’exprime dans la loi.\nCe concept est central pour la théorie politique de Rousseau. La liberté est « l’obéissance à la loi qu’on s’est prescrite est liberté ».\nComme la volonté générale est aussi en moi, quand j'obéis à la loi d'un Etat véritablement démocratique et qu'elle exprime donc la volonté générale, je m'obéis en fait à moi-même. Par conséquent, l'obéissance à la loi peut dans ce cas être un acte de liberté."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 12,
@@ -766,7 +768,48 @@
       "le devoir",
       "la science"
     ],
-    "concepts_signés": []
+    "concepts_signés": [
+      {
+        "concept": "l'impératif catégorique",
+        "mots": [
+          "\\bcatégorique",
+          "\\bdevoir"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Kant distingue deux types d'impératifs. Un impératif peut être hypothétique ou catégorique. L'impératif catégorique (ou apodictique) correspond à ce qui doit être fait inconditionnellement. Seules des actions dont la maxime sera conforme à ce principe seront morales. Il n'y a pas ici de fin instrumentale, l'impératif catégorique s'impose de lui-même sans autre justification.\nL'impératif catégorique s'inscrit dans une critique de la philosophie eudémoniste propre à plusieurs auteurs antiques, notamment Aristote, selon laquelle le bonheur serait le souverain bien et la fin ultime de l'existence humaine : la moralité devant se défaire de tout motif empirique, le bien (au sens moral) et le bonheur doivent être distingués, et le bonheur n'intervient plus que comme une conséquence souhaitable (mais néanmoins secondaire) de l'action bonne. \nSelon Kant l'action morale doit être jugée non pas en fonction de son résultat mais selon ses motivations ; si la volonté qui la commande est bonne, l'action est moralement juste. L'impératif catégorique de Kant consiste en l'accomplissement du devoir, c'est-à-dire que l'action juste est inexorablement gratuite et désintéressée.\nL'acte gratuit est selon Kant possible du fait même de la liberté humaine. En effet, bien que l'opinion commune pense que la morale s'oppose à la liberté, selon Kant la moralité consiste à s'affranchir des instincts égoïstes pour agir raisonnablement, pour être libre.\nLe devoir n'a pas de contenu fixe mais seulement une forme : il est universalisable. Ce qui est juste pour l'un doit être juste pour tous.\nL'action conforme au devoir dans les faits n'est pas nécessairement moralement juste : par exemple, respecter la loi par peur du châtiment est conforme au devoir, mais non moral car intéressé.\nIl est donc impossible de juger la valeur morale des actes d'autrui puisqu'il est impossible de connaître toutes les motivations de ses actes. Il est d'autre part extrêmement difficile de juger ses propres actes du fait de la difficulté de l'introspection nécessaire."
+          }
+        ]
+      },
+      {
+        "concept": "le criticisme",
+        "mots": [
+          "\\bcriti(?:cisme|que)"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le criticisme, ou « philosophie critique », promeut l'idée que toute véritable recherche philosophique « consiste à commencer par analyser les fondements, l'étendue légitime et les limites de notre connaissance ». La critique ne s'exerce pas tellement sur les productions de la raison mais sur la raison elle-même.\nLa philosophie critique s'oppose directement au dogmatisme et au scepticisme. En effet, le criticisme peut être considéré comme un bouleversement non seulement des manières de penser pour ce qui concerne la spéculation métaphysique mais aussi dans la manière de se comporter eu égard à la morale et à la politique.\nLe criticisme postule que si l'être humain ne peut connaître la vérité des choses en soi (noumènes), il peut connaître la vérité de ce qu'elles sont pour soi (ce qu'elles représentent pour lui - phénomènes).\nToute connaissance serait formée de la combinaison d'observations issues des sens (et donc incertaines) et de catégories de pensée universelles (identiques pour tout être pensant) a priori (préexistant à toute expérience), tel que le principe de causalité par exemple. De cette universalité des catégories de pensée découlerait le fondement « certain » des connaissances (des phénomènes) a posteriori."
+          }
+        ]
+      },
+      {
+        "concept": "le sublime",
+        "mots": [
+          "\\bsublime"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "studoc",
+            "contenu": "On appelle sublime ce qui est grand absolument, au-delà de toute comparaison. On a besoin d’un objet grand quand même comme échelle, qui nécessite lui-même un objet en échelle etc. On a un concept comparatif des grandeurs. Mais quand on appelle quelque chose sublime on s’aperçoit qu’on ne cherche pas de mesure en dehors d’elle-même. C’est une grandeur qui n’est égale qu’à elle-même. Du coup le sublime n’est pas à chercher dans l’objet de la nature mais dans nos idées.En fait : est sublime ce qui en comparaison de quoi toute autre chose est petite. Dans la nature, c’est impossible : si on prend un télescope, on trouvera toujours quelque chose de  plus gros. Donc rien du point de vue des sens ne peut être considéré sublime. Comme il y a une tendance au progrès vers l’infini dans l’imagination, et dans la raison une prétention à la totalité absolue comme une idée réelle, le désaccord entre cette idée et la capacité à évaluer les grandeurs des objets sensible éveille en nous le sentiment d’une faculté suprasensible, et c’est l’usage que le jugement fait de certains objets en vue de ce sentiment qui est grand absolument. Le sublime c’est la disposition d’esprit produite par une certaine représentation, à laquelle s’applique le jugement réfléchissant. Est sublime toute chose qui du seul fait qu’elle est pensée, révèle une faculté de l’âme qui surpasse toute mesure des sens."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 13,
@@ -796,7 +839,31 @@
       "la liberté",
       "le travail"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "la dialectique",
+      "mots": [
+        "\\bdialectique"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "France Culture",
+          "contenu": "Pour Hegel, la dialectique n'est pas simplement quelque chose qui concernerait la pensée, mais quelque chose qui concerne la réalité. La réalité est donc dialectique pour Hegel. Ça veut dire que cette réalité n’est pas simplement une collection d’existants qui sont là à côté les uns des autres, mais qu’elle est traversée par une forme de négativité. Pour Hegel, les choses ne restent pas ce qu’elles sont, ce sont des choses finies et à ce titre elles sont emportées au-delà d’elles-mêmes. Donc l’incarnation de la dialectique c’est le temps, sous son versant naturel et humain, c’est à dire l’Histoire. Toute chose est assujettie au temps et à partir de là est appelée à naître, croître, se développer et périr par exemple. C’est une des versions de la dialectique. Mais de manière plus générale, est dialectique justement un processus dans lequel une réalité va être amenée à nier ce qu’elle est immédiatement, à se transformer et à devenir autre chose."
+        }
+      ]
+    },{
+      "concept": "la phénoménologie",
+      "mots": [
+        "\\bphénoménologi"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "L’étude ou science de la conscience est la phénoménologie de l’esprit. Elle étudie la manifestation phénoménale d’un sujet en tant qu’il se rapporte à un objet, c'est-à-dire en tant que conscience. Quand cette étude a pour objet le rapport interne de l’esprit à lui-même on l’appelle psychologie.\nLa phénoménologie est donc la « science de l’expérience de la conscience8 ». Hegel décrit l’évolution dialectique de la conscience par le jeu des négations successives. Depuis la première opposition immédiate entre elle et l’objet, puis la conscience de soi, la raison, l’esprit, la religion, jusqu’au savoir absolu dans lequel « le concept correspond à l’objet et l’objet au concept », ce dernier savoir est selon Hegel savoir de l’être dans sa totalité, intériorisation de l’objet, ou identité de l’objet de la pensée et de l’activité de connaissance dont le résultat est l’objet lui-même."
+        }
+      ]
+    }]
   },
   {
     "id": 14,
@@ -823,10 +890,48 @@
     ],
     "concepts": [
       "le travail",
-      "la technique",
       "l'État"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "la lutte des classes",
+      "mots": [
+        "\\bclasses",
+        "\\bproléta",
+        "\\bbourgeois"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Selon la perspective marxiste, l'histoire de la société jusqu'à nos jours reflète la division de la société en classes sociales (« homme libre et esclave, patricien et plébéien, baron et serf, maître de jurande et compagnon, en un mot oppresseurs et opprimés ») qui s'opposent dans une lutte ininterrompue, tantôt déclarée, tantôt larvée, pacifique ou non. La société capitaliste moderne, en renversant les divisions en ordres de la société féodale n'a pas aboli les antagonismes de classe, mais les a remplacés par des nouveaux. Elle les a également simplifiés, et de nos jours, la « société se divise de plus en deux vastes camps ennemis, en deux grandes classes diamétralement opposées : la bourgeoisie et le prolétariat ».\nMarx distingue toujours au moins deux classes fondamentales :\n- les capitalistes ou bourgeois, classe dominante qui possède le capital et dispose ainsi des moyens de faire travailler autrui à son profit en pesant sur le cours d'achat de la force de travail\n- le prolétariat, regroupant les personnes qui n'ont pas de capital et sont contraintes de vendre leur force de travail pour subsister. Il s'agit de la classe salariée.\nPour les marxistes la lutte des classes donne un sens à l'histoire et explique la dynamique qui mue les sociétés, « L’histoire de toute société jusqu’à nos jours n’a été que l’histoire de luttes de classes » (Karl Marx). Elle s'arrêtera lorsqu'une révolution prolétarienne mondiale conduira à une société où, après un temps où la classe dominante serait également la classe laborieuse (« dictature du prolétariat »), les différences de classes seront définitivement abolies, conduisant ainsi à une « société sans classe » et donc à l'Égalité. Selon cette perspective, si l'organisation sociale elle-même encourage la cohésion du prolétariat, alors les richesses produites pourront être employées de manière optimale pour améliorer le sort de l'humanité ; la production pourra répondre exclusivement à une demande (et non à un besoin de conquérir des marchés), et le pouvoir politique ne sera plus un instrument au service des capitalistes mais l'expression véritable d'une démocratie. La révolution communiste permettrait donc de faire cesser la division de la société en classes."
+        }
+      ]
+    },
+    {
+      "concept": "l'aliénation",
+      "mots": [
+        "\\balién"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Dans les Manuscrits de 1844, l'aliénation est définie comme une perte d'humanité, un assèchement de l'humain dans l'être à mesure qu'il produit des objets qui obtiennent une autonomie par rapport au sujet. La violence déshumanisante se situe dans le fait que l'objet devienne autonome du sujet et se retourne contre lui. La démarche de Marx pour définir l'aliénation est donc de partir, de manière empirique, des conditions de vie réelle des ouvriers, plutôt que de définir l'aliénation par une ontologie métaphysique comme le faisait Hegel, pour qui le travail libérait l'individu. Ici, le sujet éprouve douloureusement les effets dudit processus. Ce processus conduit le travailleur à devenir étranger à lui-même tandis qu'il produit.\nMarx approfondit rigoureusement l'aliénation subjective, c'est-à-dire l'aliénation comme expérience de la souffrance, liée aux mauvaises conditions de travail : l'aliénation subjective est alors considérée comme une conséquence logique de l'aliénation objective. En effet, si le sujet en tant que travailleur éprouve de la douleur, souffre terriblement, c'est parce que les conditions dans lesquelles il effectue son activité sont difficiles, misérables, tragiques ; de véritables conditions de souffrance : la souffrance de la subjectivité s'explique par l'existence de conditions pathologiques du travail."
+        }
+      ]
+    },{
+      "concept": "l'idéologie",
+      "mots": [
+        "\\bidéologi"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Pour Karl Marx, l'idéologie est l'ensemble des idées, des valeurs et des normes servant à légitimer la division en classes de la société. L’idéologie au sens marxiste décrit donc l'idéologie dominante en tant que « vision du monde » imposée par la classe dominante. C'est la construction intellectuelle qui expliquerait et justifierait un ordre social existant à partir de raisons naturelles ou religieuses. Cette vision ne serait en réalité qu'un voile destiné à cacher la poursuite d'intérêts matériels égoïstes que la classe dominante utiliserait pour renforcer ou étendre sa domination : ainsi pour renforcer le pouvoir en place, l'idéologie de la classe dominante se présenterait de manière que les intérêts de la classe dominante paraissent être les intérêts de tous. L'idéologie devient une superstructure de la société dont elle émane et qu'elle soutient. Selon Friedrich Engels, « l’idéologie est un processus que le soi-disant penseur accomplit sans doute consciemment, mais avec une conscience fausse. Les forces motrices véritables qui le mettent en mouvement lui restent inconnues, sinon ce ne serait point un processus idéologique ».\nLa critique de Karl Marx de l'idéologie est d'abord une critique de la misère que cette idéologie cache, misère qui réside dans les rapports sociaux à la fois résultat et moteur de cette misère. La première misère est l' obligation au travail impliquée dans l'organisation de la société par Le Capital dans laquelle toute personne dépourvue d'une part de ce capital se voit dans l'obligation de vendre sa force de travail."
+        }
+      ]
+    }]
   },
   {
     "id": 15,
@@ -856,7 +961,19 @@
       "l'art",
       "le bonheur"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "vouloir-vivre",
+      "mots": [
+        "\\bvouloir.vivre"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "kidsvacances.fr",
+          "contenu": "La nature de l’être en soi se révèle d’abord dans l’épreuve que nous faisons de nous-mêmes: l’être est vouloir-vivre – tension fondamentale qui nous entraîne de désir en désir, sans que nous puissions l’arrêter. Nous ne sommes pas maîtres de la volonté, c’est elle qui agit en nous, elle qui motive inconsciemment nos représentations, elle qui détermine nos désirs.\nCette tension est à l’œuvre aussi dans les choses: tout l’univers est la manifestation du vouloir-vivre, principe unique, aveugle, anonyme, universel. En lui, du minéral à l’animal, tout est un. L’individualité (principe de la représentation) n’est qu’une apparence: par la racine de notre être, nous sommes en union avec tous les autres.\nManque perpétuel, le vouloir-vivre est essentiellement souffrance. Puissance sans intelligence, il est sans raison, il veut pour vouloir, ses objets sont secondaires. La vie par conséquent n’a pas de sens, pas de but ultime; et pour cesser de souffrir, il faudrait cesser de vouloir."
+        }
+      ]
+    }]
   },
   {
     "id": 16,
@@ -884,10 +1001,60 @@
     "concepts": [
       "l'art",
       "le devoir",
-      "le travail",
-      "la religion"
+      "le travail"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "la mort de Dieu",
+      "mots": [
+        "\\bmort de Dieu",
+        "\\bDieu est mort"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "La formule « Dieu est mort » peut être comprise non seulement comme un constat de la déchristianisation, partagé dès le début du siècle (notamment par des ecclésiastiques), mais aussi comme une critique de la religiosité. Nietzsche pensait que la majorité des hommes ne voient pas (ou refusent simplement d'admettre) cette « mort de Dieu », et ce à cause de l'anxiété qui en découle. La Mort de Dieu commençant à devenir largement reconnue, le désespoir croît et le nihilisme gagne du terrain, accompagné de la croyance en une volonté humaine comme loi en tant que telle — tout est permis si votre volonté le demande. Ceci est en partie la raison qui a mené Nietzsche à comprendre le christianisme comme nihiliste. Pour Nietzsche, le nihilisme est la conséquence de n'importe quel système philosophique idéaliste, car tous les idéalismes souffrent de la même faiblesse que la morale chrétienne — on n'y retrouve aucune fondation sur laquelle bâtir. Il se décrit donc comme un « \"homme souterrain\" en plein travail, qui creuse tunnels et galeries et qui sape »."
+        }
+      ]
+    },
+    {
+      "concept": "la volonté de puissance",
+      "mots": [
+        "\\bvolonté (?:de|vers la) puissance"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "La volonté de puissance est un concept de philosophie qui désigne, chez Friedrich Nietzsche, l'« essence la plus intime de l'Être ». Il s'agit d'une pulsion fondamentale de l'homme qui cherche l'accroissement de la puissance. La volonté de puissance peut être positive, c'est-à-dire créatrice, exaltant la vie, ou alors négative, c'est-à-dire être animée par le ressentiment, la haine, la volonté de nuire ou de dégrader.\nLa volonté de puissance s'inscrit dans l'anthropologie de Nietzsche, selon laquelle l'humain est l'ensemble de ses pulsions hiérarchisées de manière plus ou moins stable. Chaque pulsion interprète la force des autres pulsions et agit en conséquence, tentant de monter dans la chaîne de commandement. Il faudrait donc parler des volontés de puissance. Au singulier, ce concept s'applique à la synthèse accomplie au niveau de l'individu.\nIl ne s'agit pas de vouloir la puissance comme si, dans une conception psychologisante, la puissance était un objet posé à l'extérieur de la volonté. Nietzsche écarte ce sens traditionnel de la notion de volonté, et lui substitue l'idée qu'il y a quelque chose dans la volonté qui affirme sa puissance. Dans cette idée, la volonté de puissance désigne un impératif interne d'accroissement de puissance, une loi intime de la volonté exprimée par l'expression « être plus » : cet impératif pose alors une alternative pour la Volonté de puissance, devenir plus ou dépérir.\nCette conception de la volonté et de la puissance conduit à exclure le recours à des notions comme l'« unité » et l'« identité » pour décrire ce qui existe et en déterminer l’essence : si tout ce qui est Volonté de puissance doit devenir plus, il n'est en effet pas possible pour un être de demeurer dans ses propres limites. La notion de Volonté de puissance ne désigne donc ni ne constitue l’unité ou l’identité d’une chose. Au contraire, pour toute réalité, être « volonté de puissance », c'est ne jamais pouvoir être identique à soi et être toujours porté au-delà de « soi ».\nCe devenir plus, cette manière de devoir toujours aller au-delà de soi, n'est cependant pas arbitraire, mais se produit selon une orientation, que Nietzsche nomme structure, et qui est donc une structure de croissance qui définit et fait comprendre comment une réalité devient ; c'est cette structure qui est sa réalité agissante, individuelle, qui est sa volonté de puissance."
+        }
+      ]
+    },{
+      "concept": "le surhumain",
+      "mots": [
+        "\\bsurhumain",
+        "\\bsurhomme"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "1000idcg.com",
+          "contenu": "Le surhomme est le rude destin de l’homme. En effet, Nietzsche conçoit l’homme comme une « corde » entre la bête et le surhomme. Or, cette corde tendue au-dessus d’un abîme est un obstacle particulièrement ardu, car le surhomme n’est rien moins que l’exact négatif de l’homme, c’est-à-dire tout ce qu’il n’est pas. « Je vous enseigne le surhomme, écrit Nietzsche. L’homme est quelque chose qui doit être surmonté. Qu’avez-vous fait pour le surmonter ? Tous les êtres, jusqu’ici, ont créé quelque chose au-delà d’eux-mêmes : et vous voulez être le reflux de cette grande marée et vous préférez retourner à l’animal plutôt que de surmonter l’homme ? Qu’est-ce que le singe pour l’homme ? Un objet de risée ou une honte douloureuse. Et c’est exactement cela que l’homme doit être pour le surhomme : un objet de risée ou une honte douloureuse » (Ainsi parlait Zarathoustra). L’homme semble donc incapable de s’extraire de lui-même. Bien au contraire, il se glorifie même d’être homme et il théorise l’exaltation de son humanité. Nietzsche stigmatise ainsi l’humanisme, qu’il critique comme une reconnaissance de l’homme par l’homme l’encourageant à se satisfaire de sa médiocre condition. Prisonnier de la léthargie de cette autosatisfaction, l’individu répugne alors à se dépasser."
+        }
+      ]
+    },{
+      "concept": "l'éternel retour'",
+      "mots": [
+        "\\bvéternel retour"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "On pourrait grossièrement résumer l'idée de l'Éternel Retour en un simple précepte tel que celui-ci : mène ta vie en sorte que tu puisses souhaiter qu’elle se répète éternellement.\nCe concept est alors très éloigné de l’idée de résurrection ou de réincarnation présente dans certaines religions : Nietzsche ne semble pas tenir pour véritable la possibilité de revivre à l’infini sa propre vie, mais il fait de cette perspective une pierre de touche pour la valeur de sa propre existence. Ainsi, pour de nombreux penseurs de la fin du xixe siècle en Allemagne, époque phare du pessimisme, le bilan que la plupart des hommes feraient au soir de leur vie suffit à prouver l’absurdité de l’existence. Si en effet la mort venait nous voir ce jour même en nous annonçant que notre heure est venue mais que nous pouvons décider, au lieu de sombrer dans le néant, de revivre à l’infini et dans ses moindres détails toute la vie que nous avons menée jusqu’ici, il y a fort à parier que nous préfèrerions retourner au néant – c'est ce que Nietzsche appelle le nihilisme incomplet, par opposition au nihilisme complet qu'il propose, celui qui caractérise le surhumain. Aussi faut-il tâcher de vivre de telle sorte que l’on puisse souhaiter que chaque instant se reproduise éternellement."
+        }
+      ]
+    }]
   },
   {
     "id": 17,

@@ -428,5 +428,180 @@
         ]
       }
     ]
+  },
+  {
+    "auteur": 12,
+    "textes": [
+      {
+        "concept": "l'art",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Pour Kant, une œuvre d'art est une œuvre qui répond aux critères du beau. Le beau doit être distingué de l'agréable. Quand on dit « c'est beau », on suppose que tout le monde va éprouver le même sentiment de beauté devant l'œuvre, on présume que ce jugement est universel. D'après Kant, celui qui affirme qu'une œuvre est belle attend que tous les autres la reconnaissent comme belle.\nLes adages populaires tels que « à chacun ses goûts » ou « des goûts et des couleurs, on ne discute point » illustrent la difficulté à s'accorder sur la catégorie du beau.\nPour répondre à cette difficulté, Kant distingue, dans la Critique de la faculté de juger, l'agréable et le beau. L'agréable touche aux sens d'un individu, ce jugement est restreint à la sphère particulière des goûts de chacun.\nPour Kant, le jugement esthétique, c'est-à-dire le jugement qui affirme la beauté d'une œuvre d'art, n'est pas restreint au goût de chacun. Kant souligne que lorsque l'individu s'exclame « c'est beau ! », il n'exprime pas qu'un avis personnel, il se prononce sur une qualité qu'il attribue à l'œuvre d'art.\nC'est la particularité du jugement esthétique : bien que ne répondant à aucun concept, on présume toujours que le sentiment du beau serait partagé par autrui. C'est pourquoi Kant postule qu'il devrait exister un accord entre les individus sur le beau. Dire qu'une œuvre est belle, c'est présupposer que chacun éprouverait le même sentiment face à elle. Le jugement esthétique présuppose l'universalité sans réussir à la prouver."
+          }
+        ]
+      },
+      {
+        "concept": "le devoir",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "L’analyse kantienne part d’un fait de la raison : nous ne savons pas — et ne pouvons pas savoir — si une action morale (ou purement morale) a jamais été réalisée par l’homme depuis que le monde est monde, mais le jugement moral en lui-même ne fait aucun doute : la conscience commune sait juger du bien et du mal. Dès lors, l’entreprise de Kant est plus théorique que normative : elle doit expliquer le principe du jugement de moralité. D’où la phrase de Kant : « Il n’est besoin ni de science ni de philosophie pour savoir ce qu’on a à faire, pour être honnête et bon, même sage et vertueux ».\nEn examinant la conscience morale commune, Kant dégage le fait que rien n’est « bon » en soi, dans le monde, hormis une volonté bonne. Cette volonté bonne est définie en dehors de toute considération des buts de l’action (elle doit être bonne en elle-même), elle ne dépend pas des résultats de l’action (ce qui montre l’opposition de la morale kantienne et des morales utilitaristes ou conséquentialistes). La volonté est dite bonne si et seulement si elle obéit à une loi ou maxime commandée par la seule raison (représentation d'une loi morale suscitant l'adhésion par respect), et non par la sensibilité (les penchants égoïstes). En effet, selon Kant, les facultés humaines se divisent entre la sensibilité d’une part, qui est toujours liée à l’égoïsme et à l’amour de soi, et la raison d’autre part. La volonté bonne, qui doit être bonne en soi, donc indépendamment de toute inclination sensible (désir, penchant), doit donc être purement rationnelle.\nOn peut dégager deux résultats importants de cette idée. Le premier, c’est que la morale est liée à la rectitude du vouloir (une action est dite « bonne » ou « morale » si elle est décidée par pure représentation de la loi morale). Il s'agit donc d'une morale de l'intention (déontologie). Le deuxième, c’est que la raison n’est pas conformée en vue du bonheur.\nKant définit le devoir comme « la nécessité d’accomplir une action par respect pour la loi ». La loi morale s’impose à tout être raisonnable, et donc aussi bien à l’homme qu’à une volonté sainte."
+          }
+        ]
+      },
+      {
+        "concept": "la science",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Selon Kant, un jugement est analytique lorsque le concept de son prédicat est inclus dans celui de son sujet. Une telle présentation s'appuie sur la structure classique de la proposition, qui considère tout énoncé comme composé d'un sujet et d'un prédicat. Un jugement est alors analytique lorsqu'on l'obtient par analyse du concept du sujet, sans que rien d'extérieur soit ajouté. L'exemple pris par le philosophe de Königsberg est celui des corps : « tout corps est étendu » est une proposition analytique, car l'extension spatiale est supposée par le concept de corps. Un corps peut bien avoir différentes formes, ou ne pas avoir de poids, il est inconcevable qu'il n'ait aucune étendue. Dans la mesure où seule la compréhension du concept est mise en jeu, les jugements analytiques sont aussi a priori.\nLes jugements synthétiques eux permettent d'accroître la connaissance. Une proposition affirmant que tout corps a un poids, par exemple, rajoute au concept de corps celui de poids. Le concept du prédicat n'est pas inclus dans celui du sujet, il n'y a plus simple analyse : un élément supplémentaire est apparu. Les jugements synthétiques seront alors pour Kant de deux sortes :\n- synthétique a posteriori\n- synthétique a priori\nLes premiers sont reconnus dans la tradition philosophique : il s'agit des propositions portant sur les faits. C'est ce que Hume appelle des « choses de fait », ou matters of fact, par opposition aux « relations d'idées »[réf. nécessaire]. Les seconds sont une nouveauté kantienne, et il s'agira dès lors pour leur créateur de justifier de leur légitimité. Ce qui différenciera jugement synthétique a posteriori et a priori, c'est le type d'intuition auquel ils feront appel.\nUn jugement synthétique a posteriori impliquera nécessairement l'intervention d'une intuition sensible, à portée simplement subjective, un jugement synthétique a priori supposera que s'y adjoigne la forme pure de l'intuition. L'intuition pure se composant du temps et de l'espace, le dernier type de jugement y recourra obligatoirement d'une manière ou d'une autre. Kant soutiendra que l'arithmétique fait appel au sens interne (le temps), la géométrie elle au sens externe (espace).\nUn exemple donné dans la Critique de la raison pure est le concept de causalité : « tout ce qui arrive a sa cause [...] mais le concept d'une cause est tout à fait extérieur au concept de quelque chose qui arrive et différent de lui [...] c'est donc un jugement synthétique mais il n'est pas lié à l'expérience, lui étant plus général et le précédant »."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 13,
+    "textes": [
+      {
+        "concept": "le langage",
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Encyclopédie des sciences philosophiques en abrégé",
+            "contenu": "C'est dans les mots que nous pensons. Nous n'avons conscience de nos pensées déterminées et réelles que lorsque nous leur donnons la forme objective, que nous les différencions de notre intériorité, et par suite nous les marquons d'une forme externe, mais d'une forme qui contient aussi le caractère de l'activité interne la plus haute. C'est le son articulé, le mot, qui seul nous offre une existence où l'externe et l'interne sont si intimement unis. Par conséquent, vouloir penser sans les mots, c'est une tentative insensée.\nEt il est également absurde de considérer comme un désavantage et comme un défaut de la pensée cette nécessité qui lie celle-ci au mot. On croit ordinairement, il est vrai, que ce qu'il y a de plus haut, c'est l'ineffable. Mais c'est là une opinion superficielle et sans fondement ; car, en réalité, l'ineffable, c'est la pensée obscure, la pensée à l'état de fermentation, et qui ne devient claire que lorsqu'elle trouve le mot. Ainsi le mot donne à la pensée son existence la plus haute et la plus vraie."
+          }
+        ]
+      },
+      {
+        "concept": "la liberté",
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Leçons sur la philosophie de l'histoire",
+            "contenu": "L'histoire universelle est le progrès dans la conscience de la liberté"
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Hegel développe une théorie de l'histoire universelle. L'histoire trouve sa réalisation objective dans l'État, où l'Idée s'accomplit dans une organisation juridique capable de réaliser la liberté qui est son essence, i.e. : ce qu'elle était déjà en germe. L'État est ainsi l'Idée qui se concrétise dans une société humaine, dans un peuple dont l'Idée est l'esprit, et qui est menée à son terme par le grand homme. C'est l'art, la religion et la philosophie qui réalisent pleinement la liberté : parvenu au savoir absolu, à la liberté du concept, la philosophie reprend en effet la totalité du savoir, i.e. : l'ensemble des moments du processus, et se constitue par ce moyen comme science, comme savoir absolu de l'être.\nL'hégélianisme interprète la longue histoire de l'humanité comme ayant un sens : c'est la liberté de l'homme progressant étape par étape.\nOn voit donc que, pour Hegel, l'histoire s'achève avec son époque : tout ce développement dialectique, réalisé dans l'État, dans l'art, la religion, la philosophie, dans l'ensemble des institutions humaines qui expriment le travail du concept, trouverait sa vérité et son accomplissement à l'époque de Hegel."
+          }
+        ]
+      },
+      {
+        "concept": "le travail",
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Phénoménologie de l'esprit",
+            "contenu": "Le maître se rapporte médiatement à la chose par l'intermédiaire de l'esclave ; l'esclave, comme conscience de soi en général, se comporte négativement à l'égard de la chose et la supprime ; mais elle est en même temps indépendante pour lui, il ne peut donc par son acte de nier venir à bout de la chose et l'anéantir ; l'esclave la transforme donc seulement par son travail. Inversement, par cette médiation, le rapport immédiat devient pour le maître la pure négation de cette même chose ou la jouissance ; ce qui n'est pas exécuté par le désir est exécuté par la jouissance du maître ; en finir avec la chose : l'assouvissement dans la jouissance. Cela n'est pas exécuté par le désir à cause de l'indépendance de la chose ; mais le maître, qui a interposé l'esclave entre la chose et lui, se relie ainsi seulement à la dépendance de la chose, et purement en jouit. Il abandonne le côté de l'indépendance de la chose à l'esclave, qui l'élabore."
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "kartable",
+            "contenu": "Hegel développe la dialectique du maître et de l'esclave dans son ouvrage Phénoménologie de l'esprit. Il montre que le travail, au départ « subi » par un être dépendant, forme et éduque le travailleur. Celui-ci acquiert des savoirs et des savoir-faire qui constituent une formation essentielle. Le maître, au contraire, sombre dans l'oisiveté, l'ennui et la guerre destructrice. Ainsi, le travail, devenu rapidement une dépendance, est aussi, par le progrès technique, la conquête d'une liberté, celle de la connaissance. Sans devenir « l'esclave de son esclave », le maître devient dépendant dans la mesure où il ne travaille pas car il a besoin du savoir technique de son esclave."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 14,
+    "textes": [
+      {
+        "concept": "le travail",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "1000idcg.com",
+            "contenu": "Sur le plan philosophique, le travail est une activité propre à l’homme. Karl Marx analyse tout d’abord cette activité indépendamment du système capitaliste ainsi que des rapports de force qui le caractérisent. Il la pense donc hors des formes sociales qu’elle a prises au cours de l’histoire, tels l’esclavage, le servage, ou le salariat. Dans l’absolu, le travail est un acte qui modifie la nature en vue d’un but : « Le travail est d’abord, pose Marx, un procès qui se passe entre l’homme et la nature, un procès dans lequel l’homme règle et contrôle son métabolisme avec la nature par la médiation de sa propre action. Il se présente face à la matière naturelle comme une puissance naturelle lui-même. […] Mais en agissant sur la nature extérieure et en la modifiant par ce mouvement, il modifie aussi sa propre nature » (Le Capital). Le philosophe illustre cette définition avec la fameuse métaphore de l’abeille et de l’architecte : la construction d’une ruche est certes impressionnante, mais l’insecte n’a pas conçu mentalement son œuvre avant de mettre en pratique son idée. En outre, si ce « procès » présuppose forcément un effort, il n’est cependant pas réductible à une souffrance à endurer, comme le conçoit Adam Smith. Pour Marx, l’homme n’est pas voué au repos permanent, car il éprouve sa liberté dans le fait de surmonter des obstacles.\nSur le plan économique, le travail crée la valeur. Karl Marx lui confère en effet le rôle principal dans le processus productif. En opposition à la théorie économique classique, qui distingue trois facteurs de production (le capital, le travail, et le progrès technique), il revient à l’idée de la valeur-travail de David Ricardo, selon laquelle la valeur d’échange d’un bien correspond à la quantité de travail nécessaire à sa fabrication. Le capital et le progrès technique ne sont en réalité que des moyens de décupler la productivité du troisième facteur de production. Et pour cause, une machine ne crée pas de valeur en elle-même, ce sont le travail humain incorporé en elle et le travail humain nécessaire pour la faire fonctionner qui engendrent la richesse. Marx considère ainsi qu’il est impropre d’évoquer « la valeur du travail », puisque cette activité est, à ses yeux, la source unique de la valeur. Dans le détail, toutefois, son raisonnement concerne exclusivement les produits susceptibles d’échange ; il ne s’applique pas aux biens ou aux services qui, comme la « production domestique » (la cuisine, le ménage, etc.) ou les biens collectifs, ne peuvent pas être vendus. À considérer deux objets du commerce, le travail fourni pour les produire est bien le seul paramètre qu’ils partagent. Marx affirme donc qu’« en tant que valeurs toutes les marchandises ne sont que du travail humain cristallisé » (Le Capital). Par conséquent, la valeur d’échange d’une marchandise se mesure en temps de travail humain."
+          }
+        ]
+      },
+      {
+        "concept": "l'État",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Selon l’analyse marxiste, la classe dominante organise la société en protégeant du mieux possible ses privilèges. Pour cela, elle instaure l'État, l'instrument politique de sa domination : une police et une armée chargées de maintenir la sécurité et l'ordre public, l'ordre « bourgeois ». Marx parle également de « l'idéologie dominante ». Dans toute société, il y a certaines idées, certaines croyances et certaines valeurs qui dominent la vie sociale et culturelle. Ces idées dominantes sont produites pour l'essentiel par la classe dominante. Dès lors, ces idées expriment majoritairement la domination de cette classe, c'est-à-dire la justifient et s'efforcent de la pérenniser. Ces idées dominantes imprègnent les esprits, et ainsi les exploités ont souvent une vision du monde allant contre leurs intérêts réels."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 15,
+    "textes": [
+      {
+        "concept": "l'inconscient'",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La Volonté constitue chez Schopenhauer le premier principe et l'essence du monde. Par « Volonté », il entend une force active mais aveugle, du même ordre que celle que nous sentons à la racine de notre être. Toute force de la nature est pour lui volonté ; c’est une même et unique volonté qui s’extériorise dans les liens de la causalité physique, dans les réactions des plantes aux excitations de leur environnement, dans l’activité humaine. La Volonté s'extériorise ou s’« objective » comme « représentation », se manifestant sous une multitude de formes – minérales, végétales, animales – suivant une infinité de degrés qui vont des forces matérielles jusqu’aux produits de l'esprit humain.\nL’intelligence humaine est au sommet de la pyramide formée par les degrés d’objectivation de la volonté ; elle constitue le point d'aboutissement de son objectivation. Mais la volonté prime sur l’intellect ou la raison, de sorte que ces facultés sont au service de cette force : « le Maître, c’est la volonté ; le serviteur, c’est l’intellect », déclare Schopenhauer. Ainsi, nos décisions « libres », loin d’être la résultante de motifs clairement réfléchis, sont en réalité assujetties à une volonté impersonnelle. C'est ce qui explique que l’homme ignore habituellement les motifs profonds et véritables de ses actions, qu'il ne découvre indirectement que par la joie ou l'insatisfaction qu'il éprouve à leur réalisation. Le sujet, loin d'être l'acteur de ses actions, se révèle n'être finalement que le spectateur d'une « pulsion » aveugle qui le dépasse de toute part.\nLa saisie de cette essence unique et impersonnelle qu'est la Volonté, principe aussi bien métaphysique que psychologique, conduit Schopenhauer à étendre d'une part les caractéristiques fondamentales de la psychologie humaine à toute la nature, et à limiter d'autre part l'extension réelle de notre conscience aux manifestation les plus superficielles de notre psychisme. Nous ne pouvons réduire la volonté à l'expérience consciente que nous avons de nos volitions si ces mêmes volitions n'en sont que les manifestations individuelles au niveau de la conscience. A l'instar de toutes les forces qui produisent et gouvernent la nature, les forces inhérentes à la psychologie de l'homme sont donc inconscientes, ce que ne manque pas de souligner Schopenhauer : « tout ce qui est originel, tout ce qui constitue l'être véritable est inconscient ». Ce renversement complet de perspective, qui vient à faire d'une volonté inconsciente le fondement même de l'être, constitue la rupture la plus décisive engagée par la métaphysique de Schopenhauer."
+          }
+        ]
+      },
+      {
+        "concept": "l'art",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "kidsvacances.fr",
+            "contenu": "À la torture incessante de la volonté, l’art offre un premier répit. La contemplation esthétique (attitude commune à l’artiste et au spectateur) consiste en effet en un regard désintéressé, débarrassé de toute volonté, sur l’essence des choses. Leur utilité, leur caractère désirable est délaissé; seule importe leur beauté. Le désir cessant, la douleur de vivre est apaisée: le plaisir n’est que cette absence de peine.\nLibérés de la volonté, nous en avons aussi l’intuition pure: l’art représente en effet les formes épurées, générales, sous lesquelles la volonté se manifeste. À chaque degré de réalisation de la volonté correspond ainsi un art: l’architecture représente les forces élémentaires de la nature inorganique (pesanteur, résistance), la sculpture la nature humaine en générale, la peinture les sentiments, la poésie la pensée, la tragédie l’aptitude de l’homme à renoncer à sa volonté face au destin.\nLa musique, art suprême, se distingue en ce qu’elle ne représente aucune manifestation de la volonté, mais la volonté elle-même, en son intimité la plus secrète. Voilà pourquoi la musique, qui ne «ressemble» à rien, entre pourtant en si grande résonance avec notre affectivité. Mais l’art n’est qu’une trêve, il faut aller plus loin."
+          }
+        ]
+      },
+      {
+        "concept": "le bonheur",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "1000idcg.com",
+            "contenu": "Le bonheur appréhendé par l’opinion commune est une illusion. Schopenhauer explique que les hommes abordent la vie pleins de prétentions au bonheur et qu’ils renforcent cette illusion tout le long de leur existence. C’est la jeunesse, en particulier, qui favorise la fixation de certains fantasmes dans l’esprit : « Le jeune homme s’imagine que ce monde qu’il n’a pas encore vu est là pour être goûté, qu’il est le siège d’un bonheur positif qui n’échappe qu’à ceux qui n’ont pas l’adresse de s’en emparer. Il est fortifié dans sa croyance par les romans et les poésies, et par cette hypocrisie qui mène le monde, partout et toujours, par les apparences extérieures » (Comment être heureux). Pour Schopenhauer, il faudrait dire la vérité à la jeunesse plutôt que de l’entretenir dans l’illusion du bonheur. Il faudrait lui dire que les différences de rang et de richesse ne se traduisent pas par une différence intérieure de bien-être. En effet, une fois dépassé le seuil des besoins réels et naturels, l’aisance devient au contraire une source de malheur. Les hommes qui sont sortis victorieux de « la lutte contre le besoin » sont pris dans le cercle vicieux de l’enrichissement infini, ou bien ils tombent dans l’ennui. Or, d’après Schopenhauer, le loisir ne convient pas à l’homme ordinaire, dont l’existence se résume, à cause de l’illusion du bonheur, à une oscillation entre la douleur et l’ennui."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 16,
+    "textes": [
+      {
+        "concept": "l'art",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Pour Nietzsche, l'homme est la source à laquelle prend racine l'univers. L’homme façonne l’univers grâce au langage et aux idées. Car la vie est en soi dépourvue de sens. C’est l'homme qui est la source du sens dans l'univers. Une question pratique se pose alors : Par quels moyens l’homme peut-il créer du sens, introduire de l’humain dans l’univers, afin de mener la vie vers toujours de croissance et de perfection ? C’est en réponse à cette question que l’art intervient chez Nietzsche. C'est en vertu de la créativité artistique que l'homme justifie son existence. C'est à travers l'art que l'homme peut trouver le chemin de l'auto-dépassement, afin d’aller vers le Surhomme.\nSelon Nietzsche, la création artistique suppose un état physiologique particulier. Nietzsche utilise le terme de «physiologique » parce qu'il refuse la dichotomie du corps et l'âme. Pour lui, le corps est plus spirituel que l’esprit lui-même. Ainsi, l’état physiologique propice à esthétique est la frénésie, ou le ravissement (ce ravissement est dérivé de l'excitation sexuelle – et la sensualité, pour Nietzsche, est un ingrédient fondamental de l'esthétique) ou l’extase atteint grâce à la danse ou la musique. Ce qui est primordial pour la production artistique, c’est un état qui accroît la force, la plénitude de l’artiste : «Dans cet état tout ce que voit l’artiste est surchargé de force, de sorte que ses objets deviennent miroir de son pouvoir – de sorte qu'ils soient des reflets de sa perfection. Cette transformation en perfection est l'art ».\nPour Nietzsche, l'art n'est pas l'imitation de la nature, mais un complément métaphysique qui rend possible la transcendance de la nature elle-même. L'art est l'activité métaphysique fondamentale de l'homme, l'art est la forme suprême de l'activité humaine. «Le monde est une œuvre d'art qui donne naissance à lui-même.”\nL'art rend la vie supportable, certes, à la façon d’une consolation métahysique, certes, mais l’art permet aussi d’affirmer et d’accroître la vie. Le rôle de l’art est celui de stimuler la vie comme une expression de la volonté de puissance."
+          }
+        ]
+      },
+      {
+        "concept": "le devoir",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Dans Ainsi parlait Zarathoustra, le personnage principal annonce, de manière prophétique, un retournement complet des valeurs morales. Son but est de détruire toutes les illusions qui pourraient subsister après l'annonce de la mort de Dieu. En effet, l'ancienne culture et la morale reposaient sur l'idée de Dieu. Dieu mort, il faut réinventer une morale en rejetant la métaphysique dualiste, qui pose l'existence de deux mondes, un monde sensible (celui des hommes) et un monde supra-sensible (celui de Dieu et des âmes).\nNietzsche ne rejette, ne détruit que pour construire, son mouvement est créateur. La nouvelle morale, celle qui doit accompagner le Surhomme dans ses conquêtes, est la VOLONTE DE PUISSANCE. La nouvelle morale doit rendre possible les grandes choses, redonner à l'homme son potentiel à créer. Certains, que Nietzsche appelle les “derniers hommes“, croient que l'absence de Dieu conduit au nihilisme et à l'immoralité pure et simple. La mort de Dieu est donc ambivalente : elle porte en elle un immense espoir, celui d'un monde nouveau, mais aussi un risque, celui de voir les derniers hommes imposer un chaos.\nLe Surhomme doit mépriser la morale réactive, mépriser le bonheur, mépriser la raison, mépriser la vertu, mépriser la justice, mépriser la compassion\nLa morale de Nietzsche s'appuie sur la figure de Dionysos, Dieu de l'ivresse, sur la danse, la spontanéité, l'art, le jeu, l'enfance, la valorisation du corps et la création.\nPlus qu'un liste de valeurs, Nietzsche dresse les qualités nécessaires au Surhomme, notamment l'immanence. En effet, la morale ne provient plus d'un au-delà, mais de l'homme lui-même.\nA quoi ressemble une telle morale ? A un Gai savoir, un savoir animé par une volonté affirmative et créatrice, qui veut connaître le réel tel qu'il est, avec sa part de hasard, de mal, d'imprévisible, d'absurde. Et ce monde, à partir cette connaissance, peut alors être transformé."
+          }
+        ]
+      },
+      {
+        "concept": "le travail",
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Aurore",
+            "contenu": "Dans la glorification du « travail », dans les infatigables discours sur la « bénédiction du travail », je vois la même arrière-pensée que dans les louanges des actes impersonnels et conformes à l’intérêt général : la crainte de tout ce qui est individuel. On se rend maintenant très bien compte, à l’aspect du travail – c’est-à-dire de ce dur labeur du matin au soir – que c’est là la meilleure police, qu’elle tient chacun en bride et qu’elle s’entend vigoureusement à entraver le développement de la raison, des désirs, du goût de l’indépendance. Car le travail use la force nerveuse dans des proportions extraordinaires, et la soustrait à la réflexion, à la méditation, aux rêves, aux soucis, à l’amour et à la haine, il place toujours devant les yeux un but minime et accorde des satisfactions faciles et régulières. Ainsi une société, où l’on travaille sans cesse durement, jouira d’une plus grande sécurité : et c’est la sécurité que l’on adore maintenant comme divinité suprême."
+          }
+        ]
+      }
+    ]
   }
 ]
