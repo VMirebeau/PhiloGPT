@@ -702,5 +702,29 @@
         ]
       }
     ]
+  },{
+    "auteur": 19,
+    "textes": [
+      {
+        "concept": "le travail",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Robert Chenavier",
+            "contenu": "La philosophie du travail de Simone Weil fait converger deux lignes de pensée : celle de Platon et celle de Marx. On peut dire qu’elle forge une pensée platonicienne enrichie d’une théorie du travail et une pensée inspirée de Marx enrichie d’une prise en compte sur surnaturel. Tout en ayant sa pensée personnelle, Simone Weil est en effet fortement marquée par ces deux philosophes. L’idéal de Weil est une civilisation fondée sur la spiritualisation du travail, où le travail serait un moyen d’exercer et de faire croître notre sagesse et notre intelligence du monde. Le travail n’est pas pour elle une activité subsidiaire, elle est l’activité par laquelle nous découvrons la condition humaine. Le travail se définit par les traits suivants : 1/ il est contact de la pensée avec le monde extérieur, 2/ combinaison de réflexion et d’action transformatrice, 3/ moyen de pénétrer le réel et de le faire sien. Autrement dit : par le travail, le monde se fait moins étranger, moins hostile, il accueille mon action comme l’empreinte de ma pensée et de ma liberté.\nÉvidemment, une telle vision est contrecarrée par les conditions de travail concrètes des personnes. La division du travail, par exemple, en tant qu’elle est répartition stricte des tâches justifiant une hiérarchisation sociale, est critiquée par Weil. De même le capitalisme, en tant qu’il est un système économique où le travail salarié des uns sert de levier à l’enrichissement financier des autres, est rejeté par la philosophe. Elle perçoit tôt que le système soviétique, faussement qualifié de « communiste » est en réalité un capitalisme d’un genre nouveau : « En Russie le patron est parti mais l’usine et les chefs sont restés ».\nLe travail est une nécessité : il nous faut travailler pour vivre. La confrontation avec le réel est ce par quoi nous devons passer pour exister. C’est une occasion d’incarnation mais c’est aussi une expérience douloureuse car le travail est négociation permanente avec l’ordre de la nécessité naturelle. Dans ce face-à-face avec les contraintes du monde, je fais l’expérience de ma finitude et des limites que m’impose le réel, je libère mon désir de surnaturel, c’est à dire d’aller au-delà de l’ordre des choses. La contrainte d’ordre naturel n’est donc pas mauvaise en soi, elle peut au contraire être l’occasion de comprendre ma condition humaine. Ce qui est mauvais, c’est la contrainte sociale, « l’oppression », l’instrumentalisation du travail des uns pour les intérêts des autres. Souvent l’oppression se couvre du costume de la nécessité naturelle. Elle fait comme si ce qu’elle imposait à ses esclaves n’étaient pas de son fait. Il faut donc revenir au travail comme pur face-à-face avec la nécessité naturelle. C’est la raison pour laquelle SW s’est intéressée à toutes les activités répondant à un besoin humain évident telle que l’agriculture par exemple. Bien compris, le travail n’est pas une punition de Dieu mais une peine et un effort parce qu’il ramène à la nécessité des choses. Ce que remarque SW c’est que lorsque le travail est bien organisé et qu’il évacue toute scission corps/esprit il peut être le lieu du déploiement de la pensée, du consentement à la vie et donc d’une plus grande liberté de l’esprit. Par le travail ainsi défini, je m’incarne davantage dans le monde. Le consentement au travail n’est absolument pas synonyme de soumission devant la contrainte sociale. Devant celle-ci, la révolte est légitime."
+          }
+        ]
+      },
+      {
+        "concept": "l'État",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Liberation",
+            "contenu": "«Tous les partis font de la propagande», d'après SImone Weil. Or, pour elle, le critère du bien ne peut être que la vérité, la justice, et, en second lieu, l'utilité publique. A l'aune de ces trois valeurs, les partis, «machines à fabriquer de la passion collective», sont un danger. «Tout parti est totalitaire en germe et en aspiration», écrit-elle. Par leur organisation, ils sont mêmes destinés «à tuer dans les âmes le sens de la vérité et de la justice»."
+          }
+        ]
+      }
+    ]
   }
 ]
