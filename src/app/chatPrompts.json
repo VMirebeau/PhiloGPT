@@ -853,31 +853,34 @@
       "la liberté",
       "le travail"
     ],
-    "concepts_signés": [{
-      "concept": "la dialectique",
-      "mots": [
-        "\\bdialectique"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "France Culture",
-          "contenu": "Pour Hegel, la dialectique n'est pas simplement quelque chose qui concernerait la pensée, mais quelque chose qui concerne la réalité. La réalité est donc dialectique pour Hegel. Ça veut dire que cette réalité n’est pas simplement une collection d’existants qui sont là à côté les uns des autres, mais qu’elle est traversée par une forme de négativité. Pour Hegel, les choses ne restent pas ce qu’elles sont, ce sont des choses finies et à ce titre elles sont emportées au-delà d’elles-mêmes. Donc l’incarnation de la dialectique c’est le temps, sous son versant naturel et humain, c’est à dire l’Histoire. Toute chose est assujettie au temps et à partir de là est appelée à naître, croître, se développer et périr par exemple. C’est une des versions de la dialectique. Mais de manière plus générale, est dialectique justement un processus dans lequel une réalité va être amenée à nier ce qu’elle est immédiatement, à se transformer et à devenir autre chose."
-        }
-      ]
-    },{
-      "concept": "la phénoménologie",
-      "mots": [
-        "\\bphénoménologi"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "L’étude ou science de la conscience est la phénoménologie de l’esprit. Elle étudie la manifestation phénoménale d’un sujet en tant qu’il se rapporte à un objet, c'est-à-dire en tant que conscience. Quand cette étude a pour objet le rapport interne de l’esprit à lui-même on l’appelle psychologie.\nLa phénoménologie est donc la « science de l’expérience de la conscience8 ». Hegel décrit l’évolution dialectique de la conscience par le jeu des négations successives. Depuis la première opposition immédiate entre elle et l’objet, puis la conscience de soi, la raison, l’esprit, la religion, jusqu’au savoir absolu dans lequel « le concept correspond à l’objet et l’objet au concept », ce dernier savoir est selon Hegel savoir de l’être dans sa totalité, intériorisation de l’objet, ou identité de l’objet de la pensée et de l’activité de connaissance dont le résultat est l’objet lui-même."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "la dialectique",
+        "mots": [
+          "\\bdialectique"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "France Culture",
+            "contenu": "Pour Hegel, la dialectique n'est pas simplement quelque chose qui concernerait la pensée, mais quelque chose qui concerne la réalité. La réalité est donc dialectique pour Hegel. Ça veut dire que cette réalité n’est pas simplement une collection d’existants qui sont là à côté les uns des autres, mais qu’elle est traversée par une forme de négativité. Pour Hegel, les choses ne restent pas ce qu’elles sont, ce sont des choses finies et à ce titre elles sont emportées au-delà d’elles-mêmes. Donc l’incarnation de la dialectique c’est le temps, sous son versant naturel et humain, c’est à dire l’Histoire. Toute chose est assujettie au temps et à partir de là est appelée à naître, croître, se développer et périr par exemple. C’est une des versions de la dialectique. Mais de manière plus générale, est dialectique justement un processus dans lequel une réalité va être amenée à nier ce qu’elle est immédiatement, à se transformer et à devenir autre chose."
+          }
+        ]
+      },
+      {
+        "concept": "la phénoménologie",
+        "mots": [
+          "\\bphénoménologi"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "L’étude ou science de la conscience est la phénoménologie de l’esprit. Elle étudie la manifestation phénoménale d’un sujet en tant qu’il se rapporte à un objet, c'est-à-dire en tant que conscience. Quand cette étude a pour objet le rapport interne de l’esprit à lui-même on l’appelle psychologie.\nLa phénoménologie est donc la « science de l’expérience de la conscience8 ». Hegel décrit l’évolution dialectique de la conscience par le jeu des négations successives. Depuis la première opposition immédiate entre elle et l’objet, puis la conscience de soi, la raison, l’esprit, la religion, jusqu’au savoir absolu dans lequel « le concept correspond à l’objet et l’objet au concept », ce dernier savoir est selon Hegel savoir de l’être dans sa totalité, intériorisation de l’objet, ou identité de l’objet de la pensée et de l’activité de connaissance dont le résultat est l’objet lui-même."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 14,
@@ -907,46 +910,49 @@
       "le travail",
       "l'État"
     ],
-    "concepts_signés": [{
-      "concept": "la lutte des classes",
-      "mots": [
-        "\\bclasses",
-        "\\bproléta",
-        "\\bbourgeois"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Selon la perspective marxiste, l'histoire de la société jusqu'à nos jours reflète la division de la société en classes sociales (« homme libre et esclave, patricien et plébéien, baron et serf, maître de jurande et compagnon, en un mot oppresseurs et opprimés ») qui s'opposent dans une lutte ininterrompue, tantôt déclarée, tantôt larvée, pacifique ou non. La société capitaliste moderne, en renversant les divisions en ordres de la société féodale n'a pas aboli les antagonismes de classe, mais les a remplacés par des nouveaux. Elle les a également simplifiés, et de nos jours, la « société se divise de plus en deux vastes camps ennemis, en deux grandes classes diamétralement opposées : la bourgeoisie et le prolétariat ».\nMarx distingue toujours au moins deux classes fondamentales :\n- les capitalistes ou bourgeois, classe dominante qui possède le capital et dispose ainsi des moyens de faire travailler autrui à son profit en pesant sur le cours d'achat de la force de travail\n- le prolétariat, regroupant les personnes qui n'ont pas de capital et sont contraintes de vendre leur force de travail pour subsister. Il s'agit de la classe salariée.\nPour les marxistes la lutte des classes donne un sens à l'histoire et explique la dynamique qui mue les sociétés, « L’histoire de toute société jusqu’à nos jours n’a été que l’histoire de luttes de classes » (Karl Marx). Elle s'arrêtera lorsqu'une révolution prolétarienne mondiale conduira à une société où, après un temps où la classe dominante serait également la classe laborieuse (« dictature du prolétariat »), les différences de classes seront définitivement abolies, conduisant ainsi à une « société sans classe » et donc à l'Égalité. Selon cette perspective, si l'organisation sociale elle-même encourage la cohésion du prolétariat, alors les richesses produites pourront être employées de manière optimale pour améliorer le sort de l'humanité ; la production pourra répondre exclusivement à une demande (et non à un besoin de conquérir des marchés), et le pouvoir politique ne sera plus un instrument au service des capitalistes mais l'expression véritable d'une démocratie. La révolution communiste permettrait donc de faire cesser la division de la société en classes."
-        }
-      ]
-    },
-    {
-      "concept": "l'aliénation",
-      "mots": [
-        "\\balién"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Dans les Manuscrits de 1844, l'aliénation est définie comme une perte d'humanité, un assèchement de l'humain dans l'être à mesure qu'il produit des objets qui obtiennent une autonomie par rapport au sujet. La violence déshumanisante se situe dans le fait que l'objet devienne autonome du sujet et se retourne contre lui. La démarche de Marx pour définir l'aliénation est donc de partir, de manière empirique, des conditions de vie réelle des ouvriers, plutôt que de définir l'aliénation par une ontologie métaphysique comme le faisait Hegel, pour qui le travail libérait l'individu. Ici, le sujet éprouve douloureusement les effets dudit processus. Ce processus conduit le travailleur à devenir étranger à lui-même tandis qu'il produit.\nMarx approfondit rigoureusement l'aliénation subjective, c'est-à-dire l'aliénation comme expérience de la souffrance, liée aux mauvaises conditions de travail : l'aliénation subjective est alors considérée comme une conséquence logique de l'aliénation objective. En effet, si le sujet en tant que travailleur éprouve de la douleur, souffre terriblement, c'est parce que les conditions dans lesquelles il effectue son activité sont difficiles, misérables, tragiques ; de véritables conditions de souffrance : la souffrance de la subjectivité s'explique par l'existence de conditions pathologiques du travail."
-        }
-      ]
-    },{
-      "concept": "l'idéologie",
-      "mots": [
-        "\\bidéologi"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Pour Karl Marx, l'idéologie est l'ensemble des idées, des valeurs et des normes servant à légitimer la division en classes de la société. L’idéologie au sens marxiste décrit donc l'idéologie dominante en tant que « vision du monde » imposée par la classe dominante. C'est la construction intellectuelle qui expliquerait et justifierait un ordre social existant à partir de raisons naturelles ou religieuses. Cette vision ne serait en réalité qu'un voile destiné à cacher la poursuite d'intérêts matériels égoïstes que la classe dominante utiliserait pour renforcer ou étendre sa domination : ainsi pour renforcer le pouvoir en place, l'idéologie de la classe dominante se présenterait de manière que les intérêts de la classe dominante paraissent être les intérêts de tous. L'idéologie devient une superstructure de la société dont elle émane et qu'elle soutient. Selon Friedrich Engels, « l’idéologie est un processus que le soi-disant penseur accomplit sans doute consciemment, mais avec une conscience fausse. Les forces motrices véritables qui le mettent en mouvement lui restent inconnues, sinon ce ne serait point un processus idéologique ».\nLa critique de Karl Marx de l'idéologie est d'abord une critique de la misère que cette idéologie cache, misère qui réside dans les rapports sociaux à la fois résultat et moteur de cette misère. La première misère est l' obligation au travail impliquée dans l'organisation de la société par Le Capital dans laquelle toute personne dépourvue d'une part de ce capital se voit dans l'obligation de vendre sa force de travail."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "la lutte des classes",
+        "mots": [
+          "\\bclasses",
+          "\\bproléta",
+          "\\bbourgeois"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Selon la perspective marxiste, l'histoire de la société jusqu'à nos jours reflète la division de la société en classes sociales (« homme libre et esclave, patricien et plébéien, baron et serf, maître de jurande et compagnon, en un mot oppresseurs et opprimés ») qui s'opposent dans une lutte ininterrompue, tantôt déclarée, tantôt larvée, pacifique ou non. La société capitaliste moderne, en renversant les divisions en ordres de la société féodale n'a pas aboli les antagonismes de classe, mais les a remplacés par des nouveaux. Elle les a également simplifiés, et de nos jours, la « société se divise de plus en deux vastes camps ennemis, en deux grandes classes diamétralement opposées : la bourgeoisie et le prolétariat ».\nMarx distingue toujours au moins deux classes fondamentales :\n- les capitalistes ou bourgeois, classe dominante qui possède le capital et dispose ainsi des moyens de faire travailler autrui à son profit en pesant sur le cours d'achat de la force de travail\n- le prolétariat, regroupant les personnes qui n'ont pas de capital et sont contraintes de vendre leur force de travail pour subsister. Il s'agit de la classe salariée.\nPour les marxistes la lutte des classes donne un sens à l'histoire et explique la dynamique qui mue les sociétés, « L’histoire de toute société jusqu’à nos jours n’a été que l’histoire de luttes de classes » (Karl Marx). Elle s'arrêtera lorsqu'une révolution prolétarienne mondiale conduira à une société où, après un temps où la classe dominante serait également la classe laborieuse (« dictature du prolétariat »), les différences de classes seront définitivement abolies, conduisant ainsi à une « société sans classe » et donc à l'Égalité. Selon cette perspective, si l'organisation sociale elle-même encourage la cohésion du prolétariat, alors les richesses produites pourront être employées de manière optimale pour améliorer le sort de l'humanité ; la production pourra répondre exclusivement à une demande (et non à un besoin de conquérir des marchés), et le pouvoir politique ne sera plus un instrument au service des capitalistes mais l'expression véritable d'une démocratie. La révolution communiste permettrait donc de faire cesser la division de la société en classes."
+          }
+        ]
+      },
+      {
+        "concept": "l'aliénation",
+        "mots": [
+          "\\balién"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Dans les Manuscrits de 1844, l'aliénation est définie comme une perte d'humanité, un assèchement de l'humain dans l'être à mesure qu'il produit des objets qui obtiennent une autonomie par rapport au sujet. La violence déshumanisante se situe dans le fait que l'objet devienne autonome du sujet et se retourne contre lui. La démarche de Marx pour définir l'aliénation est donc de partir, de manière empirique, des conditions de vie réelle des ouvriers, plutôt que de définir l'aliénation par une ontologie métaphysique comme le faisait Hegel, pour qui le travail libérait l'individu. Ici, le sujet éprouve douloureusement les effets dudit processus. Ce processus conduit le travailleur à devenir étranger à lui-même tandis qu'il produit.\nMarx approfondit rigoureusement l'aliénation subjective, c'est-à-dire l'aliénation comme expérience de la souffrance, liée aux mauvaises conditions de travail : l'aliénation subjective est alors considérée comme une conséquence logique de l'aliénation objective. En effet, si le sujet en tant que travailleur éprouve de la douleur, souffre terriblement, c'est parce que les conditions dans lesquelles il effectue son activité sont difficiles, misérables, tragiques ; de véritables conditions de souffrance : la souffrance de la subjectivité s'explique par l'existence de conditions pathologiques du travail."
+          }
+        ]
+      },
+      {
+        "concept": "l'idéologie",
+        "mots": [
+          "\\bidéologi"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Pour Karl Marx, l'idéologie est l'ensemble des idées, des valeurs et des normes servant à légitimer la division en classes de la société. L’idéologie au sens marxiste décrit donc l'idéologie dominante en tant que « vision du monde » imposée par la classe dominante. C'est la construction intellectuelle qui expliquerait et justifierait un ordre social existant à partir de raisons naturelles ou religieuses. Cette vision ne serait en réalité qu'un voile destiné à cacher la poursuite d'intérêts matériels égoïstes que la classe dominante utiliserait pour renforcer ou étendre sa domination : ainsi pour renforcer le pouvoir en place, l'idéologie de la classe dominante se présenterait de manière que les intérêts de la classe dominante paraissent être les intérêts de tous. L'idéologie devient une superstructure de la société dont elle émane et qu'elle soutient. Selon Friedrich Engels, « l’idéologie est un processus que le soi-disant penseur accomplit sans doute consciemment, mais avec une conscience fausse. Les forces motrices véritables qui le mettent en mouvement lui restent inconnues, sinon ce ne serait point un processus idéologique ».\nLa critique de Karl Marx de l'idéologie est d'abord une critique de la misère que cette idéologie cache, misère qui réside dans les rapports sociaux à la fois résultat et moteur de cette misère. La première misère est l' obligation au travail impliquée dans l'organisation de la société par Le Capital dans laquelle toute personne dépourvue d'une part de ce capital se voit dans l'obligation de vendre sa force de travail."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 15,
@@ -977,19 +983,21 @@
       "l'art",
       "le bonheur"
     ],
-    "concepts_signés": [{
-      "concept": "vouloir-vivre",
-      "mots": [
-        "\\bvouloir.vivre"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "kidsvacances.fr",
-          "contenu": "La nature de l’être en soi se révèle d’abord dans l’épreuve que nous faisons de nous-mêmes: l’être est vouloir-vivre – tension fondamentale qui nous entraîne de désir en désir, sans que nous puissions l’arrêter. Nous ne sommes pas maîtres de la volonté, c’est elle qui agit en nous, elle qui motive inconsciemment nos représentations, elle qui détermine nos désirs.\nCette tension est à l’œuvre aussi dans les choses: tout l’univers est la manifestation du vouloir-vivre, principe unique, aveugle, anonyme, universel. En lui, du minéral à l’animal, tout est un. L’individualité (principe de la représentation) n’est qu’une apparence: par la racine de notre être, nous sommes en union avec tous les autres.\nManque perpétuel, le vouloir-vivre est essentiellement souffrance. Puissance sans intelligence, il est sans raison, il veut pour vouloir, ses objets sont secondaires. La vie par conséquent n’a pas de sens, pas de but ultime; et pour cesser de souffrir, il faudrait cesser de vouloir."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "vouloir-vivre",
+        "mots": [
+          "\\bvouloir.vivre"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "kidsvacances.fr",
+            "contenu": "La nature de l’être en soi se révèle d’abord dans l’épreuve que nous faisons de nous-mêmes: l’être est vouloir-vivre – tension fondamentale qui nous entraîne de désir en désir, sans que nous puissions l’arrêter. Nous ne sommes pas maîtres de la volonté, c’est elle qui agit en nous, elle qui motive inconsciemment nos représentations, elle qui détermine nos désirs.\nCette tension est à l’œuvre aussi dans les choses: tout l’univers est la manifestation du vouloir-vivre, principe unique, aveugle, anonyme, universel. En lui, du minéral à l’animal, tout est un. L’individualité (principe de la représentation) n’est qu’une apparence: par la racine de notre être, nous sommes en union avec tous les autres.\nManque perpétuel, le vouloir-vivre est essentiellement souffrance. Puissance sans intelligence, il est sans raison, il veut pour vouloir, ses objets sont secondaires. La vie par conséquent n’a pas de sens, pas de but ultime; et pour cesser de souffrir, il faudrait cesser de vouloir."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 16,
@@ -1020,58 +1028,62 @@
       "le devoir",
       "le travail"
     ],
-    "concepts_signés": [{
-      "concept": "la mort de Dieu",
-      "mots": [
-        "\\bmort de Dieu",
-        "\\bDieu est mort"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "La formule « Dieu est mort » peut être comprise non seulement comme un constat de la déchristianisation, partagé dès le début du siècle (notamment par des ecclésiastiques), mais aussi comme une critique de la religiosité. Nietzsche pensait que la majorité des hommes ne voient pas (ou refusent simplement d'admettre) cette « mort de Dieu », et ce à cause de l'anxiété qui en découle. La Mort de Dieu commençant à devenir largement reconnue, le désespoir croît et le nihilisme gagne du terrain, accompagné de la croyance en une volonté humaine comme loi en tant que telle — tout est permis si votre volonté le demande. Ceci est en partie la raison qui a mené Nietzsche à comprendre le christianisme comme nihiliste. Pour Nietzsche, le nihilisme est la conséquence de n'importe quel système philosophique idéaliste, car tous les idéalismes souffrent de la même faiblesse que la morale chrétienne — on n'y retrouve aucune fondation sur laquelle bâtir. Il se décrit donc comme un « \"homme souterrain\" en plein travail, qui creuse tunnels et galeries et qui sape »."
-        }
-      ]
-    },
-    {
-      "concept": "la volonté de puissance",
-      "mots": [
-        "\\bvolonté (?:de|vers la) puissance"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "La volonté de puissance est un concept de philosophie qui désigne, chez Friedrich Nietzsche, l'« essence la plus intime de l'Être ». Il s'agit d'une pulsion fondamentale de l'homme qui cherche l'accroissement de la puissance. La volonté de puissance peut être positive, c'est-à-dire créatrice, exaltant la vie, ou alors négative, c'est-à-dire être animée par le ressentiment, la haine, la volonté de nuire ou de dégrader.\nLa volonté de puissance s'inscrit dans l'anthropologie de Nietzsche, selon laquelle l'humain est l'ensemble de ses pulsions hiérarchisées de manière plus ou moins stable. Chaque pulsion interprète la force des autres pulsions et agit en conséquence, tentant de monter dans la chaîne de commandement. Il faudrait donc parler des volontés de puissance. Au singulier, ce concept s'applique à la synthèse accomplie au niveau de l'individu.\nIl ne s'agit pas de vouloir la puissance comme si, dans une conception psychologisante, la puissance était un objet posé à l'extérieur de la volonté. Nietzsche écarte ce sens traditionnel de la notion de volonté, et lui substitue l'idée qu'il y a quelque chose dans la volonté qui affirme sa puissance. Dans cette idée, la volonté de puissance désigne un impératif interne d'accroissement de puissance, une loi intime de la volonté exprimée par l'expression « être plus » : cet impératif pose alors une alternative pour la Volonté de puissance, devenir plus ou dépérir.\nCette conception de la volonté et de la puissance conduit à exclure le recours à des notions comme l'« unité » et l'« identité » pour décrire ce qui existe et en déterminer l’essence : si tout ce qui est Volonté de puissance doit devenir plus, il n'est en effet pas possible pour un être de demeurer dans ses propres limites. La notion de Volonté de puissance ne désigne donc ni ne constitue l’unité ou l’identité d’une chose. Au contraire, pour toute réalité, être « volonté de puissance », c'est ne jamais pouvoir être identique à soi et être toujours porté au-delà de « soi ».\nCe devenir plus, cette manière de devoir toujours aller au-delà de soi, n'est cependant pas arbitraire, mais se produit selon une orientation, que Nietzsche nomme structure, et qui est donc une structure de croissance qui définit et fait comprendre comment une réalité devient ; c'est cette structure qui est sa réalité agissante, individuelle, qui est sa volonté de puissance."
-        }
-      ]
-    },{
-      "concept": "le surhumain",
-      "mots": [
-        "\\bsurhumain",
-        "\\bsurhomme"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "1000idcg.com",
-          "contenu": "Le surhomme est le rude destin de l’homme. En effet, Nietzsche conçoit l’homme comme une « corde » entre la bête et le surhomme. Or, cette corde tendue au-dessus d’un abîme est un obstacle particulièrement ardu, car le surhomme n’est rien moins que l’exact négatif de l’homme, c’est-à-dire tout ce qu’il n’est pas. « Je vous enseigne le surhomme, écrit Nietzsche. L’homme est quelque chose qui doit être surmonté. Qu’avez-vous fait pour le surmonter ? Tous les êtres, jusqu’ici, ont créé quelque chose au-delà d’eux-mêmes : et vous voulez être le reflux de cette grande marée et vous préférez retourner à l’animal plutôt que de surmonter l’homme ? Qu’est-ce que le singe pour l’homme ? Un objet de risée ou une honte douloureuse. Et c’est exactement cela que l’homme doit être pour le surhomme : un objet de risée ou une honte douloureuse » (Ainsi parlait Zarathoustra). L’homme semble donc incapable de s’extraire de lui-même. Bien au contraire, il se glorifie même d’être homme et il théorise l’exaltation de son humanité. Nietzsche stigmatise ainsi l’humanisme, qu’il critique comme une reconnaissance de l’homme par l’homme l’encourageant à se satisfaire de sa médiocre condition. Prisonnier de la léthargie de cette autosatisfaction, l’individu répugne alors à se dépasser."
-        }
-      ]
-    },{
-      "concept": "l'éternel retour'",
-      "mots": [
-        "\\béternel retour"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "On pourrait grossièrement résumer l'idée de l'Éternel Retour en un simple précepte tel que celui-ci : mène ta vie en sorte que tu puisses souhaiter qu’elle se répète éternellement.\nCe concept est alors très éloigné de l’idée de résurrection ou de réincarnation présente dans certaines religions : Nietzsche ne semble pas tenir pour véritable la possibilité de revivre à l’infini sa propre vie, mais il fait de cette perspective une pierre de touche pour la valeur de sa propre existence. Ainsi, pour de nombreux penseurs de la fin du xixe siècle en Allemagne, époque phare du pessimisme, le bilan que la plupart des hommes feraient au soir de leur vie suffit à prouver l’absurdité de l’existence. Si en effet la mort venait nous voir ce jour même en nous annonçant que notre heure est venue mais que nous pouvons décider, au lieu de sombrer dans le néant, de revivre à l’infini et dans ses moindres détails toute la vie que nous avons menée jusqu’ici, il y a fort à parier que nous préfèrerions retourner au néant – c'est ce que Nietzsche appelle le nihilisme incomplet, par opposition au nihilisme complet qu'il propose, celui qui caractérise le surhumain. Aussi faut-il tâcher de vivre de telle sorte que l’on puisse souhaiter que chaque instant se reproduise éternellement."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "la mort de Dieu",
+        "mots": [
+          "\\bmort de Dieu",
+          "\\bDieu est mort"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La formule « Dieu est mort » peut être comprise non seulement comme un constat de la déchristianisation, partagé dès le début du siècle (notamment par des ecclésiastiques), mais aussi comme une critique de la religiosité. Nietzsche pensait que la majorité des hommes ne voient pas (ou refusent simplement d'admettre) cette « mort de Dieu », et ce à cause de l'anxiété qui en découle. La Mort de Dieu commençant à devenir largement reconnue, le désespoir croît et le nihilisme gagne du terrain, accompagné de la croyance en une volonté humaine comme loi en tant que telle — tout est permis si votre volonté le demande. Ceci est en partie la raison qui a mené Nietzsche à comprendre le christianisme comme nihiliste. Pour Nietzsche, le nihilisme est la conséquence de n'importe quel système philosophique idéaliste, car tous les idéalismes souffrent de la même faiblesse que la morale chrétienne — on n'y retrouve aucune fondation sur laquelle bâtir. Il se décrit donc comme un « \"homme souterrain\" en plein travail, qui creuse tunnels et galeries et qui sape »."
+          }
+        ]
+      },
+      {
+        "concept": "la volonté de puissance",
+        "mots": [
+          "\\bvolonté (?:de|vers la) puissance"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La volonté de puissance est un concept de philosophie qui désigne, chez Friedrich Nietzsche, l'« essence la plus intime de l'Être ». Il s'agit d'une pulsion fondamentale de l'homme qui cherche l'accroissement de la puissance. La volonté de puissance peut être positive, c'est-à-dire créatrice, exaltant la vie, ou alors négative, c'est-à-dire être animée par le ressentiment, la haine, la volonté de nuire ou de dégrader.\nLa volonté de puissance s'inscrit dans l'anthropologie de Nietzsche, selon laquelle l'humain est l'ensemble de ses pulsions hiérarchisées de manière plus ou moins stable. Chaque pulsion interprète la force des autres pulsions et agit en conséquence, tentant de monter dans la chaîne de commandement. Il faudrait donc parler des volontés de puissance. Au singulier, ce concept s'applique à la synthèse accomplie au niveau de l'individu.\nIl ne s'agit pas de vouloir la puissance comme si, dans une conception psychologisante, la puissance était un objet posé à l'extérieur de la volonté. Nietzsche écarte ce sens traditionnel de la notion de volonté, et lui substitue l'idée qu'il y a quelque chose dans la volonté qui affirme sa puissance. Dans cette idée, la volonté de puissance désigne un impératif interne d'accroissement de puissance, une loi intime de la volonté exprimée par l'expression « être plus » : cet impératif pose alors une alternative pour la Volonté de puissance, devenir plus ou dépérir.\nCette conception de la volonté et de la puissance conduit à exclure le recours à des notions comme l'« unité » et l'« identité » pour décrire ce qui existe et en déterminer l’essence : si tout ce qui est Volonté de puissance doit devenir plus, il n'est en effet pas possible pour un être de demeurer dans ses propres limites. La notion de Volonté de puissance ne désigne donc ni ne constitue l’unité ou l’identité d’une chose. Au contraire, pour toute réalité, être « volonté de puissance », c'est ne jamais pouvoir être identique à soi et être toujours porté au-delà de « soi ».\nCe devenir plus, cette manière de devoir toujours aller au-delà de soi, n'est cependant pas arbitraire, mais se produit selon une orientation, que Nietzsche nomme structure, et qui est donc une structure de croissance qui définit et fait comprendre comment une réalité devient ; c'est cette structure qui est sa réalité agissante, individuelle, qui est sa volonté de puissance."
+          }
+        ]
+      },
+      {
+        "concept": "le surhumain",
+        "mots": [
+          "\\bsurhumain",
+          "\\bsurhomme"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "1000idcg.com",
+            "contenu": "Le surhomme est le rude destin de l’homme. En effet, Nietzsche conçoit l’homme comme une « corde » entre la bête et le surhomme. Or, cette corde tendue au-dessus d’un abîme est un obstacle particulièrement ardu, car le surhomme n’est rien moins que l’exact négatif de l’homme, c’est-à-dire tout ce qu’il n’est pas. « Je vous enseigne le surhomme, écrit Nietzsche. L’homme est quelque chose qui doit être surmonté. Qu’avez-vous fait pour le surmonter ? Tous les êtres, jusqu’ici, ont créé quelque chose au-delà d’eux-mêmes : et vous voulez être le reflux de cette grande marée et vous préférez retourner à l’animal plutôt que de surmonter l’homme ? Qu’est-ce que le singe pour l’homme ? Un objet de risée ou une honte douloureuse. Et c’est exactement cela que l’homme doit être pour le surhomme : un objet de risée ou une honte douloureuse » (Ainsi parlait Zarathoustra). L’homme semble donc incapable de s’extraire de lui-même. Bien au contraire, il se glorifie même d’être homme et il théorise l’exaltation de son humanité. Nietzsche stigmatise ainsi l’humanisme, qu’il critique comme une reconnaissance de l’homme par l’homme l’encourageant à se satisfaire de sa médiocre condition. Prisonnier de la léthargie de cette autosatisfaction, l’individu répugne alors à se dépasser."
+          }
+        ]
+      },
+      {
+        "concept": "l'éternel retour'",
+        "mots": [
+          "\\béternel retour"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "On pourrait grossièrement résumer l'idée de l'Éternel Retour en un simple précepte tel que celui-ci : mène ta vie en sorte que tu puisses souhaiter qu’elle se répète éternellement.\nCe concept est alors très éloigné de l’idée de résurrection ou de réincarnation présente dans certaines religions : Nietzsche ne semble pas tenir pour véritable la possibilité de revivre à l’infini sa propre vie, mais il fait de cette perspective une pierre de touche pour la valeur de sa propre existence. Ainsi, pour de nombreux penseurs de la fin du xixe siècle en Allemagne, époque phare du pessimisme, le bilan que la plupart des hommes feraient au soir de leur vie suffit à prouver l’absurdité de l’existence. Si en effet la mort venait nous voir ce jour même en nous annonçant que notre heure est venue mais que nous pouvons décider, au lieu de sombrer dans le néant, de revivre à l’infini et dans ses moindres détails toute la vie que nous avons menée jusqu’ici, il y a fort à parier que nous préfèrerions retourner au néant – c'est ce que Nietzsche appelle le nihilisme incomplet, par opposition au nihilisme complet qu'il propose, celui qui caractérise le surhumain. Aussi faut-il tâcher de vivre de telle sorte que l’on puisse souhaiter que chaque instant se reproduise éternellement."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 17,
@@ -1103,54 +1115,57 @@
       "le langage",
       "la religion"
     ],
-    "concepts_signés": [{
-      "concept": "la pulsion",
-      "mots": [
-        "\\bpulsion"
-      ],
-      "extraits": [
-        {
-          "auteur": "auto",
-          "origine": "Pulsions et destins des pulsions",
-          "contenu": "Le concept de pulsion nous apparaît comme un concept limite entre le psychique et le somatique, comme le représentant psychique des excitations issues de l'intérieur du corps et parvenant au psychisme, comme mesure de l'exigence de travail qui est imposé au psychique en conséquence de sa liaison au corporel."
-        },
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "La pulsion sexuelle est le paradigme de la pulsion, si centrale en psychanalyse que toutes les autres notions en dépendent et que contester son importance revient à refuser la psychanalyse, ainsi que Freud le signifia au moment de sa séparation d'avec Carl Gustav Jung en 1913. Reproduction et sexualité se trouvent dissociées ; Freud précise que la pulsion sexuelle a pour but « des espèces déterminées de gain de plaisir », et ceci dès l'enfance, non seulement dans les organes génitaux, mais aussi dans d'autres lieux corporels dits « zones érogènes » : au cours du développement de la pulsion sexuelle, cela va du stade de l'auto-érotisme à celui de l'amour d'objet, et de l'agencement ensuite des zones érogènes « sous le primat des [organes] génitaux mis au service de la reproduction ».\nDu point de vue économique, la libido est l'énergie unique, dont Freud postule l'existence « dans les vicissitudes de la pulsion sexuelle ». Du point de vue dynamique, la pulsion sexuelle est l'un des pôles du conflit psychique : c'est sur elle que s'exerce l'action du refoulement dans l'inconscient."
-        }
-      ]
-    },{
-      "concept": "le complexe d'Oedipe",
-      "mots": [
-        "\\b(?:Œ|Oe)dipe"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Le complexe d'Œdipe, parfois contracté dans l'expression « l'Œdipe », est un concept central de la psychanalyse. Théorisé par Sigmund Freud dès sa première topique, il est défini comme le désir d'entretenir un rapport amoureux et voluptueux avec le parent du sexe opposé (inceste) et celui d'éliminer le parent du même sexe (parricide ou matricide) considéré comme rival. Ainsi, le fait qu'un garçon soit amoureux de sa mère et désire tuer son père répond à l'impératif du complexe d'Œdipe.\nLa légende d'Œdipe qui a inspiré le drame de Sophocle, Œdipe roi, est selon Freud le plus à même de mettre en images le désir universel et inconscient que tout enfant ressent ; pour Roger Perron, il désigne « le réseau des désirs et des mouvements hostiles dont les objets sont le père et la mère, et des défenses qui s'y opposent ».\nLa psychanalyse identifie trois étapes fondamentales de développement psychoaffectif : le stade oral, le stade anal et le stade phallique lors duquel survient chez le garçon, comme chez la fille mais d'une toute autre manière, le complexe d'Œdipe. C'est en effet de 3 à 5 ans environ que le désir libidinal fait naitre la phase œdipienne. Le complexe connaît ensuite un déclin et est refoulé, disparaissant ainsi de la mémoire consciente. Le refoulement n'est pas toujours complet chez les filles.\nLe complexe d'Œdipe, devenu le pivot de la théorie pulsionnelle et métapsychologique de Freud, est considéré comme le concept-clé de la psychanalyse et de ses courants dérivés. L'histoire du complexe d'Œdipe est en effet associée à la théorie freudienne ainsi qu'à l'histoire de la psychanalyse dans son ensemble."
-        }
-      ]
-    },{
-      "concept": "la sublimation",
-      "mots": [
-        "\\bsublim"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Freud définit la sublimation pour rendre compte d'un type particulier d'activité humaine (la création littéraire, artistique et intellectuelle) sans rapport apparent avec la sexualité mais tirant sa force de la pulsion sexuelle en tant qu'elle se déplace vers un but non sexuel en investissant des objets socialement valorisés.\nAutrement dit, il s'agit du processus de transformation de l’énergie sexuelle (libido) en la faisant dériver vers d’autres domaines, notamment les activités artistiques.\nÀ partir de la seconde topique, la sublimation sera vue comme la transposition du but pulsionnel sexuel mais aussi agressif."
-        },
-        {
-          "auteur": "auto",
-          "origine": "Lettre du 25 mai 1937 à Marie Bonaparte",
-          "contenu": "La sublimation est un concept qui comprend un jugement de valeur. En fait, elle signifie une application à un autre domaine où des réalisations socialement plus valables sont possibles. [...] Toutes les activités qui organisent ou affectent des changements sont, dans une certaine mesure, destructrices et redirigent ainsi une pulsion loin de son but destructeur original. Même l'instinct sexuel, comme nous le savons, ne peut agir sans une certaine dose d'agression. Par conséquent, il y a dans la combinaison normale des deux instincts une sublimation partielle de l'instinct de destruction."
-        }
-      ]
-    }
-  ]
+    "concepts_signés": [
+      {
+        "concept": "la pulsion",
+        "mots": [
+          "\\bpulsion"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Pulsions et destins des pulsions",
+            "contenu": "Le concept de pulsion nous apparaît comme un concept limite entre le psychique et le somatique, comme le représentant psychique des excitations issues de l'intérieur du corps et parvenant au psychisme, comme mesure de l'exigence de travail qui est imposé au psychique en conséquence de sa liaison au corporel."
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La pulsion sexuelle est le paradigme de la pulsion, si centrale en psychanalyse que toutes les autres notions en dépendent et que contester son importance revient à refuser la psychanalyse, ainsi que Freud le signifia au moment de sa séparation d'avec Carl Gustav Jung en 1913. Reproduction et sexualité se trouvent dissociées ; Freud précise que la pulsion sexuelle a pour but « des espèces déterminées de gain de plaisir », et ceci dès l'enfance, non seulement dans les organes génitaux, mais aussi dans d'autres lieux corporels dits « zones érogènes » : au cours du développement de la pulsion sexuelle, cela va du stade de l'auto-érotisme à celui de l'amour d'objet, et de l'agencement ensuite des zones érogènes « sous le primat des [organes] génitaux mis au service de la reproduction ».\nDu point de vue économique, la libido est l'énergie unique, dont Freud postule l'existence « dans les vicissitudes de la pulsion sexuelle ». Du point de vue dynamique, la pulsion sexuelle est l'un des pôles du conflit psychique : c'est sur elle que s'exerce l'action du refoulement dans l'inconscient."
+          }
+        ]
+      },
+      {
+        "concept": "le complexe d'Oedipe",
+        "mots": [
+          "\\b(?:Œ|Oe)dipe"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le complexe d'Œdipe, parfois contracté dans l'expression « l'Œdipe », est un concept central de la psychanalyse. Théorisé par Sigmund Freud dès sa première topique, il est défini comme le désir d'entretenir un rapport amoureux et voluptueux avec le parent du sexe opposé (inceste) et celui d'éliminer le parent du même sexe (parricide ou matricide) considéré comme rival. Ainsi, le fait qu'un garçon soit amoureux de sa mère et désire tuer son père répond à l'impératif du complexe d'Œdipe.\nLa légende d'Œdipe qui a inspiré le drame de Sophocle, Œdipe roi, est selon Freud le plus à même de mettre en images le désir universel et inconscient que tout enfant ressent ; pour Roger Perron, il désigne « le réseau des désirs et des mouvements hostiles dont les objets sont le père et la mère, et des défenses qui s'y opposent ».\nLa psychanalyse identifie trois étapes fondamentales de développement psychoaffectif : le stade oral, le stade anal et le stade phallique lors duquel survient chez le garçon, comme chez la fille mais d'une toute autre manière, le complexe d'Œdipe. C'est en effet de 3 à 5 ans environ que le désir libidinal fait naitre la phase œdipienne. Le complexe connaît ensuite un déclin et est refoulé, disparaissant ainsi de la mémoire consciente. Le refoulement n'est pas toujours complet chez les filles.\nLe complexe d'Œdipe, devenu le pivot de la théorie pulsionnelle et métapsychologique de Freud, est considéré comme le concept-clé de la psychanalyse et de ses courants dérivés. L'histoire du complexe d'Œdipe est en effet associée à la théorie freudienne ainsi qu'à l'histoire de la psychanalyse dans son ensemble."
+          }
+        ]
+      },
+      {
+        "concept": "la sublimation",
+        "mots": [
+          "\\bsublim"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Freud définit la sublimation pour rendre compte d'un type particulier d'activité humaine (la création littéraire, artistique et intellectuelle) sans rapport apparent avec la sexualité mais tirant sa force de la pulsion sexuelle en tant qu'elle se déplace vers un but non sexuel en investissant des objets socialement valorisés.\nAutrement dit, il s'agit du processus de transformation de l’énergie sexuelle (libido) en la faisant dériver vers d’autres domaines, notamment les activités artistiques.\nÀ partir de la seconde topique, la sublimation sera vue comme la transposition du but pulsionnel sexuel mais aussi agressif."
+          },
+          {
+            "auteur": "auto",
+            "origine": "Lettre du 25 mai 1937 à Marie Bonaparte",
+            "contenu": "La sublimation est un concept qui comprend un jugement de valeur. En fait, elle signifie une application à un autre domaine où des réalisations socialement plus valables sont possibles. [...] Toutes les activités qui organisent ou affectent des changements sont, dans une certaine mesure, destructrices et redirigent ainsi une pulsion loin de son but destructeur original. Même l'instinct sexuel, comme nous le savons, ne peut agir sans une certaine dose d'agression. Par conséquent, il y a dans la combinaison normale des deux instincts une sublimation partielle de l'instinct de destruction."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 18,
@@ -1182,32 +1197,35 @@
       "la vérité",
       "la technique"
     ],
-    "concepts_signés": [{
-      "concept": "le Dasein",
-      "mots": [
-        "\\bDasein",
-        "\\bêtre-là"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia",
-          "contenu": "Pour Heidegger, le Dasein est un concept majeur au moyen duquel l'auteur cherche à distinguer la manière d'être spécifique de l'« être humain », qui n'est pas celle des choses ordinaires. Ainsi le Dasein est cet étant particulier et paradoxal, à qui son propre être importe, qui est confronté à la possibilité constante de sa mort, en a conscience, vit en relation étroite avec ses semblables et qui, tout en étant enfermé dans sa solitude, « est toujours au monde », auprès des choses.\nHeidegger, sans jamais donner de définition au sens classique (genre et espèce), présente ce concept dans une formule particulièrement ramassée, dans Être et Temps, « l'étant à analyser (le Dasein), nous le sommes « à chaque fois » nous-mêmes.\nAvec ce nouveau concept, Heidegger tente de rendre métaphysiquement compte des phénomènes complexes liés à l'analyse de la vie humaine dans son « monde », de la « vie facticielle » (la vie réelle avec sa contingence), comme la dispersion, la temporalité, la perte et la reprise de soi, la finitude, et surtout la familiarité avec l'« être », mais aussi de répondre à la question du sens de l'être.\nOr l'homme, dans son existence quotidienne, manifeste toujours une certaine compréhension spontanée de l'être des étants qui l'entourent, comme aussi, de son être propre (autrement dit, il sait pré-conceptuellement, si une chose est, et quand elle est) : le terme de Dasein va prendre en charge cette capacité ontologique, qui est le privilège de l'homme, et dont il est souvent question dans l'œuvre de Heidegger sous l'appellation de « privilège ontologique ».\nAfin de répondre à la question du sens de l'être, la seule voie qui reste ouverte, une fois écartés les a priori classiques, va consister à interroger l'étant qui parmi tous les étants se pose cette question, c'est-à-dire l'étant que nous sommes nous-mêmes, qui, en posant cette question, manifeste qu'il a une connaissance au moins courante et vague de l'être."
-        }
-      ]
-    },{
-      "concept": "l'angoisse",
-      "mots": [
-        "\\bangoiss"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia (Wiki)",
-          "contenu": "L'angoisse chez Heidegger n'est pas la peur : le « devant-quoi », le Dasein s'angoisse est parfaitement indéterminé, alors que la peur est liée à quelque chose de définissable. Dans l'angoisse, il y a comme un effondrement du monde et de sa familiarité, une perte totale de significativité. L'angoisse vient de nulle part, alors que rien ne nous est plus proche. Le « pour-quoi » le Dasein s'angoisse, c'est l'« être-au-monde » lui-même. Le Dasein est confronté à la nudité de son être et par contre-coup à, cela seul qui lui appartient en propre, c'est-à-dire à son être « authentique ». C'est en tant que pur « être-possible » (absolument indéterminé) que s'ouvre l'« être-au-monde » authentique. Dans son style propre, Heidegger précise ceci : « L'angoisse manifeste dans le Dasein l'être pour le « pouvoir-être » le plus propre, c'est-à-dire l'« être-libre » pour la liberté de se choisir et se saisir soi-même ». En faisant disparaître les choses intra-mondaines l'angoisse interdit la compréhension de soi-même à partir des possibilités ayant trait à elles et elle amène ainsi le Dasein à se comprendre à partir de lui-même, le ramène à soi-même. L'angoisse est l'une des « dispositions » insignes du Dasein. Plus généralement, l'angoisse possède un intérêt pour la métaphysique en cela qu'elle rend possible l'ouverture phénoménale du néant."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "le Dasein",
+        "mots": [
+          "\\bDasein",
+          "\\bêtre-là"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Pour Heidegger, le Dasein est un concept majeur au moyen duquel l'auteur cherche à distinguer la manière d'être spécifique de l'« être humain », qui n'est pas celle des choses ordinaires. Ainsi le Dasein est cet étant particulier et paradoxal, à qui son propre être importe, qui est confronté à la possibilité constante de sa mort, en a conscience, vit en relation étroite avec ses semblables et qui, tout en étant enfermé dans sa solitude, « est toujours au monde », auprès des choses.\nHeidegger, sans jamais donner de définition au sens classique (genre et espèce), présente ce concept dans une formule particulièrement ramassée, dans Être et Temps, « l'étant à analyser (le Dasein), nous le sommes « à chaque fois » nous-mêmes.\nAvec ce nouveau concept, Heidegger tente de rendre métaphysiquement compte des phénomènes complexes liés à l'analyse de la vie humaine dans son « monde », de la « vie facticielle » (la vie réelle avec sa contingence), comme la dispersion, la temporalité, la perte et la reprise de soi, la finitude, et surtout la familiarité avec l'« être », mais aussi de répondre à la question du sens de l'être.\nOr l'homme, dans son existence quotidienne, manifeste toujours une certaine compréhension spontanée de l'être des étants qui l'entourent, comme aussi, de son être propre (autrement dit, il sait pré-conceptuellement, si une chose est, et quand elle est) : le terme de Dasein va prendre en charge cette capacité ontologique, qui est le privilège de l'homme, et dont il est souvent question dans l'œuvre de Heidegger sous l'appellation de « privilège ontologique ».\nAfin de répondre à la question du sens de l'être, la seule voie qui reste ouverte, une fois écartés les a priori classiques, va consister à interroger l'étant qui parmi tous les étants se pose cette question, c'est-à-dire l'étant que nous sommes nous-mêmes, qui, en posant cette question, manifeste qu'il a une connaissance au moins courante et vague de l'être."
+          }
+        ]
+      },
+      {
+        "concept": "l'angoisse",
+        "mots": [
+          "\\bangoiss"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia (Wiki)",
+            "contenu": "L'angoisse chez Heidegger n'est pas la peur : le « devant-quoi », le Dasein s'angoisse est parfaitement indéterminé, alors que la peur est liée à quelque chose de définissable. Dans l'angoisse, il y a comme un effondrement du monde et de sa familiarité, une perte totale de significativité. L'angoisse vient de nulle part, alors que rien ne nous est plus proche. Le « pour-quoi » le Dasein s'angoisse, c'est l'« être-au-monde » lui-même. Le Dasein est confronté à la nudité de son être et par contre-coup à, cela seul qui lui appartient en propre, c'est-à-dire à son être « authentique ». C'est en tant que pur « être-possible » (absolument indéterminé) que s'ouvre l'« être-au-monde » authentique. Dans son style propre, Heidegger précise ceci : « L'angoisse manifeste dans le Dasein l'être pour le « pouvoir-être » le plus propre, c'est-à-dire l'« être-libre » pour la liberté de se choisir et se saisir soi-même ». En faisant disparaître les choses intra-mondaines l'angoisse interdit la compréhension de soi-même à partir des possibilités ayant trait à elles et elle amène ainsi le Dasein à se comprendre à partir de lui-même, le ramène à soi-même. L'angoisse est l'une des « dispositions » insignes du Dasein. Plus généralement, l'angoisse possède un intérêt pour la métaphysique en cela qu'elle rend possible l'ouverture phénoménale du néant."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 19,
@@ -1237,46 +1255,48 @@
       "le travail",
       "l'État"
     ],
-    "concepts_signés": [{
-      "concept": "la cadence",
-      "mots": [
-        "\\bcadence",
-        "\\brythme"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Nadia Taïbi",
-          "contenu": "La notion de cadence, c’est le « rythme ininterrompu ». Évoquant le travail aux pièces, elle déclare : « Cette succession de leurs gestes n’est pas désignée, dans le langage de l’usine par le mot de rythme mais par celui de cadence, et c’est juste car cette succession est le contraire d’un rythme. » Le rythme implique une appropriation du temps par le sujet, l’expression de sa conscience. Il fait de la pensée une activité et c’est pourquoi il ne peut être ni imposé ni ininterrompu. Suivre un rythme est en effet traduire par des gestes ou des paroles le mouvement de la pensée. Au contraire, la cadence implique de se plier à des contraintes de productivité objective, valables pour tous. Elle s’oppose de ce fait à l’habitude de l’artisan qui progressivement « prend le coup de main », à propos de laquelle on pourrait dire qu’elle « procure une possession du monde ». La structure de l’usine, dont l’expression est contenue dans la division des tâches et le partage du temps, fait de la main un organe stupide. En effet, la division entre la dimension intellectuelle et la dimension physique du travail à l’usine en 1934, aboutit à une négation du travail manuel. Le geste de l’ouvrier n’existe pas pour lui-même, sa signification se trouve à l’extérieur : dans l’assemblage des tâches accomplies par tous, dans le même temps, suivant une logique de production où la pensée disparaît à mesure que la nature collective de la fabrication est promue."
-        }
-      ]
-    },
-    {
-      "concept": "l'enracinement",
-      "mots": [
-        "\\bangoiss"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Wikipedia (Wiki)",
-          "contenu": "L’enracinement fait partie de la condition humaine. Simone Weil affirme dans L’enracinement que l’épanouissement de l’individu dépend de son rapport, culturel et spirituel, au milieu dans lequel il évolue.\nL’enracinement est un besoin humain fondamental. Simone Weil compare l’homme à une plante, dont l’existence dépend d’un milieu nourricier. La racine d’une plante est l’organe souterrain qui lui permet de se fixer au sol afin d’y puiser les éléments nécessaires à sa survie et à son développement. La survie de l’être humain est souvent réduite à la satisfaction de ses besoins physiques, mais son épanouissement tient à la satisfaction d’autres besoins, ceux de l’âme. Or, parmi ceux-ci, le besoin d’enracinement est aussi essentiel qu’ignoré. L’homme est un être profondément social qui a besoin de s’enraciner dans un milieu nourricier, c’est-à-dire dans une collectivité. « Un être humain, explique Simone Weil, a une racine par sa participation réelle, active et naturelle à l’existence d’une collectivité qui conserve vivants certain trésors du passé et certains pressentiments d’avenir » (L’enracinement). Dans le détail, la collectivité ne correspond ni à la société ni à l’État, qui ont été corrompus par le pouvoir et l’argent. Le milieu nourricier de l’individu moderne, celui qui l’ancre dans une terre, une culture, et une histoire, c’est la nation. Concrètement, l’homme s’y enracine par le travail, qui définit sa fonction dans la communauté. Le travail tel qu’organisé par le capitalisme industriel place certes les individus dans des rapports de servitude. Mais Simone Weil pose qu’il a dans l’absolu une valeur spirituelle qui contribue à l’enracinement. Le déracinement menace les sociétés humaines. Simone Weil estime que les Français de son époque — en particulier les travailleurs — sont profondément déracinés. La première cause en est la défaite militaire, puis l’occupation allemande. Paradoxalement, cette situation engendre une crise identitaire aiguë qui crée l’opportunité d’une refondation de la nation française, afin que les compatriotes s’y enracinent. « La patrie n’est jamais aussi belle, avance la philosophe, que sous l’oppression d’un conquérant, si on a l’espoir de la revoir intacte » (L’enracinement). Cependant, le déracinement des Français n’a pas commencé en 1940. Pour Simone Weil, il s’explique d’abord par la Révolution française. En effet, elle a brutalement transformé la nation, un milieu nourricier, en l’État, une machine au service du pouvoir, ce qui a privé les citoyens de l’attachement affectif patriotique qui les liait à leur collectivité. Les révolutionnaires ont choisi de faire table rase du passé, alors qu’ils auraient pu inscrire leur action politique dans la tradition révolutionnaire française qui s’était construite depuis la fin du Moyen Âge. Le déracinement des Français résulte également de l’industrialisation de l’économie par la spécialisation. Cette transformation a fait du travailleur un esclave aux ordres des concepteurs du processus de production. Son travail ne l’enracine plus dans sa communauté, il le déracine. Le problème fondamental est que le déracinement entraîne les hommes à s’asservir les uns les autres. Simone Weil condamne le déracinement comme « la plus dangereuse des maladies des sociétés humaines ».\nL’enracinement fonde un projet politique. Simone Weil imagine de réorganiser la société à partir de la condition ouvrière. Elle estime que la révolution soviétique n’a pas réussi dans la mesure où son système repose, comme le capitalisme, sur l’industrialisation, et où il n’a pas rendu aux travailleurs leur dignité. À ses yeux, ni le modèle capitaliste ni le modèle socialiste ne permettent d’enraciner les ouvriers en tenant compte de leur histoire. Pour réussir cela, elle préconise d’abolir les grandes usines ; de confier les machines à de minuscules ateliers ; et d’offrir à chaque ouvrier une demeure et un lopin de terre. Son plan d’enracinement comporte également un programme d’éducation qui enseigne aux membres de la communauté à aimer leur passé sans s’y réfugier. Fondamentalement, l’objectif est de réenraciner l’homme par le travail. Ce plan « aurait pour orientation, écrit Simone Weil, non pas, selon la formule qui tend aujourd’hui à devenir à la mode, l’intérêt du consommateur — cet intérêt ne peut être que grossement matériel — mais la dignité de l’homme dans le travail, ce qui est une valeur spirituelle » (L’enracinement). Le réenracinement passe par une révolution spirituelle qui ferait reconnaître à chacun les liens qui l’unissent aux autres êtres humains. En pratique, il faut revenir à une civilisation préindustrielle qui enracine les hommes par la religion, la spiritualité, ainsi qu’un travail manuel valorisant. Simone Weil admire le modèle de la cité grecque, qui accomplit un degré élevé d’harmonie entre les individus et la communauté."
-        }
-      ]
-    },
-    {
-      "concept": "la force",
-      "mots": [
-        "\\bforce"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "Alexis Dayon",
-          "contenu": "Le cœur et véritable sujet de l’Iliade, c’est la force : son emprise, ses effets sur l’âme et sur la chair des hommes. Et le caractère le plus constant de la force est de « faire de quiconque lui est soumis une chose » : ceux qui la subissent comme ceux qui la manient.\n- Qui subit la force est ravalé par elle au rang de matière inerte : son état est de se retrouver à la merci d’une entité qui possède, à tout moment, la puissance de l’anéantir.\n- Qui manie la force, enivré par la puissance qu’elle lui donne, se ravale au rang d’élan aveugle : son état est de ne plus rien rencontrer qui lui résiste et le freine.\nChez l’un et chez l’autre, qu’elle paralyse ou qu’elle enivre, la force a pour effet de neutraliser en l’homme les effets de l’amour et de l’intelligence. "
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "la cadence",
+        "mots": [
+          "\\bcadence",
+          "\\brythme"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Nadia Taïbi",
+            "contenu": "La notion de cadence, c’est le « rythme ininterrompu ». Évoquant le travail aux pièces, elle déclare : « Cette succession de leurs gestes n’est pas désignée, dans le langage de l’usine par le mot de rythme mais par celui de cadence, et c’est juste car cette succession est le contraire d’un rythme. » Le rythme implique une appropriation du temps par le sujet, l’expression de sa conscience. Il fait de la pensée une activité et c’est pourquoi il ne peut être ni imposé ni ininterrompu. Suivre un rythme est en effet traduire par des gestes ou des paroles le mouvement de la pensée. Au contraire, la cadence implique de se plier à des contraintes de productivité objective, valables pour tous. Elle s’oppose de ce fait à l’habitude de l’artisan qui progressivement « prend le coup de main », à propos de laquelle on pourrait dire qu’elle « procure une possession du monde ». La structure de l’usine, dont l’expression est contenue dans la division des tâches et le partage du temps, fait de la main un organe stupide. En effet, la division entre la dimension intellectuelle et la dimension physique du travail à l’usine en 1934, aboutit à une négation du travail manuel. Le geste de l’ouvrier n’existe pas pour lui-même, sa signification se trouve à l’extérieur : dans l’assemblage des tâches accomplies par tous, dans le même temps, suivant une logique de production où la pensée disparaît à mesure que la nature collective de la fabrication est promue."
+          }
+        ]
+      },
+      {
+        "concept": "l'enracinement",
+        "mots": [
+          "\\bangoiss"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia (Wiki)",
+            "contenu": "L’enracinement fait partie de la condition humaine. Simone Weil affirme dans L’enracinement que l’épanouissement de l’individu dépend de son rapport, culturel et spirituel, au milieu dans lequel il évolue.\nL’enracinement est un besoin humain fondamental. Simone Weil compare l’homme à une plante, dont l’existence dépend d’un milieu nourricier. La racine d’une plante est l’organe souterrain qui lui permet de se fixer au sol afin d’y puiser les éléments nécessaires à sa survie et à son développement. La survie de l’être humain est souvent réduite à la satisfaction de ses besoins physiques, mais son épanouissement tient à la satisfaction d’autres besoins, ceux de l’âme. Or, parmi ceux-ci, le besoin d’enracinement est aussi essentiel qu’ignoré. L’homme est un être profondément social qui a besoin de s’enraciner dans un milieu nourricier, c’est-à-dire dans une collectivité. « Un être humain, explique Simone Weil, a une racine par sa participation réelle, active et naturelle à l’existence d’une collectivité qui conserve vivants certain trésors du passé et certains pressentiments d’avenir » (L’enracinement). Dans le détail, la collectivité ne correspond ni à la société ni à l’État, qui ont été corrompus par le pouvoir et l’argent. Le milieu nourricier de l’individu moderne, celui qui l’ancre dans une terre, une culture, et une histoire, c’est la nation. Concrètement, l’homme s’y enracine par le travail, qui définit sa fonction dans la communauté. Le travail tel qu’organisé par le capitalisme industriel place certes les individus dans des rapports de servitude. Mais Simone Weil pose qu’il a dans l’absolu une valeur spirituelle qui contribue à l’enracinement. Le déracinement menace les sociétés humaines. Simone Weil estime que les Français de son époque — en particulier les travailleurs — sont profondément déracinés. La première cause en est la défaite militaire, puis l’occupation allemande. Paradoxalement, cette situation engendre une crise identitaire aiguë qui crée l’opportunité d’une refondation de la nation française, afin que les compatriotes s’y enracinent. « La patrie n’est jamais aussi belle, avance la philosophe, que sous l’oppression d’un conquérant, si on a l’espoir de la revoir intacte » (L’enracinement). Cependant, le déracinement des Français n’a pas commencé en 1940. Pour Simone Weil, il s’explique d’abord par la Révolution française. En effet, elle a brutalement transformé la nation, un milieu nourricier, en l’État, une machine au service du pouvoir, ce qui a privé les citoyens de l’attachement affectif patriotique qui les liait à leur collectivité. Les révolutionnaires ont choisi de faire table rase du passé, alors qu’ils auraient pu inscrire leur action politique dans la tradition révolutionnaire française qui s’était construite depuis la fin du Moyen Âge. Le déracinement des Français résulte également de l’industrialisation de l’économie par la spécialisation. Cette transformation a fait du travailleur un esclave aux ordres des concepteurs du processus de production. Son travail ne l’enracine plus dans sa communauté, il le déracine. Le problème fondamental est que le déracinement entraîne les hommes à s’asservir les uns les autres. Simone Weil condamne le déracinement comme « la plus dangereuse des maladies des sociétés humaines ».\nL’enracinement fonde un projet politique. Simone Weil imagine de réorganiser la société à partir de la condition ouvrière. Elle estime que la révolution soviétique n’a pas réussi dans la mesure où son système repose, comme le capitalisme, sur l’industrialisation, et où il n’a pas rendu aux travailleurs leur dignité. À ses yeux, ni le modèle capitaliste ni le modèle socialiste ne permettent d’enraciner les ouvriers en tenant compte de leur histoire. Pour réussir cela, elle préconise d’abolir les grandes usines ; de confier les machines à de minuscules ateliers ; et d’offrir à chaque ouvrier une demeure et un lopin de terre. Son plan d’enracinement comporte également un programme d’éducation qui enseigne aux membres de la communauté à aimer leur passé sans s’y réfugier. Fondamentalement, l’objectif est de réenraciner l’homme par le travail. Ce plan « aurait pour orientation, écrit Simone Weil, non pas, selon la formule qui tend aujourd’hui à devenir à la mode, l’intérêt du consommateur — cet intérêt ne peut être que grossement matériel — mais la dignité de l’homme dans le travail, ce qui est une valeur spirituelle » (L’enracinement). Le réenracinement passe par une révolution spirituelle qui ferait reconnaître à chacun les liens qui l’unissent aux autres êtres humains. En pratique, il faut revenir à une civilisation préindustrielle qui enracine les hommes par la religion, la spiritualité, ainsi qu’un travail manuel valorisant. Simone Weil admire le modèle de la cité grecque, qui accomplit un degré élevé d’harmonie entre les individus et la communauté."
+          }
+        ]
+      },
+      {
+        "concept": "la force",
+        "mots": [
+          "\\bforce"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Alexis Dayon",
+            "contenu": "Le cœur et véritable sujet de l’Iliade, c’est la force : son emprise, ses effets sur l’âme et sur la chair des hommes. Et le caractère le plus constant de la force est de « faire de quiconque lui est soumis une chose » : ceux qui la subissent comme ceux qui la manient.\n- Qui subit la force est ravalé par elle au rang de matière inerte : son état est de se retrouver à la merci d’une entité qui possède, à tout moment, la puissance de l’anéantir.\n- Qui manie la force, enivré par la puissance qu’elle lui donne, se ravale au rang d’élan aveugle : son état est de ne plus rien rencontrer qui lui résiste et le freine.\nChez l’un et chez l’autre, qu’elle paralyse ou qu’elle enivre, la force a pour effet de neutraliser en l’homme les effets de l’amour et de l’intelligence. "
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 20,
@@ -1305,7 +1325,21 @@
     "concepts": [
       "le devoir"
     ],
-    "concepts_signés": []
+    "concepts_signés": [
+      {
+        "concept": "le visage",
+        "mots": [
+          "\\bvisage"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le « visage » est l'un des concepts majeurs de la philosophie lévinassienne. Il ne se ramène pas au visage physique, même s’il part d'une description phénoménologique de son aspect physique. Le visage, c'est la manière qu'a l'autre de m'aborder de face, à la fois suppliant et commandant impérieusement de le préserver. Le visage est porteur du premier et seul ordre adressé à moi : « Tu ne tueras point ». En ce sens, tout le corps et tout l'homme est visage.\nLevinas pense le rapport à l'autre comme l’infini (ce qui déborde l'être). Le « visage », dans sa nudité, en est la trace. Le « visage » est une chose devenue concept : c’est ce qui vient oblitérer toute définition de l’Autre, toute finitisation. L’impossibilité de définir l’Autre le ramène à l’indéfini, au débordant, à l’infini au sens de Levinas.\n« Dé-visager » quelqu’un, c’est détruire son visage en le décomposant, en le réduisant à un ensemble de qualités sensibles. Pour Levinas, le visage est nu, sans qualités, un « trou dans l'Être » (Sartre), ce qui fait penser à ce que Platon dit du bien au-delà de l'Être, idée que Levinas reprend souvent à son compte. Lorsque je suis confronté au visage, il me met en question. Je suis destitué, traumatisé, violenté. « L’éthique, c’est ce qui provoque un dérangement dans le sujet ».\nDans un texte célèbre, Levinas compare les trois « nudités », celles du paysage et celle du corps ne faisant jamais que renvoyer à la nudité du visage, la nudité par excellence, celle du visage qui se tourne vers moi et qui est « la nudité même » pour reprendre la formule propre de Levinas.\nAinsi, le registre « bien-pensant » de la morale bourgeoise ou de l’égalitarisme, celui de la charité, de l’altruisme, de la récrimination moralisante, n’est pas celui de Levinas car ces postures de charité confortent le sujet dans son identité, dans sa contenance subjective. Ma charité me fait du bien, alors que la relation éthique lévinassienne me bouleverse. Ainsi, le lieu du contresens à propos de Levinas est la morale. Comme l'écrit Levinas, « Il importe au plus haut point de savoir si l'on n'est pas dupe de la morale »."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 21,
@@ -1335,7 +1369,21 @@
       "la conscience",
       "la liberté"
     ],
-    "concepts_signés": []
+    "concepts_signés": [
+      {
+        "concept": "la mauvaise foi",
+        "mots": [
+          "\\bmauvaise foi"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "La mauvaise foi tient une place importante dans la philosophie de Sartre, car elle est l’envers de la liberté, comme le mensonge est l’envers de la vérité.\nDans l’Etre et le Néant, Sartre liste les différentes conduites de mauvaise foi (coquette, garçon de café, …) utilisées par l’homme pour se masquer à lui-même sa liberté, qu’il assume mal. La mauvaise foi consiste à faire semblant de croire que l’on n’est pas libre, c’est se faire plein d’être, se réifier.\nL’introduction du mécanique dans sa gestuelle indique que le garçon de café tente d’être en soi (suivant la distinction ontologique de l'en soi, monde des objets, et du pour-soi, règne de l'homme), à se couler dans le monde en tant que chose. La conscience, nous dit Sartre, cherche toujours à coïncider avec elle-même, à se remplir d’être, à se faire “en-soi”, mais elle ne peut au fond se masquer le fait qu’elle n’est jamais ce qu’elle est, car l’homme, en tant qu'être réflexif, change dès qu’il prend conscience de lui-même : se dire naïf n'est plus tout à fait être naïf. Ainsi, le garçon de café s’invente une essence qui le soulagerait de sa liberté, mais ce n’est qu’une illusion qui tombe car la conscience ne disparaît jamais : je sais que je joue à être garçon de café.\nLa théorie de la mauvaise foi pose une thèse très forte sur l'existence : l’homme est un être plein de néant, mais il veut être l’être. La mauvaise foi renvoie à ce déchirement de la condition humaine, prise entre une liberté angoissante (néant) et une chosification réconfortante mais mystificatrice (être)."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 22,

@@ -20,8 +20,8 @@ const InfoDialog = (props: Props) => {
       onClose={props.onClose}
       className="min-h-[400px] nomPhilosophe"
     >
-      <div className="p-5 overflow-auto boiteDialog rounded-[15px] px-4 py-2 text-[#303030] styleInfo">
-        <div className="displayFlex">
+      <div className="p-5 overflow-hidden boiteDialog rounded-[15px] px-4 py-2 text-[#303030] styleInfo">
+        <div className="displayFlex fullHeight">
           <div className="moitieHorizontale">
             <img src={getImgPath(props.chatData.id)} className="imgInfo" />
           </div>
@@ -35,23 +35,33 @@ const InfoDialog = (props: Props) => {
             </p>
             <div className="displayFlex moitieVerticale">
               <div className="moitieHorizontale">
-                <div className="containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm fullHorizontale">
-                  J'ai traité de :
+                <div className="containerPhilosophes boxPhilosophe group items-center rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm fullHorizontale cursorAuto">
+                  <b>Mes thèmes</b>
+                  <div className="flexDiv">
                   {props.chatData.concepts.map((concept) => (
-                    <a className="rounded-[2px] boutons w-full pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20">
-                      <span className="text-white textePetitBouton font-medium text-sm">{concept}</span>
+                    <a className="w-full flex flex-col justify-center petitsBoutons">
+                      <div className="text-white textePetitBouton font-medium text-sm">{concept}</div>
                     </a>
-
                   ))}
+                  </div>
                 </div>
               </div>
               <div className="moitieHorizontale">
-                <div className="containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm fullHorizontale">
-                  Mes concepts :
-                  {props.chatData.concepts_signés.map((concept) => (
-                    <span>{concept.concept}</span>
-
+              <div className="containerPhilosophes boxPhilosophe group items-center rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm fullHorizontale cursorAuto">
+                  
+                <b>Mes concepts</b>
+                 
+                <div className="flexDiv">
+                {props.chatData.concepts_signés.map((concept) => (
+                                     
+                                     <a className="w-full flex flex-col justify-center petitsBoutons">
+                      <div className="text-white textePetitBouton font-medium text-sm">{concept.concept}</div>
+                    </a>
                   ))}
+                  </div>
+
+
+
                 </div>
               </div>
             </div>

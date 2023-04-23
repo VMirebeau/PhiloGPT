@@ -101,6 +101,39 @@ body {
 
 .boutons {
   padding-left: 0px;
+  height:100%;
+}
+
+.fullHeight {
+  height:100%;
+}
+
+.cursorAuto {
+  cursor:normal;
+}
+
+.flexDiv {
+  display:flex;
+  height:100%;
+  width:100%;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.petitsBoutons:hover {
+  background-color: #10a37f;
+  cursor: pointer;
+}
+
+.petitsBoutons {
+  padding-left: 0px;
+  background-color:#babbbf;
+  margin-left:0px;
+  border-radius: 20px;
+  align-self:center;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 
 .texteBouton {
@@ -211,11 +244,13 @@ body {
 }
 
 .moitieHorizontale {
-  width: 50%
+  width: 50%;
+  height:100%;
 }
 
 .fullHorizontale {
   width: 100%;
+  height:100%;
   margin:0px;
 }
 
@@ -232,7 +267,7 @@ body {
 }
 
 .moitieVerticale {
-  height:50%;
+  height:100%;
 }
 
 .texteInfos  {

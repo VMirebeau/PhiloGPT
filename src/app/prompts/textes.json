@@ -158,12 +158,12 @@
           {
             "auteur": "sans objet",
             "origine": "Wikipedia",
-            "contenu":"Pour s'assurer de la solidité de nos connaissances, il nous faut trouver, une bonne fois pour toutes, un fondement inébranlable à partir duquel nous pourrions déduire tout le reste. Ainsi peut-on dire que la méthode cartésienne commence en réalité par la mise en doute systématique de toutes les connaissances qui nous semblent évidentes.\nLe préjugé et la précipitation nous empêchent de bien juger. Nous devons donc suspendre notre jugement. Il faut douter non seulement de nos préjugés acquis par l'éducation, mais aussi de ce que nous apprennent les sens, car ceux-là peuvent être quelquefois trompeurs, comme le montre l'exemple des illusions d'optique. Radicalisant cette expérience commune (l'image du bâton brisé dans l'eau), Descartes arrive, dans la Première méditation métaphysique, au « doute hyperbolique » : ne se pourrait-il pas que nos sens nous trompent tout le temps, comme dans le rêve ou la folie ? Mais il reste encore quelques vérités qui nous semblent très évidentes, parce qu'elles portent sur les éléments les plus simples : il en est ainsi des vérités et surtout des idées mathématiques. Néanmoins, il arrive que nous nous trompions aussi en calculant ; mais ce n'est pas encore là le doute le plus radical que nous puissions concevoir, car nous pouvons faire l'hypothèse d'un « dieu trompeur », d'un « malin génie » qui nous aurait créés tels que nous nous trompions toujours (Première Méditations métaphysiques). Par l'exercice méthodique de ce doute hyperbolique, nous pouvons en arriver à ne plus pouvoir rien juger comme absolument certain, à ne plus pouvoir rien tenir ni pour vrai ni pour faux, à ne plus tenir aucun être comme réel."
+            "contenu": "Pour s'assurer de la solidité de nos connaissances, il nous faut trouver, une bonne fois pour toutes, un fondement inébranlable à partir duquel nous pourrions déduire tout le reste. Ainsi peut-on dire que la méthode cartésienne commence en réalité par la mise en doute systématique de toutes les connaissances qui nous semblent évidentes.\nLe préjugé et la précipitation nous empêchent de bien juger. Nous devons donc suspendre notre jugement. Il faut douter non seulement de nos préjugés acquis par l'éducation, mais aussi de ce que nous apprennent les sens, car ceux-là peuvent être quelquefois trompeurs, comme le montre l'exemple des illusions d'optique. Radicalisant cette expérience commune (l'image du bâton brisé dans l'eau), Descartes arrive, dans la Première méditation métaphysique, au « doute hyperbolique » : ne se pourrait-il pas que nos sens nous trompent tout le temps, comme dans le rêve ou la folie ? Mais il reste encore quelques vérités qui nous semblent très évidentes, parce qu'elles portent sur les éléments les plus simples : il en est ainsi des vérités et surtout des idées mathématiques. Néanmoins, il arrive que nous nous trompions aussi en calculant ; mais ce n'est pas encore là le doute le plus radical que nous puissions concevoir, car nous pouvons faire l'hypothèse d'un « dieu trompeur », d'un « malin génie » qui nous aurait créés tels que nous nous trompions toujours (Première Méditations métaphysiques). Par l'exercice méthodique de ce doute hyperbolique, nous pouvons en arriver à ne plus pouvoir rien juger comme absolument certain, à ne plus pouvoir rien tenir ni pour vrai ni pour faux, à ne plus tenir aucun être comme réel."
           },
           {
             "auteur": "auto",
             "origine": "Méditations Métaphysiques",
-            "contenu":"Après y avoir bien pensé, et avoir soigneusement examiné toutes choses, enfin il faut conclure, et tenir pour constant que cette proposition : « Je suis, j'existe », est nécessairement vraie, toutes les fois que je la prononce, ou que je la conçois en mon esprit. […] Je ne suis donc, précisément parlant, qu'une chose qui pense […] C'est-à-dire une chose qui doute, qui conçoit, qui affirme, qui nie, qui veut, qui ne veut pas, qui imagine aussi et qui sent."
+            "contenu": "Après y avoir bien pensé, et avoir soigneusement examiné toutes choses, enfin il faut conclure, et tenir pour constant que cette proposition : « Je suis, j'existe », est nécessairement vraie, toutes les fois que je la prononce, ou que je la conçois en mon esprit. […] Je ne suis donc, précisément parlant, qu'une chose qui pense […] C'est-à-dire une chose qui doute, qui conçoit, qui affirme, qui nie, qui veut, qui ne veut pas, qui imagine aussi et qui sent."
           }
         ]
       },
@@ -603,7 +603,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "auteur": 17,
     "textes": [
       {
@@ -702,7 +703,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "auteur": 19,
     "textes": [
       {
@@ -722,6 +724,51 @@
             "auteur": "sans objet",
             "origine": "Liberation",
             "contenu": "«Tous les partis font de la propagande», d'après SImone Weil. Or, pour elle, le critère du bien ne peut être que la vérité, la justice, et, en second lieu, l'utilité publique. A l'aune de ces trois valeurs, les partis, «machines à fabriquer de la passion collective», sont un danger. «Tout parti est totalitaire en germe et en aspiration», écrit-elle. Par leur organisation, ils sont mêmes destinés «à tuer dans les âmes le sens de la vérité et de la justice»."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 20,
+    "textes": [
+      {
+        "concept": "le devoir",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Marcal Pozzo",
+            "contenu": "On ne doit pas voir la morale comme un contrôle exercé par la raison sur la sensibilité, mais plutôt comme un événement de la sensibilité. La morale n’est pas de l’ordre d’un devoir-être, c’est un fait, un traumatisme, tel que celui que produit la rencontre du visage d’autrui. Chez Levinas, rien ne précède l’éthique, car l’éthique est ce qui est à l’origine même de la philosophie, de l’étonnement philosophique.\nPortant sur la relation du sujet à autrui, la philosophie de Levinas essaie de renouveler la pensée de l’intersubjectivité de manière radicale. Pour Levinas, l’éthique est la philosophie première.\nC’est dans son grand œuvre Éthique et Infini, que l’on lit une définition de la morale comme un absolu qui règle l’existence avec une rigueur implacable et désigne la relation à autrui, ce qu’il nomme la responsabilité-pour-autrui. La relation à autrui étant asymétrique, on peut dire que la réciprocité des actions ne peut pas être attendue par le sujet, il doit agir sans savoir ce qu’autrui fera, même si le sujet doit y laisser sa vie. Renversant alors la morale de l’autonomie développée par Kant (dont l’autonomie était le point névralgique), la philosophie de Levinas rend la morale impérieuse possible grâce à l’hétéronomie du sujet.\nC’est en faisant un rapide retour sur l’ontologie de Levinas, que l’on pourra comprendre en quoi son éthique met l’homme face à l’« il y a », autrement dit à l’être impersonnel, une sorte de nulle part entre l’être et le néant. Aussi, afin de sortir de l’ « il y a », autrui n’a d’autres choix que de tisser une relation « désintéressée », ce qui fait que l’homme existe pour-autrui.\nCette expérience d’autrui prend la forme du visage."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 21,
+    "textes": [
+      {
+        "concept": "la conscience",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosphie.com",
+            "contenu": "Dans l'Etre et le Néant, Sartre tente de repenser le cogito cartésien : conscience et liberté ne font qu'une selon le philosophe normalien. Ainsi, contre Descartes et son “Je pense donc je suis“, Sartre pose la thèse suivante : “Je suis, j'existe”. Autrement dit il affirme que la pensée elle-même suppose l'existence qui reste première. L'homme est avant tout sujet, une sorte d'existence impersonnelle, une “existence sans existant”.\nSelon l'existentialiste, les actes et les états de la conscience n'ont besoin d'aucun fondement pour exister : le “je” n'existe pas, il est une fiction inventée par les philosophes. La vie psychique, spontanée et irréfléchie (= le cogito pré-réflexif) a ses propres actes.\nPar exemple, je ne pense pas “je suis en train de courir après le métro quand je me précipite pour l'attraper” : il n'y a en réalité pas de “je”, car je suis “conscience du métro devant être rattrapé”. Ici, on voit clairement l'influence de la lecture husserlienne de Descartes : “Toute conscience est conscience de quelque chose”.\nLa conscience, chez Sartre, fait le sens de la vie psychique. Ainsi, dans sa Théorie des émotions, ces dernières sont des conduites magiques qui transforme une délicate pour nous. L'évanouissement, la fuite, ne changent pas une situation objective.\nLa conscience est toujours dirigée vers l'extérieur, la conscience n'a pas de dedans, il n'y a pas de vie intérieure. Ceci rompt avec la conception classique de l'introspection socratique : la découverte de soi ne se fait pas la quête en soi-même, mais par le monde, dans le monde, par l'immersion dans le monde : “Etre, c'est éclater dans le monde”. La conscience, autrement dit, est une ek-stase, elle est multiple, changeante et ne suppose aucune unité fondatrice."
+          }
+        ]
+      },
+      {
+        "concept": "la liberté",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Être libre, chez Sartre, c'est se jeter dans le monde, de se perdre en lui pour tenter de le modifier, d'agir sur lui.\nLa liberté est un néant au sein de la réalité-humaine (Etre pour soi). Ce néant qu'est l'homme sous-tend un inaccomplissement : l'homme est toujours à faire. La liberté est absolue, dans la mesure où c'est elle qui décide du sens à donner aux contraintes.\nLa liberté n'est bien sûr pas un caprice, l'acte résulte d'un projet, du choix que l'homme fait de lui-même. Pourtant la volonté n'est pas une faculté toute-puissante, la volonté n'a de sens que dans le projet originel d'une liberté toujours intentionnelle.\nLa liberté permet à la conscience de se libérer de la facticité. La liberté n'est pas un simple attribut de l'homme, la liberté fonde le monde, le façonne."
+          },
+          {
+            "auteur": "auto",
+            "origine": "L'Etre et le Néant",
+            "contenu": "L'être ne saurait engendrer que l'être et, si l'homme est englobé dans ce processus de génération, il ne sortira de lui que de l'être. S'il doit pouvoir interroger sur ce processus, c'est-à-dire le mettre en question, il faut qu'il puisse le tenir sous sa vue comme un ensemble, c'est-à-dire se mettre lui-même en dehors de l'être et du même coup affaiblir la structure d'être de l'être. Toutefois il n'est pas donné à la “réalité humaine” d'anéantir, même provisoirement, la masse d'être qui est posée en face d'elle. Ce qu'elle peut modifier, c'est son rapport avec cet être. Pour elle, mettre hors de circuit un existant particulier, c'est se mettre elle-même hors de circuit par rapport à cet existant. En ce cas elle lui échappe, elle est hors d'atteinte, il ne saurait agir sur elle, elle s'est retirée par-delà un néant. Cette possibilité pour la réalité humaine de sécréter un néant qui l'isole, Descartes, après les Stoïciens, lui a donné un nom : c'est la liberté."
           }
         ]
       }
