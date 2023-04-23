@@ -12,6 +12,7 @@ export interface Extrait {
 export interface ChatData {
   id: number;
   nom: string;
+  nom_complet : string;
   categorie:string;
   lieu: string;
   dates: string;

@@ -2,6 +2,7 @@
   {
     "id": 0,
     "nom": "Socrate",
+    "nom_complet": "Socrate",
     "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -470 à -399",
@@ -72,6 +73,7 @@
   {
     "id": 1,
     "nom": "Platon",
+    "nom_complet": "Platon",
     "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -428 à -348",
@@ -144,6 +146,7 @@
   {
     "id": 2,
     "nom": "Aristote",
+    "nom_complet": "Aristote",
     "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -384 à -322",
@@ -231,6 +234,7 @@
   {
     "id": 3,
     "nom": "Epicure",
+    "nom_complet": "Epicure",
     "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -342 à -270",
@@ -288,6 +292,7 @@
   {
     "id": 4,
     "nom": "Epictète",
+    "nom_complet": "Epictète",
     "categorie": "Antiquité",
     "lieu": "Turquie",
     "dates": "50-130",
@@ -332,6 +337,7 @@
   {
     "id": 5,
     "nom": "Descartes",
+    "nom_complet": "René Descartes",
     "categorie": "Classiques",
     "lieu": "France",
     "dates": "1596-1650",
@@ -391,6 +397,7 @@
   {
     "id": 6,
     "nom": "Hobbes",
+    "nom_complet": "Thomas Hobbes",
     "categorie": "Classiques",
     "lieu": "Angleterre",
     "dates": "1588-1679",
@@ -449,6 +456,7 @@
   {
     "id": 7,
     "nom": "Pascal",
+    "nom_complet": "Blaise Pascal",
     "categorie": "Classiques",
     "lieu": "France",
     "dates": "1623-1662",
@@ -524,6 +532,7 @@
   {
     "id": 8,
     "nom": "Spinoza",
+    "nom_complet": "Baruch Spinoza",
     "categorie": "Classiques",
     "lieu": "Hollande",
     "dates": "1632-1677",
@@ -579,6 +588,7 @@
   {
     "id": 9,
     "nom": "Leibniz",
+    "nom_complet": "Gottfried Wilhelm Leibniz",
     "categorie": "Classiques",
     "lieu": "Allemagne",
     "dates": "1646-1716",
@@ -657,6 +667,7 @@
   {
     "id": 10,
     "nom": "Hume",
+    "nom_complet": "David Hume",
     "categorie": "Modernes",
     "lieu": "Ecosse",
     "dates": "1711-1776",
@@ -686,6 +697,7 @@
   {
     "id": 11,
     "nom": "Rousseau",
+    "nom_complet": "Jean-Jacques Rousseau",
     "categorie": "Modernes",
     "lieu": "France",
     "dates": "1712-1778",
@@ -743,6 +755,7 @@
   {
     "id": 12,
     "nom": "Kant",
+    "nom_complet": "Emmanuel Kant",
     "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1724-1804",
@@ -814,6 +827,7 @@
   {
     "id": 13,
     "nom": "Hegel",
+    "nom_complet": "Georg Wilhelm Friedrich Hegel",
     "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1770-1831",
@@ -868,6 +882,7 @@
   {
     "id": 14,
     "nom": "Marx",
+    "nom_complet": "Karl Marx",
     "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1818-1883",
@@ -936,6 +951,7 @@
   {
     "id": 15,
     "nom": "Schopenhauer",
+    "nom_complet": "Arthur Schopenhauer",
     "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1788-1860",
@@ -978,6 +994,7 @@
   {
     "id": 16,
     "nom": "Nietzsche",
+    "nom_complet": "Friedrich Nietzsche",
     "categorie": "Modernes",
     "lieu": "Allemagne",
     "dates": "1844-1900",
@@ -1045,7 +1062,7 @@
     },{
       "concept": "l'éternel retour'",
       "mots": [
-        "\\bvéternel retour"
+        "\\béternel retour"
       ],
       "extraits": [
         {
@@ -1059,6 +1076,7 @@
   {
     "id": 17,
     "nom": "Freud",
+    "nom_complet": "Sigmund Freud",
     "categorie": "Contemporains",
     "lieu": "Autriche",
     "dates": "1856-1939",
@@ -1085,11 +1103,59 @@
       "le langage",
       "la religion"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "la pulsion",
+      "mots": [
+        "\\bpulsion"
+      ],
+      "extraits": [
+        {
+          "auteur": "auto",
+          "origine": "Pulsions et destins des pulsions",
+          "contenu": "Le concept de pulsion nous apparaît comme un concept limite entre le psychique et le somatique, comme le représentant psychique des excitations issues de l'intérieur du corps et parvenant au psychisme, comme mesure de l'exigence de travail qui est imposé au psychique en conséquence de sa liaison au corporel."
+        },
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "La pulsion sexuelle est le paradigme de la pulsion, si centrale en psychanalyse que toutes les autres notions en dépendent et que contester son importance revient à refuser la psychanalyse, ainsi que Freud le signifia au moment de sa séparation d'avec Carl Gustav Jung en 1913. Reproduction et sexualité se trouvent dissociées ; Freud précise que la pulsion sexuelle a pour but « des espèces déterminées de gain de plaisir », et ceci dès l'enfance, non seulement dans les organes génitaux, mais aussi dans d'autres lieux corporels dits « zones érogènes » : au cours du développement de la pulsion sexuelle, cela va du stade de l'auto-érotisme à celui de l'amour d'objet, et de l'agencement ensuite des zones érogènes « sous le primat des [organes] génitaux mis au service de la reproduction ».\nDu point de vue économique, la libido est l'énergie unique, dont Freud postule l'existence « dans les vicissitudes de la pulsion sexuelle ». Du point de vue dynamique, la pulsion sexuelle est l'un des pôles du conflit psychique : c'est sur elle que s'exerce l'action du refoulement dans l'inconscient."
+        }
+      ]
+    },{
+      "concept": "le complexe d'Oedipe",
+      "mots": [
+        "\\b(?:Œ|Oe)dipe"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Le complexe d'Œdipe, parfois contracté dans l'expression « l'Œdipe », est un concept central de la psychanalyse. Théorisé par Sigmund Freud dès sa première topique, il est défini comme le désir d'entretenir un rapport amoureux et voluptueux avec le parent du sexe opposé (inceste) et celui d'éliminer le parent du même sexe (parricide ou matricide) considéré comme rival. Ainsi, le fait qu'un garçon soit amoureux de sa mère et désire tuer son père répond à l'impératif du complexe d'Œdipe.\nLa légende d'Œdipe qui a inspiré le drame de Sophocle, Œdipe roi, est selon Freud le plus à même de mettre en images le désir universel et inconscient que tout enfant ressent ; pour Roger Perron, il désigne « le réseau des désirs et des mouvements hostiles dont les objets sont le père et la mère, et des défenses qui s'y opposent ».\nLa psychanalyse identifie trois étapes fondamentales de développement psychoaffectif : le stade oral, le stade anal et le stade phallique lors duquel survient chez le garçon, comme chez la fille mais d'une toute autre manière, le complexe d'Œdipe. C'est en effet de 3 à 5 ans environ que le désir libidinal fait naitre la phase œdipienne. Le complexe connaît ensuite un déclin et est refoulé, disparaissant ainsi de la mémoire consciente. Le refoulement n'est pas toujours complet chez les filles.\nLe complexe d'Œdipe, devenu le pivot de la théorie pulsionnelle et métapsychologique de Freud, est considéré comme le concept-clé de la psychanalyse et de ses courants dérivés. L'histoire du complexe d'Œdipe est en effet associée à la théorie freudienne ainsi qu'à l'histoire de la psychanalyse dans son ensemble."
+        }
+      ]
+    },{
+      "concept": "la sublimation",
+      "mots": [
+        "\\bsublim"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Freud définit la sublimation pour rendre compte d'un type particulier d'activité humaine (la création littéraire, artistique et intellectuelle) sans rapport apparent avec la sexualité mais tirant sa force de la pulsion sexuelle en tant qu'elle se déplace vers un but non sexuel en investissant des objets socialement valorisés.\nAutrement dit, il s'agit du processus de transformation de l’énergie sexuelle (libido) en la faisant dériver vers d’autres domaines, notamment les activités artistiques.\nÀ partir de la seconde topique, la sublimation sera vue comme la transposition du but pulsionnel sexuel mais aussi agressif."
+        },
+        {
+          "auteur": "auto",
+          "origine": "Lettre du 25 mai 1937 à Marie Bonaparte",
+          "contenu": "La sublimation est un concept qui comprend un jugement de valeur. En fait, elle signifie une application à un autre domaine où des réalisations socialement plus valables sont possibles. [...] Toutes les activités qui organisent ou affectent des changements sont, dans une certaine mesure, destructrices et redirigent ainsi une pulsion loin de son but destructeur original. Même l'instinct sexuel, comme nous le savons, ne peut agir sans une certaine dose d'agression. Par conséquent, il y a dans la combinaison normale des deux instincts une sublimation partielle de l'instinct de destruction."
+        }
+      ]
+    }
+  ]
   },
   {
     "id": 18,
     "nom": "Heidegger",
+    "nom_complet": "Martin Heidegger",
     "categorie": "Contemporains",
     "lieu": "Allemagne",
     "dates": "1889-1976",
@@ -1114,14 +1180,39 @@
       "le temps",
       "l'art",
       "la vérité",
-      "la technique",
-      "la science"
+      "la technique"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "le Dasein",
+      "mots": [
+        "\\bDasein",
+        "\\bêtre-là"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia",
+          "contenu": "Pour Heidegger, le Dasein est un concept majeur au moyen duquel l'auteur cherche à distinguer la manière d'être spécifique de l'« être humain », qui n'est pas celle des choses ordinaires. Ainsi le Dasein est cet étant particulier et paradoxal, à qui son propre être importe, qui est confronté à la possibilité constante de sa mort, en a conscience, vit en relation étroite avec ses semblables et qui, tout en étant enfermé dans sa solitude, « est toujours au monde », auprès des choses.\nHeidegger, sans jamais donner de définition au sens classique (genre et espèce), présente ce concept dans une formule particulièrement ramassée, dans Être et Temps, « l'étant à analyser (le Dasein), nous le sommes « à chaque fois » nous-mêmes.\nAvec ce nouveau concept, Heidegger tente de rendre métaphysiquement compte des phénomènes complexes liés à l'analyse de la vie humaine dans son « monde », de la « vie facticielle » (la vie réelle avec sa contingence), comme la dispersion, la temporalité, la perte et la reprise de soi, la finitude, et surtout la familiarité avec l'« être », mais aussi de répondre à la question du sens de l'être.\nOr l'homme, dans son existence quotidienne, manifeste toujours une certaine compréhension spontanée de l'être des étants qui l'entourent, comme aussi, de son être propre (autrement dit, il sait pré-conceptuellement, si une chose est, et quand elle est) : le terme de Dasein va prendre en charge cette capacité ontologique, qui est le privilège de l'homme, et dont il est souvent question dans l'œuvre de Heidegger sous l'appellation de « privilège ontologique ».\nAfin de répondre à la question du sens de l'être, la seule voie qui reste ouverte, une fois écartés les a priori classiques, va consister à interroger l'étant qui parmi tous les étants se pose cette question, c'est-à-dire l'étant que nous sommes nous-mêmes, qui, en posant cette question, manifeste qu'il a une connaissance au moins courante et vague de l'être."
+        }
+      ]
+    },{
+      "concept": "l'angoisse",
+      "mots": [
+        "\\bangoiss"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "Wikipedia (Wiki)",
+          "contenu": "L'angoisse chez Heidegger n'est pas la peur : le « devant-quoi », le Dasein s'angoisse est parfaitement indéterminé, alors que la peur est liée à quelque chose de définissable. Dans l'angoisse, il y a comme un effondrement du monde et de sa familiarité, une perte totale de significativité. L'angoisse vient de nulle part, alors que rien ne nous est plus proche. Le « pour-quoi » le Dasein s'angoisse, c'est l'« être-au-monde » lui-même. Le Dasein est confronté à la nudité de son être et par contre-coup à, cela seul qui lui appartient en propre, c'est-à-dire à son être « authentique ». C'est en tant que pur « être-possible » (absolument indéterminé) que s'ouvre l'« être-au-monde » authentique. Dans son style propre, Heidegger précise ceci : « L'angoisse manifeste dans le Dasein l'être pour le « pouvoir-être » le plus propre, c'est-à-dire l'« être-libre » pour la liberté de se choisir et se saisir soi-même ». En faisant disparaître les choses intra-mondaines l'angoisse interdit la compréhension de soi-même à partir des possibilités ayant trait à elles et elle amène ainsi le Dasein à se comprendre à partir de lui-même, le ramène à soi-même. L'angoisse est l'une des « dispositions » insignes du Dasein. Plus généralement, l'angoisse possède un intérêt pour la métaphysique en cela qu'elle rend possible l'ouverture phénoménale du néant."
+        }
+      ]
+    }]
   },
   {
     "id": 19,
     "nom": "Simone Weil",
+    "nom_complet": "Simone Weil",
     "categorie": "Contemporains",
     "lieu": "France",
     "dates": "1909-1943",
@@ -1151,6 +1242,7 @@
   {
     "id": 20,
     "nom": "Levinas",
+    "nom_complet": "Emmanuel Levinas",
     "categorie": "Contemporains",
     "lieu": "France",
     "dates": "1905-1995",
@@ -1179,6 +1271,7 @@
   {
     "id": 21,
     "nom": "Sartre",
+    "nom_complet": "Jean-Paul Sartre",
     "categorie": "Contemporains",
     "lieu": "France",
     "dates": "1905-1980",
@@ -1208,6 +1301,7 @@
   {
     "id": 22,
     "nom": "Hans Jonas",
+    "nom_complet": "Hans Jonas",
     "categorie": "Contemporains",
     "lieu": "Allemagne",
     "dates": "1903-1993",
@@ -1237,6 +1331,7 @@
   {
     "id": 23,
     "nom": "Prof de philo",
+    "nom_complet": "Le professeur de philosophie",
     "categorie": "Autres",
     "lieu": "France",
     "dates": "?",
@@ -1263,6 +1358,7 @@
   {
     "id": 24,
     "nom": "L'enfant",
+    "nom_complet": "L'enfant",
     "categorie": "Autres",
     "lieu": "France",
     "dates": "?",
