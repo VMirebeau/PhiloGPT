@@ -413,7 +413,7 @@
     "suggestions": [
       {
         "title": "Ce qu'est l'état de nature",
-        "prompt": "Peux-tu m'expliquer à quoi ressemblerait l'existence humaine, s'il n'existait pas les lois et les institusions ? Décris très précisément le concept d'\"état de nature\"."
+        "prompt": "Peux-tu m'expliquer à quoi ressemblerait l'existence humaine, s'il n'existait pas les lois et les institutions ? Décris très précisément le concept d'état de nature."
       },
       {
         "title": "Ce qu'est un bon système politique",
@@ -421,7 +421,7 @@
       },
       {
         "title": "Ce qu'est la liberté",
-        "prompt": "Quelle conception te fais-tu de la liberté ? L'obéissance à l'Etat nous enlève-t-elle toute liberté ?"
+        "prompt": "Quelle conception te fais-tu de la liberté ?"
       }
     ],
     "concepts": [
@@ -1462,7 +1462,7 @@
         "prompt": "Peux-tu analyser philosophiquement la notion de justice en prenant appui sur l'anime Death Note ?"
       }
     ],
-    "concepts": [],
+    "concepts": ["l'art", "le bonheur"],
     "concepts_signés": []
   },
   {

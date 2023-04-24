@@ -74,6 +74,9 @@ export function useChat(
         } else if (extrait.auteur == 'sans objet') {
           reponse =
           '\n\nOn peut dire de toi la chose suivante :\n"' + extrait.contenu + '"'
+        } else if (extrait.auteur == 'fiche') {
+          reponse =
+          '\n\nJe te demande de comprendre la fiche de révision qui va suivre. Elle commence avec des définitions, des éléments d\'analyse conceptuelle, et présente quelques problèmes centraux.\n' + extrait.contenu
         } else {
           reponse =
             '\n\nDans ' +
@@ -125,7 +128,7 @@ export function useChat(
             }
           }
         }
-      } else { // alors, on regarde s'il n'y a pas un prompt spécialisé à ajouterS
+      } else { // alors, on regarde s'il n'y a pas un prompt spécialisé à ajouter
         for (const concept of chatData.concepts) {
           let count = 0
 
@@ -163,7 +166,7 @@ export function useChat(
                   // si on identifie les textes correspondant au meilleur concept
                   for (const extrait of texte.extraits) {
                     // on passe en revue l'ensemble des extraits
-                    speTextes = addReference(extrait)
+                    speTextes += addReference(extrait)
                   }
                 }
               }
@@ -173,6 +176,11 @@ export function useChat(
       }
 
       let addSpecialPrompt = ''
+      let nom = chatData.nom
+
+      if (nom == "Prof de philo") nom = "une professeure de philosophie"
+      if (nom == "L'enfant") nom = "un enfant"
+
 
       if (speTextes != '') {
         // si effectivement il y au moins un extrait à envoyer
@@ -201,13 +209,13 @@ export function useChat(
             preprompt0 +
             preprompt1 +
             addSpecialPrompt +
-            "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Tu es " + chatData.nom + ", tu l'incarnes en première personne. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" +
+            "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Tu es " + nom + ", tu l'incarnes en première personne. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" +
             input
         }
       } else {
         const preReminder1 =
           "Rappelle-toi bien que nous sommes dans une application simulant un dialogue entre l'utilisateur et un philosophe, et que tu incarnes "
-        const tempNom = chatData.nom
+        const tempNom = nom
 
         const preReminder2 =
           " ; il faut que tu t'appropries ses pensées, son style, son passé, de telle sorte que ton interlocuteur pense vraiment avoir affaire à lui. Parle toujours à la première personne, comme si tu étais vraiment "

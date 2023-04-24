@@ -18,8 +18,6 @@ const Sidebar: FC<Props> = ({ setValue, chatData }) => {
   }, [])
 
   function prompt(txt: string) {
-    // let suggprompt = chatData.suggestions?;
-    //let str = suggprompt.prompt;
     setValue(txt)
   }
   return (

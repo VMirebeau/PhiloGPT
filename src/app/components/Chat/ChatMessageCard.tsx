@@ -12,14 +12,14 @@ import { ChatData } from '~app/consts'
 
 interface Props {
   message: ChatMessageModel
-  id:number
+  id: number
   className?: string
-  chatDataJSON:ChatData[]
+  chatDataJSON: ChatData[]
 }
 
 
 
-const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) => {
+const ChatMessageCard: FC<Props> = ({ message, className, id, chatDataJSON }) => {
   const [copied, setCopied] = useState(false)
 
   const copyText = useMemo(() => {
@@ -38,11 +38,13 @@ const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) =>
   }, [copied])
 
   function getErrorMessage(err: string) {
-    console.log ("Erreur",err);
+    console.log("Erreur", err);
     err = err.trim();
-    switch(err as string) {
+    switch (err as string) {
       case "403":
         return '[Erreur 403 : essayez de renvoyer le message. En cas d\'échec, actualisez la page.]';
+      case "429":
+        return '[Erreur 429 : Trop de messages envoyés. Attendez quelques secondes avant de recommencer.]';
       case "524":
         return '[Erreur 524 : essayez de recharger la page]';
       case '{"detail":"Only one message at a time. Please allow any other responses to complete before sending another message, or wait one minute."}':
@@ -51,8 +53,10 @@ const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) =>
         return '[Erreur : Vous avez lancé trop de requêtes pendant la dernière heure. Réessayez plus tard]'
       case '{"detail":"Something went wrong, please try reloading the conversation."}':
         return '[Erreur : essayez de recharger la page]'
-        case 'Failed to fetch':
-          return '[Erreur : il est impossible de récupérer les données. Veuillez vérifier votre connexion Internet.]'
+        case 'network error':
+          return '[Erreur de réseau : vérifiez l\'état de votre connextion]'
+      case 'Failed to fetch':
+        return '[Erreur : il est impossible de récupérer les données. Veuillez vérifier votre connexion Internet.]'
       default:
         return err;
     }
@@ -64,8 +68,8 @@ const ChatMessageCard: FC<Props> = ({ message, className, id,  chatDataJSON}) =>
       className={cx('group flex paddBottom gap-3 w-full', message.author === 'user' ? 'flex-row-reverse' : 'flex-row', className)}
     >
       <div className="flex flex-col w-11/12  max-w-fit items-start gap-2">
-        <MessageBubble color={message.author === 'user' ? 'primary' : 'flat'} author={message.author} id={id} chatDataJSON={chatDataJSON} 
->
+        <MessageBubble color={message.author === 'user' ? 'primary' : 'flat'} author={message.author} id={id} chatDataJSON={chatDataJSON}
+        >
           {message.text ? (
             <Markdown>{message.text}</Markdown>
           ) : (
