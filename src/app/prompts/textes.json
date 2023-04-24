@@ -760,31 +760,6 @@
     ]
   },
   {
-    "auteur": 23,
-    "textes": [
-      {
-        "concept": "l'art",
-        "extraits": [
-          {
-            "auteur": "fiche",
-            "origine": "cours perso",
-            "contenu": "Définition(s) :\n- Au sens large (sens étymologique), l’art désigne la capacité qu’a l’homme d’agir d’après certains savoir-faire.\n- Au sens strict (sens courant), l’art désigne l’activité humaine qui consiste à produire des œuvres destinées à être contemplées.\n\nAnalyse conceptuelle :\n- Le sens large s’identifie à la notion de technique, mais le sens strict tend à s’y opposer. En effet, l’activité artistique suppose certes certaines techniques, mais ne saurait s’y réduire ; bien plus, on peut dire que l’artiste se définit par ce qu’il a de plus qu’un simple technicien (de l’inventivité, de la créativité, du génie).\n- Pour nourrir votre réflexion, n’oubliez jamais de penser la question en fonction des trois pôles de l’art : l’œuvre d’art, le spectateur, l’artiste.\n\nProblème(s) :\n- L’artiste n’est-il qu’un technicien ? L’artiste génial se définit-il par le fait qu’il applique les règles à la perfection OU BIEN doit-il se définir par un pouvoir inné et mystérieux de création, qui lui permettrait de transcender toutes les règles données ?\n- L’expérience du beau est-elle subjective ? Est-elle déterminée par certaines propriétés formelles de l’œuvre (la symétrie, les proportions) OU BIEN dépend-elle exclusivement des caractéristiques du spectateur ?"
-          }
-        ]
-      },
-      {
-        "concept": "le bonheur",
-        "extraits": [
-          {
-            "auteur": "fiche",
-            "origine": "cours perso",
-            "contenu": "Définition(s) :\nLe bonheur est un état stable et durable de satisfaction profonde.\n\nAnalyse conceptuelle :\n- Le bonheur se distingue du plaisir et de la joie. Le plaisir et la joie sont des sentiments, ils sont éphémères, alors que l’idée de bonheur implique un temps long.\n- Attention : le bonheur, c’est le fait d’être heureux. Ce sont des synonymes !\n\nProblème(s) :\n- Le bonheur est-il le fait du hasard ? Le bonheur se fonde-t-il sur les événements heureux de notre vie, qui comme tous les événements sont nécessairement imprévisibles, OU BIEN repose-t-il plutôt sur la façon dont nous interprétons tout ce qui nous arrive ?\n- Le bonheur est-il le but ultime de la vie ? Faut-il toujours essayer de satisfaire nos désirs, OU BIEN existe-t-il des exigences politiques et morales qui doivent prévaloir sur nos envies ?\n- Est-ce à l’État de faire notre bonheur ? Le bonheur dépend-il de nos conditions matérielles de vie, et donc de l’organisation de la société dans laquelle nous vivons, OU BIEN est-il toujours une affaire exclusivement personnelle, voire spirituelle ?\n\nThèses importantes : \n(1) Calliclès (personnage de Platon) : La vie heureuse est la vie déréglée\nÊtre heureux, c’est satisfaire tous ses désirs ; le bonheur et la liberté s’identifient. Mais il s’agit d’un idéal exigeant, et par conséquent seul un petit nombre d’hommes est en capacité de trouver le bonheur : l’élite (les plus brillants ou les mieux nés).\nPour être heureux, il faut avant tout se libérer du poids de la morale et de la justice : ce sont des artifices créés par les faibles pour se protéger des forts. La nature exige de nous que nous donnions libre cours à nos passions.\n\nCritique : Platon: Un tel homme ressemblerait au tonneau percé des danaïdes : il tenterait sans cesse de se remplir, en vain. En fait, pour être heureux il importe plutôt de travailler sur soi pour réussir à se satisfaire de ce qu’on a.\n\n(2) Épicure: La recherche du bonheur implique la recherche de la sagesse : c’est le bon usage de notre raison qui nous rend heureux\nPour être heureux il faut sélectionner nos désirs, et donc refuser les désirs trompeurs qui ne produisent que de la souffrance. Certes tout plaisir est un bien en soi, mais tout plaisir ne doit pas forcément être recherché, parce qu’il peut avoir des conséquences nocives. Par conséquent, le bonheur suppose l’exercice vigilant de notre raison, pour toujours comparer les avantages et les inconvénients à long terme de nos désirs. En dernière analyse, la vie heureuse est une vie frugale et sereine ; il faut savoir tant que possible se contenter de ce qui est naturel et nécessaire.\n\nCritique : Rousseau : « Malheur à celui qui n’a rien à désirer ! » Le désir est important en lui-même, c’est lui qui donne du sens et de la valeur à nos vies.\n\n\n(3) Pascal: Nous cherchons par tous les moyens des divertissements, pour ne pas penser à notre condition misérable\nLa misère de la condition de l’homme, c’est sa finitude : le fait d’être un atome éphémère et insignifiant au milieu d’un univers infini et vide. Cette vérité cruelle, nous voulons l’oublier par tous les moyens : pour ne pas penser à notre sort nous nous saoulons de divertissements : la guerre, le jeu, l’amour, le travail… Pour Pascal le divertissement a en fait un statut ambivalent : c’est certes lui qui nous permet de supporter notre malheur, mais en même temps il nous détourne de Dieu, en lequel nous pourrions trouver le salut et la promesse d’un bonheur éternel.\n\nCritique : Heidegger : Notre finitude n’est pas quelque chose qui rend l’existence absurde. Au contraire, c’est le fait de se projeter vers notre mort qui nous permet d’avoir un rapport authentique à notre existence et qui lui donne son sens. C’est cette distinction entre l’authenticité et l’inauthenticité qui est décisive, non celle entre la foi et l’incroyance.\n"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "auteur": 22,
     "textes": [
       {
@@ -809,6 +784,181 @@
             "auteur": "sans objet",
             "origine": "ac-martinique.fr",
             "contenu": "Les progrès des sciences et des techniques ont doté l'homme d'une puissance inégalée sur la nature et les autres espèces vivantes. Pendant longtemps l'homme est resté aveugle aux conséquences de l'utilisation de cette sur-puissance. Mais aujourd'hui le temps de l'aveuglement semble révolu. L'homme est devenu une menace non seulement pour lui-même mais pour la biosphère tout entière. Les Lumières se sont donc changées en leur contraire."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 23,
+    "textes": [
+      {
+        "concept": "l'art",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Au sens large (sens étymologique), l’art désigne la capacité qu’a l’homme d’agir d’après certains savoir-faire.\n- Au sens strict (sens courant), l’art désigne l’activité humaine qui consiste à produire des œuvres destinées à être contemplées.\n\nAnalyse conceptuelle :\n- Le sens large s’identifie à la notion de technique, mais le sens strict tend à s’y opposer. En effet, l’activité artistique suppose certes certaines techniques, mais ne saurait s’y réduire ; bien plus, on peut dire que l’artiste se définit par ce qu’il a de plus qu’un simple technicien (de l’inventivité, de la créativité, du génie).\n- Pour nourrir votre réflexion, n’oubliez jamais de penser la question en fonction des trois pôles de l’art : l’œuvre d’art, le spectateur, l’artiste.\n\nProblème(s) :\n- L’artiste n’est-il qu’un technicien ? L’artiste génial se définit-il par le fait qu’il applique les règles à la perfection OU BIEN doit-il se définir par un pouvoir inné et mystérieux de création, qui lui permettrait de transcender toutes les règles données ?\n- L’expérience du beau est-elle subjective ? Est-elle déterminée par certaines propriétés formelles de l’œuvre (la symétrie, les proportions) OU BIEN dépend-elle exclusivement des caractéristiques du spectateur ?"
+          }
+        ]
+      },
+      {
+        "concept": "le bonheur",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nLe bonheur est un état stable et durable de satisfaction profonde.\n\nAnalyse conceptuelle :\n- Le bonheur se distingue du plaisir et de la joie. Le plaisir et la joie sont des sentiments, ils sont éphémères, alors que l’idée de bonheur implique un temps long.\n- Attention : le bonheur, c’est le fait d’être heureux. Ce sont des synonymes !\n\nProblème(s) :\n- Le bonheur est-il le fait du hasard ? Le bonheur se fonde-t-il sur les événements heureux de notre vie, qui comme tous les événements sont nécessairement imprévisibles, OU BIEN repose-t-il plutôt sur la façon dont nous interprétons tout ce qui nous arrive ?\n- Le bonheur est-il le but ultime de la vie ? Faut-il toujours essayer de satisfaire nos désirs, OU BIEN existe-t-il des exigences politiques et morales qui doivent prévaloir sur nos envies ?\n- Est-ce à l’État de faire notre bonheur ? Le bonheur dépend-il de nos conditions matérielles de vie, et donc de l’organisation de la société dans laquelle nous vivons, OU BIEN est-il toujours une affaire exclusivement personnelle, voire spirituelle ?\n\nThèses importantes : \n(1) Calliclès (personnage de Platon) : La vie heureuse est la vie déréglée\nÊtre heureux, c’est satisfaire tous ses désirs ; le bonheur et la liberté s’identifient. Mais il s’agit d’un idéal exigeant, et par conséquent seul un petit nombre d’hommes est en capacité de trouver le bonheur : l’élite (les plus brillants ou les mieux nés).\nPour être heureux, il faut avant tout se libérer du poids de la morale et de la justice : ce sont des artifices créés par les faibles pour se protéger des forts. La nature exige de nous que nous donnions libre cours à nos passions.\n\nCritique : Platon: Un tel homme ressemblerait au tonneau percé des danaïdes : il tenterait sans cesse de se remplir, en vain. En fait, pour être heureux il importe plutôt de travailler sur soi pour réussir à se satisfaire de ce qu’on a.\n\n(2) Épicure: La recherche du bonheur implique la recherche de la sagesse : c’est le bon usage de notre raison qui nous rend heureux\nPour être heureux il faut sélectionner nos désirs, et donc refuser les désirs trompeurs qui ne produisent que de la souffrance. Certes tout plaisir est un bien en soi, mais tout plaisir ne doit pas forcément être recherché, parce qu’il peut avoir des conséquences nocives. Par conséquent, le bonheur suppose l’exercice vigilant de notre raison, pour toujours comparer les avantages et les inconvénients à long terme de nos désirs. En dernière analyse, la vie heureuse est une vie frugale et sereine ; il faut savoir tant que possible se contenter de ce qui est naturel et nécessaire.\n\nCritique : Rousseau : « Malheur à celui qui n’a rien à désirer ! » Le désir est important en lui-même, c’est lui qui donne du sens et de la valeur à nos vies.\n\n\n(3) Pascal: Nous cherchons par tous les moyens des divertissements, pour ne pas penser à notre condition misérable\nLa misère de la condition de l’homme, c’est sa finitude : le fait d’être un atome éphémère et insignifiant au milieu d’un univers infini et vide. Cette vérité cruelle, nous voulons l’oublier par tous les moyens : pour ne pas penser à notre sort nous nous saoulons de divertissements : la guerre, le jeu, l’amour, le travail… Pour Pascal le divertissement a en fait un statut ambivalent : c’est certes lui qui nous permet de supporter notre malheur, mais en même temps il nous détourne de Dieu, en lequel nous pourrions trouver le salut et la promesse d’un bonheur éternel.\n\nCritique : Heidegger : Notre finitude n’est pas quelque chose qui rend l’existence absurde. Au contraire, c’est le fait de se projeter vers notre mort qui nous permet d’avoir un rapport authentique à notre existence et qui lui donne son sens. C’est cette distinction entre l’authenticité et l’inauthenticité qui est décisive, non celle entre la foi et l’incroyance.\n"
+          }
+        ]
+      },
+      {
+        "concept": "la conscience",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Au sens psychologique, la conscience est la faculté mentale qui nous permet d’appréhender subjectivement les phénomènes extérieurs ou intérieurs.\n→ Deux formes de cette conscience psychologique :\n- conscience spontanée : capacité à nous représenter les choses qui nous entourent\n- conscience réflexive : capacité à faire retour sur nos propres états psychiques\n- Au sens moral, la conscience désigne notre capacité à distinguer le bien du mal.\n\nAnalyse conceptuelle :\n- La conscience spontanée permet la conscience réflexive, qui permet la conscience morale.\n- Attention à ne pas confondre conscience et connaissance. La conscience que j’ai de mes états physiques ou psychiques peut être trompeuse ou partielle.\n\nProblème(s) :\n- Peut-on se connaître soi-même ? La connaissance de soi est-elle possible par la conscience immédiate que j’ai de mes états intérieurs (par introspection), OU BIEN une véritable connaissance suppose-t-elle la capacité à prendre de la distance avec soi-même, en mettant en place certaines médiations ?"
+          }
+        ]
+      },
+      {
+        "concept": "le devoir",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Le devoir est une action qu’un sujet se représente comme nécessaire.\n\nAnalyse conceptuelle :\n- La notion de devoir se fonde sur la notion de nécessité, mais il existe plusieurs formes de nécessité : technique, sociale, morale, politique, juridique…\n- Ceci étant, le sens fort du devoir est son sens moral. Voir thèse (1) de Kant pour comprendre pourquoi.\n- Le devoir est un type d’obligation (les deux termes sont très proches). L’obligation s’oppose à la contrainte : l’obligation repose sur mon assentiment (je choisis d’obéir), alors que la contrainte s’impose à moi que je le veuille ou non.\n\nProblème(s) :\n- Le devoir moral est-il relatif ? La morale n’est-elle qu’un ensemble de règles sociales qui ne vaudraient que dans une société donnée, OU BIEN existe-t-il des principes moraux absolument universels, qui s’appliqueraient dans toute société possible ?"
+          }
+        ]
+      },
+      {
+        "concept": "l'État",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nL’État est l’ensemble des institutions qui organisent la société au sein d’un territoire.\n\nAnalyse conceptuelle :\n- L’État comprend un ensemble large d’institutions très diverses : la justice, l’armée, la police, les institutions scolaires, les administrations…\n- Il ne faut pas confondre l’État avec le gouvernement, qui est le petit groupe d’hommes à la tête de l’État\n- Attention à ne pas confondre la société, qui est l’ensemble des hommes qui sont réunis sur un territoire donné, et l’État, qui est un ensemble de structures institutionnelles exerçant leur pouvoir sur cet ensemble.\n- L’État exerce son pouvoir par l’usage de la force. Pour Max Weber, l’État se définit précisément par le fait qu’il est le seul à avoir le droit d’exercer la violence dans la société : il a le « monopole de la violence physique légitime »\n\nProblème(s) :\n- L’État a-t-il pour but de maintenir l’ordre ? L’État vise-t-il à imposer le respect de la loi par la force, OU BIEN vise-t-il plus profondément à réaliser des idéaux de justice et de liberté ?\n- L’État est-il l’ennemi de la liberté ? L’État limite-t-il ma liberté individuelle en la bornant par des lois, OU BIEN la stabilité sociale permise par l’existence des lois est-elle la condition d’une liberté véritable ?"
+          }
+        ]
+      },
+      {
+        "concept": "l'inconscient",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Au sens courant, agir de façon « inconsciente », c’est agir sans avoir fait attention à certaines choses particulièrement importantes.\n- Au sens fort (philosophique), l’inconscient, c’est l'ensemble des pensées qui d'une part sont dans l'esprit sans pour autant être dans la conscience, et qui d'autre part ne peuvent pas accéder à la conscience.\n\nAnalyse conceptuelle :\n- Pour ne plus être inconscient au sens courant, il suffit d'être attentif ou concentré. Ce n’est pas le cas pour le sens fort : quand bien même on serait très concentré et attentif, on ne pourrait pas percevoir certaines idées qui pourtant seraient bien en nous. Le sens philosophique de l’inconscient implique qu’il existerait une forme d’obscurité à soi-même.\n\nProblème(s) :\nLes deux problèmes dérivent de l’idéal de subjectivité, qui désigne la capacité :\n- à se connaître soi-même (dimension métaphysique)\n- à être responsable de ses propres actions (dimension morale)\nproblème métaphysique : Peut-on se connaître soi-même ? L’existence de l’inconscient est-il une limite absolue à notre connaissance de nous-même, OU BIEN pouvons-nous travailler sur lui pour gagner en clarté sur nous-même ?\nproblème moral : L’inconscient est-il une excuse ? Le fait que nous agissions d’après certaines pensées qui nous sont cachées nous dédouane-t-il de ce que nous faisons, OU BIEN sommes-nous aussi responsables de ce qui se trouve dans notre inconscient ?"
+          }
+        ]
+      },
+      {
+        "concept": "la justice",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Au sens de norme, la justice est un principe intuitif qui exige que les actions humaines soient conformes à un idéal d'égalité et d'ordre\n- Au sens d'institution, la justice désigne l'ensemble des dispositifs sociaux qui permettent à la loi de s'appliquer\n\nAnalyse conceptuelle :\n- Notre définition de la justice comme norme la fait reposer sur la notion d’égalité. Ce point est contestable : la justice ne consiste-t-elle pas parfois à donner davantage à certains, en fonction de leur mérite ou de leurs besoins ? Dans ce cas, le juste n’est pas l’égal, mais l’équitable. Remarquons cependant qu’on pourrait considérer l’équité comme une forme complexe d’égalité, l’égalité proportionnelle : on donne également à tous ceux qui ont un mérite égal. Mais alors, dans quelles situations pratiquer l’égalité stricte, et dans lesquelles l’équité ? C’est là une question de justice fondamentale.\n- Presque tous les sujets de dissertation sur cette notion vous interrogent sur le rapport entre la justice comme norme et la justice comme institution. Il importe donc de bien maîtriser cette distinction, et l’articulation des deux sens.\n\nProblème(s) :\n- La justice est-elle toujours juste ? : Est-ce seulement l’État qui dicte ce qu’il faut faire et ne pas faire, OU BIEN existe-t-il des principes moraux universels supérieurs aux lois particulières de nos sociétés ?"
+          }
+        ]
+      },
+      {
+        "concept": "le langage",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Le langage est la capacité à exprimer une pensée ou à communiquer au moyen d’un système de signes.\n\nAnalyse conceptuelle :\n- Attention à la différence entre langue et langage. Une langue est un système de signes particulier, structuré par une certaine syntaxe.\n- Le langage n’implique pas toujours la parole. On peut s’exprimer avec des gestes (langues des signes).\n\nProblème(s) :\n- Le langage gouverne-t-il la pensée ? Le langage n’est-il que le moyen par lequel nous exprimons ce que nous pensons, OU BIEN le langage dont nous disposons constitue-t-il une limite à ce que nous pouvons penser ?\n- Peut-on tout dire ? Les limites du langage ne sont-elles que celles du sujet qui l’emploie, OU BIEN faut-il dire que ce sont les structures mêmes du langage qui l’empêchent d’exprimer adéquatement certaines réalités ?"
+          }
+        ]
+      },
+      {
+        "concept": "la liberté",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nA première vue, la liberté désigne le fait de faire tout ce que l’on veut.\n\nAnalyse conceptuelle :\n- Il est important de préciser que la définition précédente n’est que temporaire. Elle peut valoir pour une introduction, mais vous serez nécessairement amené à la transformer au cours de votre dissertation : elle est très problématique.\n- Il y a en fait plusieurs définitions possibles de la liberté :\n- en tant que spontanéité : elle consiste à pouvoir faire tout ce qui me passe par la tête (Calliclès)\n- en tant que libre arbitre : elle consiste à pouvoir faire des choix contingents (Descartes)\n- en tant qu’autonomie : elle consiste à pouvoir se donner à soi-même sa propre règle (Kant, Rousseau)\n- en tant qu’attitude existentielle : elle consiste à pouvoir s’approprier son existence (stoïciens, Spinoza)\n- N’oubliez pas que la liberté a toujours une dimension à la fois individuelle et politique\n\nProblème(s) :\n- Être libre, est-ce faire tout ce qui nous plaît ? Pour être libre, suffit-il de faire tout ce qui me passe par la tête, OU BIEN suppose-t-elle, plus profondément, de nous approprier réellement notre volonté ?\n- Faut-il être seul pour être libre ? Pour être libre, suffit-il de n’écouter que ses désirs, OU BIEN au contraire l’action réellement efficace n’exige-t-elle pas des processus de coopération complexes avec les autres hommes ?"
+          }
+        ]
+      },
+      {
+        "concept": "la nature",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nAu sens cosmologique, la nature désigne l’univers lui-même, spécifiquement dans la mesure où il est gouverné par certaines lois.\nAu sens anthropologique, la nature désigne tout ce qui existe indépendamment de la volonté humaine.\nAu sens essentiel, la nature d’une chose est ce qui la définit. (= son essence)\n\nAnalyse conceptuelle :\n- Si le mot « nature » figure dans un énoncé de dissertation, c’est probablement le sens anthropologique qui est sous-entendu ; plus rarement, on pourra penser au sens cosmologique, qui implique alors une réflexion sur la science.\n- Au sens cosmologique, la « nature » désignait chez les grecs un cosmos, une totalité harmonieuse et bien organisée. C’est chez les modernes que l’idée de nature commence à désigner un ensemble de lois, compréhensibles par la science.\n- Au sens anthropologique, on peut opposer spécifiquement nature et technique, même si la nature s’oppose à toute action humaine intelligente en général (ex : l’action politique).\n\nProblème(s) :\n- Faut-il respecter la nature ? Devons-nous préserver la nature afin de préserver notre propre survie, OU BIEN avons nous des devoirs envers la nature elle-même, indépendamment de nos propres intérêts ?"
+          }
+        ]
+      },
+      {
+        "concept": "la raison",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nAu sens intellectuel, la raison désigne la faculté « de bien juger », c'est-à-dire de distinguer le bien du mal, le vrai du faux.\nAu sens épistémique, une raison est le principe explicatif d’une proposition donnée ; c’est la réponse à un « pourquoi ? ».\n\nAnalyse conceptuelle :\n- Attention au rapport très étroit qu’il y a entre le sens intellectuel et le sens épistémique du concept de raison. Être intelligent (avoir une raison), c’est être capable d’identifier et d’évaluer les raisons de ses propres croyances.\n- Quand je dispose de la raison d’une de mes croyances, et que cette raison est objectivement suffisante, cette croyance n’est plus une opinion mais un savoir.\n\nProblème(s) :\n- La raison peut-elle rendre raison de tout ? La pensée humaine est-elle suffisamment plastique pour s’approprier n’importe quel objet, OU BIEN existe-t-il des limites objectives et subjectives à notre capacité de compréhension  ?\n- Peut-on avoir raison tout seul ? La recherche de la vérité exige-t-elle d’abord une mise en œuvre solitaire et méthodique de nos connaissances, OU BIEN pour dépasser nos préjugés faut-il soutenir la présence du regard critique d’autrui ?"
+          }
+        ]
+      },
+      {
+        "concept": "la religion",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nLa religion est un ensemble de pratiques et de croyances collectives relatives à certaines entités supérieures à l’homme.\n\nAnalyse conceptuelle :\n- Une étymologie souvent donnée de « religion » est religare (relier). La religion, en effet :\n- relie verticalement l’homme à certaines divinités\n- relie horizontalement les hommes entre eux par certaines pratiques et croyances communes\n- Attention à ne pas identifier la religion et la foi. La foi est une attitude de croyance individuelle ; la religion a toujours une dimension collective. Il y a même des religions qui ne présupposent aucune foi (bouddhisme).\n\nProblème(s) :\n- Est-il raisonnable de croire en Dieu ? La croyance en Dieu peut-elle reposer sur des preuves et des démonstrations, OU BIEN faut-il nécessairement croire sans raisons ?"
+          }
+        ]
+      },
+      {
+        "concept": "la science",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nLa science désigne l’ensemble des théories et des pratiques visant à construire une connaissance rigoureusement justifiée.\n\nAnalyse conceptuelle :\n- Au sens antique, la science désigne un ensemble très large de pratiques et de théories, qui englobe la philosophie. Au sens moderne cependant, la rupture entre science et philosophie commence à se produire à partir de la « révolution scientifique » du XVIIe.\n- La science moderne semble se définir par son recours à l’expérience (à l’observation) ; mais si c’est le cas, il faudrait considérer que les mathématiques ne sont pas une science. Il semble donc nécessaire d’adopter un sens suffisamment large de ce concept.\n\nProblème(s) :\n- La science a-t-elle toujours raison ? La science se définit-elle par la certitude de résultats bien justifiés, OU BIEN faut-il au contraire la définir par le doute qui la fonde ?\n- La science progresse-t-elle ? Faut-il considérer que la science procède par accumulation progressive de savoirs, OU BIEN faut-il mettre au centre de l’histoire de la science certaines ruptures révolutionnaires ?"
+          }
+        ]
+      },
+      {
+        "concept": "la technique",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Au sens large, la technique désigne l’ensemble des procédés acquis et transmissibles qui permettent à l’homme de réaliser efficacement une activité.\nEx : quand on joue au football, il faut maîtriser certaines techniques. Il y a des techniques de nage…\n- Au sens strict, la technique désigne l’ensemble des procédés permettant de produire des objets utiles, et l’ensemble de ces objets.\nEx : la technique c’est la machine à vapeur, l’électricité, l’informatique, etc.\n\nAnalyse conceptuelle :\n- Attention à bien vous demander quel sens de la technique est impliqué par votre sujet. Si l’on vous questionne sur « la technique suffit-elle pour être un artiste ? », c’est visiblement le sens large qui est impliqué. Si l’on vous questionne sur « faut-il avoir peur de la technique ? », c’est le sens strict.\n- Dans le cas où c’est le sens strict qui est mobilisé, n’oubliez pas que vous pouvez toujours faire le lien avec l’idée de science.\n\nProblème(s) :\n- Faut-il avoir peur de la technique ?  Si la technique vise la satisfaction de nos besoins, est-elle nécessairement à notre service, OU BIEN dans la mesure où il acquiert une existence autonome, l’objet technique peut-il se retourner contre son créateur ?"
+          }
+        ]
+      },
+      {
+        "concept": "le temps",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nLe temps est une dimension du réel qui rend possible et compréhensible le changement.\n\nAnalyse conceptuelle :\n- Attention, la définition donnée ci-dessus est faible, comme toutes les définitions qu’on peut donner du temps. Si on définit le temps par la notion de changement, il n’en reste pas moins que la notion de changement elle-même ne saurait être définie sans la notion de temps… De façon générale, il est impossible de définir le temps sans faire appel à des termes qui présupposent la notion de temps.\n- Pour botter en touche, on peut se référer à cette citation de Saint Augustin : « Qu'est-ce-que le temps ? Si personne ne me le demande, je le sais. Si je veux l'expliquer à qui me le demande, je ne le sais plus. » \n\nProblème(s) :\nChaque modalité du temps pose des problèmes spécifiques :\n- Passé :\nL’histoire peut-elle être une science ? L’histoire peut-elle se contenter d’énoncer des faits, OU BIEN une part d’interprétation est-elle toujours nécessaire pour leur donner du sens ?\n- Présent :\nFaut-il vivre au jour le jour ? Faut-il se concentrer sur l’instant présent pour saisir notre plaisir, OU BIEN est-il nécessaire de planifier et organiser notre existence sur le long terme ?\n- Futur :\nSommes-nous responsables de l’avenir ? La morale ne concerne-t-elle que les relations interpersonnelles entre contemporains, OU BIEN devons-nous porter le poids des conséquences à long terme de nos actions, aussi hypothétiques soient-elles ?"
+          }
+        ]
+      },
+      {
+        "concept": "le travail",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\n- Au sens large, le travail désigne toute activité humaine de production dont l'accomplissement suppose des efforts et une certaine organisation.\n- Au sens strict, un travail est une activité humaine reconnue socialement comme utile et rémunérée .\n\nAnalyse conceptuelle :\n- Le sens courant du travail est le sens strict. En ce sens, le travail désigne le métier. Pourtant, le sens philosophique à privilégier est le sens large : un musicien amateur travaille en répétant ses gammes, on peut travailler sur soi, etc.\n- On distingue souvent le travail du labeur, en désignant par labeur une activité définie comme pénible et non-épanouissante. Cela implique en retour qu’on puisse considérer le travail comme une activité qui ne soit pas que pénible, et à travers laquelle on puisse s’épanouir.\n- Vous trouverez peut-être sur Internet ou dans vos lectures une étymologie du travail ramenant au trepalium/tripalium, un instrument de torture à trois pieux. Cette étymologie, aussi répandue soit-elle, est très probablement fausse.\n\nProblème(s) :\n- Le travail libère-t-il l’homme ?  Le travail est-il une contrainte, qui répond à la nécessité de satisfaire nos besoins naturels, OU BIEN est-ce plus profondément un processus au cours duquel le sujet apprend à se connaître et à se maîtriser ?"
+          }
+        ]
+      },
+      {
+        "concept": "la vérité",
+        "extraits": [
+          {
+            "auteur": "fiche",
+            "origine": "cours perso",
+            "contenu": "Définition(s) :\nLa vérité désigne l’adéquation entre une proposition et la réalité.\n\nAnalyse conceptuelle :\n- Attention à ne pas confondre vérité et réalité. La vérité est une propriété de certaines propositions, la réalité est une propriété de certaines choses.\n- Le contraire de la vérité n’est pas le mensonge, mais la fausseté. Il n’y a pas vraiment de mot pour indiquer le contraire du mensonge : le mensonge s’oppose à la parole sincère.\n- Il y a en fait plusieurs définitions possibles de la vérité, entre lesquelles on peut naviguer dans une dissertation :\n- la vérité-correspondance : c’est la définition donnée plus haut\n- la vérité-cohérence : par exemple, une proposition mathématique est vraie si elle s’intègre de façon non-contradictoire à un système d’axiomes donné. Il n’est pas sûr que ce concept de vérité puisse avoir du sens en-dehors des mathématiques.\n- la vérité-dévoilement : on doit cette notion originale de la vérité à Heidegger. Elle repose sur l’idée qu’il n’y a de vérité que dans la mesure où il existe un « homme » (un Dasein, d’un point de vue existentiel) pour la faire exister. La vérité désigne la façon dont l’homme établit les choses dans leur présence, en les arrachant à leur obscurité première. [si vous ne comprenez rien, c’est parfaitement normal]\n\nProblème(s) :\n- Faut-il toujours dire la vérité ? La sincérité est-elle un devoir moral absolu fondé sur le respect de la personne humaine, OU BIEN le fait d’épargner à l’autre une souffrance peut-il constituer une justification morale pour le mensonge ?\n- Peut-on dire « à chacun sa vérité » ? Le réel apparaît-il d’une façon radicalement différente à chacun, OU BIEN les différences d’opinions entre les hommes s’expliquent-elles d’abord par le fait que certains sont dans l’erreur ?"
           }
         ]
       }
