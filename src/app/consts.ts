@@ -13,6 +13,7 @@ export interface ChatData {
   id: number;
   nom: string;
   nom_complet : string;
+  infos: string;
   categorie:string;
   lieu: string;
   dates: string;

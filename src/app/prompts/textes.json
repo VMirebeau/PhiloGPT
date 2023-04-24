@@ -168,21 +168,6 @@
         ]
       },
       {
-        "concept": "la science",
-        "extraits": [
-          {
-            "auteur": "sans objet",
-            "origine": "Wikipedia",
-            "contenu": "Science et philosophie agissent constamment l'une sur l'autre dans la pensée de Descartes, puisque sa méthode vise à permettre à l'homme de bien conduire sa raison et chercher la vérité dans les sciences, à nous rendre plus sages et plus habiles et à nous assurer non seulement la connaissance, mais, d'une certaine manière, la maîtrise et possession de la nature aussi bien que de nous-mêmes. Telle est la finalité de son système, finalité à laquelle se subordonnent tous les moyens mis en œuvre."
-          },
-          {
-            "auteur": "auto",
-            "origine": "Les Principes de la philosophie, lettre-préface",
-            "contenu": "Toute la philosophie est comme un arbre, dont les racines sont la métaphysique, le tronc est la physique et les branches qui sortent de ce tronc sont toutes les autres sciences qui se réduisent à trois principales, à savoir la médecine, la mécanique et la morale, j'entends la plus haute et la plus parfaite morale, qui, présupposant une entière connaissance des autres sciences, est le dernier degré de la sagesse. Or comme ce n'est pas des racines, ni du tronc des arbres, qu'on cueille les fruits, mais seulement des extrémités de leurs branches, ainsi la principale utilité de la philosophie dépend de celles de ses parties qu'on ne peut apprendre que les dernières."
-          }
-        ]
-      },
-      {
         "concept": "la technique",
         "extraits": [
           {
@@ -769,6 +754,36 @@
             "auteur": "auto",
             "origine": "L'Etre et le Néant",
             "contenu": "L'être ne saurait engendrer que l'être et, si l'homme est englobé dans ce processus de génération, il ne sortira de lui que de l'être. S'il doit pouvoir interroger sur ce processus, c'est-à-dire le mettre en question, il faut qu'il puisse le tenir sous sa vue comme un ensemble, c'est-à-dire se mettre lui-même en dehors de l'être et du même coup affaiblir la structure d'être de l'être. Toutefois il n'est pas donné à la “réalité humaine” d'anéantir, même provisoirement, la masse d'être qui est posée en face d'elle. Ce qu'elle peut modifier, c'est son rapport avec cet être. Pour elle, mettre hors de circuit un existant particulier, c'est se mettre elle-même hors de circuit par rapport à cet existant. En ce cas elle lui échappe, elle est hors d'atteinte, il ne saurait agir sur elle, elle s'est retirée par-delà un néant. Cette possibilité pour la réalité humaine de sécréter un néant qui l'isole, Descartes, après les Stoïciens, lui a donné un nom : c'est la liberté."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "auteur": 22,
+    "textes": [
+      {
+        "concept": "la technique",
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "ac-martinique.fr",
+            "contenu": "La promesse technique s'est inversée en menace. La nature, qui fut longtemps une figure de la toute-puissance, est aujourd'hui vulnérable. La préservation de son être se trouve à la merci de nos pratiques. Par nature, nous devons entendre non seulement l'ensemble des choses hors de nous qui ne sont pas nos artéfacts mais aussi nous-mêmes comme partie intégrante de la nature. La menace que fait peser la technique est solidaire d'une instrumentalisation de la nature en nous et hors de nous. Ce qui est menacé c'est donc aussi bien l'humanité elle-même que l'environnement dans lequel elle s'inscrit. Cette situation dont nous héritons, celle de la vulnérabilité de la nature, constitue ce que l’on peut nommer une \"crise écologique\"."
+          }
+        ]
+      },
+      {
+        "concept": "la nature",
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Le Principe Responsabilité",
+            "contenu": "Le Prométhée définitivement déchaîné, auquel la science confère des forces jamais encore connues et l'économie son impulsion effrénée, réclame une éthique qui, par des entraves librement consenties, empêche le pouvoir de l'homme de devenir une malédiction pour lui. La thèse liminaire de ce livre est que la promesse de la technique moderne s'est inversée en menace, ou bien que celle-ci s'est indissolublement liée à celle-là. Elle va au-delà du constat d'une menace physique. La soumission de la nature destinée au bonheur humain a entraîné par la démesure de son succès, qui s'étend maintenant également à la nature de l'homme lui-même, le plus grand défi pour l'être humain que son faire ait jamais entraîné."
+          },
+          {
+            "auteur": "sans objet",
+            "origine": "ac-martinique.fr",
+            "contenu": "Les progrès des sciences et des techniques ont doté l'homme d'une puissance inégalée sur la nature et les autres espèces vivantes. Pendant longtemps l'homme est resté aveugle aux conséquences de l'utilisation de cette sur-puissance. Mais aujourd'hui le temps de l'aveuglement semble révolu. L'homme est devenu une menace non seulement pour lui-même mais pour la biosphère tout entière. Les Lumières se sont donc changées en leur contraire."
           }
         ]
       }

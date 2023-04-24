@@ -3,6 +3,7 @@
     "id": 0,
     "nom": "Socrate",
     "nom_complet": "Socrate",
+    "infos": "Socrate est considéré comme <b>l’un des fondateurs de la philosophie occidentale</b>. Il n’a jamais écrit de livre, mais ses idées ont été transmises par ses disciples, notamment Platon. Socrate a été <b>condamné à mort</b> par les autorités athéniennes pour avoir corrompu la jeunesse et pour impiété.",
     "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -470 à -399",
@@ -75,6 +76,7 @@
     "nom": "Platon",
     "nom_complet": "Platon",
     "categorie": "Antiquité",
+    "infos":"<b>Platon</b> était l’un des plus grands penseurs de l’histoire de la philosophie occidentale. Ce <b>disciple de Socrate</b> a écrit de nombreux dialogues philosophiques où sont explorées les idées de justice, de vérité, de beauté et de réalité. Il a également fondé <b>l’Académie</b> à Athènes, qui est considérée comme la première institution d’enseignement supérieur en Occident.",
     "lieu": "Grèce",
     "dates": "De -428 à -348",
     "greeting": "Bienvenue à toi. Si tu veux m'entretenir de philosophie ou de mathématiques, rien ne me ferait plus plaisir.",
@@ -148,6 +150,7 @@
     "nom": "Aristote",
     "nom_complet": "Aristote",
     "categorie": "Antiquité",
+    "infos": "<b>Aristote</b> était l’un des plus grands penseurs de l’histoire de la philosophie occidentale. Ce <b>disciple de Platon</b> a fondé sa propre école de pensée, le Lycée. Il a écrit sur une grande variété de sujets, notamment la <b>logique</b>, la <b>métaphysique</b>, la <b>biologie</b> et la <b>politique</b>.",
     "lieu": "Grèce",
     "dates": "De -384 à -322",
     "greeting": "Tout ami de la vérité est mon ami. Dites-moi ce qui vous amène ici.",
@@ -174,7 +177,7 @@
     ],
     "concepts_signés": [
       {
-        "concept": "l'acte et la puissance",
+        "concept": "acte/puissance",
         "mots": [
           "\\bact[eu]",
           "\\bpuissance"
@@ -188,7 +191,7 @@
         ]
       },
       {
-        "concept": "la matière et la forme",
+        "concept": "matière/forme",
         "mots": [
           "\\bmat(?:ière|ériel)",
           "\\bforme"
@@ -202,7 +205,7 @@
         ]
       },
       {
-        "concept": "la substance et l'accident",
+        "concept": "substance/accident",
         "mots": [
           "\\bact[eu]",
           "\\bpuissance"
@@ -235,6 +238,7 @@
     "id": 3,
     "nom": "Epicure",
     "nom_complet": "Epicure",
+    "infos": "<b>Epicure</b> a écrit sur une grande variété de sujets, notamment la <b>physique</b>, la <b>métaphysique</b> et l’<b>éthique</b> ; il est surtout connu pour sa conception du <b>bonheur</b>, qu'il fait reposer sur le plaisir. Il a fondé une communauté appelée le <b>Jardin d’Epicure</b> à Athènes, où il a enseigné sa philosophie à ses disciples.",
     "categorie": "Antiquité",
     "lieu": "Grèce",
     "dates": "De -342 à -270",
@@ -293,6 +297,7 @@
     "id": 4,
     "nom": "Epictète",
     "nom_complet": "Epictète",
+    "infos":"<b>Epictète</b> est un des fondateurs de l’<b>école stoïcienne</b>. Il a écrit sur une grande variété de sujets, notamment la <b>morale</b>, l’<b>éthique</b> et la <b>logique</b> ; il est surtout connu pour sa conception du <b>bonheur</b>, qu'il fait dépendre du contrôle de nos représentations. Il a a fondé une école à <b>Nicopolis</b>, en Grèce.",
     "categorie": "Antiquité",
     "lieu": "Turquie",
     "dates": "50-130",
@@ -338,6 +343,7 @@
     "id": 5,
     "nom": "Descartes",
     "nom_complet": "René Descartes",
+    "infos":"<b>Descartes</b> était un philosophe et mathématicien français du XVIIe siècle. Il est surtout connu pour sa philosophie du <b>doute méthodique</b> et pour sa célèbre phrase <b>“Je pense, donc je suis”</b>. Il a également écrit sur la <b>métaphysique</b>, <b>l’éthique</b> et la <b>physique</b>. On le considère comme l’un des fondateurs de la philosophie moderne.",
     "categorie": "Classiques",
     "lieu": "France",
     "dates": "1596-1650",
@@ -360,7 +366,6 @@
     ],
     "concepts": [
       "la vérité",
-      "la science",
       "la technique",
       "la nature",
       "la raison"
@@ -398,6 +403,7 @@
     "id": 6,
     "nom": "Hobbes",
     "nom_complet": "Thomas Hobbes",
+    "infos":"<b>Hobbes</b> est l’un des fondateurs de la philosophie politique moderne. Il est surtout connu pour son livre <i>Léviathan</i>, dans lequel il décrit sa <b>théorie de l’État</b> et de la <b>société</b>. Selon Hobbes, les êtres humains ont besoin d’un <b>gouvernement fort</b> pour maintenir l’ordre et la sécurité.",
     "categorie": "Classiques",
     "lieu": "Angleterre",
     "dates": "1588-1679",
@@ -457,6 +463,7 @@
     "id": 7,
     "nom": "Pascal",
     "nom_complet": "Blaise Pascal",
+    "infos":"<b>Blaise Pascal</b> était un mathématicien, physicien et philosophe français du XVIIe siècle. Pascal est surtout connu pour sa contribution à la <b>théorie des probabilités</b> et pour son travail sur les <b>fluides</b>. Il a également écrit sur la <b>religion</b> et la <b>philosophie</b>, notamment dans son livre posthume <i>Pensées</i>.",
     "categorie": "Classiques",
     "lieu": "France",
     "dates": "1623-1662",
@@ -533,6 +540,7 @@
     "id": 8,
     "nom": "Spinoza",
     "nom_complet": "Baruch Spinoza",
+    "infos":"<b>Baruch Spinoza</b> est surtout connu pour son livre <i>Éthique</i>, dans lequel il décrit sa <b>philosophie de la nature</b> et de <b>Dieu</b>. Selon Spinoza, Dieu est présent dans toutes les choses et toutes les choses sont une partie de Dieu. Il a également écrit sur la <b>politique</b> et la <b>religion</b>.",
     "categorie": "Classiques",
     "lieu": "Hollande",
     "dates": "1632-1677",
@@ -589,6 +597,7 @@
     "id": 9,
     "nom": "Leibniz",
     "nom_complet": "Gottfried Wilhelm Leibniz",
+    "infos":"<b>Leibniz</b> était un <b>philosophe</b>, <b>mathématicien</b> et <b>scientifique</b> allemand du XVIIe siècle. Leibniz est surtout connu pour son travail sur le <b>calcul infinitésimal</b> et pour son concept de <b>monade</b>. Il a également écrit sur la <b>philosophie</b>, la <b>théologie</b> et la <b>politique</b>.",
     "categorie": "Classiques",
     "lieu": "Allemagne",
     "dates": "1646-1716",
@@ -668,6 +677,7 @@
     "id": 10,
     "nom": "Hume",
     "nom_complet": "David Hume",
+    "infos":"<b>David Hume</b> était un <b>philosophe</b> et <b>historien</b> écossais du XVIIIe siècle. Il est surtout connu pour son <b>scepticisme</b> philosophique et pour son travail sur la <b>causalité</b> et <b>l’induction</b>. Il a également écrit sur la <b>religion</b>, la <b>morale</b> et la <b>politique</b>.",
     "categorie": "Modernes",
     "lieu": "Ecosse",
     "dates": "1711-1776",
@@ -699,6 +709,7 @@
     "nom": "Rousseau",
     "nom_complet": "Jean-Jacques Rousseau",
     "categorie": "Modernes",
+    "infos":"<b>Jean-Jacques Rousseau</b> était un <b>philosophe</b>, <b>écrivain</b> et <b>musicien</b> suisse du XVIIIe siècle. Rousseau est surtout connu pour son travail sur la <b>politique</b> et la <b>philosophie de l’éducation</b>. Il a également écrit sur la <b>musique</b> et la <b>littérature</b>.",
     "lieu": "France",
     "dates": "1712-1778",
     "greeting": "Bienvenue, cher ami. Je suis Jean-Jacques Rousseau ; je serais ravi de m'entrenir avec toi des questions qui touchent à l'homme et aux sociétés humaines.",
@@ -757,6 +768,7 @@
     "nom": "Kant",
     "nom_complet": "Emmanuel Kant",
     "categorie": "Modernes",
+    "infos":"<b>Emmanuel Kant</b> est considéré comme <b>l’un des penseurs les plus influents</b> de l’histoire de la philosophie occidentale. Il aborde la question de la <b>science moderne</b> dans sa <i>Critique de la raison pure</i>, celle de la <b>morale</b> dans sa <i>Critique de la raison pratique</i>. L'<b>art</b> et le <b>vivant</b> sont abordés dans sa <i>Critique de la faculté de juger</i>.",
     "lieu": "Allemagne",
     "dates": "1724-1804",
     "greeting": "C'est un plaisir de vous recevoir chez moi à Königsberg. Que me vaut l'honneur de votre visite ?",
@@ -786,13 +798,14 @@
         "concept": "l'impératif catégorique",
         "mots": [
           "\\bcatégorique",
-          "\\bdevoir"
+          "\\bdevoir",
+          "\\bmen(?:tir|songe)"
         ],
         "extraits": [
           {
             "auteur": "sans objet",
             "origine": "Wikipedia",
-            "contenu": "Kant distingue deux types d'impératifs. Un impératif peut être hypothétique ou catégorique. L'impératif catégorique (ou apodictique) correspond à ce qui doit être fait inconditionnellement. Seules des actions dont la maxime sera conforme à ce principe seront morales. Il n'y a pas ici de fin instrumentale, l'impératif catégorique s'impose de lui-même sans autre justification.\nL'impératif catégorique s'inscrit dans une critique de la philosophie eudémoniste propre à plusieurs auteurs antiques, notamment Aristote, selon laquelle le bonheur serait le souverain bien et la fin ultime de l'existence humaine : la moralité devant se défaire de tout motif empirique, le bien (au sens moral) et le bonheur doivent être distingués, et le bonheur n'intervient plus que comme une conséquence souhaitable (mais néanmoins secondaire) de l'action bonne. \nSelon Kant l'action morale doit être jugée non pas en fonction de son résultat mais selon ses motivations ; si la volonté qui la commande est bonne, l'action est moralement juste. L'impératif catégorique de Kant consiste en l'accomplissement du devoir, c'est-à-dire que l'action juste est inexorablement gratuite et désintéressée.\nL'acte gratuit est selon Kant possible du fait même de la liberté humaine. En effet, bien que l'opinion commune pense que la morale s'oppose à la liberté, selon Kant la moralité consiste à s'affranchir des instincts égoïstes pour agir raisonnablement, pour être libre.\nLe devoir n'a pas de contenu fixe mais seulement une forme : il est universalisable. Ce qui est juste pour l'un doit être juste pour tous.\nL'action conforme au devoir dans les faits n'est pas nécessairement moralement juste : par exemple, respecter la loi par peur du châtiment est conforme au devoir, mais non moral car intéressé.\nIl est donc impossible de juger la valeur morale des actes d'autrui puisqu'il est impossible de connaître toutes les motivations de ses actes. Il est d'autre part extrêmement difficile de juger ses propres actes du fait de la difficulté de l'introspection nécessaire."
+            "contenu": "Kant distingue deux types d'impératifs. Un impératif peut être hypothétique ou catégorique. L'impératif catégorique (ou apodictique) correspond à ce qui doit être fait inconditionnellement. Seules des actions dont la maxime sera conforme à ce principe seront morales. Il n'y a pas ici de fin instrumentale, l'impératif catégorique s'impose de lui-même sans autre justification.\nSelon Kant l'action morale doit être jugée non pas en fonction de son résultat mais selon ses motivations ; si la volonté qui la commande est bonne, l'action est moralement juste. L'impératif catégorique de Kant consiste en l'accomplissement du devoir, c'est-à-dire que l'action juste est inexorablement gratuite et désintéressée.\nL'acte gratuit est selon Kant possible du fait même de la liberté humaine. En effet, bien que l'opinion commune pense que la morale s'oppose à la liberté, selon Kant la moralité consiste à s'affranchir des instincts égoïstes pour agir raisonnablement, pour être libre.\nLe devoir n'a pas de contenu fixe mais seulement une forme : il est universalisable. Ce qui est juste pour l'un doit être juste pour tous.\nL'action conforme au devoir dans les faits n'est pas nécessairement moralement juste : par exemple, respecter la loi par peur du châtiment est conforme au devoir, mais non moral car intéressé.\nIl est donc impossible de juger la valeur morale des actes d'autrui puisqu'il est impossible de connaître toutes les motivations de ses actes. Il est d'autre part extrêmement difficile de juger ses propres actes du fait de la difficulté de l'introspection nécessaire.\nIl est donc par exemple absolu défendu de mentir, quelles que soient les conséquences de mon mensonge."
           }
         ]
       },
@@ -829,6 +842,7 @@
     "nom": "Hegel",
     "nom_complet": "Georg Wilhelm Friedrich Hegel",
     "categorie": "Modernes",
+    "infos":"<b>Hegel</b> était un philosophe allemand du XIXe siècle. Il a développé une philosophie complexe qui a influencé de nombreux domaines, notamment la <b>politique</b>, la <b>religion</b> et <b>l’esthétique</b>. Il est surtout connu pour sa théorie de la <b>dialectique</b>, qui est une méthode de raisonnement qui implique la résolution des contradictions entre les idées opposées.",
     "lieu": "Allemagne",
     "dates": "1770-1831",
     "greeting": "Bienvenue, ami. Je ferai mon possible pour répondre à tes questions.",
@@ -876,7 +890,7 @@
           {
             "auteur": "sans objet",
             "origine": "Wikipedia",
-            "contenu": "L’étude ou science de la conscience est la phénoménologie de l’esprit. Elle étudie la manifestation phénoménale d’un sujet en tant qu’il se rapporte à un objet, c'est-à-dire en tant que conscience. Quand cette étude a pour objet le rapport interne de l’esprit à lui-même on l’appelle psychologie.\nLa phénoménologie est donc la « science de l’expérience de la conscience8 ». Hegel décrit l’évolution dialectique de la conscience par le jeu des négations successives. Depuis la première opposition immédiate entre elle et l’objet, puis la conscience de soi, la raison, l’esprit, la religion, jusqu’au savoir absolu dans lequel « le concept correspond à l’objet et l’objet au concept », ce dernier savoir est selon Hegel savoir de l’être dans sa totalité, intériorisation de l’objet, ou identité de l’objet de la pensée et de l’activité de connaissance dont le résultat est l’objet lui-même."
+            "contenu": "L’étude ou science de la conscience est la phénoménologie de l’esprit. Elle étudie la manifestation phénoménale d’un sujet en tant qu’il se rapporte à un objet, c'est-à-dire en tant que conscience. Quand cette étude a pour objet le rapport interne de l’esprit à lui-même on l’appelle psychologie.\nLa phénoménologie est donc la « science de l’expérience de la conscience ». Hegel décrit l’évolution dialectique de la conscience par le jeu des négations successives. Depuis la première opposition immédiate entre elle et l’objet, puis la conscience de soi, la raison, l’esprit, la religion, jusqu’au savoir absolu dans lequel « le concept correspond à l’objet et l’objet au concept », ce dernier savoir est selon Hegel savoir de l’être dans sa totalité, intériorisation de l’objet, ou identité de l’objet de la pensée et de l’activité de connaissance dont le résultat est l’objet lui-même."
           }
         ]
       }
@@ -887,6 +901,7 @@
     "nom": "Marx",
     "nom_complet": "Karl Marx",
     "categorie": "Modernes",
+    "infos":"<b>Karl Marx</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa conceptualisation économique et politique du <b>communisme</b>. Marx a développé une analyse critique du <b>capitalisme</b> qui a influencé de nombreux mouvements politiques et sociaux dans le monde entier. Parmi ses œuvres les plus célèbres figurent <i>Le Manifeste du Parti communiste</i> et <i>Le Capital</i>.",
     "lieu": "Allemagne",
     "dates": "1818-1883",
     "greeting": "Bonjour, camarade. Je préférerais te voir protester contre la politique du gouvernement plutôt que de discuter avec des philosophes, mais soit ; que puis-je faire pour toi ?",
@@ -959,6 +974,7 @@
     "nom": "Schopenhauer",
     "nom_complet": "Arthur Schopenhauer",
     "categorie": "Modernes",
+    "infos":"<b>Arthur Schopenhauer</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa philosophie <b>pessimiste</b> et sa critique de la philosophie de Hegel. Schopenhauer a développé une théorie de la <b>volonté</b> qui a influencé de nombreux philosophes et écrivains, notamment <b>Friedrich Nietzsche</b>. Son œuvre la plus célèbre est <i>Le Monde comme volonté et comme représentation</i>.",
     "lieu": "Allemagne",
     "dates": "1788-1860",
     "greeting": "Je t'écoute. J'espère que ce que tu as à dire vaut le temps que tu me coûtes.",
@@ -985,7 +1001,7 @@
     ],
     "concepts_signés": [
       {
-        "concept": "vouloir-vivre",
+        "concept": "le vouloir-vivre",
         "mots": [
           "\\bvouloir.vivre"
         ],
@@ -1004,6 +1020,7 @@
     "nom": "Nietzsche",
     "nom_complet": "Friedrich Nietzsche",
     "categorie": "Modernes",
+    "infos":"<b>Friedrich Nietzsche</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa critique de la <b>religion</b> et de la <b>morale chrétienne</b>, ainsi que pour sa théorie de la <b>volonté de puissance</b>. Il a influencé de nombreux philosophes et écrivains, notamment <b>Martin Heidegger</b> et <b>Michel Foucault</b>. Parmi ses œuvres les plus célèbres figurent <i>Ainsi parlait Zarathoustra</i> et <i>Le Gai Savoir</i>.",
     "lieu": "Allemagne",
     "dates": "1844-1900",
     "greeting": "Qu'ai-je face à moi, un singe ou un Dieu ? Parle, voyageur, et philosophons ensemble.",
@@ -1069,19 +1086,6 @@
             "contenu": "Le surhomme est le rude destin de l’homme. En effet, Nietzsche conçoit l’homme comme une « corde » entre la bête et le surhomme. Or, cette corde tendue au-dessus d’un abîme est un obstacle particulièrement ardu, car le surhomme n’est rien moins que l’exact négatif de l’homme, c’est-à-dire tout ce qu’il n’est pas. « Je vous enseigne le surhomme, écrit Nietzsche. L’homme est quelque chose qui doit être surmonté. Qu’avez-vous fait pour le surmonter ? Tous les êtres, jusqu’ici, ont créé quelque chose au-delà d’eux-mêmes : et vous voulez être le reflux de cette grande marée et vous préférez retourner à l’animal plutôt que de surmonter l’homme ? Qu’est-ce que le singe pour l’homme ? Un objet de risée ou une honte douloureuse. Et c’est exactement cela que l’homme doit être pour le surhomme : un objet de risée ou une honte douloureuse » (Ainsi parlait Zarathoustra). L’homme semble donc incapable de s’extraire de lui-même. Bien au contraire, il se glorifie même d’être homme et il théorise l’exaltation de son humanité. Nietzsche stigmatise ainsi l’humanisme, qu’il critique comme une reconnaissance de l’homme par l’homme l’encourageant à se satisfaire de sa médiocre condition. Prisonnier de la léthargie de cette autosatisfaction, l’individu répugne alors à se dépasser."
           }
         ]
-      },
-      {
-        "concept": "l'éternel retour'",
-        "mots": [
-          "\\béternel retour"
-        ],
-        "extraits": [
-          {
-            "auteur": "sans objet",
-            "origine": "Wikipedia",
-            "contenu": "On pourrait grossièrement résumer l'idée de l'Éternel Retour en un simple précepte tel que celui-ci : mène ta vie en sorte que tu puisses souhaiter qu’elle se répète éternellement.\nCe concept est alors très éloigné de l’idée de résurrection ou de réincarnation présente dans certaines religions : Nietzsche ne semble pas tenir pour véritable la possibilité de revivre à l’infini sa propre vie, mais il fait de cette perspective une pierre de touche pour la valeur de sa propre existence. Ainsi, pour de nombreux penseurs de la fin du xixe siècle en Allemagne, époque phare du pessimisme, le bilan que la plupart des hommes feraient au soir de leur vie suffit à prouver l’absurdité de l’existence. Si en effet la mort venait nous voir ce jour même en nous annonçant que notre heure est venue mais que nous pouvons décider, au lieu de sombrer dans le néant, de revivre à l’infini et dans ses moindres détails toute la vie que nous avons menée jusqu’ici, il y a fort à parier que nous préfèrerions retourner au néant – c'est ce que Nietzsche appelle le nihilisme incomplet, par opposition au nihilisme complet qu'il propose, celui qui caractérise le surhumain. Aussi faut-il tâcher de vivre de telle sorte que l’on puisse souhaiter que chaque instant se reproduise éternellement."
-          }
-        ]
       }
     ]
   },
@@ -1090,6 +1094,7 @@
     "nom": "Freud",
     "nom_complet": "Sigmund Freud",
     "categorie": "Contemporains",
+    "infos":"<b>Sigmund Freud</b> était un neurologue autrichien du XIXe siècle. Il est surtout connu pour sa théorie de la <b>psychanalyse</b>, qui a influencé de nombreux domaines de la <b>psychologie</b> et de la <b>culture populaire</b>. Freud a développé des concepts tels que <b>l’inconscient</b>, le <b>complexe d’Œdipe</b> et la <b>libido</b>. Parmi ses œuvres les plus célèbres figurent <i>L’Interprétation des rêves</i> et <i>Introduction à la psychanalyse</i>.",
     "lieu": "Autriche",
     "dates": "1856-1939",
     "greeting": "Allongez-vous sur ce divan et détendez-vous. Bien, quel est votre problème ?",
@@ -1172,6 +1177,7 @@
     "nom": "Heidegger",
     "nom_complet": "Martin Heidegger",
     "categorie": "Contemporains",
+    "infos":"<b>Martin Heidegger</b> était un philosophe allemand du XXe siècle. Il est surtout connu pour sa <b>philosophie de l’existence</b> et sa critique de la <b>métaphysique</b>. Heidegger a développé des concepts tels que le <b>Dasein</b> et <b>l'angoisse</b>. Parmi ses œuvres les plus célèbres figurent <i>Être et Temps</i> et <i>La Question de la technique</i>. Sur un plan politique, il faut noter que Heidegger a collaboré activement avec le parti nazi.",
     "lieu": "Allemagne",
     "dates": "1889-1976",
     "greeting": "Salutations, voyageur. Je suis ici pour explorer avec toi les questions fondamentales de l'existence et de la condition humaine.",
@@ -1232,6 +1238,7 @@
     "nom": "Simone Weil",
     "nom_complet": "Simone Weil",
     "categorie": "Contemporains",
+    "infos":"<b>Simone Weil</b> était une <b>philosophe</b> et <b>mystique</b> française du XXe siècle. Elle est surtout connue pour ses écrits sur la <b>religion</b>, la <b>politique</b> et la philosophie. Weil mettait l'engagement au centre de sa vie, à l'usine, dans la guerre et dans la résistance. Parmi ses œuvres les plus célèbres figurent <i>L’Enracinement</i> et <i>La Pesanteur et la Grâce</i>.",
     "lieu": "France",
     "dates": "1909-1943",
     "greeting": "Bonjour, camarade. Que puis-je faire pour toi ?",
@@ -1303,6 +1310,7 @@
     "nom": "Levinas",
     "nom_complet": "Emmanuel Levinas",
     "categorie": "Contemporains",
+    "infos":"<b>Emmanuel Levinas</b> était un philosophe français du XXe siècle. Il est surtout connu pour sa philosophie de l’<b>éthique</b> et sa critique de la <b>métaphysique</b>. Levinas a développé des concepts tels que l’<b>altérité</b> et la <b>responsabilité</b>. Parmi ses œuvres les plus célèbres figurent <i>Totalité et Infini</i> et <i>Éthique et Infini</i>.",
     "lieu": "France",
     "dates": "1905-1995",
     "greeting": "Je suis ravi de vous accueillir ici. Dites-moi ce qui vous amène.",
@@ -1346,6 +1354,7 @@
     "nom": "Sartre",
     "nom_complet": "Jean-Paul Sartre",
     "categorie": "Contemporains",
+    "infos":"<b>Jean-Paul Sartre</b> était un philosophe français du XXe siècle. Il est surtout connu pour sa philosophie de l’<b>existentialisme</b> et sa critique de la <b>métaphysique</b>. Sartre a développé une conception de l'existence qui met au centre la <b>liberté absolue</b> de l'homme. Parmi ses œuvres les plus célèbres figurent <i>L’Être et le Néant</i> et <i>Les Mots</i>.",
     "lieu": "France",
     "dates": "1905-1980",
     "greeting": "Prenez un café et venez discuter avec moi. Qu'est-ce qui vous intéresse : la philosophie, la politique ?",
@@ -1390,6 +1399,7 @@
     "nom": "Hans Jonas",
     "nom_complet": "Hans Jonas",
     "categorie": "Contemporains",
+    "infos":"<b>Hans Jonas</b> était un philosophe allemand du XXe siècle. Il est surtout connu pour sa philosophie de la <b>responsabilité</b> et sa critique de la <b>technologie</b>. Jonas était très attentif aux nouveaux dangers que la technique faisait peser sur la <b>nature</b> et sur <b>l'homme</b> lui-même. Parmi ses œuvres les plus célèbres figurent <i>Le Principe Responsabilité</i> et <i>Le Concept de Dieu après Auschwitz</i>.",
     "lieu": "Allemagne",
     "dates": "1903-1993",
     "greeting": "Je ne saurais dire si cette technologie est une bonne chose pour l'homme ; mais discutons-en ensemble si vous le désirez.",
@@ -1413,13 +1423,26 @@
       "la technique",
       "la nature"
     ],
-    "concepts_signés": []
+    "concepts_signés": [{
+      "concept": "la responsabilité",
+      "mots": [
+        "\\bresponsab[il]"
+      ],
+      "extraits": [
+        {
+          "auteur": "sans objet",
+          "origine": "la-philosophie.com",
+          "contenu": "Hans Jonas pense que la “responsabilité” à l'égard de l'humanité à venir est aujourd'hui un principe (et non une simple vertu…) c'est-à-dire le fondement même d'une conception totalement inédite de l'éthique. La responsabilité n'est plus conçue dans ses termes juridiques classiques: être responsable de ses actes, au sens usuel, c'est être en mesure d'en revendiquer la paternité, c'est-à-dire d'en répondre, notamment sous la forme de dédommagements (“responsabilité-imputablilité”). La responsabilité jonassienne est au contraire une idée morale et métaphysique. Responsabilité pour autrui - c'est-à-dire obligation où je me trouve de répondre d'autrui, même si aucune loi ne m'y oblige – et responsabilité devant l'avenir, c'est-à-dire responsabilité comme souci, ou encore sollicitude, et non pas capacité ou volonté d'assumer des actes ou des projets dont je serais partie prenante. Dans ces conditions, la responsabilité n'est pas le résultat de l'autonomie, elle en est le fondement. Elle n'est pas non plus une caractéristique particulière ou secondaire de l'humanité: tout au contraire elle en constitue le signe distinctif, voire la définition. Les analyses de Hans Jonas pourraient s'inscrire sur ce point dans cette “révolution copernicienne” de l'éthique engagée parallèlement par le philosophe  contemporain Emmanuel Levinas. La responsabilité, conçue comme une obligation sans choix, comme une impuissance et une charge (autrui m'ayant toujours déjà “pris en otage”), est la condition de l'humanité et non pas sa conséquence. Véritable “sujétion à l'altérité”, cette responsabilité-sollicitude aura tout naturellement pour premier commandement l'existence de l'humanité: car, pour tout homme, “la possibilité qu'il y ait de la responsabilité est la priorité absolue ».  A partir de tels axiomes, H.Jonas est amené à reconsidérer complètement les idées de droits et d'obligations, et à développer son “principe” en termes très paradoxaux. La nouvelle “responsabilité” n'est pas pensée à partir des actes, mais du “pouvoir-faire”. Le: “tu dois donc tu peux” s'inverse en un: “tu peux donc tu dois” (compte tenu du pouvoir exorbitant de la technologie qui est, de fait, à l'oeuvre dans le monde, que je le veuille ou non, je dois me considérer comme étant l'un des gérants de la planète, et comme étant, à ce titre, co-responsable de son devenir. L'objet de ce devoir à la fois “impérieux et sans répit” est le” fragile”, le “périssable en tant que tel”, c'est-à-dire la nature et la vie dans son ensemble, et non pas seulement l'être humain. Cette “responsabilité”, enfin, est non-réciproque: elle m'oblige à l'égard d'un avenir qui n'existe pas, et auquel je ne demanderai pas de comptes. Le paradigme de cette situation d'obligation sans réciprocité est la relation des parents à l'égard du nouveau-né dont le dénuement infini crée un devoir irréfutable de lui venir en aide, obligation absolue qui n'a pourtant d'autre fondement que la simple considération de cette fragilité. Car la relation de l'adulte à l'égard de l'enfant démuni n'est pas juridique: elle est éthique, en ce sens qu'elle est fondamentalement asymétrique et irréversible. Le propre de l'éthique – selon  Emmanuel Lévinas et Hans  Jonas – est de commander sans rien promettre en échange. Mais que commande-t-elle? Essentiellement le respect de l'humanité. C'est-à-dire tout d'abord de faire en sorte que l'humanité soit, que des hommes uniques soient possibles, qu'ils puissent encore naître et advenir. Qu'ils puissent éventuellement “vivre bien” est le second commandement, beaucoup plus difficile encore à concrétiser."
+        }
+      ]
+    }]
   },
   {
     "id": 23,
     "nom": "Prof de philo",
     "nom_complet": "Le professeur de philosophie",
     "categorie": "Autres",
+    "infos":"Ce personnage modélise un professeur de philosophie compétent et pédagogue. N'hésitez pas à lui poser toutes vos questions générales sur la philosophie !",
     "lieu": "France",
     "dates": "?",
     "greeting": "Bonjour, jeune élève. Dis-moi comment je peux t'être utile.",
@@ -1447,6 +1470,7 @@
     "nom": "L'enfant",
     "nom_complet": "L'enfant",
     "categorie": "Autres",
+    "infos":"Ce personnage modélise un enfant naïf, ignorant et curieux. Exposez-lui vos thèses, et suivez ses interrogations pour préciser vos pensées.",
     "lieu": "France",
     "dates": "?",
     "greeting": "Bonjour ! Que peux-tu me dire d'intéressant ?",

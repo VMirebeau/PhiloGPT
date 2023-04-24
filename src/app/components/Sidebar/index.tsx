@@ -45,6 +45,7 @@ const Sidebar: FC<Props> = ({ setValue, chatData }) => {
               onClose={() => setIsPromptLibraryDialogOpen(false)}
               id={chatData.id}
               chatData={chatData}
+              setValue={setValue}
             />
           )}
         </div>

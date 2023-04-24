@@ -2,6 +2,8 @@
 
 **PhiloGPT** est un simulateur de dialogue qui s'appuie sur la technologie de ChatGPT pour vous permettre de discuter avec les grand.e.s philosophes du passé. Bien évidemment, il ne s'agit que d'une simulation grossière : pour comprendre un philosophe, rien ne peut remplacer la fréquentation des textes.
 
+Lien de l'extension : https://chrome.google.com/webstore/detail/philogpt/ghekjmoomhdajfcglkcpcmajjfkkiihd?hl=fr
+
 **Prérequis** : PhiloGPT ne peut fonctionner que si vous disposez d'un compte OpenAI, et que si vous vous authentifiez avant de faire usage de cette extension. Il n'est aucunement nécessaire d'avoir un accès payant.
 
 **Lancement du build :**  
@@ -17,8 +19,12 @@
 1. Cliquez sur le bouton des extensions
 2. Cliquez sur le nom de cette extension pour la lancer
 
-N'hésitez pas à me faire remonter les bugs que vous pourriez rencontrer, et à partager vos retours.
-
 Cette extension est gratuite et en open source.
 L'ensemble des codes peut être trouvé ici : https://github.com/VMirebeau/PhiloGPT
 Elle se base sur les codes du projet chathub de Wang Dàpéng : https://github.com/chathub-dev/chathub
+
+**Bugs et corrections :**
+Si vous avez rencontré un problème technique ou une erreur de nature philosophique, merci de bien vouloir m'en faire part ici :
+https://docs.google.com/document/d/1hw8egoUkwtXSAOltju1_4LYLE7IQqXkez6wYKpw-0Es/edit?usp=sharing
+
+**Si cette extension vous a plu, n'hésitez pas à lui donner de la visibilité en laissant un commentaire sur le web store**

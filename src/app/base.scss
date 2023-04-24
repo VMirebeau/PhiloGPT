@@ -109,16 +109,29 @@ body {
 }
 
 .cursorAuto {
-  cursor:normal;
+  cursor:auto;
+  text-align: center;
+  display: inline-block;
+  padding: 0.3rem;
+  margin: 0.875rem;
+  --tw-shadow: 2px 5px 5px 0 rgb(0 0 0 / .05);
+  --tw-border-opacity: 0.3;
+  border-width: 2px;
+  height:180px;
+}
+
+.grandBoiteInfo {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .flexDiv {
-  display:flex;
-  height:100%;
-  width:100%;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row-reverse;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .petitsBoutons:hover {
@@ -130,10 +143,9 @@ body {
   padding-left: 0px;
   background-color:#babbbf;
   margin-left:0px;
-  border-radius: 20px;
+  border-radius: 0.5rem;
   align-self:center;
-  margin-top:5px;
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
 
 .texteBouton {
@@ -189,6 +201,10 @@ body {
   padding-top: 1rem;
 }
 
+.titreDialog2 {
+  padding-bottom: 1rem;
+}
+
 .boiteDialog {
   padding-top: 0rem;
 }
@@ -196,6 +212,9 @@ body {
 .grandeBoiteDialog {
   width: 650px;
   height: 500px;
+}
+.grandeBoiteDialog2 {
+  height:auto;
 }
 
 .inactif {
@@ -250,7 +269,6 @@ body {
 
 .fullHorizontale {
   width: 100%;
-  height:100%;
   margin:0px;
 }
 
@@ -267,7 +285,14 @@ body {
 }
 
 .moitieVerticale {
-  height:100%;
+}
+
+.texteInfos2  {
+  text-align: justify;
+  font-size: 0.875rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  position:relative;
 }
 
 .texteInfos  {
