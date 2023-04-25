@@ -361,6 +361,14 @@
       {
         "title": "Amitié et amour",
         "prompt": "Que penses tu de l'amitié et de l'amour ? Le sage doit-il cultiver ces deux relations ?"
+      },
+      {
+        "title": "L'ataraxie",
+        "prompt": "Comment pouvons-nous atteindre l'ataraxie, c'est-à-dire la tranquillité de l'esprit ?"
+      },
+      {
+        "title": "Richesse et pouvoir",
+        "prompt": "Pour être heureux, faut-il rechercher la richesse et le pouvoir ?"
       }
     ],
     "concepts": [
@@ -420,6 +428,18 @@
       {
         "title": "Ce qu'est le logos",
         "prompt": "Comment peux-tu expliquer la notion de \"logos\" et son rôle dans le stoïcisme ?"
+      },
+      {
+        "title": "La tranquillité de l'âme",
+        "prompt": "Comment pouvons-nous atteindre la tranquillité de l'esprit ? Comment pouvons-nous éviter les émotions négatives telles que la colère, la jalousie et la tristesse ?"
+      },
+      {
+        "title": "Comment tout accepter",
+        "prompt": "Comment pouvons-nous accepter les choses que nous ne pouvons pas changer ? Comment pouvons-nous trouver la sérénité dans des situations difficiles ?"
+      },
+      {
+        "title": "Ce qu'est la vertu",
+        "prompt": "Comment définirais-tu la vertu ? Comment pouvons-nous devenir des personnes vertueuses ?"
       }
     ],
     "concepts": [
@@ -466,6 +486,22 @@
       {
         "title": "De prouver l'existence de Dieu",
         "prompt": "Explique-moi comment tu prouves l'existence de Dieu dans tes Méditations Métaphysiques."
+      },
+      {
+        "title": "Si l'on peut prouver l'existence du monde",
+        "prompt": "Comment pouvons-nous être certains que le monde réel existe ? Comment pouvons-nous distinguer entre la réalité et l'illusion ?"
+      },
+      {
+        "title": "Ce qu'est l'intelligence",
+        "prompt": "Peux-tu me définir ce qu'est l'intelligence humaine ? Y a-t-il des hommes naturellement plus intelligents que d'autres ?"
+      },
+      {
+        "title": "Le rapport entre science et philosophie",
+        "prompt": "La science et la philosophie sont-elles deux disciplines totalement contraires ?"
+      },
+      {
+        "title": "Ce qu'est l'animal",
+        "prompt": "Peux-tu expliquer ta thèse de l'animal-machine ?"
       }
     ],
     "concepts": [
@@ -498,6 +534,19 @@
             "auteur": "auto",
             "origine": "Wikipedia",
             "contenu": "Cogito, ergo sum est une locution latine signifiant « Je pense, donc je suis ». Pour Descartes, cette locution exprime la première certitude qui résiste à un doute méthodique. Cherchant à refonder entièrement la connaissance, Descartes souhaite lui trouver un fondement solide, absolument certain. Cette recherche l'amène à la conclusion que seule sa propre existence, en tant que « chose qui pense », est certaine au départ. C'est cette découverte qu'exprime le « cogito ». Indépendamment des formulations, le cogito constitue un élément majeur de la pensée cartésienne. Il est une certitude à partir de laquelle Descartes va tenter de refonder toute la connaissance. Il consiste en une intuition qui ne se résume pas à une déduction logique."
+          }
+        ]
+      },
+      {
+        "concept": "l'animal-machine'",
+        "mots": [
+          "\\banima(?:l|aux)?"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Discours de la méthode, Ve partie",
+            "contenu": "Et je m'étais ici particulièrement arrêté à faire voir que, s'il y avait de telles machines qui eussent les organes et la figure extérieurs d'un singe ou de quelque autre animal sans raison, nous n'aurions aucun moyen pour reconnaître qu'elles ne seraient pas en tout de même nature que ces animaux ; au lieu que, s'il y en avait qui eussent la ressemblance de nos corps et imitassent autant nos actions que moralement il serait possible, nous aurions toujours deux moyens très certains pour reconnaître qu'elles ne seraient point pour cela des vrais hommes. Dont le premier est que jamais elles ne pourraient user de paroles ni d'autres signes en les composant, comme nous faisons pour déclarer aux autres nos pensées. Car on peut bien concevoir qu'une machine soit tellement faite qu'elle en profère quelques-unes à propos des actions corporelles qui causeront quelques changements en ses organes, comme si on la touche en quelque endroit, qu'elle demande ce qu'on veut lui dire; si en un autre, qu'elle crie qu'on lui fait mal, et choses semblables ; mais non pas qu'elle les arrange diversement pour répondre au sens de tout ce qui se dira en sa présence, ainsi que les hommes les plus hébétés peuvent faire. Et le second est que, bien qu'elles fissent plusieurs choses aussi bien ou peut-être mieux qu'aucun de nous, elles manqueraient infailliblement en quelques autres, par lesquelles on découvrirait qu'elles n'agiraient pas par connaissance, mais seulement par la disposition de leurs organes. Car, au lieu que la raison est un instrument universel qui peut servir en toutes sortes de rencontres, ces organes ont besoin de quelque particulière disposition pour chaque action particulière ; d'où vient qu'il est moralement impossible qu'il y en ait assez de divers en une machine pour la faire agir en toutes les occurrences de la vie de même façon que notre raison nous fait agir. Or, par ces deux mêmes moyens, on peut aussi connaître la différence qui est entre les hommes et les bêtes. Car c'est une chose bien remarquable, qu'il n'y a point d'hommes si hébétés et si stupides, sans en excepter même les insensés, qu'ils ne soient capables d'arranger ensemble diverses paroles, et d'en composer un discours par lequel ils fassent entendre leurs pensées ; et qu'au contraire il n'y a point d'autre animal tant parfait et tant heureusement né qu'il puisse être, qui fasse le semblable. Ce qui n'arrive pas de ce qu'ils ont faute d'organes, car on voit que les pies et les perroquets peuvent proférer des paroles ainsi que nous, et toutefois ne peuvent parler ainsi que nous, c'est-à-dire, en témoignant qu'ils pensent ce qu'ils disent ; au lieu que les hommes qui, étant nés sourds et muets, sont privés des organes qui servent aux autres pour parler, autant ou plus que les bêtes, ont coutume d'inventer d'eux-mêmes quelques signes, par lesquels ils se font entendre à ceux qui, étant ordinairement avec eux, ont loisir d'apprendre leur langue. Et ceci ne témoigne pas seulement que les bêtes ont moins de raison que les hommes, mais qu'elles n'en ont point du tout."
           }
         ]
       }
