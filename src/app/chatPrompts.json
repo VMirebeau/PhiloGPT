@@ -25,7 +25,7 @@
       },
       {
         "title": "Pourquoi je n'ai pas fui",
-        "prompt": "Pourquoi es-tu resté dans la prison où tu attendais de mourir, alors que tu aurais très pu t'enfuir ?"
+        "prompt": "Pourquoi es-tu resté dans la prison où tu attendais de mourir, alors que tu aurais très bien pu t'enfuir ?"
       },
       {
         "title": "Comment atteindre le vrai",
@@ -108,8 +108,35 @@
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe roi ? Penses-tu que cette théorie soit applicable ?"
       },
       {
-        "title": "Ce qu'est le Beau",
+        "title": "Ce qu'est le beau",
         "prompt": "Peux-tu m'expliquer comment tu comprends l'essence de la beauté ?"
+      },
+      {
+        "title": "Ce qu'est la justice",
+        "prompt": "Peux-tu m'expliquer comment tu comprends l'essence de la justice ?"
+      },
+      {
+        "title": "Mon analyse du relativisme",
+        "prompt": "Protagoras dit que l'homme est la mesure de toutes choses. Peux-tu m'expliquer quel sens tu donnes à cette formule, et si tu l'acceptes ?"
+      },
+      {
+        "title": "Le réel et l'illusion",
+        "prompt": "Comment pouvons-nous être sûrs que ce que nous percevons avec nos sens est réel et non une illusion ?"
+      },
+      {
+        "title": "Si on peut connaître",
+        "prompt": "Comment pouvons-nous atteindre la véritable connaissance ? Est-ce possible pour tous les humains ?"
+      },
+      {
+        "title": "Ce qu'est l'amour",
+        "prompt": "Comment définirais-tu l'amour ? Est-ce quelque chose qui peut être compris de manière rationnelle ?"
+      },{
+        "title": "Ce qu'est la sagesse",
+        "prompt": "D'après toi, qu'est-ce qui distingue le sage des autres hommes ?"
+      },
+      {
+        "title": "Les dangers des beaux parleurs",
+        "prompt": "Faut-il se méfier des hommes qui savent séduire et bien parler ?"
       }
     ],
     "concepts": [
@@ -184,6 +211,34 @@
       {
         "title": "Ce qu'est une démonstration",
         "prompt": "Que signifie \"démontrer\" quelque chose ? Peux-tu me donner un exemple précis et l'analyser ?"
+      },
+      {
+        "title": "Mon avis sur Platon",
+        "prompt": "Tu as été l'élève de Platon. Quel regard portes-tu aujourd'hui sur sa philosophie ?"
+      },
+      {
+        "title": "Mon rapport à l'observation",
+        "prompt": "Tu es un penseur qui a énormément observé la nature : les plantes et les animaux en particulier. Pourquoi est-il philosophiquement important, d'après toi, de multiplier les observations du monde qui nous entoure ?"
+      },
+      {
+        "title": "Ce que vaut la rhétorique",
+        "prompt": "Penses-tu que la rhétorique soit un art utile ?"
+      },
+      {
+        "title": "Ce qu'est la philosophie",
+        "prompt": "Comment définirais-tu la philosophie ? Quelle est sa fonction et son but ?"
+      },
+      {
+        "title": "Raison théorique et pratique",
+        "prompt": "Quelle est la différence entre la raison théorique et la raison pratique ?"
+      },
+      {
+        "title": "Ce qu'est la vertu",
+        "prompt": "Comment définirais-tu la vertu ? Est-ce quelque chose qui peut être enseigné ?"
+      },
+      {
+        "title": "Ce qu'est l'amitié",
+        "prompt": "Comment définirais-tu l'amitié ? Quel est son rôle dans une vie vertueuse ?"
       }
     ],
     "concepts": [
@@ -247,6 +302,23 @@
             "contenu": "La phronèsis est une vertu développée par Aristote, dans Ethique à Nicomaque, souvent traduite par prudence, sagacité ou sagesse pratique. Cette vertu de la pensée n'est pas scientifique comme la science ou la sagesse théorique mais ancrée dans le monde pratique et orientée vers l'action. Faire preuve de phronèsis ne peut se faire en se détachant de la question de la finalité et donc de l'évaluation du bien. Cette vertu est donc pour Aristote plus que de la précaution. Il ne peut donc y avoir de phronèsis sans visée du bien et c'est ce qui la distingue de la pure habileté que les prudents possèdent en commun avec les fourbes. La phronèsis ne peut pas être sans habileté mais elle ne se réduit pas à ce « savoir-faire ». La phronèsis invite donc à chercher l'excellence dans la considération du bien et du mal pour soi-même et les autres dans le monde pratique. Aristote ne sépare pas ce que la prudence permet d'accomplir de ce en vue de quoi elle l'accomplit, il ne peut donc pas y avoir de prudence sans fin. Cette sagesse pratique est la vertu de ceux qui savent adapter la norme pratique aux situations singulières. La Phronèsis est l'excellence en terme de savoir pratique permettant de tenir ensemble la généralité de la règle et la singularité du cas. Elle porte donc sur des objets, des situations particulières et contingentes et non sur des généralités. Il s'agit donc d'évaluer, de juger et de choisir pour ne pas appliquer des règles universelles aux situations particulières mais pour chercher la juste mesure, le juste milieu. Un homme prudent est donc celui qui est capable d'agir de façon adéquate après délibération en prenant en considération la situation sans oublier les finalités. Ainsi « le propre de l'homme prudent c'est d'être capable de délibérer correctement sur ce qui est bon et avantageux pour lui-même, non pas sur un point partiel mais d'une façon générale ». L'homme prudent doit être apte à bien juger. Ce jugement mis en oeuvre par l'homme agissant s'apprend, se développe notamment avec l'expérience, et s'entretient notamment pendant les temps collectifs entre personnes partageant les mêmes enjeux et des situations proches."
           }
         ]
+      },
+      {
+        "concept": "#la rhétorique",
+        "mots": [
+          "\\brhétorique",
+          "\\brhéteu",
+          "\\bbeaux? discours",
+          "\\bbelles paroles",
+          "\\bbien parler"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "La Rhétorique",
+            "contenu": "La rhétorique est utile, d’abord parce que le vrai et le juste ont naturellement plus de force que leurs contraires ; aussi, quand les décisions ne sont pas convenablement prises, est-ce nécessairement par sa propre faute que l’on est battu et cela mérite d’être blâmé. En outre, il y a de certaines personnes que, eussions-nous la science la plus exacte, nous ne saurions grâce à elle facilement persuader par nos discours. En outre, il faut être capable de persuader des thèses contraires, comme aussi dans les syllogismes, non pour soutenir effectivement l’une et l’autre (car il ne faut pas persuader de ce qui est mal) mais pour que le procédé ne nous échappe pas et afin que, si quelqu’un d’autre use des discours à des fins injustes, nous soyons nous-mêmes en état de le réfuter. Parmi toutes les autres techniques, il n’en est aucune qui déduise par le syllogisme les contraires. La dialectique et la rhétorique sont les seules à le faire ; toutes deux en effet sont capables d’aboutir indifféremment aux contraires. Les contenus réels, eux, ne sont pas indifférents, mais en toute occasion, le vrai et le meilleur se prêtent mieux par nature au syllogisme et, tout simplement, sont plus persuasifs.\nDe surcroît, il serait absurde, alors qu’il est honteux d’être incapable de se défendre physiquement, qu’il ne soit pas honteux de ne pouvoir le faire verbalement (logôi), mode de défense plus propre à l’homme que le recours à la force physique.\n Mais, objectera-t-on, user à des fins injustes de cette puissance du discours peut nuire gravement, à quoi l’on rétorquera que cet inconvénient est commun à tous les biens - excepté la vertu - et surtout aux biens les plus utiles comme la force, la santé, la richesse et le pouvoir. Qui en fait juste usage peut rendre les plus grands services, qui s’en sert injustement peut causer les plus grands torts."
+          }
+        ]
       }
     ]
   },
@@ -273,6 +345,22 @@
       {
         "title": "S'il faut craindre la mort",
         "prompt": "D'après toi, la mort doit-elle être crainte ? Explique-moi ton raisonnement."
+      },
+      {
+        "title": "Ce qu'est l'atome",
+        "prompt": "Ta physique est atomiste. Qu'est-ce que cela signifie, et quel est le sens éthique de tout cela ?"
+      },
+      {
+        "title": "Mon avis sur le stoïcisme",
+        "prompt": "Peux-tu m'expliquer ce qui te différencie des stoïciens ?"
+      },
+      {
+        "title": "S'il faut suivre tout plaisir",
+        "prompt": "Pour être heureux, faut-il chercher le maximum de plaisirs ?"
+      },
+      {
+        "title": "Amitié et amour",
+        "prompt": "Que penses tu de l'amitié et de l'amour ? Le sage doit-il cultiver ces deux relations ?"
       }
     ],
     "concepts": [
