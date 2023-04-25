@@ -22,6 +22,18 @@
       {
         "title": "Quelle est ma devise",
         "prompt": "Peux-tu m'expliquer d'où te vient la maxime \"Connais-toi toi-même et tu connaîtras l'Univers et les Dieux\" ? Peux-tu m'expliquer ce que ça signifie, en précisant en quoi cette conception de la \"connaissance de soi\" diffère de la conception contemporaine courante ?"
+      },
+      {
+        "title": "Pourquoi je n'ai pas fui",
+        "prompt": "Pourquoi es-tu resté dans la prison où tu attendais de mourir, alors que tu aurais très pu t'enfuir ?"
+      },
+      {
+        "title": "Comment atteindre le vrai",
+        "prompt": "Comment pouvons-nous être sûrs que nos croyances sont vraies ?"
+      },
+      {
+        "title": "De distinguer opinion/savoir",
+        "prompt": "Quelle est la différence entre la connaissance et l'opinion ? Comment pouvons-nous distinguer l'une de l'autre ?"
       }
     ],
     "concepts": [
@@ -94,6 +106,10 @@
       {
         "title": "Qui doit gouverner",
         "prompt": "Peux-tu m'expliquer pourquoi tu considères que le pouvoir politique devrait revenir à un philosophe roi ? Penses-tu que cette théorie soit applicable ?"
+      },
+      {
+        "title": "Ce qu'est le Beau",
+        "prompt": "Peux-tu m'expliquer comment tu comprends l'essence de la beauté ?"
       }
     ],
     "concepts": [
@@ -1012,6 +1028,19 @@
             "contenu": "La nature de l’être en soi se révèle d’abord dans l’épreuve que nous faisons de nous-mêmes: l’être est vouloir-vivre – tension fondamentale qui nous entraîne de désir en désir, sans que nous puissions l’arrêter. Nous ne sommes pas maîtres de la volonté, c’est elle qui agit en nous, elle qui motive inconsciemment nos représentations, elle qui détermine nos désirs.\nCette tension est à l’œuvre aussi dans les choses: tout l’univers est la manifestation du vouloir-vivre, principe unique, aveugle, anonyme, universel. En lui, du minéral à l’animal, tout est un. L’individualité (principe de la représentation) n’est qu’une apparence: par la racine de notre être, nous sommes en union avec tous les autres.\nManque perpétuel, le vouloir-vivre est essentiellement souffrance. Puissance sans intelligence, il est sans raison, il veut pour vouloir, ses objets sont secondaires. La vie par conséquent n’a pas de sens, pas de but ultime; et pour cesser de souffrir, il faudrait cesser de vouloir."
           }
         ]
+      },
+      {
+        "concept": "#Hegel",
+        "mots": [
+          "\\bhegel"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "sans objet",
+            "contenu": "Hegel est un charlatan plat, sans esprit, répugnant, ignorant, dont la philosophie est une colossale mystification. Elle constitue le verbiage le plus creux, le galimatias le plus stupide qui ait jamais été entendu, du moins en dehors de maisons de fous. Ce verbiage pompeux, qui produit le plus grand encrassement possible des intelligences, n'a valu à son auteur qu'une gloire mensongère, captée, achetée, produit d'un tissu de faussetés."
+          }
+        ]
       }
     ]
   },
@@ -1084,6 +1113,19 @@
             "auteur": "sans objet",
             "origine": "1000idcg.com",
             "contenu": "Le surhomme est le rude destin de l’homme. En effet, Nietzsche conçoit l’homme comme une « corde » entre la bête et le surhomme. Or, cette corde tendue au-dessus d’un abîme est un obstacle particulièrement ardu, car le surhomme n’est rien moins que l’exact négatif de l’homme, c’est-à-dire tout ce qu’il n’est pas. « Je vous enseigne le surhomme, écrit Nietzsche. L’homme est quelque chose qui doit être surmonté. Qu’avez-vous fait pour le surmonter ? Tous les êtres, jusqu’ici, ont créé quelque chose au-delà d’eux-mêmes : et vous voulez être le reflux de cette grande marée et vous préférez retourner à l’animal plutôt que de surmonter l’homme ? Qu’est-ce que le singe pour l’homme ? Un objet de risée ou une honte douloureuse. Et c’est exactement cela que l’homme doit être pour le surhomme : un objet de risée ou une honte douloureuse » (Ainsi parlait Zarathoustra). L’homme semble donc incapable de s’extraire de lui-même. Bien au contraire, il se glorifie même d’être homme et il théorise l’exaltation de son humanité. Nietzsche stigmatise ainsi l’humanisme, qu’il critique comme une reconnaissance de l’homme par l’homme l’encourageant à se satisfaire de sa médiocre condition. Prisonnier de la léthargie de cette autosatisfaction, l’individu répugne alors à se dépasser."
+          }
+        ]
+      },
+      {
+        "concept": "#l'éternel retour",
+        "mots": [
+          "\\béternel retour"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "On pourrait grossièrement résumer l'idée de l'Éternel Retour en un simple précepte tel que celui-ci : mène ta vie en sorte que tu puisses souhaiter qu’elle se répète éternellement.\nCe concept est alors très éloigné de l’idée de résurrection ou de réincarnation présente dans certaines religions : Nietzsche ne semble pas tenir pour véritable la possibilité de revivre à l’infini sa propre vie, mais il fait de cette perspective une pierre de touche pour la valeur de sa propre existence. Ainsi, pour de nombreux penseurs de la fin du xixe siècle en Allemagne, époque phare du pessimisme, le bilan que la plupart des hommes feraient au soir de leur vie suffit à prouver l’absurdité de l’existence. Si en effet la mort venait nous voir ce jour même en nous annonçant que notre heure est venue mais que nous pouvons décider, au lieu de sombrer dans le néant, de revivre à l’infini et dans ses moindres détails toute la vie que nous avons menée jusqu’ici, il y a fort à parier que nous préfèrerions retourner au néant – c'est ce que Nietzsche appelle le nihilisme incomplet, par opposition au nihilisme complet qu'il propose, celui qui caractérise le surhumain. Aussi faut-il tâcher de vivre de telle sorte que l’on puisse souhaiter que chaque instant se reproduise éternellement."
           }
         ]
       }
@@ -1230,6 +1272,20 @@
             "contenu": "L'angoisse chez Heidegger n'est pas la peur : le « devant-quoi », le Dasein s'angoisse est parfaitement indéterminé, alors que la peur est liée à quelque chose de définissable. Dans l'angoisse, il y a comme un effondrement du monde et de sa familiarité, une perte totale de significativité. L'angoisse vient de nulle part, alors que rien ne nous est plus proche. Le « pour-quoi » le Dasein s'angoisse, c'est l'« être-au-monde » lui-même. Le Dasein est confronté à la nudité de son être et par contre-coup à, cela seul qui lui appartient en propre, c'est-à-dire à son être « authentique ». C'est en tant que pur « être-possible » (absolument indéterminé) que s'ouvre l'« être-au-monde » authentique. Dans son style propre, Heidegger précise ceci : « L'angoisse manifeste dans le Dasein l'être pour le « pouvoir-être » le plus propre, c'est-à-dire l'« être-libre » pour la liberté de se choisir et se saisir soi-même ». En faisant disparaître les choses intra-mondaines l'angoisse interdit la compréhension de soi-même à partir des possibilités ayant trait à elles et elle amène ainsi le Dasein à se comprendre à partir de lui-même, le ramène à soi-même. L'angoisse est l'une des « dispositions » insignes du Dasein. Plus généralement, l'angoisse possède un intérêt pour la métaphysique en cela qu'elle rend possible l'ouverture phénoménale du néant."
           }
         ]
+      },
+      {
+        "concept": "#nazisme",
+        "mots": [
+          "\\bnazi",
+          "\\bfascis"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le philosophe allemand Martin Heidegger a été membre du Parti nazi dans les années 1930 et 1940. Cette affiliation au parti et sa participation au régime sont une source de vives controverses.\n\nCertains y voient le signe de problèmes inhérents à sa philosophie : cette dernière, en particulier l'accent mis sur l'importance de l'enracinement, l'a conduit à soutenir une idéologie raciste et nationaliste ayant finalement conduit à l'Holocauste. D'autres soutiennent que les idées et actions politiques de Heidegger doivent être comprises séparément de ses idées philosophiques et qu'il est possible de séparer les deux : dans cette perspective, la philosophie de Heidegger est une critique valable de la technique moderne et de ses effets déshumanisants, et ses idées sur l'authenticité, l'enracinement et la terre ne sont pas intrinsèquement racistes ou nationalistes.\n\nIl convient de noter que Heidegger n'a ni pris publiquement ses distances par rapport à son affiliation au parti nazi ni offert d'explication à sa participation."
+          }
+        ]
       }
     ]
   },
@@ -1300,6 +1356,32 @@
             "auteur": "sans objet",
             "origine": "Alexis Dayon",
             "contenu": "Le cœur et véritable sujet de l’Iliade, c’est la force : son emprise, ses effets sur l’âme et sur la chair des hommes. Et le caractère le plus constant de la force est de « faire de quiconque lui est soumis une chose » : ceux qui la subissent comme ceux qui la manient.\n- Qui subit la force est ravalé par elle au rang de matière inerte : son état est de se retrouver à la merci d’une entité qui possède, à tout moment, la puissance de l’anéantir.\n- Qui manie la force, enivré par la puissance qu’elle lui donne, se ravale au rang d’élan aveugle : son état est de ne plus rien rencontrer qui lui résiste et le freine.\nChez l’un et chez l’autre, qu’elle paralyse ou qu’elle enivre, la force a pour effet de neutraliser en l’homme les effets de l’amour et de l’intelligence. "
+          }
+        ]
+      },
+      {
+        "concept": "l'attention",
+        "mots": [
+          "\\battenti(?:on|[fv])"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "L'attente de Dieu",
+            "contenu": "Il faut dénoncer l'idée courante selon laquelle l'attention nécessite un effort musculaire intense, comme contracter les muscles et retenir la respiration, alors que cela ne mène souvent qu'à la fatigue sans réelle concentration. L'attention est un effort négatif, qui consiste à suspendre sa pensée pour laisser l'objet étudié pénétrer dans l'esprit, tout en étant disponible et vide.\nL'intelligence ne peut être menée que par le désir et la joie, et la fatigue est souvent le résultat d'un effort musculaire inutile plutôt que du travail intellectuel accompli. L'attention doit être soutenue par le désir et la joie d'apprendre, et lorsque la fatigue se fait sentir, il vaut mieux faire une pause plutôt que de s'entêter.\nLa recherche active est nuisible à la fois à l'amour et à l'intelligence, et il est préférable d'attendre que la solution ou la vérité surgissent d'elles-mêmes plutôt que de les chercher activement. La notion de grâce et d'inspiration, qui se manifestent lorsque l'on attend avec désir et sans chercher, sont essentielles pour la vérité et la beauté véritables.\nEnfin, l'efficacité spirituelle des études ne dépend pas nécessairement d'une croyance religieuse, mais plutôt de la capacité de l'étudiant à attendre la vérité avec désir et sans chercher activement. Cet état d'esprit peut aider à développer la compassion et la générosité, et ainsi permettre de porter secours à autrui dans des situations difficiles."
+          }
+        ]
+      },
+      {
+        "concept": "#Marx",
+        "mots": [
+          "\\bmarx"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "attac",
+            "contenu": "Simone Weil a une grande estime pour Marx. Elle lui reproche cependant de pas être allé assez loin dans son matérialisme, de ne pas avoir vu que le développement illimité des forces productives se heurteraient à la matérialité du monde. Il importe donc de s'affranchir de la « religion de la production »."
           }
         ]
       }

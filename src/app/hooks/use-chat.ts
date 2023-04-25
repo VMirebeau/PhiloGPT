@@ -69,9 +69,13 @@ export function useChat(
         let reponse = '';
         if (extrait.auteur == 'auto') {
           // si l'extrait vient de l'auteur lui-même
+          if (extrait.origine == "sans objet") {
+            reponse = 'Tu penses la chose suivante :\n"' + extrait.contenu + '"'
+          } else {
           reponse = 
             '\n\nDans ' + extrait.origine + ', tu disais la chose suivante :\n"' + extrait.contenu + '"'
-        } else if (extrait.auteur == 'sans objet') {
+          }
+          } else if (extrait.auteur == 'sans objet') {
           reponse =
           '\n\nOn peut dire de toi la chose suivante :\n"' + extrait.contenu + '"'
         } else if (extrait.auteur == 'fiche') {
