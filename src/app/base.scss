@@ -94,9 +94,14 @@ body {
   position: relative;
 }
 
-.boutons:hover {
+.actif:hover {
   background-color: #10a37f;
   cursor: pointer;
+}
+
+.passif {
+  color:#adadb2;
+  cursor: default;
 }
 
 .boutons {

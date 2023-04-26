@@ -32,6 +32,7 @@ interface Props {
   setValue:(value: string) => void;
   mode?: 'full' | 'compact'
   index?: number
+  clear:()=>void
 }
 
 function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -63,6 +64,7 @@ const ConversationPanel: FC<Props> = (props) => {
 
   const onSubmit = useCallback(
     async (input: string) => {
+      props.clear
       props.onUserSendMessage(input as string, props.botId)
     },
     [props],

@@ -1161,6 +1161,18 @@
       {
         "title": "Le rôle de la raison dans l'histoire",
         "prompt": "Peux-tu m'expliquer quel rôle la raison joue dans l'histoire ?"
+      },
+      {
+        "title": "La mort de l'art",
+        "prompt": "Tu as affirmé que l'art était mort. Pourtant, beaucoup d'oeuvres d'art ont été produites à ton époque, et ensuite. Peux-tu préciser le sens de ce que tu as voulu dire ?"
+      },
+      {
+        "title": "Le savoir absolu",
+        "prompt": "Peux-tu m'expliquer ce que tu appelles le \"savoir absolu\", et comment y parvenir ?"
+      },
+      {
+        "title": "Langage et pensée",
+        "prompt": "D'après toi, est-il possible de penser sans langage, et pourquoi ?"
       }
     ],
     "concepts": [
@@ -1220,6 +1232,30 @@
       {
         "title": "Ce qu'est l'aliénation",
         "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
+      },
+      {
+        "title": "La propriété individuelle",
+        "prompt": "Es-tu contre la propriété individuelle ? N'est-elle pas légitime quand on a travaillé dur pour l'acquérir ?"
+      },
+      {
+        "title": "Ce qu'est l'aliénation",
+        "prompt": "Explique-moi ton concept d'aliénation, en t'appuyant sur un exemple précis."
+      },
+      {
+        "title": "La plus-value",
+        "prompt": "Comment ta théorie de la plus-value peut-elle être utilisée pour comprendre l'exploitation économique, en particulier dans les sociétés capitalistes modernes ?"
+      },
+      {
+        "title": "Hegel et la dialectique",
+        "prompt": "Comment ton approche de la dialectique diffère-t-elle de celle de Hegel, et comment peut-elle être appliquée à la compréhension de la réalité matérielle ?"
+      },
+      {
+        "title": "Expliquer la culture",
+        "prompt": "Comment peut-on appliquer ta théorie du matérialisme historique à la compréhension des phénomènes culturels, tels que l'art et la littérature ?"
+      },
+      {
+        "title": "La dictature du prolétariat",
+        "prompt": "Comment ton concept de la dictature du prolétariat peut-il être appliqué à la compréhension de la transition du capitalisme au socialisme, et comment peut-on éviter les écueils de la bureaucratie et de l'autoritarisme dans ce processus ?"
       }
     ],
     "concepts": [
@@ -1293,6 +1329,18 @@
       {
         "title": "Ce que je pense de la musique",
         "prompt": "Peux-tu m'expliquer pourquoi tu considères la musique comme le plus grand des arts ?"
+      },
+      {
+        "title": "Métaphysique de l'amour",
+        "prompt": "Explique-moi la façon dont tu interprètes le sentiment amoureux."
+      },
+      {
+        "title": "Pitié et Rousseau",
+        "prompt": "Explique-moi pourquoi tu fondes la morale sur la pitié, et quelle est la différence avec la conception de Rousseau."
+      },
+      {
+        "title": "Opinion sur Hegel",
+        "prompt": "Es-tu d'accord avec moi pour dire que Hegel est le plus grand philosophe qui ait jamais existé ?"
       }
     ],
     "concepts": [
@@ -1326,6 +1374,33 @@
             "contenu": "Hegel est un charlatan plat, sans esprit, répugnant, ignorant, dont la philosophie est une colossale mystification. Elle constitue le verbiage le plus creux, le galimatias le plus stupide qui ait jamais été entendu, du moins en dehors de maisons de fous. Ce verbiage pompeux, qui produit le plus grand encrassement possible des intelligences, n'a valu à son auteur qu'une gloire mensongère, captée, achetée, produit d'un tissu de faussetés."
           }
         ]
+      },{
+        "concept": "#libre-arbitre",
+        "mots": [
+          "\\bliberté",
+          "\\blibre-arbitre",
+          "\\blibre"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "sans objet",
+            "contenu": "L'homme est-il, comme l'animal, soumis au déterminisme naturel, ou bien peut-il s'en émanciper par une faculté spéciale qu'on appelle le libre arbitre ? Pour répondre à cette question, Schopenhauer évalue la conception traditionnelle de l'homme, qui le considère comme un être à part dans la nature, sur le plan de la liberté, afin de déterminer si l'homme est en droit de s'attribuer un pouvoir spécial par rapport à l'animal.\n\nLa thèse de Schopenhauer est que l'homme est en réalité tout aussi déterminé que l'animal dans ses actes. Cette soumission à la causalité naturelle est simplement plus difficile à percevoir chez l'homme car il est un être vivant plus complexe que l'animal. Pour appuyer sa thèse, Schopenhauer commence par présenter sa définition de la loi de causalité, qui est une loi universelle dans la nature, appelée la loi de la cause et de l'effet. Selon cette loi, tous les changements des choses qui existent dans la nature sont soumis à une cause antérieure et un effet subséquent. Les êtres naturels soumis à cette loi universelle sont classés en trois grandes catégories : les choses inorganiques, les êtres organiques non conscients (végétaux) et les êtres organiques conscients (animaux et hommes).\n\nLa loi de causalité s'applique différemment à chacune de ces trois catégories d'êtres et prend trois formes correspondantes : cause, excitation et motivation. La causalité se manifeste comme cause au sens strict dans le monde inorganique, comme excitation dans le monde végétal, et comme motivation dans le monde animal et humain. Selon Schopenhauer, dans tous les cas, elle implique la même nécessité. Chez les animaux, le motif est  situé dans l’environnement immédiat, les animaux ne possèdant rien d'autre que des représentations issues de la perception sensible.\n\nChez les hommes au contraire, qui possèdent la raison, les motifs peuvent aussi être des pensées déconnectées de la réalité immédiate et du présent.\n\nChez l’homme, par conséquent, la nécessité de l’action est moins apparente du fait de l’invisibilité et de l’inobservabilité de ses motifs. Mais ceux-ci existent pourtant bel et bien, et l’homme n’est donc, en dernière analyse, pas plus libre de ses actions que l’animal."
+          }
+        ]
+      },
+      {
+        "concept": "#amour",
+        "mots": [
+          "\\bamour"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Schopenhauer est considéré par certains comme étant le philosophe qui « détruit » en l'être humain toute forme d’espoir, en qualifiant notamment d’« illusions » ce que le sens commun considère lui comme une évidence et un bien. Au nombre de ces illusions, le philosophe range l’amour, dans lequel il voit une « ruse du génie de l’espèce ».\n« Toute inclination amoureuse, en effet, pour éthérées que soient ses allures, prend racine uniquement dans l’instinct sexuel, et n’est même qu’un instinct sexuel plus nettement déterminé, plus spécialisé et, rigoureusement parlant, plus individualisé44. » Il nous faut effectivement comprendre que l’homme, en tant qu’objectivation la plus individualisée du Vouloir, n’aura bien en vue que « ses » propres intérêts, ou, du moins, ce qu’il juge être « ses » intérêts, là où l’animal obéit, lui, aveuglément et d’une manière immédiate, aux intérêts de l’espèce. Mais, loin d’échapper à la « dictature de l’espèce », l'être humain, sans s’en apercevoir, reste pourtant totalement soumis au Vouloir et à sa perpétuation. Et, ce qui permet de concilier à la fois les intérêts particuliers de l’individu et ceux de l’espèce, ce n’est pas autre chose que « le sentiment amoureux ». En ce sens, l’amour, la passion, désignent les « instruments » du Vouloir soumettant l’individu à la perpétuation de l’espèce. Lorsqu’un « sentiment amoureux » se fait jour en moi, ce n’est ni plus ni moins que le vouloir-vivre qui s’éveille et qui témoigne, d’une manière déguisée, de son aspiration à se prolonger sous la forme d’une existence individuelle nouvelle. Cette idée ne peut être mieux formulée que par Schopenhauer lui-même : « quand l’individu doit se dépenser et même faire des sacrifices en faveur de la persistance et de la constitution de l’espèce, l’importance de l’objectif ne peut être rendue perceptible à son intellect adapté aux seules fins individuelles, de telle sorte qu’il agisse en conformité avec lui. C’est pourquoi la nature ne peut en l’occurrence atteindre son but qu’en inculquant à l’individu une illusion, grâce à laquelle il regardera comme un bien pour lui-même ce qui n’est tel en fait que pour l’espèce » ; la passion amoureuse est donc une sorte de « voile » cachant à l’individu que ce qu’il pense être ses intérêts personnels sont, en réalité, ceux de l’espèce.\nSchopenhauer se livre par ailleurs, dans la Métaphysique de l’amour, à une véritable « psychologie des désirs » ; en essayant de montrer dans quelle mesure « les choix » (d’ordre indissociablement physique et psychique) qui nous poussent vers tel être et pas tel autre témoignent de ce vouloir-vivre qui cherche dans autrui, non pas « le meilleur amant », mais « le meilleur reproducteur », Schopenhauer tend à nous révéler que ce qui parle en nous dans pareil cas, ce n’est pas tant « l’esprit » mais « l’instinct »."
+          }
+        ]
       }
     ]
   },
@@ -1352,6 +1427,22 @@
       {
         "title": "Comment je juge la démocratie",
         "prompt": "Tu n'es pas un grand démocrate. Peux-tu expliquer comment tu juges et interprètes l'idée de démocratie ?"
+      },
+      {
+        "title": "Amor fati",
+        "prompt": "L'idée d'Amor fati est importante dans ta philosophie. Peux-tu expliquer d'où elle vient, et ce qu'elle signifie pour toi dans le cadre de ta pensée ?"
+      },
+      {
+        "title": "Ton approche de la morale",
+        "prompt": "Comment ton approche de la morale diffère-t-elle de celle des philosophes traditionnels ?"
+      },
+      {
+        "title": "Le surhomme",
+        "prompt": "Le concept de surhomme a engendré beaucoup de contresens. Peux-tu expliquer le sens de cette notion pour toi ?"
+      },
+      {
+        "title": "Ton approche de l'art",
+        "prompt": "Comment ton approche de l'esthétique diffère-t-elle de celle des philosophes de l'art, et comment peut-elle être appliquée à la compréhension de la beauté et de l'expression artistique ?"
       }
     ],
     "concepts": [

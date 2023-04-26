@@ -12,11 +12,11 @@ interface Props {
   chatDataJSON: ChatData[]
   setValue:(value: string) => void
   chat: any
-  
+  clear:() => void
 
 }
 
-const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDataJSON, chat }) => {
+const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDataJSON, chat, clear }) => {
 
   //en bas : rajouter id et chatdata
   return (
@@ -32,7 +32,7 @@ const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDa
         id={id}
         chatDataJSON={chatDataJSON} 
         setValue={setValue}
-        
+        clear={clear}
       />
     </div>
   )

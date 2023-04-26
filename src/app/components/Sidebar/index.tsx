@@ -9,13 +9,15 @@ interface Props {
   prompt: (value: string) => void
   updateLink: () => void
   setLink: (value: number[]) => void
+  clear: () => void
   link: number[]
   id: number,
   chatData: ChatData
+  chat:any
 }
 
 
-const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, prompt }) => {
+const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, prompt, clear, chat }) => {
   const [isPromptLibraryDialogOpen, setIsPromptLibraryDialogOpen] = useState(false)
   //const [index, setIndex] = useState(0);  
 
@@ -24,30 +26,29 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, pro
     setIsPromptLibraryDialogOpen(true)
   }, [])
 
-
-
-
-
-
-
   useEffect(() => {
     //console.log("Le update du useeffect sidebar !")
     updateLink
   }, []);
 
-  interface Props2 {
-    link: number[];
-    chatData: ChatData;
-  }
 
 
   function handleclick(link: number[], idLink: number) {
+    //console.log("et là ??")
+
+    //console.log (chat.generating)
+    //if (chat2.generating) chat2.stopGenerating
+    
+
     if (chatData.suggestions.length > 3) { // s'il y a plus de trois suggestions, on fait un roulement
       let newLink = Math.floor(Math.random() * chatData.suggestions.length);
       while (newLink === link[idLink] || link.includes(newLink)) {
         newLink = Math.floor(Math.random() * chatData.suggestions.length);
       }
       link[idLink] = newLink;
+      //console.log("on passe ici")
+      clear
+      //console.log("après le clear")
       setLink(link)
     }
   }
@@ -61,26 +62,7 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, pro
 
   }
 
-  const AfficherLiens: FC<Props2> = ({ link, chatData }) => {
-    return (
-      <div>
-        {link.map((num, index) => (
-          <>
-            <a
-              key={index}
-              onClick={(event) => {
-                handleclick(link, index)
-                prompt(chatData.suggestions[num].prompt)
-              }}
-              className="rounded-[10px] boutons w-full pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20"
-            >
-              <span className="text-white texteBouton font-medium text-sm">{ifShow(num)}</span>
-            </a>
-          </>
-        ))}
-      </div>
-    );
-  };
+  
 
 
   return (
@@ -111,7 +93,28 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, pro
           )}
         </div>
         <div>Demandez-moi...</div>
-        <AfficherLiens link={link} chatData={chatData} />
+        <div>
+        {link.map((num, index) => (
+          <>
+            <a
+              key={index}
+              onClick={(event) => {
+
+                if (!chat.generating) { // si on n'est pas en train d'écrire, alors on y va
+                  
+                //console.log("click ici")
+                handleclick(link, index)
+                prompt(chatData.suggestions[num].prompt)
+                }
+                //setValue(chatData.suggestions[num].prompt)
+              }}
+              className={chat.generating ?  "rounded-[10px] boutons passif w-full pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20" : "rounded-[10px] boutons actif w-full pl-5 flex flex-col justify-center bg-[#F2F2F2] bg-opacity-20" }
+            >
+              <span className="texteBouton font-medium text-sm">{ifShow(num)}</span>
+            </a>
+          </>
+        ))}
+      </div>
       </div>
     </aside>
   )
