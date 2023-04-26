@@ -575,6 +575,30 @@
       {
         "title": "Ce qu'est la liberté",
         "prompt": "Quelle conception te fais-tu de la liberté ?"
+      },
+      {
+        "title": "La cohésion sociale",
+        "prompt": "Comment les hommes peuvent-ils faire société, alors que chacun recherche son intérêt égoïste ?"
+      },
+      {
+        "title": "Le droit du plus fort",
+        "prompt": "Dans l'état de nature, peut-on imaginer que le plus fort des hommes puisse imposer sa domination par la force ?"
+      },
+      {
+        "title": "Le contrat social",
+        "prompt": "Tu parles d'un \"contrat social\", alors que nous n'avons jamais signé d'engagement explicite pour nous soumettre à l'Etat. Quel sens a cet engagement ?"
+      },
+      {
+        "title": "La nature humaine",
+        "prompt": "Comment conçois-tu la nature humaine ?"
+      },
+      {
+        "title": "Les conflits internationaux",
+        "prompt": "En quel sens ta philosophie permet-elle d'éclairer les conflit entre Etats ?"
+      },
+      {
+        "title": "Le Léviathan",
+        "prompt": "Dans ta philosophie politique, tu parles du \"Léviathan\" pour désigner l'Etat. Peux-tu m'expliquer d'où vient cette image, et ce qu'elle signifie précisément pour toi ?"
       }
     ],
     "concepts": [
@@ -626,7 +650,7 @@
     "suggestions": [
       {
         "title": "Ce qu'est la condition humaine",
-        "prompt": "Comment décririez-vous votre vision de la condition humaine ? Quel rôle Dieu y joue-t-il ?"
+        "prompt": "Comment décrirais-tu ta vision de la condition humaine ? Quel rôle Dieu y joue-t-il ?"
       },
       {
         "title": "Ce qu'est le divertissement",
@@ -635,6 +659,22 @@
       {
         "title": "S'il faut croire en Dieu",
         "prompt": "Peux-tu m'expliquer pourquoi tu considères qu'il faut \"parier\" sur l'existence de Dieu ?"
+      },
+      {
+        "title": "Les limites du pari",
+        "prompt": "Tu proposes au lecteur de parier sur l'existence de Dieu. Pourtant, une foi religieuse qui reposerait sur un simple pari raisonnable est-elle satisfaisante ?"
+      },
+      {
+        "title": "Justice et force",
+        "prompt": "Peux-tu m'expliquer la réflexion que tu as menée sur les rapports entre la justice et la force ?"
+      },
+      {
+        "title": "Humilier la raison",
+        "prompt": "Dans tes Pensées, tu affirmes qu'il faut \"humilier la raison\". Après m'avoir rappelé ce que signifie l'idée de raison, peux-tu m'expliquer plus précisément cette affirmation ?"
+      },
+      {
+        "title": "Le sens de la vie",
+        "prompt": "Comment pouvons-nous trouver un sens à notre vie dans un monde si complexe et incertain, et dans une expérience si continue de l'ennui et de la souffrance ?"
       }
     ],
     "concepts": [
@@ -712,6 +752,22 @@
       {
         "title": "Comment trouver le bonheur",
         "prompt": "Explique-moi ton concept de béatitude, et décris-moi précisément les étapes nécessaires pour y parvenir."
+      },
+      {
+        "title": "La superstition",
+        "prompt": "Tu considères que la religion traditionnelle se rapproche souvent dangereusement de la superstition. Peux-tu me préciser tes critiques, et m'expliquer ce que serait d'après toi une approche acceptable de la religion ?"
+      },
+      {
+        "title": "Le fatalisme",
+        "prompt": "Tu dis que toute chose est déterminée à exister et à agir d'une certaine façon déterminée. Est-ce que cela signifie que tout est déjà écrit, et qu'on pourrait se contenter de subir passivement les évènements de notre vie ?"
+      },
+      {
+        "title": "La volonté de Dieu",
+        "prompt": "Tu affirmes que la volonté de Dieu est l'\"asile de l'ignorance\". Peux-tu expliciter cette idée ?"
+      },
+      {
+        "title": "Le conatus",
+        "prompt": "L'idée de conatus est au centre de ta philosophie. Peux-tu expliquer plus précisément le sens de ce concept, et le rôle qu'il tient dans ta conception de la réalité ?"
       }
     ],
     "concepts": [
@@ -769,6 +825,14 @@
       {
         "title": "Quelle est la volonté de Dieu",
         "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
+      },
+      {
+        "title": "Le meilleur des mondes possibles",
+        "prompt": "Tu affirmes que ce monde est le meilleur des mondes possibles. Pourtant, je vois autour de moi des souffrances et des injustices. N'est-ce pas la preuve que ce monde est très imparfait ?"
+      },
+      {
+        "title": "Les monades",
+        "prompt": "Peux-tu m'expliquer ce que signifie ton concept de \"monade\" ?"
       }
     ],
     "concepts": [
@@ -849,6 +913,22 @@
       {
         "title": "Sur quoi repose la morale",
         "prompt": "D'après toi, peut-on justifier rationnellement les principes sur lesquels la morale repose ?"
+      },
+      {
+        "title": "Les fondements de la connaissance",
+        "prompt": "Comment pouvez-vous justifier votre affirmation selon laquelle la connaissance humaine ne peut être fondée que sur l'expérience ? Comment cela affecte-t-il notre compréhension de la réalité et de la vérité ?"
+      },
+      {
+        "title": "Ce qu'est le \"moi\"'",
+        "prompt": "Existe-t-il quelque chose comme un \"moi\" stable et permanent ? "
+      },
+      {
+        "title": "Vouloir la destruction du monde",
+        "prompt": "Dans ton Traité de la Nature Humaine, tu dis la chose suivante : « Il n'est pas contraire à la raison de préférer la destruction du monde entier à l'égratignure de mon doigt ». Qu'est-ce que tu voulais dire par là, et à quelles thèses philosophiques cette affirmation se rapporte-t-elle ?"
+      },
+      {
+        "title": "Le scepticisme modéré",
+        "prompt": "Peux-tu m'expliquer en quoi ton scepticisme diffère du doute cartésien ?"
       }
     ],
     "concepts": [
@@ -880,6 +960,23 @@
       {
         "title": "Ce qu'est le contrat social",
         "prompt": "Peux-tu m'expliquer ce en quoi consiste le \"contrat social\", et le rôle que joue ce concept dans ta philosophie politique ?"
+      },
+      {
+        "title": "L'homme naturellement bon",
+        "prompt": "Tu dis en plusieurs endroits que l'homme est naturellement bon, et en même temps tu te plains souvent de la méchanceté de tes contemporains. N'est-ce pas contradictoire ?"
+      },
+      {
+        "title": "Mon rapport à Hobbes",
+        "prompt": "Peux-tu m'expliquer ce en quoi ta philosophie politique diffère de celle de Thomas Hobbes ?"
+      },
+      {
+        "title": "La définition de la démocratie",
+        "prompt": "Quelle conception te fais-tu de la démocratie ? Pour toi, sommes-nous réellement en démocratie ?"
+      }
+      ,
+      {
+        "title": "La morale",
+        "prompt": "On considère souvent que la morale est une affaire de grands principes, mais tu fais reposer la morale sur la pitié. Explique-moi le sens de ce concept."
       }
     ],
     "concepts": [
@@ -913,6 +1010,19 @@
             "contenu": "- Un intérêt particulier, c’est ce qui m’est directement favorable, en raison de mes caractéristiques personnelles : de mes désirs, de ma situation sociale ou professionnelle, de ma religion, etc. Au contraire, l’intérêt commun désigne ce sur quoi tous les intérêts particuliers s’accordent. L’intérêt commun est contenu dans chaque intérêt particulier, mais il n’est l’intérêt de personne en particulier.\n- La volonté de tous désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à son intérêt particulier. Au contraire, la volonté générale désigne ce qui émerge du vote de tous lorsque chacun vote en pensant à l’intérêt commun.\nLa volonté générale est certes une abstraction, mais elle existe concrètement quand tout le peuple est appelé à voter une loi : la loi est en effet l’acte dans lequel tout le peuple statue pour tout le peuple. Dans la loi, c’est la société qui décide ce qu’elle veut pour elle-même.\nLa volonté générale, c’est donc la volonté de chacun (c’est-à-dire de tout le peuple), qui vise l’intérêt commun, et qui s’exprime dans la loi.\nCe concept est central pour la théorie politique de Rousseau. La liberté est « l’obéissance à la loi qu’on s’est prescrite est liberté ».\nComme la volonté générale est aussi en moi, quand j'obéis à la loi d'un Etat véritablement démocratique et qu'elle exprime donc la volonté générale, je m'obéis en fait à moi-même. Par conséquent, l'obéissance à la loi peut dans ce cas être un acte de liberté."
           }
         ]
+      },
+      {
+        "concept": "la pitié",
+        "mots": [
+          "\\bpitié"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Discours sur l'inégalité",
+            "contenu": "Il est donc bien certain que la pitié est un sentiment naturel qui, modérant dans chaque individu l’activité de l’amour de soi-même, concourt à la conservation mutuelle de toute l’espèce. C’est elle qui nous porte sans réflexion au secours de ceux que nous voyons souffrir : c’est elle qui, dans l’état de nature, tient lieu de lois, de mœurs, et de vertu, avec cet avantage que nul n’est tenté de désobéir à sa douce voix : c’est elle qui détournera tout sauvage robuste d’enlever à un faible enfant, ou à un vieillard infirme, sa subsistance acquise avec peine, si lui-même espère pouvoir trouver la sienne ailleurs : c’est elle qui, au lieu de cette maxime sublime de justice raisonnée, Fais à autrui comme tu veux qu’on te fasse, inspire à tous les hommes cette autre maxime de bonté bien moins naturelle, bien moins parfaite, mais plus utile que la précédente, Fais ton bien avec le moindre mal d’autrui qu’il est possible. C’est, en un mot, dans ce sentiment naturel, plutôt que dans des arguments subtils, qu’il faut chercher la cause de la répugnance que tout homme éprouverait  à mal faire, même indépendamment des maximes de l’éducation. Quoiqu’il puisse appartenir à Socrate et aux esprits de sa trempe, d’acquérir de la vertu par raison, il y a longtemps que le genre humain ne serait plus, si sa conservation n’eût dépendu que des raisonnements de ceux qui le composent."
+          }
+        ]
       }
     ]
   },
@@ -939,6 +1049,30 @@
       {
         "title": "Ce qu'est le beau",
         "prompt": "D'après toi, qu'est-ce que le Beau ? Synthétise-moi les analyses principales de ta Critique de la faculté de Juger."
+      },
+      {
+        "title": "Les fondements de la morale",
+        "prompt": "Tu considères qu'il existe des vérités morales absolues, qui ne dépendent pas de notre culture ou de notre éducation. Explique-moi comment tu justifies ce point."
+      },
+      {
+        "title": "Le beau et le sublime",
+        "prompt": "Quelle différence fais-tu entre l'idée de beau et l'idée de sublime ?"
+      },
+      {
+        "title": "Le vivant",
+        "prompt": "Le vivant peut-il être réduit à une machine ? Explique-moi les propriétés spécifiques que montre tout être vivant."
+      },
+      {
+        "title": "Connaissance et expérience",
+        "prompt": "La connaissance est-elle exclusivement fondée par l'expérience ?"
+      },
+      {
+        "title": "Prouver l'existence de Dieu",
+        "prompt": "D'après toi, est-il possible de prouver rationnellement l'existence de Dieu ?"
+      },
+      {
+        "title": "Histoire universelle",
+        "prompt": "Tu as écris un ouvrage appelé \"Idée d'une histoire universelle au point de vue cosmopolitique\". Peux-tu m'en résumer les principales thèses ?"
       }
     ],
     "concepts": [
@@ -985,6 +1119,20 @@
             "auteur": "sans objet",
             "origine": "studoc",
             "contenu": "On appelle sublime ce qui est grand absolument, au-delà de toute comparaison. On a besoin d’un objet grand quand même comme échelle, qui nécessite lui-même un objet en échelle etc. On a un concept comparatif des grandeurs. Mais quand on appelle quelque chose sublime on s’aperçoit qu’on ne cherche pas de mesure en dehors d’elle-même. C’est une grandeur qui n’est égale qu’à elle-même. Du coup le sublime n’est pas à chercher dans l’objet de la nature mais dans nos idées.En fait : est sublime ce qui en comparaison de quoi toute autre chose est petite. Dans la nature, c’est impossible : si on prend un télescope, on trouvera toujours quelque chose de  plus gros. Donc rien du point de vue des sens ne peut être considéré sublime. Comme il y a une tendance au progrès vers l’infini dans l’imagination, et dans la raison une prétention à la totalité absolue comme une idée réelle, le désaccord entre cette idée et la capacité à évaluer les grandeurs des objets sensible éveille en nous le sentiment d’une faculté suprasensible, et c’est l’usage que le jugement fait de certains objets en vue de ce sentiment qui est grand absolument. Le sublime c’est la disposition d’esprit produite par une certaine représentation, à laquelle s’applique le jugement réfléchissant. Est sublime toute chose qui du seul fait qu’elle est pensée, révèle une faculté de l’âme qui surpasse toute mesure des sens."
+          }
+        ]
+      },
+      {
+        "concept": "#l'histoire universelle'",
+        "mots": [
+          "\\bhistoire universelle",
+          "\\bcosmopolit"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "les-philosphes.fr",
+            "contenu": "Dans son ouvrage \"Idée d'une histoire universelle au point de vue cosmopolitique\", Kant se pose la question suivante : y a-t-il un sens de l’Histoire ? Ou l’Histoire va-t-elle au hasard ?\n\nPour Kant, le hasard n’est qu’apparent. En effet « les actions humaines sont déterminées exactement comme tout autre événement naturel selon les lois universelles de la Nature. »\nOn se souvient en effet que Kant a établi dans la Critique de la Raison Pratique qu’il y a un déterminisme phénoménal, même si la liberté existe comme noumène. L’Histoire n’est autre chose que l’ensemble phénoménal des actions de l’homme, elle relève donc du déterminisme. Ce qui semble désordonné et irrationnel dans l’Histoire du point de vue de l’individu se révèle du point de vue de l’espèce comme un développement progressif et continu, quoique lent, de ses dispositions originelles.\nKant prend deux exemples pour nous faire saisir cet ordre, qui se dissimule sous une irrationalité de surface. Les morts, les naissances et les mariages paraissent se produire de manière irrégulière, par hasard ou selon la volonté fluctuante des hommes. Or des tableaux statistiques montrent qu’ils se produisent finalement selon des lois naturelles constantes. De même, les pluies, bien qu’irrégulières, finissent toujours par être plus ou moins les mêmes sur un territoire donné.\nEn fait, il y a un sens de l’Histoire, que Kant nomme dessein de la Nature, poursuivi « inconsciemment » par les hommes : Les hommes pris individuellement, et même des peuples entiers ne songent guère au fait qu’en poursuivant leurs fins particulières chacun selon son bon plaisir, ils suivent à leur insu, comme un fil conducteur, le dessein de la Nature, qui leur est lui-même inconnu, et travaillent à favoriser sa réalisation. Avec tant d’absurdité et de vice chez chacun, on ne peut supposer aucun dessein personnel raisonnable, mais peut-être un dessein de la Nature."
           }
         ]
       }

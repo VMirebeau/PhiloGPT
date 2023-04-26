@@ -64,23 +64,22 @@ export function useChat(
       let bestConceptSigné = ''
       let bestCountSigné = -1
 
-      function addReference(extrait:Extrait)
-      {
+      function addReference(extrait: Extrait) {
         let reponse = '';
         if (extrait.auteur == 'auto') {
           // si l'extrait vient de l'auteur lui-même
           if (extrait.origine == "sans objet") {
             reponse = 'Tu penses la chose suivante :\n"' + extrait.contenu + '"'
           } else {
-          reponse = 
-            '\n\nDans ' + extrait.origine + ', tu disais la chose suivante :\n"' + extrait.contenu + '"'
+            reponse =
+              '\n\nDans ' + extrait.origine + ', tu disais la chose suivante :\n"' + extrait.contenu + '"'
           }
-          } else if (extrait.auteur == 'sans objet') {
+        } else if (extrait.auteur == 'sans objet') {
           reponse =
-          '\n\nOn peut dire de toi la chose suivante :\n"' + extrait.contenu + '"'
+            '\n\nOn peut dire de toi la chose suivante :\n"' + extrait.contenu + '"'
         } else if (extrait.auteur == 'fiche') {
           reponse =
-          '\n\nJe te demande de comprendre la fiche de révision qui va suivre. Elle commence avec des définitions, des éléments d\'analyse conceptuelle, et présente quelques problèmes centraux.\n' + extrait.contenu
+            '\n\nJe te demande de comprendre la fiche de révision qui va suivre. Elle commence avec des définitions, des éléments d\'analyse conceptuelle, et présente quelques problèmes centraux.\n' + extrait.contenu
         } else {
           reponse =
             '\n\nDans ' +
@@ -290,6 +289,7 @@ export function useChat(
   )
 
   const resetConversation = useCallback(() => {
+    stopGenerating
     setIsLoaded(false)
     chatState.bot.resetConversation()
     setChatState((draft) => {
@@ -309,14 +309,18 @@ export function useChat(
     [setChatState],
   )
 
-  const stopGenerating = useCallback(() => {
+  const stopGenerating = useCallback((noUpdate?: boolean) => {
     chatState.abortController?.abort()
-    if (chatState.generatingMessageId) {
-      updateMessage(chatState.generatingMessageId, (message) => {
-        if (!message.text && !message.error) {
-          message.text = '[Requête annulée. Rechargez la page en cas de problème.]'
-        }
-      })
+    console.log("On arrête !")
+    if (!noUpdate) {
+      console.log("On passe ici")
+      if (chatState.generatingMessageId) {
+        updateMessage(chatState.generatingMessageId, (message) => {
+          if (!message.text && !message.error) {
+            message.text = '[Requête annulée. Rechargez la page en cas de problème.]'
+          }
+        })
+      }
     }
     setChatState((draft) => {
       draft.generatingMessageId = ''

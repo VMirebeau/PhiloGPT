@@ -6,6 +6,7 @@ import { ChatData } from '~app/consts'
 
 interface Props {
   setValue: (value: string) => void
+  prompt: (value: string) => void
   updateLink: () => void
   setLink: (value: number[]) => void
   link: number[]
@@ -14,18 +15,15 @@ interface Props {
 }
 
 
-const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink }) => {
+const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, prompt }) => {
   const [isPromptLibraryDialogOpen, setIsPromptLibraryDialogOpen] = useState(false)
-
+  //const [index, setIndex] = useState(0);  
 
 
   const openPromptLibrary = useCallback(() => {
     setIsPromptLibraryDialogOpen(true)
   }, [])
 
-  function prompt(txt: string) {
-    setValue(txt)
-  }
 
 
 
@@ -108,7 +106,7 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink }) =
               onClose={() => setIsPromptLibraryDialogOpen(false)}
               id={chatData.id}
               chatData={chatData}
-              setValue={setValue}
+              setPrompt={prompt}
             />
           )}
         </div>

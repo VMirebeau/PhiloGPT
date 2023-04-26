@@ -7,7 +7,7 @@ interface Props {
   id: number
   onClose: () => void
   chatData: ChatData
-  setValue: (value: string) => void
+  setPrompt: (value: string) => void
 }
 
 const InfoDialog = (props: Props) => {
@@ -17,7 +17,7 @@ const InfoDialog = (props: Props) => {
 
   function prompt(txt: string) {
     props.onClose()
-    props.setValue(txt)
+    props.setPrompt(txt)
   }
 
   function isFirstCharHash(str: string): boolean {

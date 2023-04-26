@@ -21,7 +21,29 @@ const Layout:FC<Props> = ({ id }) => {
   const [link, setLink] = useState<number[]>([]);
 
   const [hash, setHash] = useState(window.location.hash);
+  let index = 0
 
+  function prompt(promptArg: string) {
+    if (!chat.generating)
+    {
+    index = 0
+    //chat.generating = true
+     const interval = setInterval(() => {
+      if (!chat.generating) {
+       if (index > promptArg.length) {
+         clearInterval(interval);
+         //chat.generating = false
+         return;
+       }
+       setValue(promptArg.slice(0, index++));
+      } else { // cas où on clique sur "Envoyer" pendant que prompt se déroule
+        clearInterval(interval);
+        setValue('')
+        return;
+      }
+     }, 8);
+    }
+ }
 
   const generateNumber = (existingNumbers: number[]) => {
     const n = chatDataJSON[id].suggestions.length
@@ -47,8 +69,14 @@ const Layout:FC<Props> = ({ id }) => {
     updateLink()
     chat.addBotMessage(chatDataJSON[id].greeting)
     const handleHashChange = () => {
-      if (window.location.hash !== hash) {
-        setHash(window.location.hash);
+      if (window.location.hash !== hash) { // quand on passe à un nouveau philosophe
+        console.log("changement de hash")
+        //if (chat.generating) {
+          //console.log("le chat est en génération")
+          //chat.stopGenerating // s'il y avait un message en cours, on l'arrête
+        //}
+          setHash(window.location.hash);
+
         //console.log(hash, window.location.hash)
         let newId = Number(window.location.hash.match(/id\/(\d+)$/)?.[1])
         chat.resetConversation() // créer une fonction dans chat pour créer un premier message
@@ -72,7 +100,7 @@ const Layout:FC<Props> = ({ id }) => {
   return (
     <div className="bg-[#76777f] h-screen py-3 px-3">
       <main className="grid grid-cols-[min(20%,250px)_1fr] h-full bg-[#ffffff66] rounded-[40px] max-w-[1400px] mx-auto backdrop-blur-2xl pl-5 py-4 pr-4">
-      <div><Sidebar setValue={setValue} id={id} chatData={chatData} link={link} setLink={setLink} updateLink={updateLink}/></div>
+      <div><Sidebar setValue={setValue} id={id} chatData={chatData} link={link} setLink={setLink} updateLink={updateLink} prompt={prompt}/></div>
         <Outlet />
       <SingleBotChatPanel botId={"chatgpt" as BotId} id={id as number} inputValue={value} chatDataJSON={chatDataJSON} setValue={setValue}  chat={chat}/>
         
