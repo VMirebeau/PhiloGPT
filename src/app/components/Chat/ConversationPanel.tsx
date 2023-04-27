@@ -32,7 +32,9 @@ interface Props {
   setValue:(value: string) => void;
   mode?: 'full' | 'compact'
   index?: number
-  clear:()=>void
+  clear:(intervalToClose:NodeJS.Timer | undefined) => void
+    intervalToClose:NodeJS.Timer | undefined
+
 }
 
 function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -64,7 +66,7 @@ const ConversationPanel: FC<Props> = (props) => {
 
   const onSubmit = useCallback(
     async (input: string) => {
-      props.clear
+      props.clear(props.intervalToClose)
       props.onUserSendMessage(input as string, props.botId)
     },
     [props],
@@ -141,6 +143,8 @@ const ConversationPanel: FC<Props> = (props) => {
             disabled={props.generating}
             placeholder={mode === 'compact' ? '' : 'Posez votre question...'}
             onSubmit={onSubmit}
+            clear={props.clear}
+            intervalToClose={props.intervalToClose}
             autoFocus={mode === 'full'}
             inputValue={props.inputValue}
             setValue={props.setValue}

@@ -12,11 +12,11 @@ interface Props {
   chatDataJSON: ChatData[]
   setValue:(value: string) => void
   chat: any
-  clear:() => void
-
+  clear:(intervalToClose:NodeJS.Timer | undefined) => void
+  intervalToClose:NodeJS.Timer | undefined
 }
 
-const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDataJSON, chat, clear }) => {
+const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDataJSON, chat, clear, intervalToClose }) => {
 
   //en bas : rajouter id et chatdata
   return (
@@ -33,6 +33,7 @@ const SingleBotChatPanel: FC<Props> = ({ botId, inputValue, setValue, id, chatDa
         chatDataJSON={chatDataJSON} 
         setValue={setValue}
         clear={clear}
+        intervalToClose={intervalToClose}
       />
     </div>
   )

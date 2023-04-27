@@ -309,7 +309,19 @@ export function useChat(
     [setChatState],
   )
 
+  function stopAll() {
+    console.log ("top !")
+    /*const abortController = new AbortController()
+      setChatState((draft) => {
+        draft.generatingMessageId = botMessageId
+        draft.abortController = abortController
+      })*/
+    console.log (chatState.abortController)
+    chatState.abortController?.abort()
+  }
+
   const stopGenerating = useCallback((noUpdate?: boolean) => {
+    console.log("stop ici !")
     chatState.abortController?.abort()
     console.log("On arrête !")
     if (!noUpdate) {
@@ -349,8 +361,9 @@ export function useChat(
       addBotMessage,
       generating: !!chatState.generatingMessageId,
       stopGenerating,
+      stopAll,
     }),
-    [botId, chatState.generatingMessageId, chatState.messages, resetConversation, sendMessage, stopGenerating],
+    [botId, chatState.generatingMessageId, chatState.messages, resetConversation, sendMessage, stopGenerating, stopAll],
   )
 
   return chat

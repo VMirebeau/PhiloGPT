@@ -9,15 +9,16 @@ interface Props {
   prompt: (value: string) => void
   updateLink: () => void
   setLink: (value: number[]) => void
-  clear: () => void
+  clear: (intervalToClose:NodeJS.Timer | undefined) => void
   link: number[]
   id: number,
   chatData: ChatData
   chat:any
+  intervalToClose:NodeJS.Timer | undefined
 }
 
 
-const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, prompt, clear, chat }) => {
+const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, prompt, clear, chat, intervalToClose }) => {
   const [isPromptLibraryDialogOpen, setIsPromptLibraryDialogOpen] = useState(false)
   //const [index, setIndex] = useState(0);  
 
@@ -33,7 +34,7 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, pro
 
 
 
-  function handleclick(link: number[], idLink: number) {
+  function handleclick(link: number[], idLink: number, intervalToClose: NodeJS.Timer | undefined) {
     //console.log("et là ??")
 
     //console.log (chat.generating)
@@ -47,7 +48,7 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, pro
       }
       link[idLink] = newLink;
       //console.log("on passe ici")
-      clear
+      clear(intervalToClose)
       //console.log("après le clear")
       setLink(link)
     }
@@ -103,7 +104,7 @@ const Sidebar: FC<Props> = ({ setValue, chatData, setLink, link, updateLink, pro
                 if (!chat.generating) { // si on n'est pas en train d'écrire, alors on y va
                   
                 //console.log("click ici")
-                handleclick(link, index)
+                handleclick(link, index, intervalToClose)
                 prompt(chatData.suggestions[num].prompt)
                 }
                 //setValue(chatData.suggestions[num].prompt)

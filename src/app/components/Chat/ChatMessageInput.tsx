@@ -16,6 +16,8 @@ interface Props {
   autoFocus?: boolean
   inputValue: string
   setValue: (value: string) => void;
+  clear:(intervalToClose:NodeJS.Timer | undefined) => void
+    intervalToClose:NodeJS.Timer | undefined
 }
 
 const ChatMessageInput: FC<Props> = (props) => {
@@ -57,6 +59,10 @@ const ChatMessageInput: FC<Props> = (props) => {
     setIsPromptLibraryDialogOpen(true)
   }, [])
 
+  /*function handleClick(intervalToClose:NodeJS.Timer | undefined) {
+  props.clear
+}*/
+
   return (
     <form className={cx('flex flex-row items-center gap-3', props.className)} onSubmit={onFormSubmit} ref={formRef}>
       <TextInput
@@ -67,7 +73,7 @@ const ChatMessageInput: FC<Props> = (props) => {
         placeholder={props.placeholder}
         value={props.inputValue}
         onValueChange={props.setValue}
-      />
+              />
       {props.actionButton || (
         <Button text="-" className="invisible" size={props.mode === 'full' ? 'normal' : 'small'} />
       )}
