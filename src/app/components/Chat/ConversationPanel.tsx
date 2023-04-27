@@ -15,6 +15,7 @@ import ChatMessageInput from './ChatMessageInput'
 import ChatMessageList from './ChatMessageList'
 import { GoBook } from 'react-icons/go'
 import PromptLibraryDialog from '../PromptLibrary/Dialog'
+import Browser from 'webextension-polyfill'
 
 
 
@@ -106,6 +107,10 @@ const ConversationPanel: FC<Props> = (props) => {
 
       };
   }, [props]);*/
+
+  function getVersion() { // pas affiché pour ne pas complexifier l'interface
+    return Browser.runtime.getManifest().version
+  }
 
   return (
     <ConversationContext.Provider value={context}>
