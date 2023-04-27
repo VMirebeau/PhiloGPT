@@ -289,7 +289,7 @@ export function useChat(
   )
 
   const resetConversation = useCallback(() => {
-    stopGenerating
+    stopGenerating()
     setIsLoaded(false)
     chatState.bot.resetConversation()
     setChatState((draft) => {
@@ -310,22 +310,23 @@ export function useChat(
   )
 
   function stopAll() {
-    console.log ("top !")
+    //console.log("top !")
     /*const abortController = new AbortController()
       setChatState((draft) => {
         draft.generatingMessageId = botMessageId
         draft.abortController = abortController
       })*/
-    console.log (chatState.abortController)
-    chatState.abortController?.abort()
+    //console.log(chatState.abortController)
+    //chatState.abortController?.abort()
   }
 
   const stopGenerating = useCallback((noUpdate?: boolean) => {
-    console.log("stop ici !")
+    //console.log("stop ici !")
+    //console.log(chatState.abortController)
     chatState.abortController?.abort()
-    console.log("On arrête !")
+    //console.log("On arrête !")
     if (!noUpdate) {
-      console.log("On passe ici")
+      //console.log("On passe ici")
       if (chatState.generatingMessageId) {
         updateMessage(chatState.generatingMessageId, (message) => {
           if (!message.text && !message.error) {

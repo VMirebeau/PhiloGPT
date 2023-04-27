@@ -16,20 +16,20 @@ function injectTip() {
 }
 
 async function main() {
-  console.log("hello")
+  //console.log("hello")
   Browser.runtime.onMessage.addListener(async (message) => {
-    console.log("on passe ici")
+    //console.log("on passe ici")
     if (message === 'url') {
       return location.href
     }
   })
   if ((window as any).__NEXT_DATA__) {
-    console.log("puis là")
+    //console.log("puis là")
     await Browser.runtime.sendMessage({ event: 'PROXY_TAB_READY' })
     injectTip()
   }
 }
 
-console.log("Démarrage de la page")
+//console.log("Démarrage de la page")
 setupProxyExecutor()
 main().catch(console.error)

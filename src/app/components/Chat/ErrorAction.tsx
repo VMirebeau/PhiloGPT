@@ -21,11 +21,11 @@ const ChatGPTAuthErrorAction = () => {
       setFixing(false)
     }
     setFixed(true)
-    console.log("On setFixed true !")
+    //console.log("On setFixed true !")
   }, [])
 
   if (fixed) {
-    console.log("Réparé")
+    //console.log("Réparé")
     return <MessageBubble color="flat" id={-1}>C'est réparé, réessayez le chat !</MessageBubble>
   }
   return (

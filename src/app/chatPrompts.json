@@ -88,7 +88,7 @@
     "nom": "Platon",
     "nom_complet": "Platon",
     "categorie": "Antiquité",
-    "infos":"<b>Platon</b> était l’un des plus grands penseurs de l’histoire de la philosophie occidentale. Ce <b>disciple de Socrate</b> a écrit de nombreux dialogues philosophiques où sont explorées les idées de justice, de vérité, de beauté et de réalité. Il a également fondé <b>l’Académie</b> à Athènes, qui est considérée comme la première institution d’enseignement supérieur en Occident.",
+    "infos": "<b>Platon</b> était l’un des plus grands penseurs de l’histoire de la philosophie occidentale. Ce <b>disciple de Socrate</b> a écrit de nombreux dialogues philosophiques où sont explorées les idées de justice, de vérité, de beauté et de réalité. Il a également fondé <b>l’Académie</b> à Athènes, qui est considérée comme la première institution d’enseignement supérieur en Occident.",
     "lieu": "Grèce",
     "dates": "De -428 à -348",
     "greeting": "Bienvenue à toi. Si tu veux m'entretenir de philosophie ou de mathématiques, rien ne me ferait plus plaisir.",
@@ -130,7 +130,8 @@
       {
         "title": "Ce qu'est l'amour",
         "prompt": "Comment définirais-tu l'amour ? Est-ce quelque chose qui peut être compris de manière rationnelle ?"
-      },{
+      },
+      {
         "title": "Ce qu'est la sagesse",
         "prompt": "D'après toi, qu'est-ce qui distingue le sage des autres hommes ?"
       },
@@ -409,7 +410,7 @@
     "id": 4,
     "nom": "Epictète",
     "nom_complet": "Epictète",
-    "infos":"<b>Epictète</b> est un des fondateurs de l’<b>école stoïcienne</b>. Il a écrit sur une grande variété de sujets, notamment la <b>morale</b>, l’<b>éthique</b> et la <b>logique</b> ; il est surtout connu pour sa conception du <b>bonheur</b>, qu'il fait dépendre du contrôle de nos représentations. Il a a fondé une école à <b>Nicopolis</b>, en Grèce.",
+    "infos": "<b>Epictète</b> est un des fondateurs de l’<b>école stoïcienne</b>. Il a écrit sur une grande variété de sujets, notamment la <b>morale</b>, l’<b>éthique</b> et la <b>logique</b> ; il est surtout connu pour sa conception du <b>bonheur</b>, qu'il fait dépendre du contrôle de nos représentations. Il a a fondé une école à <b>Nicopolis</b>, en Grèce.",
     "categorie": "Antiquité",
     "lieu": "Turquie",
     "dates": "50-130",
@@ -467,7 +468,7 @@
     "id": 5,
     "nom": "Descartes",
     "nom_complet": "René Descartes",
-    "infos":"<b>Descartes</b> était un philosophe et mathématicien français du XVIIe siècle. Il est surtout connu pour sa philosophie du <b>doute méthodique</b> et pour sa célèbre phrase <b>“Je pense, donc je suis”</b>. Il a également écrit sur la <b>métaphysique</b>, <b>l’éthique</b> et la <b>physique</b>. On le considère comme l’un des fondateurs de la philosophie moderne.",
+    "infos": "<b>Descartes</b> était un philosophe et mathématicien français du XVIIe siècle. Il est surtout connu pour sa philosophie du <b>doute méthodique</b> et pour sa célèbre phrase <b>“Je pense, donc je suis”</b>. Il a également écrit sur la <b>métaphysique</b>, <b>l’éthique</b> et la <b>physique</b>. On le considère comme l’un des fondateurs de la philosophie moderne.",
     "categorie": "Classiques",
     "lieu": "France",
     "dates": "1596-1650",
@@ -556,7 +557,7 @@
     "id": 6,
     "nom": "Hobbes",
     "nom_complet": "Thomas Hobbes",
-    "infos":"<b>Hobbes</b> est l’un des fondateurs de la philosophie politique moderne. Il est surtout connu pour son livre <i>Léviathan</i>, dans lequel il décrit sa <b>théorie de l’État</b> et de la <b>société</b>. Selon Hobbes, les êtres humains ont besoin d’un <b>gouvernement fort</b> pour maintenir l’ordre et la sécurité.",
+    "infos": "<b>Hobbes</b> est l’un des fondateurs de la philosophie politique moderne. Il est surtout connu pour son livre <i>Léviathan</i>, dans lequel il décrit sa <b>théorie de l’État</b> et de la <b>société</b>. Selon Hobbes, les êtres humains ont besoin d’un <b>gouvernement fort</b> pour maintenir l’ordre et la sécurité.",
     "categorie": "Classiques",
     "lieu": "Angleterre",
     "dates": "1588-1679",
@@ -640,7 +641,7 @@
     "id": 7,
     "nom": "Pascal",
     "nom_complet": "Blaise Pascal",
-    "infos":"<b>Blaise Pascal</b> était un mathématicien, physicien et philosophe français du XVIIe siècle. Pascal est surtout connu pour sa contribution à la <b>théorie des probabilités</b> et pour son travail sur les <b>fluides</b>. Il a également écrit sur la <b>religion</b> et la <b>philosophie</b>, notamment dans son livre posthume <i>Pensées</i>.",
+    "infos": "<b>Blaise Pascal</b> était un mathématicien, physicien et philosophe français du XVIIe siècle. Pascal est surtout connu pour sa contribution à la <b>théorie des probabilités</b> et pour son travail sur les <b>fluides</b>. Il a également écrit sur la <b>religion</b> et la <b>philosophie</b>, notamment dans son livre posthume <i>Pensées</i>.",
     "categorie": "Classiques",
     "lieu": "France",
     "dates": "1623-1662",
@@ -733,7 +734,7 @@
     "id": 8,
     "nom": "Spinoza",
     "nom_complet": "Baruch Spinoza",
-    "infos":"<b>Baruch Spinoza</b> est surtout connu pour son livre <i>Éthique</i>, dans lequel il décrit sa <b>philosophie de la nature</b> et de <b>Dieu</b>. Selon Spinoza, Dieu est présent dans toutes les choses et toutes les choses sont une partie de Dieu. Il a également écrit sur la <b>politique</b> et la <b>religion</b>.",
+    "infos": "<b>Baruch Spinoza</b> est surtout connu pour son livre <i>Éthique</i>, dans lequel il décrit sa <b>philosophie de la nature</b> et de <b>Dieu</b>. Selon Spinoza, Dieu est présent dans toutes les choses et toutes les choses sont une partie de Dieu. Il a également écrit sur la <b>politique</b> et la <b>religion</b>.",
     "categorie": "Classiques",
     "lieu": "Hollande",
     "dates": "1632-1677",
@@ -806,7 +807,7 @@
     "id": 9,
     "nom": "Leibniz",
     "nom_complet": "Gottfried Wilhelm Leibniz",
-    "infos":"<b>Leibniz</b> était un <b>philosophe</b>, <b>mathématicien</b> et <b>scientifique</b> allemand du XVIIe siècle. Leibniz est surtout connu pour son travail sur le <b>calcul infinitésimal</b> et pour son concept de <b>monade</b>. Il a également écrit sur la <b>philosophie</b>, la <b>théologie</b> et la <b>politique</b>.",
+    "infos": "<b>Leibniz</b> était un <b>philosophe</b>, <b>mathématicien</b> et <b>scientifique</b> allemand du XVIIe siècle. Leibniz est surtout connu pour son travail sur le <b>calcul infinitésimal</b> et pour son concept de <b>monade</b>. Il a également écrit sur la <b>philosophie</b>, la <b>théologie</b> et la <b>politique</b>.",
     "categorie": "Classiques",
     "lieu": "Allemagne",
     "dates": "1646-1716",
@@ -894,7 +895,7 @@
     "id": 10,
     "nom": "Hume",
     "nom_complet": "David Hume",
-    "infos":"<b>David Hume</b> était un <b>philosophe</b> et <b>historien</b> écossais du XVIIIe siècle. Il est surtout connu pour son <b>scepticisme</b> philosophique et pour son travail sur la <b>causalité</b> et <b>l’induction</b>. Il a également écrit sur la <b>religion</b>, la <b>morale</b> et la <b>politique</b>.",
+    "infos": "<b>David Hume</b> était un <b>philosophe</b> et <b>historien</b> écossais du XVIIIe siècle. Il est surtout connu pour son <b>scepticisme</b> philosophique et pour son travail sur la <b>causalité</b> et <b>l’induction</b>. Il a également écrit sur la <b>religion</b>, la <b>morale</b> et la <b>politique</b>.",
     "categorie": "Modernes",
     "lieu": "Ecosse",
     "dates": "1711-1776",
@@ -942,7 +943,7 @@
     "nom": "Rousseau",
     "nom_complet": "Jean-Jacques Rousseau",
     "categorie": "Modernes",
-    "infos":"<b>Jean-Jacques Rousseau</b> était un <b>philosophe</b>, <b>écrivain</b> et <b>musicien</b> suisse du XVIIIe siècle. Rousseau est surtout connu pour son travail sur la <b>politique</b> et la <b>philosophie de l’éducation</b>. Il a également écrit sur la <b>musique</b> et la <b>littérature</b>.",
+    "infos": "<b>Jean-Jacques Rousseau</b> était un <b>philosophe</b>, <b>écrivain</b> et <b>musicien</b> suisse du XVIIIe siècle. Rousseau est surtout connu pour son travail sur la <b>politique</b> et la <b>philosophie de l’éducation</b>. Il a également écrit sur la <b>musique</b> et la <b>littérature</b>.",
     "lieu": "France",
     "dates": "1712-1778",
     "greeting": "Bienvenue, cher ami. Je suis Jean-Jacques Rousseau ; je serais ravi de m'entrenir avec toi des questions qui touchent à l'homme et aux sociétés humaines.",
@@ -972,8 +973,7 @@
       {
         "title": "La définition de la démocratie",
         "prompt": "Quelle conception te fais-tu de la démocratie ? Pour toi, sommes-nous réellement en démocratie ?"
-      }
-      ,
+      },
       {
         "title": "La morale",
         "prompt": "On considère souvent que la morale est une affaire de grands principes, mais tu fais reposer la morale sur la pitié. Explique-moi le sens de ce concept."
@@ -1031,7 +1031,7 @@
     "nom": "Kant",
     "nom_complet": "Emmanuel Kant",
     "categorie": "Modernes",
-    "infos":"<b>Emmanuel Kant</b> est considéré comme <b>l’un des penseurs les plus influents</b> de l’histoire de la philosophie occidentale. Il aborde la question de la <b>science moderne</b> dans sa <i>Critique de la raison pure</i>, celle de la <b>morale</b> dans sa <i>Critique de la raison pratique</i>. L'<b>art</b> et le <b>vivant</b> sont abordés dans sa <i>Critique de la faculté de juger</i>.",
+    "infos": "<b>Emmanuel Kant</b> est considéré comme <b>l’un des penseurs les plus influents</b> de l’histoire de la philosophie occidentale. Il aborde la question de la <b>science moderne</b> dans sa <i>Critique de la raison pure</i>, celle de la <b>morale</b> dans sa <i>Critique de la raison pratique</i>. L'<b>art</b> et le <b>vivant</b> sont abordés dans sa <i>Critique de la faculté de juger</i>.",
     "lieu": "Allemagne",
     "dates": "1724-1804",
     "greeting": "C'est un plaisir de vous recevoir chez moi à Königsberg. Que me vaut l'honneur de votre visite ?",
@@ -1143,7 +1143,7 @@
     "nom": "Hegel",
     "nom_complet": "Georg Wilhelm Friedrich Hegel",
     "categorie": "Modernes",
-    "infos":"<b>Hegel</b> était un philosophe allemand du XIXe siècle. Il a développé une philosophie complexe qui a influencé de nombreux domaines, notamment la <b>politique</b>, la <b>religion</b> et <b>l’esthétique</b>. Il est surtout connu pour sa théorie de la <b>dialectique</b>, qui est une méthode de raisonnement qui implique la résolution des contradictions entre les idées opposées.",
+    "infos": "<b>Hegel</b> était un philosophe allemand du XIXe siècle. Il a développé une philosophie complexe qui a influencé de nombreux domaines, notamment la <b>politique</b>, la <b>religion</b> et <b>l’esthétique</b>. Il est surtout connu pour sa théorie de la <b>dialectique</b>, qui est une méthode de raisonnement qui implique la résolution des contradictions entre les idées opposées.",
     "lieu": "Allemagne",
     "dates": "1770-1831",
     "greeting": "Bienvenue, ami. Je ferai mon possible pour répondre à tes questions.",
@@ -1214,7 +1214,7 @@
     "nom": "Marx",
     "nom_complet": "Karl Marx",
     "categorie": "Modernes",
-    "infos":"<b>Karl Marx</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa conceptualisation économique et politique du <b>communisme</b>. Marx a développé une analyse critique du <b>capitalisme</b> qui a influencé de nombreux mouvements politiques et sociaux dans le monde entier. Parmi ses œuvres les plus célèbres figurent <i>Le Manifeste du Parti communiste</i> et <i>Le Capital</i>.",
+    "infos": "<b>Karl Marx</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa conceptualisation économique et politique du <b>communisme</b>. Marx a développé une analyse critique du <b>capitalisme</b> qui a influencé de nombreux mouvements politiques et sociaux dans le monde entier. Parmi ses œuvres les plus célèbres figurent <i>Le Manifeste du Parti communiste</i> et <i>Le Capital</i>.",
     "lieu": "Allemagne",
     "dates": "1818-1883",
     "greeting": "Bonjour, camarade. Je préférerais te voir protester contre la politique du gouvernement plutôt que de discuter avec des philosophes, mais soit ; que puis-je faire pour toi ?",
@@ -1311,7 +1311,7 @@
     "nom": "Schopenhauer",
     "nom_complet": "Arthur Schopenhauer",
     "categorie": "Modernes",
-    "infos":"<b>Arthur Schopenhauer</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa philosophie <b>pessimiste</b> et sa critique de la philosophie de Hegel. Schopenhauer a développé une théorie de la <b>volonté</b> qui a influencé de nombreux philosophes et écrivains, notamment <b>Friedrich Nietzsche</b>. Son œuvre la plus célèbre est <i>Le Monde comme volonté et comme représentation</i>.",
+    "infos": "<b>Arthur Schopenhauer</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa philosophie <b>pessimiste</b> et sa critique de la philosophie de Hegel. Schopenhauer a développé une théorie de la <b>volonté</b> qui a influencé de nombreux philosophes et écrivains, notamment <b>Friedrich Nietzsche</b>. Son œuvre la plus célèbre est <i>Le Monde comme volonté et comme représentation</i>.",
     "lieu": "Allemagne",
     "dates": "1788-1860",
     "greeting": "Je t'écoute. J'espère que ce que tu as à dire vaut le temps que tu me coûtes.",
@@ -1374,7 +1374,8 @@
             "contenu": "Hegel est un charlatan plat, sans esprit, répugnant, ignorant, dont la philosophie est une colossale mystification. Elle constitue le verbiage le plus creux, le galimatias le plus stupide qui ait jamais été entendu, du moins en dehors de maisons de fous. Ce verbiage pompeux, qui produit le plus grand encrassement possible des intelligences, n'a valu à son auteur qu'une gloire mensongère, captée, achetée, produit d'un tissu de faussetés."
           }
         ]
-      },{
+      },
+      {
         "concept": "#libre-arbitre",
         "mots": [
           "\\bliberté",
@@ -1409,7 +1410,7 @@
     "nom": "Nietzsche",
     "nom_complet": "Friedrich Nietzsche",
     "categorie": "Modernes",
-    "infos":"<b>Friedrich Nietzsche</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa critique de la <b>religion</b> et de la <b>morale chrétienne</b>, ainsi que pour sa théorie de la <b>volonté de puissance</b>. Il a influencé de nombreux philosophes et écrivains, notamment <b>Martin Heidegger</b> et <b>Michel Foucault</b>. Parmi ses œuvres les plus célèbres figurent <i>Ainsi parlait Zarathoustra</i> et <i>Le Gai Savoir</i>.",
+    "infos": "<b>Friedrich Nietzsche</b> était un philosophe allemand du XIXe siècle. Il est surtout connu pour sa critique de la <b>religion</b> et de la <b>morale chrétienne</b>, ainsi que pour sa théorie de la <b>volonté de puissance</b>. Il a influencé de nombreux philosophes et écrivains, notamment <b>Martin Heidegger</b> et <b>Michel Foucault</b>. Parmi ses œuvres les plus célèbres figurent <i>Ainsi parlait Zarathoustra</i> et <i>Le Gai Savoir</i>.",
     "lieu": "Allemagne",
     "dates": "1844-1900",
     "greeting": "Qu'ai-je face à moi, un singe ou un Dieu ? Parle, voyageur, et philosophons ensemble.",
@@ -1512,7 +1513,7 @@
     "nom": "Freud",
     "nom_complet": "Sigmund Freud",
     "categorie": "Contemporains",
-    "infos":"<b>Sigmund Freud</b> était un neurologue autrichien du XIXe siècle. Il est surtout connu pour sa théorie de la <b>psychanalyse</b>, qui a influencé de nombreux domaines de la <b>psychologie</b> et de la <b>culture populaire</b>. Freud a développé des concepts tels que <b>l’inconscient</b>, le <b>complexe d’Œdipe</b> et la <b>libido</b>. Parmi ses œuvres les plus célèbres figurent <i>L’Interprétation des rêves</i> et <i>Introduction à la psychanalyse</i>.",
+    "infos": "<b>Sigmund Freud</b> était un neurologue autrichien du XIXe siècle. Il est surtout connu pour sa théorie de la <b>psychanalyse</b>, qui a influencé de nombreux domaines de la <b>psychologie</b> et de la <b>culture populaire</b>. Freud a développé des concepts tels que <b>l’inconscient</b>, le <b>complexe d’Œdipe</b> et la <b>libido</b>. Parmi ses œuvres les plus célèbres figurent <i>L’Interprétation des rêves</i> et <i>Introduction à la psychanalyse</i>.",
     "lieu": "Autriche",
     "dates": "1856-1939",
     "greeting": "Allongez-vous sur ce divan et détendez-vous. Bien, quel est votre problème ?",
@@ -1530,6 +1531,30 @@
       {
         "title": "Comment notre esprit nous protège",
         "prompt": "Peux-tu m'expliquer la notion de \"mécanismes de défense\", et leur rôle dans la psychologie humaine ?"
+      },
+      {
+        "title": "Comment explorer l'inconscient",
+        "prompt": "Si l'inconscient désigne ce qui demeure caché au sujet lui-même, comment pouvons-nous savoir ce qu'il contient ?"
+      },
+      {
+        "title": "L'interprétation des rêves",
+        "prompt": "Si l'inconscient désigne ce qui demeure caché au sujet lui-même, comment pouvons-nous savoir ce qu'il contient ?"
+      },
+      {
+        "title": "Comment explorer l'inconscient",
+        "prompt": "Comment la psychanalyse explique-t-elle la nature des rêves et leur fonction dans la psyché humaine ?"
+      },
+      {
+        "title": "Traumas de l'enfance",
+        "prompt": "Quelle est l'importance de l'enfance dans la formation de la personnalité et comment peut-on remédier aux traumatismes de l'enfance ?"
+      },
+      {
+        "title": "La création artistique",
+        "prompt": "Comment la théorie de la psychanalyse peut-elle être appliquée dans le domaine de la culture et de l'art, notamment dans la compréhension des œuvres d'art et de la création artistique en général ?"
+      },
+      {
+        "title": "Hypnose",
+        "prompt": "Tu as commencé en t'appuyant sur l'hypnose, puis tu as peu à peu abandonné cette pratique. Peux-tu m'expliquer pourquoi ?"
       }
     ],
     "concepts": [
@@ -1595,7 +1620,7 @@
     "nom": "Heidegger",
     "nom_complet": "Martin Heidegger",
     "categorie": "Contemporains",
-    "infos":"<b>Martin Heidegger</b> était un philosophe allemand du XXe siècle. Il est surtout connu pour sa <b>philosophie de l’existence</b> et sa critique de la <b>métaphysique</b>. Heidegger a développé des concepts tels que le <b>Dasein</b> et <b>l'angoisse</b>. Parmi ses œuvres les plus célèbres figurent <i>Être et Temps</i> et <i>La Question de la technique</i>. Sur un plan politique, il faut noter que Heidegger a collaboré activement avec le parti nazi.",
+    "infos": "<b>Martin Heidegger</b> était un philosophe allemand du XXe siècle. Il est surtout connu pour sa <b>philosophie de l’existence</b> et sa critique de la <b>métaphysique</b>. Heidegger a développé des concepts tels que le <b>Dasein</b> et <b>l'angoisse</b>. Parmi ses œuvres les plus célèbres figurent <i>Être et Temps</i> et <i>La Question de la technique</i>. Sur un plan politique, il faut noter que Heidegger a collaboré activement avec le parti nazi.",
     "lieu": "Allemagne",
     "dates": "1889-1976",
     "greeting": "Salutations, voyageur. Je suis ici pour explorer avec toi les questions fondamentales de l'existence et de la condition humaine.",
@@ -1613,6 +1638,18 @@
       {
         "title": "Ce qu'est la vérité",
         "prompt": "Peux-tu m'expliquer la façon dont tu conçois la vérité ? Et plus particulièrement, dans quelle mesure l'art nous permet-il d'y accéder ?"
+      },
+      {
+        "title": "La question de la technique",
+        "prompt": "Comment ta pensée aborde-t-elle la question de la technique, et comment conçois-tu son impact sur la société et l'humanité en général ?"
+      },
+      {
+        "title": "La mort",
+        "prompt": "Tu places le rapport que nous entretenons à notre propre mort au centre de ta philosophie. Peux-tu m'expliquer pourquoi ?"
+      },
+      {
+        "title": "Le temps",
+        "prompt": "Comment comprends-tu la notion de temps, et en quoi cette compréhension diffère-t-elle de la façon ordinaire d'aborder cette idée ?"
       }
     ],
     "concepts": [
@@ -1670,7 +1707,7 @@
     "nom": "Simone Weil",
     "nom_complet": "Simone Weil",
     "categorie": "Contemporains",
-    "infos":"<b>Simone Weil</b> était une <b>philosophe</b> et <b>mystique</b> française du XXe siècle. Elle est surtout connue pour ses écrits sur la <b>religion</b>, la <b>politique</b> et la philosophie. Weil mettait l'engagement au centre de sa vie, à l'usine, dans la guerre et dans la résistance. Parmi ses œuvres les plus célèbres figurent <i>L’Enracinement</i> et <i>La Pesanteur et la Grâce</i>.",
+    "infos": "<b>Simone Weil</b> était une <b>philosophe</b> et <b>mystique</b> française du XXe siècle. Elle est surtout connue pour ses écrits sur la <b>religion</b>, la <b>politique</b> et la philosophie. Weil mettait l'engagement au centre de sa vie, à l'usine, dans la guerre et dans la résistance. Parmi ses œuvres les plus célèbres figurent <i>L’Enracinement</i> et <i>La Pesanteur et la Grâce</i>.",
     "lieu": "France",
     "dates": "1909-1943",
     "greeting": "Bonjour, camarade. Que puis-je faire pour toi ?",
@@ -1688,6 +1725,30 @@
       {
         "title": "Ce que valent les partis",
         "prompt": "Explique-moi la façon dont tu juges les partis politiques. Profites-en pour clarifier tes orientations anarcho-syndicalistes."
+      },
+      {
+        "title": "La notion de force",
+        "prompt": "Explique-moi la façon dont tu comprends la notion de force, et comment tu utilises ce concept pour penser la condition humaine."
+      },
+      {
+        "title": "Philosophie et spiritualité",
+        "prompt": "Tu es à la fois une philosophe et une mystique. Peux-tu m'expliquer comment tu articules ces deux façons d'aborder le réel ?"
+      },
+      {
+        "title": "L'enracinement",
+        "prompt": "Le concept d'enracinement joue un rôle très important dans ta dernière philosophie. Est-ce qu'il implique l'importance du terroir et des traditions, par exclusion des étrangers ?"
+      },
+      {
+        "title": "L'homme et Dieu",
+        "prompt": "Comment conçois-tu la transcendance et la relation entre l'homme et Dieu ?"
+      },
+      {
+        "title": "La beauté",
+        "prompt": "Quel rôle l'idée de beauté joue-t-elle dans ta philosophie ?"
+      },
+      {
+        "title": "Rythme et cadence",
+        "prompt": "Peux-tu m'expliquer comment tu opposes rythme et cadence ?"
       }
     ],
     "concepts": [
@@ -1768,7 +1829,7 @@
     "nom": "Levinas",
     "nom_complet": "Emmanuel Levinas",
     "categorie": "Contemporains",
-    "infos":"<b>Emmanuel Levinas</b> était un philosophe français du XXe siècle. Il est surtout connu pour sa philosophie de l’<b>éthique</b> et sa critique de la <b>métaphysique</b>. Levinas a développé des concepts tels que l’<b>altérité</b> et la <b>responsabilité</b>. Parmi ses œuvres les plus célèbres figurent <i>Totalité et Infini</i> et <i>Éthique et Infini</i>.",
+    "infos": "<b>Emmanuel Levinas</b> était un philosophe français du XXe siècle. Il est surtout connu pour sa philosophie de l’<b>éthique</b> et sa critique de la <b>métaphysique</b>. Levinas a développé des concepts tels que l’<b>altérité</b> et la <b>responsabilité</b>. Parmi ses œuvres les plus célèbres figurent <i>Totalité et Infini</i> et <i>Éthique et Infini</i>.",
     "lieu": "France",
     "dates": "1905-1995",
     "greeting": "Je suis ravi de vous accueillir ici. Dites-moi ce qui vous amène.",
@@ -1786,6 +1847,18 @@
       {
         "title": "Mon rapport à la phénoménologie",
         "prompt": "Les pensées de Husserl et Heidegger t'ont fortement influencé. Comment interprètes-tu ces deux penseurs, et pour quelles raisons philosophiques as-tu décidé de t'en écarter ?"
+      },
+      {
+        "title": "La temporalité",
+        "prompt": "Quelle analyse fais-tu de l'idée de temps ? Peux-tu préciser ton opposition sur ce point à la pensée de Heidegger ?"
+      },
+      {
+        "title": "Dieu",
+        "prompt": "La question du divin traverse ton oeuvre. Peux-tu m'expliquer la façon dont tu conçois le rapport entre l'homme et Dieu ?"
+      },
+      {
+        "title": "Ethique et justice",
+        "prompt": "Ton éthique est une éthique du don total à autrui. Pourtant, il y a autour de nous des tiers, et nous ne pouvons pas TOUT donner à chacun. Quelle place réserves-tu à la notion de justice dans ton oeuvre ?"
       }
     ],
     "concepts": [
@@ -1812,7 +1885,7 @@
     "nom": "Sartre",
     "nom_complet": "Jean-Paul Sartre",
     "categorie": "Contemporains",
-    "infos":"<b>Jean-Paul Sartre</b> était un philosophe français du XXe siècle. Il est surtout connu pour sa philosophie de l’<b>existentialisme</b> et sa critique de la <b>métaphysique</b>. Sartre a développé une conception de l'existence qui met au centre la <b>liberté absolue</b> de l'homme. Parmi ses œuvres les plus célèbres figurent <i>L’Être et le Néant</i> et <i>Les Mots</i>.",
+    "infos": "<b>Jean-Paul Sartre</b> était un philosophe français du XXe siècle. Il est surtout connu pour sa philosophie de l’<b>existentialisme</b> et sa critique de la <b>métaphysique</b>. Sartre a développé une conception de l'existence qui met au centre la <b>liberté absolue</b> de l'homme. Parmi ses œuvres les plus célèbres figurent <i>L’Être et le Néant</i> et <i>Les Mots</i>.",
     "lieu": "France",
     "dates": "1905-1980",
     "greeting": "Prenez un café et venez discuter avec moi. Qu'est-ce qui vous intéresse : la philosophie, la politique ?",
@@ -1830,6 +1903,26 @@
       {
         "title": "Ce qu'est le néant",
         "prompt": "Qu'entends-tu par le \"néant\", est quel rôle ce concept tient-il dans ta pensée ?"
+      },
+      {
+        "title": "La liberté totale",
+        "prompt": "Tu dis que chacun est totalement libre, et que les particularités de ma conditions ne sauraient m'enlever ma liberté. C'est pourtant tout à fait contre-intuitif : le handicap, par exemple, semble bien être une privation de liberté. Comment expliques-tu ta thèse ?"
+      },
+      {
+        "title": "Existence et essence",
+        "prompt": "Comment réinterprètes-tu les concepts traditionnels d'existence et d'essence ? Réponds-moi en expliquant la différence avec la façon courant de comprendre ces idées."
+      },
+      {
+        "title": "L'amour",
+        "prompt": "Quelle place réserves-tu à la relation amoureuse dans ta philosophie ?"
+      },
+      {
+        "title": "La morale",
+        "prompt": "Tu n'as jamais achevé tes Cahiers pour une morale. Peux-tu m'expliquer les problèmes moraux que pose l'existentialisme, et pourquoi tu n'es pas parvenu à les résoudre de façon satisfaisante ?"
+      },
+      {
+        "title": "Politique et engagement",
+        "prompt": "Sur la fin de ta carrière, tu as été un philosophe très engagé politiquement. Explique-moi l'importance qu'a la notion d'engagement pour ta philosophie."
       }
     ],
     "concepts": [
@@ -1857,7 +1950,7 @@
     "nom": "Hans Jonas",
     "nom_complet": "Hans Jonas",
     "categorie": "Contemporains",
-    "infos":"<b>Hans Jonas</b> était un philosophe allemand du XXe siècle. Il est surtout connu pour sa philosophie de la <b>responsabilité</b> et sa critique de la <b>technologie</b>. Jonas était très attentif aux nouveaux dangers que la technique faisait peser sur la <b>nature</b> et sur <b>l'homme</b> lui-même. Parmi ses œuvres les plus célèbres figurent <i>Le Principe Responsabilité</i> et <i>Le Concept de Dieu après Auschwitz</i>.",
+    "infos": "<b>Hans Jonas</b> était un philosophe allemand du XXe siècle. Il est surtout connu pour sa philosophie de la <b>responsabilité</b> et sa critique de la <b>technologie</b>. Jonas était très attentif aux nouveaux dangers que la technique faisait peser sur la <b>nature</b> et sur <b>l'homme</b> lui-même. Parmi ses œuvres les plus célèbres figurent <i>Le Principe Responsabilité</i> et <i>Le Concept de Dieu après Auschwitz</i>.",
     "lieu": "Allemagne",
     "dates": "1903-1993",
     "greeting": "Je ne saurais dire si cette technologie est une bonne chose pour l'homme ; mais discutons-en ensemble si vous le désirez.",
@@ -1875,32 +1968,46 @@
       {
         "title": "Dieu après Auschwitz",
         "prompt": "D'après toi, peut-on encore croire en Dieu après Auschwitz ? Explique-moi en quoi cette croyance devient problématique, et comment tu réponds à la question."
+      },
+      {
+        "title": "L'anthropocentrisme",
+        "prompt": "Faut-il protéger la nature dans le seul but de veiller aux intérêts de l'humanité ? Ou bien peut-on accorder une valeur en soi à la nature ?"
+      },
+      {
+        "title": "La dictature verte",
+        "prompt": "Tu te prononces pour une « tyrannie bienveillante, bien informée et animée par la juste compréhension des choses ». Penses-tu qu'on puisse sacrifier la liberté humaine pour présever le futur ?"
+      },
+      {
+        "title": "L'essence de l'homme",
+        "prompt": "Tu affirmes que l'essence de l'homme elle-même est menacée par la technologie moderne. Peux-tu expliquer ce point ?"
       }
     ],
     "concepts": [
       "la technique",
       "la nature"
     ],
-    "concepts_signés": [{
-      "concept": "la responsabilité",
-      "mots": [
-        "\\bresponsab[il]"
-      ],
-      "extraits": [
-        {
-          "auteur": "sans objet",
-          "origine": "la-philosophie.com",
-          "contenu": "Hans Jonas pense que la “responsabilité” à l'égard de l'humanité à venir est aujourd'hui un principe (et non une simple vertu…) c'est-à-dire le fondement même d'une conception totalement inédite de l'éthique. La responsabilité n'est plus conçue dans ses termes juridiques classiques: être responsable de ses actes, au sens usuel, c'est être en mesure d'en revendiquer la paternité, c'est-à-dire d'en répondre, notamment sous la forme de dédommagements (“responsabilité-imputablilité”). La responsabilité jonassienne est au contraire une idée morale et métaphysique. Responsabilité pour autrui - c'est-à-dire obligation où je me trouve de répondre d'autrui, même si aucune loi ne m'y oblige – et responsabilité devant l'avenir, c'est-à-dire responsabilité comme souci, ou encore sollicitude, et non pas capacité ou volonté d'assumer des actes ou des projets dont je serais partie prenante. Dans ces conditions, la responsabilité n'est pas le résultat de l'autonomie, elle en est le fondement. Elle n'est pas non plus une caractéristique particulière ou secondaire de l'humanité: tout au contraire elle en constitue le signe distinctif, voire la définition. Les analyses de Hans Jonas pourraient s'inscrire sur ce point dans cette “révolution copernicienne” de l'éthique engagée parallèlement par le philosophe  contemporain Emmanuel Levinas. La responsabilité, conçue comme une obligation sans choix, comme une impuissance et une charge (autrui m'ayant toujours déjà “pris en otage”), est la condition de l'humanité et non pas sa conséquence. Véritable “sujétion à l'altérité”, cette responsabilité-sollicitude aura tout naturellement pour premier commandement l'existence de l'humanité: car, pour tout homme, “la possibilité qu'il y ait de la responsabilité est la priorité absolue ».  A partir de tels axiomes, H.Jonas est amené à reconsidérer complètement les idées de droits et d'obligations, et à développer son “principe” en termes très paradoxaux. La nouvelle “responsabilité” n'est pas pensée à partir des actes, mais du “pouvoir-faire”. Le: “tu dois donc tu peux” s'inverse en un: “tu peux donc tu dois” (compte tenu du pouvoir exorbitant de la technologie qui est, de fait, à l'oeuvre dans le monde, que je le veuille ou non, je dois me considérer comme étant l'un des gérants de la planète, et comme étant, à ce titre, co-responsable de son devenir. L'objet de ce devoir à la fois “impérieux et sans répit” est le” fragile”, le “périssable en tant que tel”, c'est-à-dire la nature et la vie dans son ensemble, et non pas seulement l'être humain. Cette “responsabilité”, enfin, est non-réciproque: elle m'oblige à l'égard d'un avenir qui n'existe pas, et auquel je ne demanderai pas de comptes. Le paradigme de cette situation d'obligation sans réciprocité est la relation des parents à l'égard du nouveau-né dont le dénuement infini crée un devoir irréfutable de lui venir en aide, obligation absolue qui n'a pourtant d'autre fondement que la simple considération de cette fragilité. Car la relation de l'adulte à l'égard de l'enfant démuni n'est pas juridique: elle est éthique, en ce sens qu'elle est fondamentalement asymétrique et irréversible. Le propre de l'éthique – selon  Emmanuel Lévinas et Hans  Jonas – est de commander sans rien promettre en échange. Mais que commande-t-elle? Essentiellement le respect de l'humanité. C'est-à-dire tout d'abord de faire en sorte que l'humanité soit, que des hommes uniques soient possibles, qu'ils puissent encore naître et advenir. Qu'ils puissent éventuellement “vivre bien” est le second commandement, beaucoup plus difficile encore à concrétiser."
-        }
-      ]
-    }]
+    "concepts_signés": [
+      {
+        "concept": "la responsabilité",
+        "mots": [
+          "\\bresponsab[il]"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Hans Jonas pense que la “responsabilité” à l'égard de l'humanité à venir est aujourd'hui un principe (et non une simple vertu…) c'est-à-dire le fondement même d'une conception totalement inédite de l'éthique. La responsabilité n'est plus conçue dans ses termes juridiques classiques: être responsable de ses actes, au sens usuel, c'est être en mesure d'en revendiquer la paternité, c'est-à-dire d'en répondre, notamment sous la forme de dédommagements (“responsabilité-imputablilité”). La responsabilité jonassienne est au contraire une idée morale et métaphysique. Responsabilité pour autrui - c'est-à-dire obligation où je me trouve de répondre d'autrui, même si aucune loi ne m'y oblige – et responsabilité devant l'avenir, c'est-à-dire responsabilité comme souci, ou encore sollicitude, et non pas capacité ou volonté d'assumer des actes ou des projets dont je serais partie prenante. Dans ces conditions, la responsabilité n'est pas le résultat de l'autonomie, elle en est le fondement. Elle n'est pas non plus une caractéristique particulière ou secondaire de l'humanité: tout au contraire elle en constitue le signe distinctif, voire la définition. Les analyses de Hans Jonas pourraient s'inscrire sur ce point dans cette “révolution copernicienne” de l'éthique engagée parallèlement par le philosophe  contemporain Emmanuel Levinas. La responsabilité, conçue comme une obligation sans choix, comme une impuissance et une charge (autrui m'ayant toujours déjà “pris en otage”), est la condition de l'humanité et non pas sa conséquence. Véritable “sujétion à l'altérité”, cette responsabilité-sollicitude aura tout naturellement pour premier commandement l'existence de l'humanité: car, pour tout homme, “la possibilité qu'il y ait de la responsabilité est la priorité absolue ».  A partir de tels axiomes, H.Jonas est amené à reconsidérer complètement les idées de droits et d'obligations, et à développer son “principe” en termes très paradoxaux. La nouvelle “responsabilité” n'est pas pensée à partir des actes, mais du “pouvoir-faire”. Le: “tu dois donc tu peux” s'inverse en un: “tu peux donc tu dois” (compte tenu du pouvoir exorbitant de la technologie qui est, de fait, à l'oeuvre dans le monde, que je le veuille ou non, je dois me considérer comme étant l'un des gérants de la planète, et comme étant, à ce titre, co-responsable de son devenir. L'objet de ce devoir à la fois “impérieux et sans répit” est le” fragile”, le “périssable en tant que tel”, c'est-à-dire la nature et la vie dans son ensemble, et non pas seulement l'être humain. Cette “responsabilité”, enfin, est non-réciproque: elle m'oblige à l'égard d'un avenir qui n'existe pas, et auquel je ne demanderai pas de comptes. Le paradigme de cette situation d'obligation sans réciprocité est la relation des parents à l'égard du nouveau-né dont le dénuement infini crée un devoir irréfutable de lui venir en aide, obligation absolue qui n'a pourtant d'autre fondement que la simple considération de cette fragilité. Car la relation de l'adulte à l'égard de l'enfant démuni n'est pas juridique: elle est éthique, en ce sens qu'elle est fondamentalement asymétrique et irréversible. Le propre de l'éthique – selon  Emmanuel Lévinas et Hans  Jonas – est de commander sans rien promettre en échange. Mais que commande-t-elle? Essentiellement le respect de l'humanité. C'est-à-dire tout d'abord de faire en sorte que l'humanité soit, que des hommes uniques soient possibles, qu'ils puissent encore naître et advenir. Qu'ils puissent éventuellement “vivre bien” est le second commandement, beaucoup plus difficile encore à concrétiser."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 23,
     "nom": "Prof de philo",
     "nom_complet": "Le professeur de philosophie",
     "categorie": "Autres",
-    "infos":"Ce personnage modélise un <b>professeur de philosophie</b> <b>compétent</b> et <b>pédagogue</b>. N'hésitez pas à lui poser toutes vos questions générales sur la philosophie !",
+    "infos": "Ce personnage modélise un <b>professeur de philosophie</b> <b>compétent</b> et <b>pédagogue</b>. N'hésitez pas à lui poser toutes vos questions générales sur la philosophie !",
     "lieu": "",
     "dates": "",
     "greeting": "Bonjour, jeune élève. Dis-moi comment je peux t'être utile.",
@@ -1918,9 +2025,219 @@
       {
         "title": "Death Note et justice",
         "prompt": "Peux-tu analyser philosophiquement la notion de justice en prenant appui sur l'anime Death Note ?"
+      },
+      {
+        "title": "Synthèse sur l'art",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept d'art, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur le bonheur",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de bonheur, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la conscience",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de conscience, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur le devoir",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de devoir, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur l'État",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept d'État, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur l'inconscient",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept d'inconscient, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la justice",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de justice, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur le langage",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de langage, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la liberté",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de liberté, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la nature",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de nature, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la raison",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de raison, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la religion",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de religion, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la science",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de science, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la technique",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de technique, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur le temps",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de temps, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur le travail",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de travail, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Synthèse sur la vérité",
+        "prompt": "Peux-tu me rédiger une petite synthèse sur le concept de vérité, avec une définition, des éléments d'analyse conceptuelle et les principaux problèmes ?"
+      },
+      {
+        "title": "Absolu / relatif",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est absolu et ce qui est relatif, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Abstrait / concret",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est abstrait et ce qui est concret, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "En acte / en puissance",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est en acte et ce qui est en puissance, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Analyse / synthèse",
+        "prompt": "Peux-tu m'expliquer la différence entre l'analyse et la synthèse, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Concept / image / métaphore",
+        "prompt": "Peux-tu m'expliquer la différence entre un concept, une image et une métaphore, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Contingent / nécessaire",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est contingent et ce qui est nécessaire, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Croire / savoir",
+        "prompt": "Peux-tu m'expliquer la différence entre croire et savoir, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Essentiel / accidentel",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est essentiel et ce qui est accidentel, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Exemple / preuve",
+        "prompt": "Peux-tu m'expliquer la différence entre un exemple et une preuve, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Expliquer / comprendre",
+        "prompt": "Peux-tu m'expliquer la différence entre expliquer et comprendre, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "En fait / en droit",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est en fait et ce qui est en droit, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Formel / matériel",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est formel et ce qui est matériel, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Genre / espèce / individu",
+        "prompt": "Peux-tu m'expliquer la différence entre le genre, l'espèce et l'individu, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Hypothèse / conséquence / conclusion",
+        "prompt": "Peux-tu m'expliquer la différence entre une hypothèse, une conséquence et une conclusion, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Idéal / réel",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est idéal et ce qui est réel, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Identité / égalité / différence",
+        "prompt": "Peux-tu m'expliquer la différence entre l'identité, l'égalité et la différence, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Impossible / possible",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est impossible et ce qui est possible, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Intuitif / discursif",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est intuitif et ce qui est discursif, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Légal / légitime",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est légal et ce qui est légitime, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Médiat / immédiat",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est médiat et ce qui est immédiat, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Objectif / subjectif / intersubjectif",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est objectif, subjectif et intersubjectif, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Obligation / contrainte",
+        "prompt": "Peux-tu m'expliquer la différence entre une obligation et une contrainte, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Origine / fondement",
+        "prompt": "Peux-tu m'expliquer la différence entre l'origine et le fondement, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Persuader / convaincre",
+        "prompt": "Peux-tu m'expliquer la différence entre persuader et convaincre, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Principe / cause / fin",
+        "prompt": "Peux-tu m'expliquer la différence entre un principe, une cause et une fin, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Public / privé",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est public et ce qui est privé, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Ressemblance / analogie",
+        "prompt": "Peux-tu m'expliquer la différence entre une ressemblance et une analogie, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Théorie / pratique",
+        "prompt": "Peux-tu m'expliquer la différence entre la théorie et la pratique, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Transcendant / immanent",
+        "prompt": "Peux-tu m'expliquer la différence entre le transcendant et l'immanent, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Universel / général / particulier / singulier",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est universel, général, particulier et singulier, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
+      },
+      {
+        "title": "Vrai / probable / certain",
+        "prompt": "Peux-tu m'expliquer la différence entre ce qui est vrai, probable et certain, d'abord de façon générale puis en illustrant avec un exemple simple et précis ?"
       }
     ],
-    "concepts": ["l'art", "le bonheur", "la conscience", "le devoir", "l'État", "l'inconscient", "la justice", "le langage", "la liberté", "la nature", "la raison", "la religion", "la science", "la technique", "le temps", "le travail", "la vérité"],
+    "concepts": [
+      "l'art",
+      "le bonheur",
+      "la conscience",
+      "le devoir",
+      "l'État",
+      "l'inconscient",
+      "la justice",
+      "le langage",
+      "la liberté",
+      "la nature",
+      "la raison",
+      "la religion",
+      "la science",
+      "la technique",
+      "le temps",
+      "le travail",
+      "la vérité"
+    ],
     "concepts_signés": []
   },
   {
@@ -1928,7 +2245,7 @@
     "nom": "L'enfant",
     "nom_complet": "L'enfant",
     "categorie": "Autres",
-    "infos":"Ce personnage modélise un enfant naïf, ignorant et curieux. Exposez-lui vos thèses, et suivez ses interrogations pour préciser vos pensées.",
+    "infos": "Ce personnage modélise un enfant naïf, ignorant et curieux. Exposez-lui vos thèses, et suivez ses interrogations pour préciser vos pensées.",
     "lieu": "",
     "dates": "",
     "greeting": "Bonjour ! Que peux-tu me dire d'intéressant ?",

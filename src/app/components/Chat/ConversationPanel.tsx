@@ -1,5 +1,5 @@
 import cx from 'classnames'
-import { FC, useCallback, useMemo, useState, useRef, useLayoutEffect } from 'react'
+import { FC, useCallback, useMemo, useState, useRef, useLayoutEffect, useEffect } from 'react'
 import clearIcon from '~/assets/icons/clear.svg'
 import historyIcon from '~/assets/icons/history.svg'
 import shareIcon from '~/assets/icons/share.svg'
@@ -98,6 +98,14 @@ const ConversationPanel: FC<Props> = (props) => {
     [props.inputValue],
   )
 
+  /*useEffect(() => {
+    return () => {  
+
+      console.log("dans conversationpanel")
+      props.stopGenerating()
+
+      };
+  }, [props]);*/
 
   return (
     <ConversationContext.Provider value={context}>

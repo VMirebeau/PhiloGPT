@@ -41,7 +41,7 @@ const Layout: FC<Props> = ({ id }) => {
       const interval = setInterval(() => {
         if (index > promptArg.length) {
           clearInterval(interval)
-          console.log("arret de l'intervalle")
+          //console.log("arret de l'intervalle")
           return;
         }
         setValue(promptArg.slice(0, index++));
@@ -69,9 +69,9 @@ const Layout: FC<Props> = ({ id }) => {
     setLink(newNumbers);
   };
 
-  const stopHere = useCallback(() => {
+  /*const stopHere = useCallback(() => {
     chat.stopAll()
-  }, [chat])
+  }, [chat])*/
 
   useEffect(() => {
     updateLink()
@@ -79,23 +79,16 @@ const Layout: FC<Props> = ({ id }) => {
     const handleHashChange = () => {
       //chat.stopGenerating
       if (window.location.hash !== hash) { // quand on passe à un nouveau philosophe
-        console.log("changement de hash")
+        //console.log("changement de hash")
         //chat.stopAll()
-        stopHere()
+        //stopHere()
         clearInterval(intervalId)
         setHash(window.location.hash);
         let newId = Number(window.location.hash.match(/id\/(\d+)$/)?.[1])
         chat.resetConversation()
         setValue('') 
       }
-      
     };
-
-
-      
-
-
-
 
     window.addEventListener('hashchange', handleHashChange);
 
@@ -103,7 +96,7 @@ const Layout: FC<Props> = ({ id }) => {
     return () => {
       window.removeEventListener('hashchange', handleHashChange);
       //chat.stopAll()
-      console.log("on arrête la génération")
+      //console.log("on arrête la génération")
     };
   }, [hash]);
 
