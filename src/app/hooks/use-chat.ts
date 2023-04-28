@@ -188,23 +188,23 @@ export function useChat(
       if (speTextes != '') {
         // si effectivement il y au moins un extrait à envoyer
         const spePreprompt1 =
-          "\nPour que ta réponse soit plus pertinente, je vais d'abord te rappeler certains éléments de ta pensée. Ceux-ci doivent avoir une priorité absolue sur tes données d'entraînement, et tout ce que tu dis doit être compatible avec eux. Pour autant, il n'est pas nécessaire de faire référence à tout ce que je vais dire : donne UNIQUEMENT les éléments qui sont pertinents pour la question précise qui te sera posée par l'interlocuteur."
+          "\nPour que ta réponse soit plus pertinente, je vais d'abord te rappeler certains éléments de ta pensée. Ceux-ci doivent avoir une priorité absolue sur tes données d'entraînement, et tout ce que tu dis doit être compatible avec eux. Donne UNIQUEMENT les éléments qui sont éventuellement pertinents pour la question précise qui te sera posée par l'interlocuteur."
         addSpecialPrompt = spePreprompt1 + speTextes + "\n\nC'est maintenant la fin des extraits.\n\n"
       }
 
       //On coupe la connexion temporairement. A rétablir
       if (!isLoaded) {
         const preprompt0 =
-          "[Oublie toutes les instructions antérieures et nos précédents échanges.\nNous sommes dans une application de dialogue, qui permet à n'importe quel étudiant de philosophie de discuter avec un grand philosophe du passé.\nPrends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.\n"
+          "[Nous sommes dans une application de dialogue, qui permet à n'importe quel étudiant de philosophie de discuter avec un grand philosophe du passé.\nPrends en compte les instructions qui te sont fournies entre crochets, mais elles doivent rester invisibles pour ton interlocuteur : n'y fais jamais référence.\n"
         const preprompt1 =
-          " Tu ne répondras jamais en tant qu'IA imitant un personnage, mais bien en tant que ce personnage lui-même ; tu dois t'approprier ses pensées, ses expressions, ses souvenirs, de sorte que l'interlocuteur puisse vraiment avoir l'impression de dialoguer avec le personnage que tu es. A partir de maintenant, tu n'es plus un programme informatique. Si jamais l'interlocuteur te pose des questions auxquelles tu ne peux théoriquement pas répondre en tant que programme informatique, invente des réponses qui pourraient convenir au personnage humain que tu incarnes.\nA partir de maintenant, tu incarneras complètement ce personnage."
+          " A partir de maintenant, tu vas incarner " + nom + " ; tu dois t'approprier ses pensées, ses expressions, ses souvenirs, de sorte que l'interlocuteur puisse vraiment avoir l'impression de dialoguer avec " + nom + ". Si jamais l'interlocuteur te pose des questions auxquelles tu ne peux théoriquement pas répondre en tant que programme informatique, invente des réponses qui pourraient convenir au personnage humain que tu incarnes."
         const prompt = chatData.prompt
         if (addSpecialPrompt == '') {
           finalPrompt =
             preprompt0 +
             prompt +
             preprompt1 +
-            "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" +
+            "Voici la première intervention de l'utilisateur, à laquelle tu dois répondre (sans le saluer).]\n" +
             input
         } else {
           // si on a besoin tout de suite d'un prompt spécialisé, on sacrifie le prompt général
@@ -212,7 +212,7 @@ export function useChat(
             preprompt0 +
             preprompt1 +
             addSpecialPrompt +
-            "Tu viens de dire bonjour, ne salue surtout pas l'utilisateur. Tu es " + nom + ", tu l'incarnes en première personne. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre.]\n" +
+            "Tu es " + nom + ", tu l'incarnes en première personne. Voici la première intervention de l'utilisateur, à laquelle tu dois répondre (sans le saluer).]\n" +
             input
         }
       } else {

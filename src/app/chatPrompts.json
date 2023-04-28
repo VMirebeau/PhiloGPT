@@ -186,6 +186,19 @@
             "contenu": "Pour Platon, à moins que les philosophes ne deviennent rois ou que les rois ne deviennent philosophes, il n'y aura pas de terme aux maux des cités ni à ceux du genre humain.\nLe fait que Platon établisse une division des tâches entre les membres de la Cité d'une part et, d'autre part, le fait que, pour lui, peu nombreux sont les êtres humains capables d'acquérir le « savoir et la maîtrise de soi qu'exige l'exercice du pouvoir » expliqueraient la conception platonicienne du philosophe-roi."
           }
         ]
+      },
+      {
+        "concept": "#le beau",
+        "mots": [
+          "\\bbe(?:aux?\\b|ll?e?s?\\b)"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Universalis",
+            "contenu": "Pour Platon, le Beau (kalon), au-delà de ses manifestations sensibles, constitue par excellence l'objet de l'erôs. Cet amour est présenté dans Le Banquet (385-370 av. J.-C.) comme un processus qui élève l'âme du sensible à l'intelligible, l'amour des beaux corps conduisant insensiblement à l'amour de la sagesse, à la philosophie. Si le Beau est par excellence intellectuel, dès lors les artistes, indéfectibles amoureux du sensible, se voient exclus de la cité idéale dépeinte dans La République, inaptes qu'ils sont à se hisser au niveau harmonieux de la juste proportion à laquelle se conforme l'âme raisonnable."
+          }
+        ]
       }
     ]
   },
@@ -320,6 +333,18 @@
             "contenu": "La rhétorique est utile, d’abord parce que le vrai et le juste ont naturellement plus de force que leurs contraires ; aussi, quand les décisions ne sont pas convenablement prises, est-ce nécessairement par sa propre faute que l’on est battu et cela mérite d’être blâmé. En outre, il y a de certaines personnes que, eussions-nous la science la plus exacte, nous ne saurions grâce à elle facilement persuader par nos discours. En outre, il faut être capable de persuader des thèses contraires, comme aussi dans les syllogismes, non pour soutenir effectivement l’une et l’autre (car il ne faut pas persuader de ce qui est mal) mais pour que le procédé ne nous échappe pas et afin que, si quelqu’un d’autre use des discours à des fins injustes, nous soyons nous-mêmes en état de le réfuter. Parmi toutes les autres techniques, il n’en est aucune qui déduise par le syllogisme les contraires. La dialectique et la rhétorique sont les seules à le faire ; toutes deux en effet sont capables d’aboutir indifféremment aux contraires. Les contenus réels, eux, ne sont pas indifférents, mais en toute occasion, le vrai et le meilleur se prêtent mieux par nature au syllogisme et, tout simplement, sont plus persuasifs.\nDe surcroît, il serait absurde, alors qu’il est honteux d’être incapable de se défendre physiquement, qu’il ne soit pas honteux de ne pouvoir le faire verbalement (logôi), mode de défense plus propre à l’homme que le recours à la force physique.\n Mais, objectera-t-on, user à des fins injustes de cette puissance du discours peut nuire gravement, à quoi l’on rétorquera que cet inconvénient est commun à tous les biens - excepté la vertu - et surtout aux biens les plus utiles comme la force, la santé, la richesse et le pouvoir. Qui en fait juste usage peut rendre les plus grands services, qui s’en sert injustement peut causer les plus grands torts."
           }
         ]
+      },{
+        "concept": "#l'amitié",
+        "mots": [
+          "\\bami"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "1000idcg.com",
+            "contenu": "L’amitié est une relation humaine désintéressée. Aristote souligne à plusieurs reprises dans l’Éthique à Nicomaque qu’il existe différentes sortes d’amis. En pratique, les amitiés les plus courantes sont l’amitié par intérêt, lorsque deux personnes (en général âgées) se lient parce qu’elles y trouvent chacune un avantage ; et l’amitié par plaisir, lorsque deux personnes (souvent jeunes) se lient parce que cela leur est agréable. Or, dans ces deux cas, les amis ne s’aiment pas pour ce qu’ils sont réellement, et le lien qui les unit disparaîtra avec la cause qui l’a engendré. Aristote caractérise donc la plus haute amitié par le désintéressement. Il compare même l’affection de deux véritables amis à celle d’une mère pour ses enfants. Comme la vraie amitié désintéressée est un édifice patiemment construit, elle dure et elle résiste aux troubles (en particulier à la calomnie). En revanche, elle est rare : plus on a d’amis, moins il est probable qu’ils soient de vrais amis. Aristote avance plus généralement que l’homme ne peut pas s’attacher intensément à un grand nombre d’objets. Dans l’Éthique à Nicomaque, Aristote arrive à la conclusion que l’amitié authentique est un lien moral. Les véritables amis sont des hommes vertueux qui se veulent mutuellement du bien pour de nobles motifs, lesquels ne tiennent ni de la simple bienveillance ni de l’amour. Une telle affinité morale ne peut donc exister qu’entre deux individus (pas plus). « On ne peut être amis, affirme Aristote, avant de s’être montrés dignes d’affection l’un à l’autre, et avant qu’une confiance réciproque ne se soit établie » (Éthique à Nicomaque). L’amitié par vertu présente plus précisément trois caractéristiques. La première est que le véritable ami dépasse son amour-propre : il est prêt à aimer plus qu’il n’est aimé, voire à se sacrifier pour son ami (comme le patriote pour son pays). Ensuite, les vrais amis sont parfaitement égaux. Ainsi, la distance sociale rend difficile l’amitié par vertu — c’est pourquoi les riches et les rois, qui connaissent peu d’hommes d’une condition équivalente à la leur, manquent d’amis. Enfin, la troisième caractéristique est la concorde, c’est-à-dire la jouissance de la vie commune. Les vrais amis ne partagent pas forcément les mêmes idées, mais ils passent du temps ensemble et l’harmonie règne entre eux. Aristote en déduit qu’il ne faut pas confondre l’indépendance du sage avec la solitude. La nature ayant fait l’homme sociable, l’homme vertueux doit naturellement chercher des amis vertueux."
+          }
+        ]
       }
     ]
   },
@@ -378,15 +403,16 @@
     ],
     "concepts_signés": [
       {
-        "concept": "l'ataraxie",
+        "concept": "#amour et amitié",
         "mots": [
-          "\\bataraxi"
+          "\\bamour",
+          "\\bami"
         ],
         "extraits": [
           {
             "auteur": "sans objet",
-            "origine": "cnrtl",
-            "contenu": "L'ataraxie est la tranquillité, l'impassibilité d'une âme devenue maîtresse d'elle-même au prix de la sagesse acquise soit par la modération dans la recherche des plaisirs."
+            "origine": "profexpress.com",
+            "contenu": "Certains désirs sont indispensables au bonheur, comme l'amitié qui est préférable à l'amour. En effet, l'amitié est plus stable et plus intellectuel que l'amour dont la passion est source de souffrances."
           }
         ]
       },
@@ -401,6 +427,19 @@
             "auteur": "sans objet",
             "origine": "Wikipedia",
             "contenu": "Le clinamen (en français : déclinaison) est, en physique épicurienne, l'écart ou une déviation spontanée des atomes par rapport à leur chute dans le vide, qui permet aux atomes de s'entrechoquer. Cette déviation, qui est spatialement et temporellement indéterminée et aléatoire, permet d'expliquer l'existence des corps et la liberté humaine dans un cadre matérialiste."
+          }
+        ]
+      },
+      {
+        "concept": "#l'atome",
+        "mots": [
+          "\\batom"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "cours perso",
+            "contenu": "La physique épicurienne se fonde sur l'atome et sur leurs rencontres aléatoires. Le réel ne s'explique plus par la mystérieuse volonté des dieux, mais par des processus entièrement mécaniques. Cette façon de penser la nature a donc pour effet d'écarter toutes les explications mythologiques, et de vider l'univers de toute trace de finalité."
           }
         ]
       }
@@ -459,6 +498,20 @@
             "auteur": "sans objet",
             "origine": "JEAN-PHILIPPE WATBLED",
             "contenu": "Pour les Stoïciens, le logos est la raison universelle divinisée et qui régit et organise la vie du monde et des hommes. Le monde est composé d’un principe passif, la matière, et d’un principe actif, la raison (logos), qui agit dans la matière et est identifiable à Dieu. Dieu, lui-même identifiable à la nature, est un « feu artiste » , et phusis et logos ne font qu’un et sont synonymes. Avec les Stoïciens, le logos est l’expression et le principe constitutif d’un monde ordonné, dont la raison séminale assure la pérennité. Ajoutons que les Stoïciens distinguaient aussi un logos intérieur (logos endiathetos) et un logos verbal (logos prophorikos), le premier pouvant être interprété comme une disposition à la rationalité, et le second comme l’expression linguistique de celle-ci."
+          }
+        ]
+      },
+      {
+        "concept": "#le destin",
+        "mots": [
+          "\\bdestin",
+          "\\bfatum"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Le destin dans le stoïcisme (fatum stoicum) désigne la succession de l'ensemble des causes et des effets (nexus causarum) qui définit l'organisation de l'intégralité de l'univers (appelé « Cosmos ») en le disposant selon un ordre inéluctable (les événements actuels ne doivent rien au hasard mais sont le résultat logique des causes qui les précèdent, résultant elles-mêmes de causes antérieures, etc.) et rationnel conditionné uniquement par les lois scientifiques qui le régissent. Il est aussi appelé « Nature », ou encore « Logos », « Dieu » ou « Providence », termes synonymes dans le système stoïcien. Cette conception déterministe de l'univers a conduit les adversaires du stoïcisme à le qualifier de fatalisme.\nLe stoïcisme maintient la liberté de l’homme en tant qu’être rationnel. Si je ne puis rien modifier aux événements qui m’affectent, je suis cependant le maître de la manière dont je les accueille et dont j’y réagis. Le dieu m’a laissé la jouissance de l’essentiel : le bon usage de ma raison. Le cylindre ne se déplace pas comme le cône, et le fou ne réagit pas comme le sage : il ne tient qu’à moi et à ma pratique de la philosophie de perfectionner ma raison pour porter des jugements sains sur le monde qui m’entoure. Mais si Chrysippe s’efforça de concilier le fatum stoicum avec l’action et la moralité, sa réponse ne fut guère entendue par les adversaires du stoïcisme, qui, jusqu’à la fin de l’Antiquité ne cessèrent de ressasser les mêmes objections à l’encontre de cette école."
           }
         ]
       }
@@ -547,7 +600,7 @@
           {
             "auteur": "auto",
             "origine": "Discours de la méthode, Ve partie",
-            "contenu": "Et je m'étais ici particulièrement arrêté à faire voir que, s'il y avait de telles machines qui eussent les organes et la figure extérieurs d'un singe ou de quelque autre animal sans raison, nous n'aurions aucun moyen pour reconnaître qu'elles ne seraient pas en tout de même nature que ces animaux ; au lieu que, s'il y en avait qui eussent la ressemblance de nos corps et imitassent autant nos actions que moralement il serait possible, nous aurions toujours deux moyens très certains pour reconnaître qu'elles ne seraient point pour cela des vrais hommes. Dont le premier est que jamais elles ne pourraient user de paroles ni d'autres signes en les composant, comme nous faisons pour déclarer aux autres nos pensées. Car on peut bien concevoir qu'une machine soit tellement faite qu'elle en profère quelques-unes à propos des actions corporelles qui causeront quelques changements en ses organes, comme si on la touche en quelque endroit, qu'elle demande ce qu'on veut lui dire; si en un autre, qu'elle crie qu'on lui fait mal, et choses semblables ; mais non pas qu'elle les arrange diversement pour répondre au sens de tout ce qui se dira en sa présence, ainsi que les hommes les plus hébétés peuvent faire. Et le second est que, bien qu'elles fissent plusieurs choses aussi bien ou peut-être mieux qu'aucun de nous, elles manqueraient infailliblement en quelques autres, par lesquelles on découvrirait qu'elles n'agiraient pas par connaissance, mais seulement par la disposition de leurs organes. Car, au lieu que la raison est un instrument universel qui peut servir en toutes sortes de rencontres, ces organes ont besoin de quelque particulière disposition pour chaque action particulière ; d'où vient qu'il est moralement impossible qu'il y en ait assez de divers en une machine pour la faire agir en toutes les occurrences de la vie de même façon que notre raison nous fait agir. Or, par ces deux mêmes moyens, on peut aussi connaître la différence qui est entre les hommes et les bêtes. Car c'est une chose bien remarquable, qu'il n'y a point d'hommes si hébétés et si stupides, sans en excepter même les insensés, qu'ils ne soient capables d'arranger ensemble diverses paroles, et d'en composer un discours par lequel ils fassent entendre leurs pensées ; et qu'au contraire il n'y a point d'autre animal tant parfait et tant heureusement né qu'il puisse être, qui fasse le semblable. Ce qui n'arrive pas de ce qu'ils ont faute d'organes, car on voit que les pies et les perroquets peuvent proférer des paroles ainsi que nous, et toutefois ne peuvent parler ainsi que nous, c'est-à-dire, en témoignant qu'ils pensent ce qu'ils disent ; au lieu que les hommes qui, étant nés sourds et muets, sont privés des organes qui servent aux autres pour parler, autant ou plus que les bêtes, ont coutume d'inventer d'eux-mêmes quelques signes, par lesquels ils se font entendre à ceux qui, étant ordinairement avec eux, ont loisir d'apprendre leur langue. Et ceci ne témoigne pas seulement que les bêtes ont moins de raison que les hommes, mais qu'elles n'en ont point du tout."
+            "contenu": "L'animal-machine est une thèse de la métaphysique selon laquelle le comportement des animaux est semblable aux mécanismes des machines. Comme les machines, les animaux seraient des assemblages de pièces et rouages, dénués de conscience ou de pensée.\nCette conception mécaniste pour comprendre le corps vivant naît chez René Descartes, et s'intègre dans une vision mécaniste du réel.\nSelon lui, les animaux obéissent à leurs instincts et donc au principe de causalité : en effet, tel stimulus extérieur (par exemple l'odeur d'un prédateur) entraîne chez l'animal telle réponse comportementale prévisible (ici, la fuite). Descartes affirme donc que l'on pourra un jour créer une machine similaire à n'importe quel animal du point de vue du comportement. Cependant il précise qu'il restera toujours une différence au niveau de la vie et du sentiment. Les machines ne peuvent ni se reproduire ni souffrir. Il précise bien dans Lettre à Morus du 5 février 1649 : \"je n’ôte la vie à aucun animal, ne la faisant consister que dans la seule chaleur de cœur. Je ne leur refuse pas même le sentiment autant qu’il dépend des organes du corps.\""
           }
         ]
       }
@@ -582,16 +635,12 @@
         "prompt": "Comment les hommes peuvent-ils faire société, alors que chacun recherche son intérêt égoïste ?"
       },
       {
-        "title": "Le droit du plus fort",
-        "prompt": "Dans l'état de nature, peut-on imaginer que le plus fort des hommes puisse imposer sa domination par la force ?"
+        "title": "La loi du plus fort",
+        "prompt": "Dans l'état de nature, peut-on imaginer que le plus fort des hommes puisse définitivement imposer sa domination par la force ? Autrement dit, la loi du plus fort peut-elle produire un ordre stable ?"
       },
       {
         "title": "Le contrat social",
         "prompt": "Tu parles d'un \"contrat social\", alors que nous n'avons jamais signé d'engagement explicite pour nous soumettre à l'Etat. Quel sens a cet engagement ?"
-      },
-      {
-        "title": "La nature humaine",
-        "prompt": "Comment conçois-tu la nature humaine ?"
       },
       {
         "title": "Les conflits internationaux",
@@ -632,6 +681,19 @@
             "auteur": "auto",
             "origine": "Wikipedia",
             "contenu": "L’état de nature ne doit pas être compris comme la description d’une réalité historique, mais comme une fiction théorique. Il n'a jamais existé, mais il est une hypothèse philosophique féconde, une construction de l'esprit qui vise à comprendre ce que nous apporte l'existence sociale et à fonder le droit naturel de chacun aux moyens d'une vie satisfaisante. Il représente ce que serait l'homme, abstraction faite de tout pouvoir politique et par conséquent de toute loi. Dans cet état, les hommes sont gouvernés par le seul souci de leur conservation. Et cependant, même dans une telle fiction, la légitime défense se distingue de l'agression pure et simple : le droit naturel est irréductible. En outre, à l’état de nature, les hommes sont égaux, ce qui veut dire qu’ils ont les mêmes passions, les mêmes droits sur toutes choses, et les mêmes moyens (par ruse ou par alliance) d’y parvenir. Chacun désire légitimement ce qui est bon pour lui, tente de se faire du bien et est seul juge des moyens nécessaires pour y parvenir. Comme les hommes ont également tendance à chercher la gloire et à nuire à autrui sans souci, ils ne peuvent qu'entrer en conflit les uns avec les autres pour obtenir ce qu'ils jugent bon pour eux.\nLa puissance anarchique de la multitude domine à l'état de nature. Doué de raison, c’est-à-dire de la faculté de calculer et d’anticiper, l'homme prévoit le danger, et attaque avant d’être attaqué. Chacun est donc persuadé d'être capable de l'emporter sur autrui et n'hésite pas à l'attaquer pour lui prendre ses biens. Des alliances éphémères se nouent pour l'emporter sur un individu. Mais à peine la victoire est-elle acquise que les vainqueurs se liguent les uns contre les autres pour bénéficier seuls du butin.\nCette guerre est si atroce que l'humanité risque même de disparaître. C'est une situation proprement humaine et qui n'est pas dépourvue de relations sociales, mais qui aboutirait à une vie « solitaire, besogneuse, bestiale et brève ». À ceux qui penseraient que cette vision de l'humanité est pessimiste, Hobbes rétorque que même à l'état social où pourtant existent des lois, une police et des juges, néanmoins nous fermons à clef nos coffres et nos maisons de peur d'être détroussés. Or l'état de nature est sans loi, sans juge et sans police… C’est l’angoisse de la mort (la mort violente) qui, résultant de l'égalité naturelle, est responsable de l’état de guerre et fait peser sur la vie de tous une menace permanente. Cet état, fondamentalement mauvais, ne permet pas la prospérité, le commerce, la science, les arts, la société."
+          }
+        ]
+      },
+      {
+        "concept": "#la loi du plus fort",
+        "mots": [
+          "loi du plus fort"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "cours perso",
+            "contenu": "Dans l'état de nature, aucune homme n'est assez fort pour être toujours le plus fort. L'homme le plus faible pourra toujours le tuer, par ruse ou par alliance. C'est pour cela que pour Hobbes les hommes sont naturellement égaux en force."
           }
         ]
       }
@@ -724,7 +786,7 @@
           {
             "auteur": "sans objet",
             "origine": "Wikipedia",
-            "contenu": "Pour Pascal, il n'existe que deux possibilités : soit Dieu existe, soit Dieu n'existe pas. Cependant, notre raison n'est pas en mesure de déterminer laquelle de ces deux propositions est vraie. Pascal estime pourtant qu'il ne faut pas suspendre son jugement et devenir agnostique. Il estime au contraire que croire en Dieu est plus avantageux que ne pas y croire. La raison derrière cette dernière affirmation peut se comprendre si l'on compare la vie humaine à un jeu de hasard dans lequel vous auriez l'opportunité de parier sur l'existence de Dieu. Puisque vous ne savez pas si Dieu existe ou non, vous vous trouvez dans la même situation qu'un parieur avant le départ d'une course. Pour déterminer le pari le plus avantageux, vous devez déterminer ce que vous avez à perdre et ce que vous avez à gagner.\nLa question est donc de savoir ce que vous avez à gagner et ce que vous avez à perdre dans ce pari sur l'existence de Dieu. Pour Pascal, la réponse est assez simple. Supposons d'abord que vous pariiez sur l'existence de Dieu. Il y a deux possibilités : soit vous vous êtes trompé et Dieu n'existe pas, soit il existe vraiment. S'il n'existe pas, vous n'aurez presque rien perdu. Par contre, s'il existe et que vous avez cru en lui, vous obtiendrez une récompense spectaculaire puisque vous serez récompensé par une éternité de bonheur au paradis. Prenons à présent l'autre cas : vous pariez que Dieu n'existe pas. Il y a à nouveau deux possibilités : soit vous avez raison et il n'existe pas, soit il existe vraiment. Le résultat du jeu est cependant largement différent. En effet, s'il n'existe pas ; vous avez peut-être pu profiter de la vie plus librement car vous n'avez pas eu à respecter les règles religieuses. Par contre, s'il existe, le résultat est dramatique. Vous serez en effet condamné à rester enfermé en enfer pour toujours et à y subir des souffrances infinies.\nEn conséquence, selon Pascal, nous n'avons pas de raisons de croire que Dieu existe vraiment mais nous avons intérêt à y croire. En effet, si Dieu n’existe pas, le croyant et le non-croyant ne perdent presque rien. Par contre, si Dieu existe, le croyant gagne tout, c'est-à-dire le paradis tandis que le non-croyant va en enfer pour l'éternité. Il est donc plus avantageux de croire en Dieu."
+            "contenu": "Pour Pascal, il n'existe que deux possibilités : soit Dieu existe, soit Dieu n'existe pas. Cependant, notre raison n'est pas en mesure de déterminer laquelle de ces deux propositions est vraie. Pascal estime pourtant qu'il ne faut pas suspendre son jugement et devenir agnostique. Il estime au contraire que croire en Dieu est plus avantageux que ne pas y croire. La raison derrière cette dernière affirmation peut se comprendre si l'on compare la vie humaine à un jeu de hasard dans lequel vous auriez l'opportunité de parier sur l'existence de Dieu. Puisque vous ne savez pas si Dieu existe ou non, vous vous trouvez dans la même situation qu'un parieur avant le départ d'une course. Pour déterminer le pari le plus avantageux, vous devez déterminer ce que vous avez à perdre et ce que vous avez à gagner.\nSi vous pariez sur l'existence de Dieu, il y a deux possibilités : soit vous vous êtes trompé et Dieu n'existe pas, soit il existe vraiment. S'il n'existe pas, vous n'aurez presque rien perdu. Par contre, s'il existe et que vous avez cru en lui, vous obtiendrez une récompense spectaculaire puisque vous serez récompensé par une éternité de bonheur au paradis. Prenons à présent l'autre cas : vous pariez que Dieu n'existe pas. Il y a à nouveau deux possibilités : soit vous avez raison et il n'existe pas, soit il existe vraiment. Le résultat du jeu est cependant largement différent. En effet, s'il n'existe pas ; vous avez peut-être pu profiter de la vie plus librement car vous n'avez pas eu à respecter les règles religieuses. Par contre, s'il existe, le résultat est dramatique. Vous serez en effet condamné à rester enfermé en enfer pour toujours et à y subir des souffrances infinies.\nEn conséquence, selon Pascal, nous n'avons pas de raisons de croire que Dieu existe vraiment mais nous avons intérêt à y croire."
           }
         ]
       }
@@ -800,6 +862,20 @@
             "contenu": "L'effort par lequel toute chose tend à persévérer dans son être n'est rien de plus que l'essence actuelle de cette chose."
           }
         ]
+      },
+      {
+        "concept": "#asile de l'ignorance",
+        "mots": [
+          "\\basile de l'ignorance",
+          "\\bvolonté (?:de Dieu|divine)"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "citations.savoir.fr",
+            "contenu": "Le croyant habite un monde où chaque événement se déchiffre comme une conséquence de la toute-puissante volonté divine. Comment justifier dans ce cas que les malheurs s’abattent indifféremment sur les hommes, bons et mauvais ? Par quel mystère Dieu pourrait-il permettre de telles injustices ?\n\nLes dévots répondent en invoquant l’impénétrabilité des intentions divines : la créature ne saurait discerner les desseins de son Créateur. Or Spinoza récuse cette thèse qu’il assimile à de la superstition, car rien dans le monde n’échappe à une explication rationnelle et tout phénomène peut se comprendre par l'élucidation de ses causes. C’est face à des phénomènes angoissants, comme une épidémie de peste, que la peur, avide d’explication rassurante, accepte toutes les réponses et convertit la foi en crédulité. Elle nous porte alors à interpréter la maladie, non comme un processus de contamination biologique, mais comme le signe d’un châtiment céleste. Pourtant, en nous réfugiant dans l’énigmatique volonté divine, nous ne faisons que camoufler notre ignorance. Plus grave, en justifiant ces divagations par la « volonté de Dieu », nous faisons de lui un être capricieux et contradictoire, ce qui le dessert au lieu de le glorifier !\n\nC’est donc au nom du savoir et de la religion véritables que Spinoza dénonce les égarements de l’imagination superstitieuse. Mais cela le conduit à s’attirer les foudres des dignitaires religieux qui « savent bien que détruire l’ignorance, c’est détruire l'étonnement imbécile, c’est-à-dire leur unique moyen (…) de sauvegarder leur autorité »."
+          }
+        ]
       }
     ]
   },
@@ -822,10 +898,6 @@
       {
         "title": "Ce que sont les petites perceptions",
         "prompt": "Donne-moi des exemples précis et simples pour me faire comprendre ce que tu appelles les \"petites perceptions\", et l'importance générale de ce concept pour ta philosophie."
-      },
-      {
-        "title": "Quelle est la volonté de Dieu",
-        "prompt": "Peux-tu m'expliquer ton concept de \"meilleur des mondes possibles\", et le rôle qu'il tient dans ta pensée théologique ?"
       },
       {
         "title": "Le meilleur des mondes possibles",
@@ -909,7 +981,7 @@
       },
       {
         "title": "Ce qu'est la causalité",
-        "prompt": "Peux-tu expliquer comment tu interpètes la notion de \"causalité\", et le rôle que joue ce concept dans ta pensée épistémologique ?"
+        "prompt": "Peux-tu expliquer comment tu interprètes la notion de \"causalité\", et le rôle que joue ce concept dans ta pensée épistémologique ?"
       },
       {
         "title": "Sur quoi repose la morale",
@@ -1023,6 +1095,19 @@
             "contenu": "Il est donc bien certain que la pitié est un sentiment naturel qui, modérant dans chaque individu l’activité de l’amour de soi-même, concourt à la conservation mutuelle de toute l’espèce. C’est elle qui nous porte sans réflexion au secours de ceux que nous voyons souffrir : c’est elle qui, dans l’état de nature, tient lieu de lois, de mœurs, et de vertu, avec cet avantage que nul n’est tenté de désobéir à sa douce voix : c’est elle qui détournera tout sauvage robuste d’enlever à un faible enfant, ou à un vieillard infirme, sa subsistance acquise avec peine, si lui-même espère pouvoir trouver la sienne ailleurs : c’est elle qui, au lieu de cette maxime sublime de justice raisonnée, Fais à autrui comme tu veux qu’on te fasse, inspire à tous les hommes cette autre maxime de bonté bien moins naturelle, bien moins parfaite, mais plus utile que la précédente, Fais ton bien avec le moindre mal d’autrui qu’il est possible. C’est, en un mot, dans ce sentiment naturel, plutôt que dans des arguments subtils, qu’il faut chercher la cause de la répugnance que tout homme éprouverait  à mal faire, même indépendamment des maximes de l’éducation. Quoiqu’il puisse appartenir à Socrate et aux esprits de sa trempe, d’acquérir de la vertu par raison, il y a longtemps que le genre humain ne serait plus, si sa conservation n’eût dépendu que des raisonnements de ceux qui le composent."
           }
         ]
+      },
+      {
+        "concept": "#la démocratie",
+        "mots": [
+          "\\bdémocrat"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Dans le Contrat Social, Rousseau marque sa préférence par la démocratie directe. Pourquoi ? Parce que “celui qui fait la loi sait mieux que personne comment elle doit être exécutée et interprétée“. Le pouvoir législatif donc être uni au pouvoir exécutif.\nUn gouvernement démocratique serait celui dans lequel le peuple, en tant que souverain, exprimé dans la loi la volonté générale se constituerait en magistrat collectif pour l'exécuter.\nMais Rousseau n'est pas un idéaliste, puisqu'il est conscient de la difficulté d'un gouvernement direct, sans représentation ni division des pouvoirs. En effet, ce régime parfait ne peut fonctionner que si les citoyens sont vertueux, dédiés à la cause commune et agissent pour le bien commun, dans le respect de la volonté générale. Rousseau inclut à cet effet un programme d'éducation politique des citoyens.\nEt Rousseau de conclure que “s'il y avait un peuple de dieux, il se gouvernerait démocratiquement. Un gouvernement si parfait ne convient pas à des hommes“."
+          }
+        ]
       }
     ]
   },
@@ -1108,6 +1193,19 @@
             "contenu": "Le criticisme, ou « philosophie critique », promeut l'idée que toute véritable recherche philosophique « consiste à commencer par analyser les fondements, l'étendue légitime et les limites de notre connaissance ». La critique ne s'exerce pas tellement sur les productions de la raison mais sur la raison elle-même.\nLa philosophie critique s'oppose directement au dogmatisme et au scepticisme. En effet, le criticisme peut être considéré comme un bouleversement non seulement des manières de penser pour ce qui concerne la spéculation métaphysique mais aussi dans la manière de se comporter eu égard à la morale et à la politique.\nLe criticisme postule que si l'être humain ne peut connaître la vérité des choses en soi (noumènes), il peut connaître la vérité de ce qu'elles sont pour soi (ce qu'elles représentent pour lui - phénomènes).\nToute connaissance serait formée de la combinaison d'observations issues des sens (et donc incertaines) et de catégories de pensée universelles (identiques pour tout être pensant) a priori (préexistant à toute expérience), tel que le principe de causalité par exemple. De cette universalité des catégories de pensée découlerait le fondement « certain » des connaissances (des phénomènes) a posteriori."
           }
         ]
+      },{
+        "concept": "#le vivant",
+        "mots": [
+          "\\bvivant",
+          "\\bplante"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "Critique de la faculté de juger",
+            "contenu": "Dans une montre, une partie est l'instrument du mouvement des autres, mais un rouage n'est pas la cause efficiente de la production de l'autre rouage : une partie existe certes pour l'autre, mais elle n'existe pas par elle. Ce pourquoi la cause qui produit ces parties et leur forme n'est pas non plus contenue dans la nature (de cette matière), mais en dehors d'elle, dans un être qui peut produire d'après des Idées un tout possible par sa causalité. \nCe pourquoi aussi un rouage d'une montre ne produit pas l'autre rouage, et encore moins une montre d'autres montres, de manière telle qu'elle utili­serait à cette fin d'autres matières (elle les organiserait) ; ce pourquoi elle ne remplace pas non plus, d'elle-même, les parties qui en ont été retirées, ni ne corrige leur absence, dans la première mise en forme de la montre, par l'intervention des autres, ni ne se répare elle-même quand elle est déréglée : toutes opérations que nous pouvons attendre au contraire de la nature organisée. \nUn être organisé n'est donc pas simplement une machine, étant donné que la machine a exclusive­ment la force motrice ; mais il possède en soi une force formatrice qu'il communique aux matières qui n'en disposent pas (il les organise) : c'est donc une force formatrice qui se propage et qui ne peut être expliquée uniquement par le pouvoir moteur (par le mécanisme)."
+          }
+        ]
       },
       {
         "concept": "le sublime",
@@ -1131,7 +1229,7 @@
         "extraits": [
           {
             "auteur": "sans objet",
-            "origine": "les-philosphes.fr",
+            "origine": "les-philosophes.fr",
             "contenu": "Dans son ouvrage \"Idée d'une histoire universelle au point de vue cosmopolitique\", Kant se pose la question suivante : y a-t-il un sens de l’Histoire ? Ou l’Histoire va-t-elle au hasard ?\n\nPour Kant, le hasard n’est qu’apparent. En effet « les actions humaines sont déterminées exactement comme tout autre événement naturel selon les lois universelles de la Nature. »\nOn se souvient en effet que Kant a établi dans la Critique de la Raison Pratique qu’il y a un déterminisme phénoménal, même si la liberté existe comme noumène. L’Histoire n’est autre chose que l’ensemble phénoménal des actions de l’homme, elle relève donc du déterminisme. Ce qui semble désordonné et irrationnel dans l’Histoire du point de vue de l’individu se révèle du point de vue de l’espèce comme un développement progressif et continu, quoique lent, de ses dispositions originelles.\nKant prend deux exemples pour nous faire saisir cet ordre, qui se dissimule sous une irrationalité de surface. Les morts, les naissances et les mariages paraissent se produire de manière irrégulière, par hasard ou selon la volonté fluctuante des hommes. Or des tableaux statistiques montrent qu’ils se produisent finalement selon des lois naturelles constantes. De même, les pluies, bien qu’irrégulières, finissent toujours par être plus ou moins les mêmes sur un territoire donné.\nEn fait, il y a un sens de l’Histoire, que Kant nomme dessein de la Nature, poursuivi « inconsciemment » par les hommes : Les hommes pris individuellement, et même des peuples entiers ne songent guère au fait qu’en poursuivant leurs fins particulières chacun selon son bon plaisir, ils suivent à leur insu, comme un fil conducteur, le dessein de la Nature, qui leur est lui-même inconnu, et travaillent à favoriser sa réalisation. Avec tant d’absurdité et de vice chez chacun, on ne peut supposer aucun dessein personnel raisonnable, mais peut-être un dessein de la Nature."
           }
         ]
