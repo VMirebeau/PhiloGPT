@@ -252,7 +252,7 @@
       },
       {
         "title": "Ce qu'est l'amitié",
-        "prompt": "Comment définirais-tu l'amitié ? Quel est son rôle dans une vie vertueuse ?"
+        "prompt": "Quelles sont les différentes formes possibles d'amitié ?"
       }
     ],
     "concepts": [
@@ -1265,10 +1265,6 @@
         "prompt": "Tu as affirmé que l'art était mort. Pourtant, beaucoup d'oeuvres d'art ont été produites à ton époque, et ensuite. Peux-tu préciser le sens de ce que tu as voulu dire ?"
       },
       {
-        "title": "Le savoir absolu",
-        "prompt": "Peux-tu m'expliquer ce que tu appelles le \"savoir absolu\", et comment y parvenir ?"
-      },
-      {
         "title": "Langage et pensée",
         "prompt": "D'après toi, est-il possible de penser sans langage, et pourquoi ?"
       }
@@ -1276,7 +1272,8 @@
     "concepts": [
       "le langage",
       "la liberté",
-      "le travail"
+      "le travail",
+      "l'art"
     ],
     "concepts_signés": [
       {
@@ -1302,6 +1299,19 @@
             "auteur": "sans objet",
             "origine": "Wikipedia",
             "contenu": "L’étude ou science de la conscience est la phénoménologie de l’esprit. Elle étudie la manifestation phénoménale d’un sujet en tant qu’il se rapporte à un objet, c'est-à-dire en tant que conscience. Quand cette étude a pour objet le rapport interne de l’esprit à lui-même on l’appelle psychologie.\nLa phénoménologie est donc la « science de l’expérience de la conscience ». Hegel décrit l’évolution dialectique de la conscience par le jeu des négations successives. Depuis la première opposition immédiate entre elle et l’objet, puis la conscience de soi, la raison, l’esprit, la religion, jusqu’au savoir absolu dans lequel « le concept correspond à l’objet et l’objet au concept », ce dernier savoir est selon Hegel savoir de l’être dans sa totalité, intériorisation de l’objet, ou identité de l’objet de la pensée et de l’activité de connaissance dont le résultat est l’objet lui-même."
+          }
+        ]
+      },
+      {
+        "concept": "#la mort de l'art",
+        "mots": [
+          "\\bmort de l'art"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "lettres-et-arts.net",
+            "contenu": "L’art romantique aboutit à l’ironie qui dissout tout contenu. Le moment de la beauté est perdu avec le monde grec. L’art est-il mort ? Comme le dit Hegel, « L’art ne fournit plus cette satisfaction que des besoins spirituels que des temps et des peuples anciens ont cherché en lui et trouvé seulement en lui…. L’art est pour nous, suivant le côté de sa plus haute destination, quelque chose du passé. De ce fait, il a perdu pour nous aussi sa vérité et sa vitalité authentique » . L’art est chose du passé, il est dépassé. Mais il faut se souvenir que pour Hegel le dépassement est toujours un dépassement spirituel et non une mort matérielle : aufheben c’est à la fois dépasser et conserver. Il ne s’agit donc pas de la fin matérielle de l’art dans la thèse hégélienne de la fin de l’art. L’art peut continuer comme production individuelle exprimant la créativité de la subjectivité. « On peut bien espérer que l’art s’élèvera et s’accomplira de plus en plus ». dit même Hegel. L’art n’a plus aujourd’hui de destination absolue mais cela ne signifie pas qu’il n’y a plus d’art, il retombe simplement dans la contingence. L’art devient : « seulement un jeu avec les objets » où s’exprime la créativité individuelle. L’art n’est plus consensuel : il n’exprime plus l’esprit d’un peuple, d’où la difficulté à reconnaître pour artistique un objet, problème qui est relativement récent."
           }
         ]
       }
@@ -1358,7 +1368,8 @@
     ],
     "concepts": [
       "le travail",
-      "l'État"
+      "l'État",
+      "la religion"
     ],
     "concepts_signés": [
       {
@@ -1390,6 +1401,24 @@
         ]
       },
       {
+        "concept": "plus-value",
+        "mots": [
+          "\\bplus-value"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "Dans la théorie de la valeur de Marx, la plus-value a une signification précise : c’est la différence entre la quantité de valeur ajoutée par le travailleur à la marchandise initiale et la valeur de la force de travail nécessaire (le travail lui-même étant « incommensurable » au sens de non-marchandisable puisque le travail, c'est l'individu, un être vivant, pensant, et non une marchandise)."
+          },
+          {
+            "auteur": "Friedrich Engels",
+            "origine": "L'anti-Dühring",
+            "contenu": "Quelle est l'origine de cette plus-value ? Elle ne peut ni venir du fait que l'acheteur a acheté les marchandises au-dessous de la valeur, ni du fait que le vendeur les a revendues au-dessus de la valeur. Car, dans les deux cas, les gains et les pertes de chaque individu se compensent, puisque chacun est tour à tour acheteur et vendeur. Elle ne peut provenir non plus du dol [tromperie], puisque le dol peut sans doute enrichir l'un aux dépens de l'autre, mais il ne peut pas augmenter la somme totale possédée par l'un et l'autre, non plus, par conséquent, que la somme des valeurs circulantes en général."
+          }
+        ]
+      },
+      {
         "concept": "l'idéologie",
         "mots": [
           "\\bidéologi"
@@ -1399,6 +1428,19 @@
             "auteur": "sans objet",
             "origine": "Wikipedia",
             "contenu": "Pour Karl Marx, l'idéologie est l'ensemble des idées, des valeurs et des normes servant à légitimer la division en classes de la société. L’idéologie au sens marxiste décrit donc l'idéologie dominante en tant que « vision du monde » imposée par la classe dominante. C'est la construction intellectuelle qui expliquerait et justifierait un ordre social existant à partir de raisons naturelles ou religieuses. Cette vision ne serait en réalité qu'un voile destiné à cacher la poursuite d'intérêts matériels égoïstes que la classe dominante utiliserait pour renforcer ou étendre sa domination : ainsi pour renforcer le pouvoir en place, l'idéologie de la classe dominante se présenterait de manière que les intérêts de la classe dominante paraissent être les intérêts de tous. L'idéologie devient une superstructure de la société dont elle émane et qu'elle soutient. Selon Friedrich Engels, « l’idéologie est un processus que le soi-disant penseur accomplit sans doute consciemment, mais avec une conscience fausse. Les forces motrices véritables qui le mettent en mouvement lui restent inconnues, sinon ce ne serait point un processus idéologique ».\nLa critique de Karl Marx de l'idéologie est d'abord une critique de la misère que cette idéologie cache, misère qui réside dans les rapports sociaux à la fois résultat et moteur de cette misère. La première misère est l' obligation au travail impliquée dans l'organisation de la société par Le Capital dans laquelle toute personne dépourvue d'une part de ce capital se voit dans l'obligation de vendre sa force de travail."
+          }
+        ]
+      },
+      {
+        "concept": "#la dictature du prolétariat",
+        "mots": [
+          "\\bdictature du prolétariat"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La dictature du prolétariat est un concept du marxisme désignant une hypothétique phase transitoire de la société entre le capitalisme et le communisme. Marx et Friedrich Engels conçoivent la dictature du prolétariat comme une phase transitoire de dictature révolutionnaire, supposée nécessaire pour abattre le pouvoir de la bourgeoisie. Sur le plan économique, elle se traduit par la suppression de la propriété privée des moyens de production, et donc par la mise en place du collectivisme économique et d'une démocratie au travail via un processus de socialisation des biens. Le terme « dictature » fut choisi pour souligner que le capitalisme consisterait en la « dictature de la bourgeoisie », celle d'une seule classe sociale qui détient tout le pouvoir politique et économique (que ce soit sous la forme politique du régime parlementaire ou de la dictature telle qu'on l'entend aujourd'hui). Pour renverser cette classe, la classe des gens d'aucune classe - les prolétaires - devait prendre dans un premier temps tout le pouvoir, pour supprimer la division de la société en classes. Le mot dictature choque parfois aujourd'hui. Cependant, les mots n’ont pas aujourd’hui le même sens qu’ils pouvaient avoir sous la plume de Marx. À l’époque, la dictature, dans le vocabulaire des Lumières, s’opposait à la tyrannie ; elle évoquait une vénérable institution romaine : un pouvoir d’exception délégué pour un temps limité, et non pas un pouvoir arbitraire illimité."
           }
         ]
       }
@@ -1603,6 +1645,20 @@
             "contenu": "On pourrait grossièrement résumer l'idée de l'Éternel Retour en un simple précepte tel que celui-ci : mène ta vie en sorte que tu puisses souhaiter qu’elle se répète éternellement.\nCe concept est alors très éloigné de l’idée de résurrection ou de réincarnation présente dans certaines religions : Nietzsche ne semble pas tenir pour véritable la possibilité de revivre à l’infini sa propre vie, mais il fait de cette perspective une pierre de touche pour la valeur de sa propre existence. Ainsi, pour de nombreux penseurs de la fin du xixe siècle en Allemagne, époque phare du pessimisme, le bilan que la plupart des hommes feraient au soir de leur vie suffit à prouver l’absurdité de l’existence. Si en effet la mort venait nous voir ce jour même en nous annonçant que notre heure est venue mais que nous pouvons décider, au lieu de sombrer dans le néant, de revivre à l’infini et dans ses moindres détails toute la vie que nous avons menée jusqu’ici, il y a fort à parier que nous préfèrerions retourner au néant – c'est ce que Nietzsche appelle le nihilisme incomplet, par opposition au nihilisme complet qu'il propose, celui qui caractérise le surhumain. Aussi faut-il tâcher de vivre de telle sorte que l’on puisse souhaiter que chaque instant se reproduise éternellement."
           }
         ]
+      },
+      {
+        "concept": "#amor fati",
+        "mots": [
+          "\\bamor fati",
+          "\\bamour (?:du destin|de la destinée)"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "L'amor fati, qui signifie \"l'amour du destin\" ou \"l'amour de la destinée\", est un concept introduit par Nietzsche qui ne doit pas être confondu avec le fatalisme. En effet, l'amor fati est un amour du devenir et du chaos que peut représenter la réalité. L'amor fati n'est pas une résignation passive, mais plutôt une acceptation de son destin. L'amor fati permet à l'homme de se libérer d'une certaine fatalité, celle de la morale et de sa condamnation, et de renouer avec la vision grecque du tragique, où les notions de faute et de péché n'existaient pas. L'amor fati permet également à l'homme de dépasser le fatalisme en affirmant sa volonté de puissance face au monde, sans pour autant chercher à le soumettre à un arrière-monde. Aimer le réel pleinement, selon Nietzsche, c'est chercher à l'affirmer toujours plus, chercher à créer des valeurs toujours plus affirmatrices. Affirmer le monde ne revient donc pas à le conserver simplement tel qu'il est, mais plutôt à chercher à le changer pour le rendre meilleur."
+          }
+        ]
       }
     ]
   },
@@ -1708,6 +1764,20 @@
             "auteur": "auto",
             "origine": "Lettre du 25 mai 1937 à Marie Bonaparte",
             "contenu": "La sublimation est un concept qui comprend un jugement de valeur. En fait, elle signifie une application à un autre domaine où des réalisations socialement plus valables sont possibles. [...] Toutes les activités qui organisent ou affectent des changements sont, dans une certaine mesure, destructrices et redirigent ainsi une pulsion loin de son but destructeur original. Même l'instinct sexuel, comme nous le savons, ne peut agir sans une certaine dose d'agression. Par conséquent, il y a dans la combinaison normale des deux instincts une sublimation partielle de l'instinct de destruction."
+          }
+        ]
+      },
+      {
+        "concept": "#la libido",
+        "mots": [
+          "\\blibido",
+          "\\bsex"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Wikipedia",
+            "contenu": "La pulsion sexuelle définie comme un concept à la limite somato-psychique, la libido en désigne l’aspect énergétique ; elle est « la manifestation dynamique dans la vie psychique de la pulsion sexuelle ». Freud a théorisé la libido, dans la première théorie des pulsions, en tant qu'énergie psychique employée dans une dialectique entre les pulsions sexuelles et les pulsions d'autoconservation, puis entre les pulsions sexuelles et les « pulsions du Moi ». Il a introduit une nouvelle dualité pulsionnelle issue de la seconde topique (1920), entre pulsion de vie (Éros) et pulsion de mort (Thanatos).\nSigmund Freud définit la libido comme « l'énergie, considérée comme un ordre de grandeur quantitative […] de ces instincts qui ont à voir avec tout ce qui peut être compris sous le mot « amour ». C'est l'énergie, ou la force de l'instinct, contenue dans ce que Freud appelait le ça, la structure strictement inconsciente de la psyché. Freud décrit d'un côté l'excitation sexuelle somatique, et de l'autre, la libido psychique transformée, voire substituée, par des obsessions pénibles ou des phobies : « des femmes pas du tout satisfaites dans leur mariage, se débattaient contre les désirs et des idées voluptueuses qui les hantaient à la vue d'autres hommes ». Dans ce contexte, les phobies et la névrose anxieuse sont d'origine sexuelle, sont la manifestation psychique d'une accumulation de la tension \"génésique\" fruste, de l'excitation sexuelle frustrée."
           }
         ]
       }
@@ -1919,6 +1989,20 @@
             "contenu": "Simone Weil a une grande estime pour Marx. Elle lui reproche cependant de pas être allé assez loin dans son matérialisme, de ne pas avoir vu que le développement illimité des forces productives se heurteraient à la matérialité du monde. Il importe donc de s'affranchir de la « religion de la production »."
           }
         ]
+      },
+      {
+        "concept": "#la beauté",
+        "mots": [
+          "\\bbeauté",
+          "\\ble beau"
+        ],
+        "extraits": [
+          {
+            "auteur": "auto",
+            "origine": "L'Attente de Dieu",
+            "contenu": "La beauté est la seule finalité ici-bas. Comme Kant a très bien dit, c’est une finalité qui ne contient aucune fin. Une chose belle ne contient aucun bien, sinon elle-même, dans sa totalité, telle qu’elle nous apparaît. Nous allons vers elle sans savoir quoi lui demander. Elle nous offre sa propre existence. Nous ne désirons pas autre chose, nous possédons cela, et pourtant nous désirons encore. Nous ignorons tout à fait quoi. Nous voudrions aller derrière la beauté, mais elle n’est que surface. Elle est comme un miroir qui nous renvoie notre propre désir du bien. Elle est un sphinx, une énigme, un mystère douloureusement irritant. Nous voudrions nous en nourrir, mais elle n’est qu’objet de regard, elle n’apparaît qu’à une certaine distance. La grande douleur de la vie humaine, c’est que regarder et manger soient deux opérations différentes. De l’autre côté du ciel seulement, dans le pays habité par Dieu, c’est une seule et même opération. Déjà les enfants, quand ils regardent longtemps un gâteau et le prennent presque à regret pour le manger, sans pouvoir pourtant s’en empêcher, éprouvent cette douleur. Peut-être les vices, les dépravations et les crimes sont-ils presque toujours ou même toujours dans leur essence des tentatives pour manger la beauté, manger ce qu’il faut seulement regarder. Ève avait commencé. Si elle a perdu l’humanité en mangeant un fruit, l’attitude inverse, regarder un fruit sans le manger, doit être ce qui sauve. \"Deux compagnons ailés, dit une Upanishad, deux oiseaux sont sur une branche d’arbre. L’un mange les fruits, l’autre les regarde.\" Ces deux oiseaux sont les deux parties de notre âme.  C’est parce que la beauté ne contient aucune fin qu’elle constitue ici-bas l’unique finalité. Car ici-bas il n’y a pas du tout de fins. Toutes ces choses que nous prenons pour des fins sont des moyens. C’est là une vérité évidente. L’argent est un moyen d’acheter, le pouvoir est un moyen de commander. Il en est ainsi, plus ou moins visiblement, de tout ce que nous nommons des biens.  La beauté seule n’est pas un moyen pour autre chose. Seule elle est bonne en elle-même, mais sans que nous trouvions en elle aucun bien. Elle semble être elle-même une promesse et non un bien. Mais elle ne donne qu’elle-même, elle ne donne jamais autre chose.  Néanmoins, comme elle est l’unique finalité, elle est présente dans toutes les poursuites humaines. Bien que toutes pourchassent seulement des moyens, car tout ce qui existe ici-bas est seulement moyen, la beauté leur donne un éclat qui les colore de finalité. Autrement il ne pourrait pas y avoir désir, ni par conséquent énergie dans la poursuite."
+          }
+        ]
       }
     ]
   },
@@ -1975,6 +2059,25 @@
             "contenu": "Le « visage » est l'un des concepts majeurs de la philosophie lévinassienne. Il ne se ramène pas au visage physique, même s’il part d'une description phénoménologique de son aspect physique. Le visage, c'est la manière qu'a l'autre de m'aborder de face, à la fois suppliant et commandant impérieusement de le préserver. Le visage est porteur du premier et seul ordre adressé à moi : « Tu ne tueras point ». En ce sens, tout le corps et tout l'homme est visage.\nLevinas pense le rapport à l'autre comme l’infini (ce qui déborde l'être). Le « visage », dans sa nudité, en est la trace. Le « visage » est une chose devenue concept : c’est ce qui vient oblitérer toute définition de l’Autre, toute finitisation. L’impossibilité de définir l’Autre le ramène à l’indéfini, au débordant, à l’infini au sens de Levinas.\n« Dé-visager » quelqu’un, c’est détruire son visage en le décomposant, en le réduisant à un ensemble de qualités sensibles. Pour Levinas, le visage est nu, sans qualités, un « trou dans l'Être » (Sartre), ce qui fait penser à ce que Platon dit du bien au-delà de l'Être, idée que Levinas reprend souvent à son compte. Lorsque je suis confronté au visage, il me met en question. Je suis destitué, traumatisé, violenté. « L’éthique, c’est ce qui provoque un dérangement dans le sujet ».\nDans un texte célèbre, Levinas compare les trois « nudités », celles du paysage et celle du corps ne faisant jamais que renvoyer à la nudité du visage, la nudité par excellence, celle du visage qui se tourne vers moi et qui est « la nudité même » pour reprendre la formule propre de Levinas.\nAinsi, le registre « bien-pensant » de la morale bourgeoise ou de l’égalitarisme, celui de la charité, de l’altruisme, de la récrimination moralisante, n’est pas celui de Levinas car ces postures de charité confortent le sujet dans son identité, dans sa contenance subjective. Ma charité me fait du bien, alors que la relation éthique lévinassienne me bouleverse. Ainsi, le lieu du contresens à propos de Levinas est la morale. Comme l'écrit Levinas, « Il importe au plus haut point de savoir si l'on n'est pas dupe de la morale »."
           }
         ]
+      },
+      {
+        "concept": "#Dieu",
+        "mots": [
+          "\\bdieu",
+          "\\bdivin"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "Roger Burggraeve",
+            "contenu": "Lorsque Levinas pose la question de la déformalisation de l'idée de l’Infini, c’est-à-dire qu’il s’interroge sur le « contexte » concret où « il nous vient à l’idée », sa réponse est la suivante : dans le visage de l’autre qui nous appelle à la responsabilité : « le choc du divin c’est le visage d’autrui ».\nDans le visage, l’Infini ne s’exprime pas comme symbole (voilant/dévoilant) mais comme trace : « l’au-delà d’où vient le visage signifie comme trace » (DEHH 198). Le symbole est simultanément révélation et dissimulation. Il rend ce qui est visé présent (révélation), mais en même temps il cache de nouveau aussi cette présence (dissimulation). Si le visage était un renvoi symbolique au Transcendant, celui-ci perdrait sa transcendance, car il tomberait à l’intérieur de l’horizon immanent du symbole, que le moi comprend comme renvoi significatif, et qui, de cette manière, est interprété à l’intérieur de l’horizon temporel ou ontologique. Le renvoi dans le visage au radicalement Autre n’implique donc pas un rapport dialectique réciproque de présence/absence. Le visage ne renvoie qu’au Transcendant comme étant l’Absent « ab-solu » (littéralement « détaché »)"
+          },
+          {
+            "auteur": "auto",
+            "origine": "Totalité et infini",
+            "contenu": "Autrui n’est pas l’incarnation de Dieu, mais précisément par son visage, où il est désincarné, la manifestation de la hauteur où Dieu se révèle."
+          }
+        ]
       }
     ]
   },
@@ -2015,10 +2118,6 @@
         "prompt": "Quelle place réserves-tu à la relation amoureuse dans ta philosophie ?"
       },
       {
-        "title": "La morale",
-        "prompt": "Tu n'as jamais achevé tes Cahiers pour une morale. Peux-tu m'expliquer les problèmes moraux que pose l'existentialisme, et pourquoi tu n'es pas parvenu à les résoudre de façon satisfaisante ?"
-      },
-      {
         "title": "Politique et engagement",
         "prompt": "Sur la fin de ta carrière, tu as été un philosophe très engagé politiquement. Explique-moi l'importance qu'a la notion d'engagement pour ta philosophie."
       }
@@ -2038,6 +2137,34 @@
             "auteur": "sans objet",
             "origine": "la-philosophie.com",
             "contenu": "La mauvaise foi tient une place importante dans la philosophie de Sartre, car elle est l’envers de la liberté, comme le mensonge est l’envers de la vérité.\nDans l’Etre et le Néant, Sartre liste les différentes conduites de mauvaise foi (coquette, garçon de café, …) utilisées par l’homme pour se masquer à lui-même sa liberté, qu’il assume mal. La mauvaise foi consiste à faire semblant de croire que l’on n’est pas libre, c’est se faire plein d’être, se réifier.\nL’introduction du mécanique dans sa gestuelle indique que le garçon de café tente d’être en soi (suivant la distinction ontologique de l'en soi, monde des objets, et du pour-soi, règne de l'homme), à se couler dans le monde en tant que chose. La conscience, nous dit Sartre, cherche toujours à coïncider avec elle-même, à se remplir d’être, à se faire “en-soi”, mais elle ne peut au fond se masquer le fait qu’elle n’est jamais ce qu’elle est, car l’homme, en tant qu'être réflexif, change dès qu’il prend conscience de lui-même : se dire naïf n'est plus tout à fait être naïf. Ainsi, le garçon de café s’invente une essence qui le soulagerait de sa liberté, mais ce n’est qu’une illusion qui tombe car la conscience ne disparaît jamais : je sais que je joue à être garçon de café.\nLa théorie de la mauvaise foi pose une thèse très forte sur l'existence : l’homme est un être plein de néant, mais il veut être l’être. La mauvaise foi renvoie à ce déchirement de la condition humaine, prise entre une liberté angoissante (néant) et une chosification réconfortante mais mystificatrice (être)."
+          }
+        ]
+      },
+      {
+        "concept": "l'existentialisme",
+        "mots": [
+          "\\bexistentialis",
+          "\\bexistence",
+          "\\bessence"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "L’existentialisme se définit à partir de la subjectivité. Le nom même de cette doctrine oppose l’existence et l’essence. Sartre affirme que l’existence précède l’essence, c’est-à-dire qu’aucune fonction ni aucun destin ne sont fixés pour l’individu et ne déterminent sa vie à l’avance. En d’autres termes, il faut partir de la subjectivité, car il n’est pas de nature humaine qui détermine et enserre l’homme.\nL’existentialisme est une philosophie de l’action. Comme l’individu est libre, il se définit lui-même ; en agissant, il s’invente lui-même ; il est le projet qu’il détermine pour lui-même. De surcroît, la définition qu’il choisit pour lui-même influence la manière dont tous les autres hommes se définissent. S’il porte toute la responsabilité de ses actes, il doit aussi assumer une part de la responsabilité collective, étant donné qu’il contribue forcément au monde et à la société. Sa liberté absolue le confronte donc à deux phénomènes : il doit choisir et il est implicitement responsable.\nL’existentialisme met en évidence le paradoxe de la liberté humaine. La radicalité de la liberté humaine implique en effet, pour Sartre, que l’individu est « condamné à être libre ; condamné parce qu’il ne s’est pas lui créé lui-même, et par ailleurs cependant libre parce qu’une fois jeté dans le monde, il est responsable de tout ce qu’il fait » (L’existentialisme est un humanisme). C’est à cause de cette condamnation que l’homme est envahi par un sentiment d’angoisse qui l’entraîne vers une « mauvaise foi », c’est-à-dire qu’il se comporte comme s’il n’était pas libre, qu’il feint la plénitude d’un être fixe quand il est néant. Par exemple, le célèbre garçon de café dépeint par Sartre a une conduite exagérément stéréotypée par laquelle il veut s’arroger une essence pour échapper à son propre néant. Or, Il n’est pas possible d’éviter de choisir ; il n’est pas d’« acte gratuit ». Il n’est pas non plus possible de faire reposer ses actes sur des principes abstraits, ceux-ci échouant toujours à définir l’action. Il faut au contraire toujours choisir, surtout sa morale, car « la vie n’a pas de sens a priori ». L’engagement est donc nécessaire. L’homme est projet, il doit se projeter pour s’accomplir : tel est l’humanisme de l’existentialisme – par opposition à un autre humanisme (celui du communisme), celui qui place l‘homme comme fin et valeur supérieure."
+          }
+        ]
+      },
+      {
+        "concept": "#l'amour",
+        "mots": [
+          "\\bamour"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "1000idcg.com",
+            "contenu": "L’amour ne se réduit pas à la possession physique. Jean-Paul Sartre estime que le fait que l’amant souhaite être aimé en retour signifie que le désir amoureux ne se résume pas au simple désir de posséder le corps de l’être aimé. À la vérité, cet acte ne suffit pas à combler l’amant.\nL’amour est un désir d’appropriation de la liberté de l’aimé. Sartre met en évidence le paradoxe qui caractérise l’engagement amoureux. D’un côté, le désir amoureux de l’amant vise bien la liberté de l’être aimé, c’est-à-dire qu’il désire que l’être aimé le désire en retour par un choix libre. Il ne faut cependant pas que l’appropriation confine à la tyrannie. En effet, si l’amant s’approprie la liberté de l’être aimé en manipulant ses passions, comme un tyran s’approprie la liberté de ses sujets, alors l’être aimé n’est plus libre — et l’amour perd son authenticité. Plus généralement, l’appropriation de la liberté de l’aimé ne doit pas non plus relever de l’automatisme. Ainsi, l’amoureux ne sera pas épanoui s’il est l’objet d’une passion mécanique et débordante, comparable à l’attachement d’un animal ou d’un robot, dont l’amour est déterminé mécaniquement par les lois de la nature ou par celles de la technique. Cette situation, elle aussi, revient à abolir la liberté de l’être aimé, c’est-à-dire à le transformer en objet. L’amant est le seul sujet libre de la relation, c’est pourquoi l’amour y perd sa valeur, voire disparaît. Le paradoxe du désir amoureux est donc que l’amant désire s’approprier la liberté de l’aimé sans aller jusqu’à la supprimer. Pour Sartre, le véritable amour lie deux sujets libres et conscients.\nL’amour libre n’est pas pleinement satisfaisant. Sartre met en évidence le rapport éminemment paradoxal entre le désir amoureux et la liberté. Celle-ci est certes une condition nécessaire de l’amour, mais pas suffisante. Si l’amant désire que l’être aimé l’aime en retour librement, l’entière liberté de cet engagement ne suffit pas à l’épanouir. De fait, les deux extrêmes échouent à le satisfaire : ni l’entière liberté ni l’entier déterminisme ne correspondent à l’idéal amoureux. La liberté que l’aimé manifeste dans son engagement doit prendre l’apparence du déterminisme passionnel ; elle doit même s’illusionner sur sa propre nature au point de croire que le déterminisme passionnel l’abolit."
           }
         ]
       }
@@ -2095,6 +2222,34 @@
             "auteur": "sans objet",
             "origine": "la-philosophie.com",
             "contenu": "Hans Jonas pense que la “responsabilité” à l'égard de l'humanité à venir est aujourd'hui un principe (et non une simple vertu…) c'est-à-dire le fondement même d'une conception totalement inédite de l'éthique. La responsabilité n'est plus conçue dans ses termes juridiques classiques: être responsable de ses actes, au sens usuel, c'est être en mesure d'en revendiquer la paternité, c'est-à-dire d'en répondre, notamment sous la forme de dédommagements (“responsabilité-imputablilité”). La responsabilité jonassienne est au contraire une idée morale et métaphysique. Responsabilité pour autrui - c'est-à-dire obligation où je me trouve de répondre d'autrui, même si aucune loi ne m'y oblige – et responsabilité devant l'avenir, c'est-à-dire responsabilité comme souci, ou encore sollicitude, et non pas capacité ou volonté d'assumer des actes ou des projets dont je serais partie prenante. Dans ces conditions, la responsabilité n'est pas le résultat de l'autonomie, elle en est le fondement. Elle n'est pas non plus une caractéristique particulière ou secondaire de l'humanité: tout au contraire elle en constitue le signe distinctif, voire la définition. Les analyses de Hans Jonas pourraient s'inscrire sur ce point dans cette “révolution copernicienne” de l'éthique engagée parallèlement par le philosophe  contemporain Emmanuel Levinas. La responsabilité, conçue comme une obligation sans choix, comme une impuissance et une charge (autrui m'ayant toujours déjà “pris en otage”), est la condition de l'humanité et non pas sa conséquence. Véritable “sujétion à l'altérité”, cette responsabilité-sollicitude aura tout naturellement pour premier commandement l'existence de l'humanité: car, pour tout homme, “la possibilité qu'il y ait de la responsabilité est la priorité absolue ».  A partir de tels axiomes, H.Jonas est amené à reconsidérer complètement les idées de droits et d'obligations, et à développer son “principe” en termes très paradoxaux. La nouvelle “responsabilité” n'est pas pensée à partir des actes, mais du “pouvoir-faire”. Le: “tu dois donc tu peux” s'inverse en un: “tu peux donc tu dois” (compte tenu du pouvoir exorbitant de la technologie qui est, de fait, à l'oeuvre dans le monde, que je le veuille ou non, je dois me considérer comme étant l'un des gérants de la planète, et comme étant, à ce titre, co-responsable de son devenir. L'objet de ce devoir à la fois “impérieux et sans répit” est le” fragile”, le “périssable en tant que tel”, c'est-à-dire la nature et la vie dans son ensemble, et non pas seulement l'être humain. Cette “responsabilité”, enfin, est non-réciproque: elle m'oblige à l'égard d'un avenir qui n'existe pas, et auquel je ne demanderai pas de comptes. Le paradigme de cette situation d'obligation sans réciprocité est la relation des parents à l'égard du nouveau-né dont le dénuement infini crée un devoir irréfutable de lui venir en aide, obligation absolue qui n'a pourtant d'autre fondement que la simple considération de cette fragilité. Car la relation de l'adulte à l'égard de l'enfant démuni n'est pas juridique: elle est éthique, en ce sens qu'elle est fondamentalement asymétrique et irréversible. Le propre de l'éthique – selon  Emmanuel Lévinas et Hans  Jonas – est de commander sans rien promettre en échange. Mais que commande-t-elle? Essentiellement le respect de l'humanité. C'est-à-dire tout d'abord de faire en sorte que l'humanité soit, que des hommes uniques soient possibles, qu'ils puissent encore naître et advenir. Qu'ils puissent éventuellement “vivre bien” est le second commandement, beaucoup plus difficile encore à concrétiser."
+          }
+        ]
+      },
+      {
+        "concept": "#Dieu après Auschwitz",
+        "mots": [
+          "\\bdieu",
+          "\\bAuschwitz"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "la-philosophie.com",
+            "contenu": "Dans un court texte consacré au concept de Dieu après Auschwitz, Jonas propose l'idée d'un renoncement de la puissance divine au moment de la création mondaine. Établir le concept de Dieu après Auschwitz, c'est nécessairement séparer le concept de Dieu et celui de toute-puissance, d'une part parce que cela ne permet pas, sur le plan théologique, le maintien de la bonté divine et de la connaissabilité de Dieu, mais surtout, sur le plan logique, parce que la toute-puissance est un concept contradictoire : il est dès lors possible de maintenir rationnellement la bonté de Dieu, même après les atrocités d'Auschwitz. Ce Dieu qui a « laissé faire » est en fait un Dieu qui ne pouvait pas faire autrement, car il a abandonné toute sa puissance pour créer le monde. Il revient désormais à l'homme d'accéder au divin, et de réaliser le bonheur et la paix ici-bas. Cette conception de Dieu comme un être qui s'est dépouillé de sa toute-puissance pour faire advenir le monde a le mérite de chercher à concilier sans trop de compromis (Jonas maintient cependant que Dieu est connaissable, ce qui peut apparaître comme un a priori traditionnel, ou, par charité interprétative, comme un a priori de la rationalité) l'existence du mal et celle de Dieu (comme être bon). C'est ici une théodicée peu coûteuse que propose Jonas, et une conception de Dieu qui donne tout son poids à la responsabilité humaine, et donc toute sa valeur à l'humanité. Le Dieu d'après Auschwitz ne répond pas aux prières, il ne fait pas de miracle : il nous a légué de manière soucieuse son propre devenir dont il nous incombe d'assurer la réalisation. Dieu, par définition, est absolument insaisissable ; il ne s'agit donc pas de Lui dans les présentes tentatives de Le comprendre."
+          }
+        ]
+      },
+      {
+        "concept": "#l'essence de l'homme",
+        "mots": [
+          "\\bl'essence de l'homme",
+          "\\bdangers? intérieur"
+        ],
+        "extraits": [
+          {
+            "auteur": "sans objet",
+            "origine": "cours perso",
+            "contenu": "Pour Jonas, la technique fait planer sur l'humanité non seulement des dangers extérieurs (la destruction de son écosystème) mais aussi et surtout des dangers intérieurs : c'est l'essence de l'homme elle-même qui est mise en péril par la transformation de l'agir technique. Cette modification de l'homme concerne d'abord la prolongation indéfinie de la vie, qui n'est pas nécessairement une chose désirable d'un point de vue individuel ou collectif. C'est aussi les dispositifs de contrôle du comportement, que ce soit avec des médicaments ou des machines. C'est enfin les processus de sélection génétique, qui transforment l'essence biologique de notre espèce."
           }
         ]
       }

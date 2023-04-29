@@ -36,7 +36,7 @@ const InfoDialog = (props: Props) => {
           <div className="moitieHorizontale">
             <img src={getImgPath(props.chatData.id)} className="imgInfo" />
           </div>
-          <div className="moitieDroiteInfo moitieVerticale texteInfos2">
+          <div className="moitieDroiteInfo texteInfos2">
             <p dangerouslySetInnerHTML={{ __html: props.chatData.infos }} />
             {(props.chatData.categorie != "Autres") &&
               <div className="displayFlex displayFlex2">

@@ -175,10 +175,10 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void; chatDataJS
           {philosophes[index].map((philo, index2) => (
             <>
               {getBR(philosophes[index].length, index2) ? <br /> : null}
-              <div className={(philo.id == props.id) ? "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm inactif" : "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400"}
+              <div className={(philo.id == props.id) ? "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm inactif cursorDefault" : "containerPhilosophes boxPhilosophe group items-center space-x-3 rounded-lg border border-gray-300 bg-white px-5 py-4 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400"}
               onClick={(philo.id == props.id) ? (() => {}) : (() => handleClick(philo.id))}>
                 <img src={image(philo.id)} className="boxImg"></img>
-                <p className="boxP">{philo.nom}</p>
+                <p className={(philo.id == props.id) ? "boxP cursorDefault" : "boxP"}>{philo.nom}</p>
               </div>
               
             </>

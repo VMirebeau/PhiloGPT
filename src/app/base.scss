@@ -29,8 +29,12 @@ body {
 
 body {
   font-size: 100%;
+}.cursorDefault{
+  cursor:default;
 }
-
+.cursorFixAuto{
+  cursor:auto;
+}
 
 .avatar {
   width: 100px;
@@ -115,8 +119,9 @@ body {
   height:100%;
 }
 
+
 .cursorAuto {
-  cursor:auto;
+  cursor:default;
   text-align: center;
   display: inline-block;
   padding: 0.3rem;
@@ -289,9 +294,6 @@ body {
 
 .displayFlex {
   display: flex;
-}
-
-.moitieVerticale {
 }
 
 .displayFlex2 {

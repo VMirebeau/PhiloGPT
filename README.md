@@ -27,4 +27,10 @@ Elle se base sur les codes du projet chathub de Wang Dàpéng : https://github.c
 Si vous avez rencontré un problème technique ou une erreur de nature philosophique, merci de bien vouloir m'en faire part ici :
 https://docs.google.com/document/d/1hw8egoUkwtXSAOltju1_4LYLE7IQqXkez6wYKpw-0Es/edit?usp=sharing
 
+**Notes de version :**
+v1.4 : Multiplication des suggestions de prompts, base de données enrichies (surtout prof de philo)
+v1.3.0 : Ajout des prompt spécialisés, et ajout de la boîte d'informations pour chaque philosophe
+v1.2.1 : Ajout de Hans Jonas, le prof de philo, l'enfant. Quelques prompts remaniés.
+v1.2 : Ajout d'une boîte de dialogue pour sélectionner le philosophe
+
 **Si cette extension vous a plu, n'hésitez pas à lui donner de la visibilité en laissant un commentaire sur le web store**
