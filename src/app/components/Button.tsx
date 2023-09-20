@@ -19,7 +19,7 @@ const Button: FC<Props> = (props) => {
     <button
       type={props.type}
       className={cx(
-        size === 'normal' ? 'rounded-[60px] text-base font-medium px-8 py-2' : 'rounded-[30px] text-sm px-4 py-1',
+        size === 'normal' ? 'rounded-[60px] text-base font-medium px-8 py-2 grosBouton' : 'rounded-[30px] text-sm px-4 py-1 grosBouton',
         props.color === 'primary' ? 'text-white bg-[#10a37f]' : 'text-[#303030] bg-[#F2F2F2]',
         props.className,
       )}

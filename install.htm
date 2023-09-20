@@ -6,6 +6,8 @@
     <style>
       body {
         background-color: #76777f;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 16px;
         margin: 0;
         padding: 0;
       }
@@ -17,7 +19,6 @@
         margin: 50px auto;
         padding: 20px;
         width: 80%;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
         font-weight: 400;
         font-size: 1rem!important;
         line-height: 1.5rem!important;
@@ -56,11 +57,90 @@
         max-width: 100%;
         height: auto;
       }
+
+      /* Styles pour la boîte de dialogue modale */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+#closeBtn {
+  margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #195da9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: 700;
+}
+
+#closeBtn:hover {
+  filter:brightness(0.85)
+}
+
+.lien {
+  font-weight:700;
+  color: #195da9;
+  cursor:pointer;
+}
+
+.lien:hover {
+  text-decoration:underline;
+}
+
     </style>
   </head>
+
+  
   <body>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <div style="display:flex">
+            <div style="display:flex">
+              <img id="image" src="assets/icon128.png" style="width:128px; height:128px; margin:auto; cursor:pointer" onClick="ouvrir()" />
+            </div>
+            <div style="text-align: justify; padding: 0 20px 0 20px; flex : 1">
+          <p><b>Nouveau !</b> Faites-vous accompagner par chatGPT dans la rédaction de votre dissertation.</p>
+          <p><span id="lien" class="lien">Cliquez ici</span> pour retrouver l'extension <b>MethodoPhilo</b> sur le Chrome Web Store.</p>
+        </div>
+        </div>
+          <button id="closeBtn">Fermer</button>
+      </div>
+  </div>
     <div id="content">
-      <h1 id="titre">PhiloGPT 1.4 installé !</h1>
+      <h1 id="titre">PhiloGPT 1.4.2 installé !</h1>
       <p><b>PhiloGPT</b> est un simulateur de dialogue qui s'appuie sur la technologie de ChatGPT pour vous permettre de discuter avec les grand.e.s philosophes du passé. Bien évidemment, il ne s'agit <i>que</i> d'une simulation grossière : pour comprendre un philosophe, rien ne peut remplacer la fréquentation des textes.</p>
       <p><u><b>Prérequis :</b></u> PhiloGPT ne peut fonctionner que si vous disposez d'<a href="https://chat.openai.com/auth/login">un compte OpenAI</a>, et que si vous vous authentifiez avant de faire usage de cette extension. Il n'est aucunement nécessaire d'avoir un accès payant.</p>
       <table>
@@ -82,5 +162,7 @@
         <br />Elle se base sur les codes du projet chathub de Wang Dàpéng : <a href="https://github.com/chathub-dev/chathub">https://github.com/chathub-dev/chathub</a>
         </p>
     </div>
+    <script src="install.js"></script>
+
   </body>
 </html>

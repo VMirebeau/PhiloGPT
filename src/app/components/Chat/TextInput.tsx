@@ -31,7 +31,7 @@ const TextInput = React.forwardRef<HTMLTextAreaElement, Props>((props, ref) => {
     <TextareaAutosize id="input"
       ref={ref}
       className={cx(
-        'resize-none overflow-hidden w-full outline-none text-sm text-[#303030] bg-white',
+        'resize-none overflow-hidden w-full text-sm text-[#303030] bg-white outlineInput aligneDroite',
         disabled && 'cursor-wait',
         className,
       )}

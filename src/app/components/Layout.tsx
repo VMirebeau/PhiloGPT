@@ -102,7 +102,7 @@ const Layout: FC<Props> = ({ id }) => {
 
 
   return (
-    <div className="bg-[#76777f] h-screen py-3 px-3">
+    <div className="bg-[#76777f] h-screen py-3 px-3" style={{minWidth:'50rem'}}>
       <main className="grid grid-cols-[min(20%,250px)_1fr] h-full bg-[#ffffff66] rounded-[40px] max-w-[1400px] mx-auto backdrop-blur-2xl pl-5 py-4 pr-4">
         <div><Sidebar setValue={setValue} id={id} chatData={chatData} link={link} setLink={setLink} updateLink={updateLink} prompt={prompt} clear={clear} chat={chat} intervalToClose={intervalId} /></div>
         <Outlet />

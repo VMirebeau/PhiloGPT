@@ -29,9 +29,7 @@ const ChatGPTAuthErrorAction = () => {
     return <MessageBubble color="flat" id={-1}>C'est réparé, réessayez le chat !</MessageBubble>
   }
   return (
-    <div className="flex flex-row gap-2 items-center paddBoutonErreur">
-      <Button color="primary" text="Se connecter et vérifier" onClick={fixChatGPT} isLoading={fixing} size="small" />
-    </div>
+   <button value="Se connecter et vérifier" onClick={fixChatGPT} />
   )
 }
 

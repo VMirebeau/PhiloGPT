@@ -17,8 +17,11 @@ Browser.action.onClicked.addListener(() => {
   openAppPage()
 })
 
+/*
+
 Browser.runtime.onInstalled.addListener((details) => {
   if (details.reason === 'install') {
     Browser.tabs.create({ url: 'install.htm' })
   }
 })
+*/

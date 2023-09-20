@@ -299,6 +299,8 @@ body {
 .displayFlex2 {
       bottom: 0;
     position: absolute;
+    width: 100%;
+    padding-right: 5px;
 }
 
 .texteInfos2  {
@@ -327,4 +329,22 @@ body {
 .styleInfo {
   font-variant-caps:normal;
   font-size:1rem;
+}
+
+.petitBouton:hover {
+  filter: brightness(0.85);
+}
+
+.grosBouton:hover {
+  filter: brightness(0.85);
+}
+
+.outlineInput {
+  padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.aligneDroite {
+  margin-left: auto;
 }

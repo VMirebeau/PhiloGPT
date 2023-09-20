@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PhiloGPT",
   "description": "Utilisez ChatGPT pour simuler un dialogue avec les grands philosophes du passé",
-  "version": "1.4",
+  "version": "1.4.3",
   "icons": {
     "16": "src/assets/icon.png",
     "32": "src/assets/icon.png",
@@ -20,7 +20,8 @@
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/*"],
-      "js": ["src/content-script/chatgpt-inpage-proxy.ts"]
+      "js": ["src/content-script/chatgpt-inpage-proxy.ts",
+    "install.js"]
     }
   ]
 }
